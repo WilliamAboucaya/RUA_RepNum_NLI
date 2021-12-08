@@ -18,6 +18,8 @@ model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
 
 # For RUA datasets
 consultation_data = pd.read_csv("consultation_data/rua-principes.csv", encoding='unicode_escape', engine='python', quoting=3, sep=';')
+consultation_data["contributions_title"] = consultation_data["contributions_title"].fillna("")
+consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
 proposal_titles = proposals["contributions_title"].tolist()
 proposal_contents = proposals["contributions_bodyText"].tolist()

@@ -5,6 +5,8 @@ model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
 
 # For RUA datasets
 consultation_data = pd.read_csv("consultation_data/rua-fonctionnement.csv", encoding='unicode_escape', engine='python', quoting=3, sep=';')
+consultation_data["contributions_title"] = consultation_data["contributions_title"].fillna("")
+consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
 sentences = proposals["contributions_title"].tolist()
 paraphrases = util.paraphrase_mining(model, sentences)
