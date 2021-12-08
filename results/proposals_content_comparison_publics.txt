@@ -1,0 +1,4383 @@
+Initial proposal:
+Les personnes âgées en situation de pauvreté
+Closest neighbors:
+Dissocier le montant de certaines APL: 0.7948927283287048
+Toutes les personnes en âge de travailler et sans emploi: 0.7695853114128113
+Non à l'intégration de l'aah et de l'aspa!: 0.7527958154678345
+aux retraités bénéficiaires de l'aspa.: 0.7302826642990112
+Raisonner par statut et par tranche d'age: 0.7114728093147278
+
+Initial proposal:
+Les personnes handicapées en situation de pauvreté
+Closest neighbors:
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8833454251289368
+Exclure l'AAH du RUA: 0.8801397681236267
+RUA et AAH: 0.878822386264801
+AAH: 0.8438664674758911
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8431972861289978
+
+Initial proposal:
+Les jeunes en situation de pauvreté
+Closest neighbors:
+Ne pas oublier les jeunes et les étudiants !: 0.7899444699287415
+RUA: 0.7891507148742676
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.7862677574157715
+Liste des personnes qui devraient le percevoir :: 0.7776201963424683
+les jeunes finissant leurs études: 0.7686504125595093
+
+Initial proposal:
+Universel ? Donc pour tous
+Closest neighbors:
+A tout adulte en dessous du seuil de pauvreté.: 0.8160093426704407
+qui dit activité dit salaire: 0.8001799583435059
+RUA: 0.7875943779945374
+RUA: 0.7774145007133484
+Solidarité bien ordonnée: 0.7757753729820251
+
+Initial proposal:
+A tous, automatiquement, au 1er du mois, sans condition afin de responsabiliser chacun et d'économiser les frais de gestion ou de contrôle
+Closest neighbors:
+A toutes personnes subissant un changement de situation non souhaité: 0.6083658933639526
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.5755993127822876
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.5707889199256897
+femmes: 0.564062237739563
+Taux progressif pour les mineurs: 0.5628632307052612
+
+Initial proposal:
+A qui doit s'adresser le RUA: universel donc...
+Closest neighbors:
+RUA: 0.7853180170059204
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.7441786527633667
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7085530757904053
+A toutes les personnes en situation difficile temporaire ou permanente: 0.6959471702575684
+A tous, dès que la personne n'atteint pas un revenu suffisant pour vivre dignement: 0.6897329092025757
+
+Initial proposal:
+Aide aux foyers uni-parentaux
+Closest neighbors:
+mères isolées ayant élevé elurs enfants seules: 0.7233567833900452
+Situation de précarité: 0.7220878005027771
+En priorite aux familles mono parentales.: 0.718610405921936
+femmes: 0.7122012376785278
+a qui le revenu universel doit s adresser: 0.7089115977287292
+
+Initial proposal:
+garanti de la naion
+Closest neighbors:
+Exclure l'AAH du RUA: 0.8405649065971375
+NON aux personnes handicapées: 0.8325434923171997
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8264307379722595
+RUA et AAH: 0.8240604400634766
+L'AAH n'est pas un revenu d'activité basta.: 0.798789381980896
+
+Initial proposal:
+Revenu universel à donner à tous sans conditions...revenu universel de citoyenneté
+Closest neighbors:
+Pour tous: 0.7421630620956421
+Pour tous, sans conditions.: 0.6745914220809937
+A TOUS LES FRANCAIS: 0.6617392301559448
+Universel: 0.6559914350509644
+Créer un revenu pour que chaque être humain puisse vivre dignement: 0.644987940788269
+
+Initial proposal:
+RUA
+Closest neighbors:
+Et les étudiants: 0.8602989315986633
+RUA: 0.8017980456352234
+Mère travaillant élevant seule des enfants: 0.7894414067268372
+Universel ? Donc pour tous: 0.7774145007133484
+Les personnes avec ou sans emplois sous conditions: 0.7752984166145325
+
+Initial proposal:
+Revenu pour toutes personne en dessous du seuil de pauvreté
+Closest neighbors:
+A tous les citoyens français: 0.7669157981872559
+A tous ceux qui sont en précarité, pauvreté: 0.7400913238525391
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7359466552734375
+pas de RUA pour les étrangers ...: 0.734068751335144
+Un revenu universel pour chacun(e): 0.7300957441329956
+
+Initial proposal:
+NON aux personnes handicapées
+Closest neighbors:
+garanti de la naion: 0.8325434923171997
+L'AAH n'est pas un revenu d'activité basta.: 0.7904054522514343
+RUA et AAH: 0.768061637878418
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.7637053728103638
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.7545963525772095
+
+Initial proposal:
+A tout les français sans distinction
+Closest neighbors:
+A tout le monde: 0.47710341215133667
+Universel sous conditions ?: 0.4722937047481537
+qui est concerné ?: 0.46288222074508667
+Simplification des procédures et des outils informatiques: 0.46044567227363586
+Tous les citoyens: 0.4591756761074066
+
+Initial proposal:
+A cumuler avec allocations familiales
+Closest neighbors:
+Universel = Qui s'applique à tous: 0.7830979228019714
+Un engagement envers soi et envers la société: 0.7593069076538086
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.757655918598175
+TOUT LE MONDE si c'est un revenu universel: 0.7554537057876587
+Revenu universel pour TOUS: 0.7533548474311829
+
+Initial proposal:
+A tous, dès que la personne n'atteint pas un revenu suffisant pour vivre dignement
+Closest neighbors:
+Ouvrir le Revenu Universel d'Activité à un public plus large sans pour autant léser le public actuel du RSA: 0.9991260170936584
+TOUT TYPE DE PUBLIC: 0.7381595373153687
+RUA: 0.7338049411773682
+Universelle: 0.7308546304702759
+RUA POUR TOUS: 0.7217464447021484
+
+Initial proposal:
+ouvert à tous dès 18 ans
+Closest neighbors:
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.7440938949584961
+REVENU UNIVERSEL DE BASE: 0.7269986271858215
+RMA à 1300 euros nets par mois: 0.7027541995048523
+A qui le RUA doit-il s'adresser ?: 0.6770151853561401
+Un RUA dès 18 ans: 0.6698036789894104
+
+Initial proposal:
+IL FAUT GARDER LE SYSTEME EXISTENT AFIN DE CIBLER FINANCIEREMENT LES DIFFERENTS PROBLEMES DES PERSONNES ? NON PAS GLOBALISER LES AIDES
+Closest neighbors:
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.619825541973114
+RUA: 0.6167178750038147
+Migrant: 0.5945992469787598
+A toutes les personnes en situation difficile temporaire ou permanente: 0.5937352180480957
+Prestation universelle pour regrouper les aides: 0.5864963531494141
+
+Initial proposal:
+Avec la numérisation de la société des métiers vont disparaître
+Closest neighbors:
+emploi ou RUA: 0.7353171110153198
+RUA: 0.7228668928146362
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7199855446815491
+Revenu Universel = Toute personne de plus de 18 ans: 0.6935626268386841
+ceux: 0.6876019239425659
+
+Initial proposal:
+A qui le RUA s' adresse t il ?
+Closest neighbors:
+AAH: 0.8274974822998047
+RUA et AAH: 0.8240538835525513
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7993871569633484
+A quel public peut-il s'adresser ?: 0.7990725040435791
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7958301901817322
+
+Initial proposal:
+Etudiants en situation de Handicap reconnus de 50% et 79%
+Closest neighbors:
+L'AAH n'est pas un revenu d'activité basta.: 0.7652222514152527
+Non à la révision intempestive des taux d'incapacité (MDPH) et taux d'invalidité (CPAM) pour faire entrer un maximum de personnes dans le RUA: 0.7489725351333618
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.7211912870407104
+La considération du handicap avec un taux inférieur à 80%: 0.7185416221618652
+Les personnes handicapées en situation de pauvreté: 0.7128338813781738
+
+Initial proposal:
+suppression du social et promotion du travail
+Closest neighbors:
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7552169561386108
+Alerte senior et RUA: 0.7327330112457275
+A tout adulte en dessous du seuil de pauvreté.: 0.7255780100822449
+qui dit activité dit salaire: 0.7247594594955444
+Des aides, oui, mais...: 0.7031339406967163
+
+Initial proposal:
+NON à la question concernant Les personnes handicapées en situation de pauvreté
+Closest neighbors:
+Exclure l'AAH du RUA: 0.9808957576751709
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.9641263484954834
+LAAH nest pas un minima comme les autres.: 0.9443055391311646
+L'AAH ne doit pas être incluse dans le RUA.: 0.9443055391311646
+Intégration de l'aah dans le RUA: 0.9381211996078491
+
+Initial proposal:
+Équité
+Closest neighbors:
+Des aides, oui, mais...: 0.795795202255249
+A tout adulte en dessous du seuil de pauvreté.: 0.7791460752487183
+Prime temporaire: 0.7591607570648193
+Universel ? Donc pour tous: 0.7494362592697144
+Et les étudiants: 0.7456855177879333
+
+Initial proposal:
+Un revenu de base ne peut être qu'universel, c'est à dire versé à tous les membres de la communauté sans condition.
+Closest neighbors:
+POUR UN REVENU DE BASE VRAIMENT UNIVERSEL: 0.93108731508255
+Universel signifie pour tous !: 0.7037035226821899
+le revenu universel comme son nom l'indique doit s'appliquer à toutes et tous .: 0.701018214225769
+Pour chaque individu de la société: 0.6923508644104004
+RU: 0.6831765174865723
+
+Initial proposal:
+Pour les chomeurs qui veulent se former ou créer une entreprise.
+Closest neighbors:
+Ouvrir le RUA aux jeunes avec un projet de création dentreprise viable: 0.6834627389907837
+A toute personne majeure sans revenu et sans patrimoine, sans condition d'âge.: 0.6005040407180786
+emploi ou RUA: 0.5880684852600098
+Un emploi pour la société: 0.5698539018630981
+A toutes personnes subissant un changement de situation non souhaité: 0.5446465015411377
+
+Initial proposal:
+Les Personnes Handicapées INAPTES AU TRAVAIL ( 80% et plus ) ne peuvent prétendre à un REVENU mais à une allocation spécifique de Type AAH.
+Closest neighbors:
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.5753397345542908
+Remplacer l'AAH par le RUA: 0.5700748562812805
+Ne pas inclure les personnes bénéficiant de l'AAH ayant un trouble psychique: 0.5677315592765808
+L'AAH n'est pas un minimum social comme les autres et ne doit pas entrer dans le périmètre de du RUA: 0.5674780607223511
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.5674718022346497
+
+Initial proposal:
+Liberté
+Closest neighbors:
+A toutes &amp: 1.0000004768371582
+AAH: 0.45705273747444153
+Prime activité: 0.39397069811820984
+NON: 0.37944525480270386
+A tous: 0.34406813979148865
+
+Initial proposal:
+Ouvrir le Revenu Universel d'Activité à un public plus large sans pour autant léser le public actuel du RSA
+Closest neighbors:
+A tous, dès que la personne n'atteint pas un revenu suffisant pour vivre dignement: 0.9991260170936584
+TOUT TYPE DE PUBLIC: 0.7410054802894592
+RUA: 0.7350437641143799
+Universelle: 0.7335438132286072
+RUA POUR TOUS: 0.7218949794769287
+
+Initial proposal:
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans
+Closest neighbors:
+Les personnes avec ou sans emplois sous conditions: 0.7773699760437012
+Alerte senior et RUA: 0.7731071710586548
+les bénéficiaires du RSA: 0.7606856226921082
+suppression du social et promotion du travail: 0.7552169561386108
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7530243396759033
+
+Initial proposal:
+Ouvrir le RUA aux jeunes avec un projet de création dentreprise viable
+Closest neighbors:
+ÉGALITÉ POUR TOUS DES 18ANS: 0.7020378112792969
+Pour les chomeurs qui veulent se former ou créer une entreprise.: 0.6834627389907837
+Les jeunes en situation de pauvreté: 0.6726016998291016
+Le revenu universel doit être attribué dès 18 ans: 0.6687480211257935
+RUA POUR TOUS: 0.6597115993499756
+
+Initial proposal:
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S,  plutôt que le RUA,  pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...
+Closest neighbors:
+RUA Personnes agées: 0.5973497033119202
+"Évitons de polluer le débat public ! Les mots ont un sens: ""Universel"" veut dire ""Qui s'applique à tous les cas"" !": 0.5485817790031433
+Le Revenu Vital Actif   et le marche de l'économie: 0.5480851531028748
+A tous ou à personne: 0.547107994556427
+A TOUS LES PAUVRES: 0.5314456224441528
+
+Initial proposal:
+AAH ce n'est pas une prime d'activité
+Closest neighbors:
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7752666473388672
+personnes handicapés et aidants : de vrais et potentiels consommateurs: 0.7617640495300293
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.742792546749115
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.7379964590072632
+Pour les handicapés simplification des démarches administratives: 0.7333114743232727
+
+Initial proposal:
+A tous
+Closest neighbors:
+Prise en compte individuelle des ressources financières: 0.5645357370376587
+AAH: 0.5316718220710754
+Pour tous: 0.4899827241897583
+Tous les pauvres sauf les personnes handicapées: 0.4893013536930084
+emploi ou RUA: 0.4857984483242035
+
+Initial proposal:
+Un revenu pour tous
+Closest neighbors:
+Qui peut prétendre au Revenu Universel d'Activité: 0.8334634900093079
+A tout les citoyens en fonction des ressources / patrimoine: 0.8287144303321838
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.7975164651870728
+renversons la table!!: 0.7840210795402527
+A tous français respectueux des lois.: 0.7724693417549133
+
+Initial proposal:
+Kalissy06
+Closest neighbors:
+Revenu d activite: 0.8310053944587708
+prioriser le revenu universel d'activité: 0.7940177917480469
+RUA: 0.7873573303222656
+à personnes oui à la complexité des individus et de leurs situations: 0.7821597456932068
+Les personnes avec ou sans emplois sous conditions: 0.7749547362327576
+
+Initial proposal:
+Uniquement aux personnes seules sans enfants car elles ne cumulent pas les aides
+Closest neighbors:
+Les personnes avec ou sans emplois sous conditions: 0.74798583984375
+Pour tous: 0.7352146506309509
+Personnes malades, retraités, stagiaires, salariés les plus pauvres: 0.7352137565612793
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7060803174972534
+Universelle: 0.7055385112762451
+
+Initial proposal:
+Pour qui le RUA
+Closest neighbors:
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8800482153892517
+A quel public peut-il s'adresser ?: 0.8718759417533875
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.8257642984390259
+RUA et AAH: 0.8239049315452576
+LAllocation Suplémentaire d'Invalidité doit absolulment rester hors du champ du RUA car elle a été conçue pour compléter les toutes petites pensions dinvalidités de personnes handicapées ayant travaillé moins de 10 ans (maladies chroniques invalidantes): 0.8211268186569214
+
+Initial proposal:
+Aah
+Closest neighbors:
+NON: 0.7582392692565918
+l'AAH ne doit pas devenir RUA: 0.6888173818588257
+contre: 0.6737245917320251
+Exclure l'Allocation pour Adulte Handicapé(e) du Revenu Universel d'Activité.: 0.669577956199646
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées: 0.5934639573097229
+
+Initial proposal:
+Le revenu universel doit être attribué dès 18 ans
+Closest neighbors:
+Liste des personnes qui devraient le percevoir :: 0.7530955672264099
+RUA: 0.7365424036979675
+Les personnes avec ou sans emplois sous conditions: 0.7132227420806885
+Les jeunes en situation de pauvreté: 0.7073409557342529
+RUA: 0.7037507891654968
+
+Initial proposal:
+Chaque personne en situation de fragilité sociale et économique, dès 18 ans
+Closest neighbors:
+A toute personne sans revenus: 0.7503595352172852
+A toute personne sans revenus: 0.7503595352172852
+AIDE RETOUR A L'EMPLOI: 0.7384421229362488
+A tous, sous condition de revenus: 0.7274128198623657
+Universelle: 0.7254419922828674
+
+Initial proposal:
+Travailleurs pauvre
+Closest neighbors:
+le revenu universel comme son nom l'indique doit s'appliquer à toutes et tous .: 0.7432313561439514
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7399554252624512
+À tout citoyen français disposant dun revenu inférieur à 5000  mensuel.: 0.7301570773124695
+revenu  universel   pour  toutes  les  personnes  ayant  un  revenu  inférieur  à1500   euros  nets  par  mois: 0.7295103669166565
+A tous quand on montre une motivation à sen sortir: 0.7291686534881592
+
+Initial proposal:
+UNIVERSEL c'est pour tous
+Closest neighbors:
+Le RU en lieu et place de toutes les autres allocations: 0.6845357418060303
+Le RUA doit s'adresser à tout adulte majeur !: 0.6713292598724365
+tout majeur en dessous de ce RUA: 0.6673502922058105
+Uniquement aux personnes seules sans enfants car elles ne cumulent pas les aides: 0.658833384513855
+Prestation universelle pour regrouper les aides: 0.6515235900878906
+
+Initial proposal:
+pour tous en fonction des revenus
+Closest neighbors:
+A Tous dès la naissance et toute la vie: 0.7127232551574707
+Reconnaitre les aidants pour mieux respecter nos anciens: 0.7011827230453491
+Un revenu minima pour toute personne ayant la majorité ou étant émancipée: 0.6863483786582947
+A tous ceux qui sont en précarité, pauvreté: 0.6541022658348083
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.6510797739028931
+
+Initial proposal:
+Justifier d'un besoin et d'une capacité à recevoir le RUA
+Closest neighbors:
+RUA: 0.7843124270439148
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.7631427049636841
+L'intégration de nouveaux publics implique une augmentation des dépenses sociales: 0.7600769400596619
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7555540800094604
+A qui doit s'adresser le RUA: universel donc...: 0.7441786527633667
+
+Initial proposal:
+Pour toute personne qui travaillent
+Closest neighbors:
+Universel .: 0.6363292932510376
+TOUT TYPE DE PUBLIC: 0.6299177408218384
+Un emploi pour la société: 0.5963459610939026
+A qui doit s'adresser le revenu universel: 0.5954378247261047
+contrepartie du RUA: 0.5948418974876404
+
+Initial proposal:
+Le Revenu Vital Actif   et le marche de l'économie
+Closest neighbors:
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S,  plutôt que le RUA,  pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.5480851531028748
+RUA pour tous sans conditions: 0.5325896143913269
+Pour tout ceux en situation de pauvreté: 0.5262589454650879
+Un revenu non universel et non lié à l'activité.: 0.5148206949234009
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.5129968523979187
+
+Initial proposal:
+Un engagement envers soi et envers la société
+Closest neighbors:
+A tous (sinon il n'est pas universel): 0.8497046232223511
+TOUT LE MONDE si c'est un revenu universel: 0.8465664386749268
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8462520837783813
+Tout le monde : c'est un revenu UNIVERSEL: 0.8215883374214172
+A tout les citoyens en fonction des ressources / patrimoine: 0.8162827491760254
+
+Initial proposal:
+garder l'AAH (Allocation Adultes Handicapées a part
+Closest neighbors:
+renversons la table!!: 0.7102782130241394
+Universel = Qui s'applique à tous: 0.7082099914550781
+Refus intégration AAH et de l'APL et RSA dans le RUA + Minimum à garantir: 0.7057638168334961
+AAH et revnu universel: 0.6918869018554688
+éviter les effets de seuil et de dents de scie: 0.6894114017486572
+
+Initial proposal:
+Revenue universelle
+Closest neighbors:
+Le RUA doit s'adresser à tout adulte majeur !: 0.5516760349273682
+RMA à 1300 euros nets par mois: 0.5274351835250854
+UNIVERSEL: 0.5149548053741455
+aux personnes travaillant à mi-temps ou 3/4 temps: 0.47896575927734375
+Les pauvres...: 0.47752997279167175
+
+Initial proposal:
+A tous ?
+Closest neighbors:
+pour tous: 0.9107687473297119
+Pour toi, pour moi, pour lui, pour tous: 0.846463143825531
+revenu universel pour tous: 0.8378400206565857
+A tous (sinon il n'est pas universel): 0.8317124247550964
+A TOUS LES FRANCAIS: 0.8261857628822327
+
+Initial proposal:
+Aux classes moyennes
+Closest neighbors:
+RUA: 0.7557254433631897
+Et les étudiants: 0.7217888832092285
+Universel = Qui s'applique à tous: 0.7025883197784424
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.6938233375549316
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.6838076114654541
+
+Initial proposal:
+Un revenu universel pour chacun(e)
+Closest neighbors:
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.8744898438453674
+A tous ceux qui sont en précarité, pauvreté: 0.8377924561500549
+Liberté Egalité Fraternité: 0.831334114074707
+Revenu universel en remplacement de tous les aides nationales: 0.8277924656867981
+Un revenu d'existence pour tous les Français: 0.812938928604126
+
+Initial proposal:
+Les études sont une activité à plein temps
+Closest neighbors:
+A tout adulte en dessous du seuil de pauvreté.: 0.7140411138534546
+A cumuler avec allocations familiales: 0.6973150372505188
+etudes supérieures gratuites: 0.6542982459068298
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.6511412262916565
+suppression du social et promotion du travail: 0.6502339839935303
+
+Initial proposal:
+Ne pas oublier les jeunes et les étudiants !
+Closest neighbors:
+Les jeunes en situation de pauvreté: 0.7899444699287415
+les jeunes finissant leurs études: 0.719924807548523
+Les jeunes de moins de18 à 25 ans sans revenu: 0.7168868184089661
+RUA: 0.7129337191581726
+Jeunes, handicapes, familles pauvres avec enfants: 0.7083045244216919
+
+Initial proposal:
+aux retraités bénéficiaires de l'aspa.
+Closest neighbors:
+Dissocier le montant de certaines APL: 0.7521793842315674
+Les personnes âgées en situation de pauvreté: 0.7302826642990112
+Toutes les personnes en âge de travailler et sans emploi: 0.7122378349304199
+Récupération sur succession?: 0.7065192461013794
+Raisonner par statut et par tranche d'age: 0.6472424268722534
+
+Initial proposal:
+Revenu  décent pour personnes âgées
+Closest neighbors:
+Tout le monde : c'est un revenu UNIVERSEL: 0.7817388772964478
+renversons la table!!: 0.7815864086151123
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.7705634832382202
+A tous français respectueux des lois.: 0.7453848719596863
+AIDE RETOUR A L'EMPLOI: 0.73236083984375
+
+Initial proposal:
+Pour tous
+Closest neighbors:
+Universel: 0.8808355331420898
+Pour tous, sans conditions.: 0.7606273293495178
+Revenu universel à donner à tous sans conditions...revenu universel de citoyenneté: 0.7421630620956421
+A TOUS LES FRANCAIS: 0.7319561243057251
+Créer un revenu pour que chaque être humain puisse vivre dignement: 0.6979366540908813
+
+Initial proposal:
+A TOUT CITOYEN FRANCAIS
+Closest neighbors:
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.8692851662635803
+A tous (sinon il n'est pas universel): 0.85597825050354
+Tout citoyen Français: 0.8455500602722168
+Revenu universel en remplacement de tous les aides nationales: 0.8322369456291199
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8305109143257141
+
+Initial proposal:
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!"
+Closest neighbors:
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8541015982627869
+A quel public peut-il s'adresser ?: 0.8536359071731567
+Exclure l'AAH du RUA: 0.8488366603851318
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8352020978927612
+non à l'intégration de l'AAH dans le RUA: 0.8308257460594177
+
+Initial proposal:
+RUA POUR TOUS
+Closest neighbors:
+étudiants et inactifs élevant leurs enfants: 0.7334576845169067
+Ouvrir le Revenu Universel d'Activité à un public plus large sans pour autant léser le public actuel du RSA: 0.7218949794769287
+A tous, dès que la personne n'atteint pas un revenu suffisant pour vivre dignement: 0.7217464447021484
+les jeunes finissant leurs études: 0.7008519172668457
+emploi ou RUA: 0.6751287579536438
+
+Initial proposal:
+Des allocations avec des objectifs différents
+Closest neighbors:
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA: 0.7455405592918396
+Instituer un plafond de patrimoine: 0.7103826403617859
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.6986042261123657
+Inclure l'ASS au RUA: 0.6895274519920349
+L'intégration de nouveaux publics implique une augmentation des dépenses sociales: 0.6615312099456787
+
+Initial proposal:
+Et si dès 18 ans nous étions tous inscrits ?
+Closest neighbors:
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.6280854344367981
+dissocier AAH par rapport aux autres revenus: 0.5944814682006836
+Aides sociales: 0.5939194560050964
+Les aidants: 0.5894664525985718
+Le RUA ne doit prendre en compte l'AAH: 0.5792758464813232
+
+Initial proposal:
+Titre supprimé
+Closest neighbors:
+Titre supprimé: 0.9999995231628418
+AAH: 0.42356759309768677
+NON: 0.4219117760658264
+Universel = tous sans exceptions ou conditions: 0.38868194818496704
+contre: 0.3429410457611084
+
+Initial proposal:
+je veux que l'AAH reste une prestation à part entière.
+Closest neighbors:
+Aah: 0.5779200196266174
+AAH: 0.5623035430908203
+NON: 0.5608071088790894
+contre: 0.5226120352745056
+AAH: 0.48841410875320435
+
+Initial proposal:
+Aux artistes plasticiens qui n'ont aucune protection sociale
+Closest neighbors:
+qui est concerné ?: 0.6224886178970337
+Universel ? Donc pour tous: 0.600959300994873
+Conditions: 0.5698559284210205
+Aah: 0.5612475275993347
+Attention à l'amalgame: 0.5581156015396118
+
+Initial proposal:
+RUA
+Closest neighbors:
+emploi ou RUA: 0.8141648769378662
+A QUI DOIT S'ADRESSER LE RUA: 0.729241669178009
+Les jeunes et les stages: 0.7216859459877014
+trop de personnes fragilisées: 0.7130292057991028
+équivoque: 0.6766096353530884
+
+Initial proposal:
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité
+Closest neighbors:
+La considération du handicap avec un taux inférieur à 80%: 0.8532954454421997
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.8501057028770447
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8339880704879761
+RUA et AAH: 0.8338066339492798
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8334338665008545
+
+Initial proposal:
+aide au jeune
+Closest neighbors:
+A toute personne majeure sans revenu et sans patrimoine, sans condition d'âge.: 0.6843208074569702
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.6815497279167175
+Le revenu universel doit être attribué dès 18 ans: 0.6637165546417236
+les jeunes finissant leurs études: 0.6384413838386536
+2 catégories de RU : les non employables et les employables: 0.6373376846313477
+
+Initial proposal:
+À tous
+Closest neighbors:
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.7635561227798462
+Universel signifie pour tous !: 0.7589921355247498
+A tout les citoyens en fonction des ressources / patrimoine: 0.7558366656303406
+Tout le monde : c'est un revenu UNIVERSEL: 0.744338870048523
+AIDE RETOUR A L'EMPLOI: 0.7415857911109924
+
+Initial proposal:
+Aux parents en congé parental
+Closest neighbors:
+Aux parents en congé parental et aux parents au foyer: 0.7153397798538208
+Des droits équitables pour les parents divorcés ou séparés: 0.7140884399414062
+mères isolées ayant élevé elurs enfants seules: 0.7097147703170776
+Le parent qui est contraint d'arrêter de travailler pour s'occuper de son enfant en situation de handicap: 0.7088214159011841
+Égalité des droits lors de Garde Alternée des enfants: 0.6964496970176697
+
+Initial proposal:
+Le RUA ne doit prendre en compte l'AAH
+Closest neighbors:
+Pour qui le RUA: 0.810253381729126
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8061397075653076
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7738293409347534
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.7683753967285156
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7603249549865723
+
+Initial proposal:
+A TOUS LES ETUDIANTS SANS DISTINCTION
+Closest neighbors:
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.989555835723877
+Aides aux Etudiants: 0.7946364879608154
+Et les étudiants: 0.7632834911346436
+RUA: 0.7184595465660095
+etudes supérieures gratuites: 0.7069326639175415
+
+Initial proposal:
+A TOUS LES ETUDIANTS SANS DISTINCTION
+Closest neighbors:
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.989555835723877
+Aides aux Etudiants: 0.7775580883026123
+Et les étudiants: 0.7600586414337158
+RUA: 0.7137316465377808
+etudes supérieures gratuites: 0.7007164359092712
+
+Initial proposal:
+À tout le monde
+Closest neighbors:
+Universel signifie pour tous !: 0.7677071690559387
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7670401930809021
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7485013604164124
+Un revenu minima pour toute personne ayant la majorité ou étant émancipée: 0.7483236789703369
+Pour tous les publics, sous conditions de revenus: 0.744940459728241
+
+Initial proposal:
+UNIVERSEL
+Closest neighbors:
+RMA à 1300 euros nets par mois: 0.7598229050636292
+Minimum alimentaire: 0.7243734002113342
+1 200 : 0.7206041812896729
+Les pauvres...: 0.700403094291687
+Un revenu Universel pour tous: 0.6722673773765564
+
+Initial proposal:
+Intégration de l'aah dans le RUA
+Closest neighbors:
+LAAH nest pas un minima comme les autres.: 0.9965342283248901
+L'AAH ne doit pas être incluse dans le RUA.: 0.9965342283248901
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.9485886693000793
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.9381211996078491
+Exclure l'AAH du RUA: 0.8943939805030823
+
+Initial proposal:
+LAAH nest pas un minima comme les autres.
+Closest neighbors:
+L'AAH ne doit pas être incluse dans le RUA.: 1.0000004768371582
+Intégration de l'aah dans le RUA: 0.9965342283248901
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.9506226778030396
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.9443055391311646
+Exclure l'AAH du RUA: 0.901755690574646
+
+Initial proposal:
+"Un ""vrai"" revenu universel pour tous."
+Closest neighbors:
+Universel signifie pour tous !: 0.8327245712280273
+AIDE RETOUR A L'EMPLOI: 0.8100759983062744
+A tous quand on montre une motivation à sen sortir: 0.8087621927261353
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8055366277694702
+TOUT LE MONDE si c'est un revenu universel: 0.8042207956314087
+
+Initial proposal:
+Le RUA n'est pas adapté à toutes les situations de handicap
+Closest neighbors:
+Pour qui le RUA: 0.8800482153892517
+AAH: 0.8578999042510986
+A quel public peut-il s'adresser ?: 0.8572561740875244
+Sauf handicapés: 0.8418897390365601
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.8334338665008545
+
+Initial proposal:
+a qui le revenu universel doit s adresser
+Closest neighbors:
+Situation de précarité: 0.9449708461761475
+En priorite aux familles mono parentales.: 0.8855613470077515
+AU PARENT ISOLE: 0.7815196514129639
+Bonification des personnes célibataires: 0.7407336831092834
+A tous: 0.7342385053634644
+
+Initial proposal:
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé
+Closest neighbors:
+les bénéficiaires du RSA: 0.7268860936164856
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7240543365478516
+Tous les citoyens: 0.7091495990753174
+Les personnes avec ou sans emplois sous conditions: 0.6897547245025635
+Pas de RUA pour les gens en indélicatesses avec la justice le civisme ...: 0.6836745738983154
+
+Initial proposal:
+Aider à créer et non à rester chez soi
+Closest neighbors:
+Ouvrir le RUA aux jeunes avec un projet de création dentreprise viable: 0.5448781847953796
+Pour les chomeurs qui veulent se former ou créer une entreprise.: 0.5223162770271301
+Les micro-entrepreneurs: 0.48921990394592285
+A toutes personnes subissant un changement de situation non souhaité: 0.4848814904689789
+Revenu Universel = Toute personne de plus de 18 ans: 0.48286810517311096
+
+Initial proposal:
+Universel sous conditions ?
+Closest neighbors:
+Universel ou PAS ?: 0.774060070514679
+Universel: 0.7719022631645203
+A tous (sinon il n'est pas universel): 0.6933252215385437
+RUA ou RSU ? Soyons clairs.: 0.6881589889526367
+TOUT LE MONDE si c'est un revenu universel: 0.6806994676589966
+
+Initial proposal:
+Elargir le RUA aux étrangers en situation régulière depuis moins de 5 ans
+Closest neighbors:
+Nationalité Française et cotisation minimum: 0.8060740828514099
+Réservé aux seuls nationaux: 0.7873924374580383
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.779780387878418
+condition pour toucher le RUA: 0.773562490940094
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.7406480312347412
+
+Initial proposal:
+Comme pour le chomage
+Closest neighbors:
+Les personnes avec ou sans emplois sous conditions: 0.7878829836845398
+Des aides, oui, mais...: 0.7614541053771973
+Un RUA dès 18 ans: 0.7379111051559448
+dissocier AAH par rapport aux autres revenus: 0.7379055023193359
+Revenu d activite: 0.7325556874275208
+
+Initial proposal:
+L'AAH ne doit pas être incluse dans le RUA.
+Closest neighbors:
+LAAH nest pas un minima comme les autres.: 1.0000004768371582
+Intégration de l'aah dans le RUA: 0.9965342283248901
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.9506226778030396
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.9443055391311646
+Exclure l'AAH du RUA: 0.901755690574646
+
+Initial proposal:
+Pour les parents instructeurs
+Closest neighbors:
+étudiants et inactifs élevant leurs enfants: 0.7516617178916931
+Mère au foyer: 0.6861860752105713
+RUA: 0.6373068690299988
+Aides aux Etudiants: 0.6333650350570679
+RUA POUR TOUS: 0.6167892217636108
+
+Initial proposal:
+Mères isolées et familles nombreuses
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.853223443031311
+femmes: 0.8176617622375488
+mère seule: 0.8148407340049744
+mères isolées ayant élevé elurs enfants seules: 0.753754734992981
+des aides oui mais .....: 0.7419509887695312
+
+Initial proposal:
+RUA Personnes agées
+Closest neighbors:
+Prime activité: 0.6813887357711792
+A quels publics...: 0.6249328255653381
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S,  plutôt que le RUA,  pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.5973497033119202
+AAH: 0.5581129789352417
+à toutes les personnes honnêtes et de bonne volonté: 0.5525012612342834
+
+Initial proposal:
+Revenu universel pour tous
+Closest neighbors:
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8082678914070129
+Tout le monde : c'est un revenu UNIVERSEL: 0.8048426508903503
+Universel signifie pour tous !: 0.7985048294067383
+renversons la table!!: 0.7958469390869141
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7925528287887573
+
+Initial proposal:
+Jeunes, étudiants, handicapés, personnes agées
+Closest neighbors:
+A tout les citoyens en fonction des ressources / patrimoine: 0.7598849534988403
+Guichet Unique de Prestations Sociales: 0.7237628698348999
+Guichet Unique de Prestations Sociales: 0.7237628698348999
+TOUT LE MONDE si c'est un revenu universel: 0.7123814225196838
+Prestation universelle pour regrouper les aides: 0.7076091766357422
+
+Initial proposal:
+A TOUT LE MONDE
+Closest neighbors:
+a tout le monde: 0.8232353925704956
+A tous ?: 0.7760254740715027
+A tout le monde: 0.7427304983139038
+pour tous: 0.730269730091095
+Pour toi, pour moi, pour lui, pour tous: 0.7009578347206116
+
+Initial proposal:
+"Privilégier les personnes de plus de 50 ans en recherche d'emploi et jugées ""trop agées"" notemment les femmes"
+Closest neighbors:
+Aux personnes qui se donnent la peine de  chercher du travail: 0.6909570693969727
+un revenu universel et franco-français: 0.6673433780670166
+revenu universel d'activite: 0.6416962146759033
+Ne pas inclure les personnes bénéficiant de l'AAH ayant un trouble psychique: 0.6402398347854614
+a verser selon un plafond de ressources: 0.6309242844581604
+
+Initial proposal:
+Les personnes handicapées et leurs familles en situation de pauvreté
+Closest neighbors:
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.9641263484954834
+LAAH nest pas un minima comme les autres.: 0.9506226778030396
+L'AAH ne doit pas être incluse dans le RUA.: 0.9506226778030396
+Intégration de l'aah dans le RUA: 0.9485886693000793
+Exclure l'AAH du RUA: 0.9170819520950317
+
+Initial proposal:
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois
+Closest neighbors:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8081979155540466
+AIDE RETOUR A L'EMPLOI: 0.8031888604164124
+A tous quand on montre une motivation à sen sortir: 0.7954976558685303
+"Un ""vrai"" revenu universel pour tous.": 0.7931118011474609
+Prime temporaire: 0.7790929079055786
+
+Initial proposal:
+A tous, sous condition de revenus
+Closest neighbors:
+renversons la table!!: 0.8278198838233948
+A tous français respectueux des lois.: 0.8235485553741455
+AIDE RETOUR A L'EMPLOI: 0.8234319686889648
+Tout le monde : c'est un revenu UNIVERSEL: 0.8166099786758423
+revenu universel pour tous: 0.804827094078064
+
+Initial proposal:
+revenu universel aussi pour les enfants
+Closest neighbors:
+A tous ceux qui sont en précarité, pauvreté: 0.82660311460495
+Aux personnes qui se donnent la peine de  chercher du travail: 0.8008139133453369
+A toute personne sans revenus: 0.7867293357849121
+A toute personne sans revenus: 0.7867293357849121
+Revenu universel en remplacement de tous les aides nationales: 0.7778101563453674
+
+Initial proposal:
+universalité du RU en financant celui-ci par les dividendes
+Closest neighbors:
+Pour tous: 0.684674859046936
+Universel = Qui s'applique à tous: 0.6729216575622559
+Alerte senior et RUA: 0.6624642610549927
+qui dit activité dit salaire: 0.6570389270782471
+Universel ? Donc pour tous: 0.6528856158256531
+
+Initial proposal:
+RUA
+Closest neighbors:
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.8128092885017395
+A qui doit s'adresser le RUA: universel donc...: 0.7853180170059204
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.7843124270439148
+éviter les effets de seuil et de dents de scie: 0.7744120955467224
+Universelle: 0.7728416919708252
+
+Initial proposal:
+Solidarité bien ordonnée
+Closest neighbors:
+Universel ? Donc pour tous: 0.7757753729820251
+qui est concerné ?: 0.6936797499656677
+Conditions: 0.6903017163276672
+Prime temporaire: 0.6752229332923889
+beneficiaires: 0.6689416170120239
+
+Initial proposal:
+A toustes
+Closest neighbors:
+Pour chaque individu de la société: 0.7265934944152832
+A tout le monde dès la naissance: 0.7017356157302856
+A qui doit s'adresser le revenu universel: 0.6943730115890503
+Un revenu minima pour toute personne ayant la majorité ou étant émancipée: 0.6853026151657104
+mère seule: 0.6692323684692383
+
+Initial proposal:
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?
+Closest neighbors:
+les bénéficiaires du RSA: 0.7984876036643982
+prioriser le revenu universel d'activité: 0.7943005561828613
+Les personnes avec ou sans emplois sous conditions: 0.77390056848526
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7627468705177307
+Revenu d activite: 0.7573908567428589
+
+Initial proposal:
+cas particulier malades psychique la maladie psychiatrique est chaque fois un cas spécifique donc créer un dossier de suivi
+Closest neighbors:
+AAH dans RUA: 0.7102931141853333
+Pas d' RUA pour remplacer   l 'AAH du handicap psychique: 0.6768368482589722
+Ne pas faire de Rua pour les handicapés psychiques: 0.6366852521896362
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.6171898245811462
+AAH: 0.61382657289505
+
+Initial proposal:
+Refus intégration AAH et de l'APL et RSA dans le RUA + Minimum à garantir
+Closest neighbors:
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA: 0.8050565719604492
+RUA et AAH: 0.794355034828186
+AAH: 0.7933223843574524
+Exclure l'AAH du RUA: 0.7924917936325073
+non à l'intégration de l'AAH dans le RUA: 0.7842147350311279
+
+Initial proposal:
+ceux
+Closest neighbors:
+RUA: 0.8072875142097473
+A toute personne majeure sans revenu et sans patrimoine, sans condition d'âge.: 0.7689116597175598
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7677559852600098
+Liste des personnes qui devraient le percevoir :: 0.7603152394294739
+REVENU UNIVERSEL: 0.7521752119064331
+
+Initial proposal:
+femmes
+Closest neighbors:
+Mères isolées et familles nombreuses: 0.8176617622375488
+Mère travaillant élevant seule des enfants: 0.7868238091468811
+mère seule: 0.7857717275619507
+A tous: 0.7661588788032532
+Aide aux foyers uni-parentaux: 0.7122012376785278
+
+Initial proposal:
+prioriser le revenu universel d'activité
+Closest neighbors:
+Revenu d activite: 0.8398174047470093
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.8238186836242676
+Ne pas laisser de côté les publics fragiles: 0.8000780940055847
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?: 0.7943005561828613
+Kalissy06: 0.7940177917480469
+
+Initial proposal:
+Universel ET Solidaire
+Closest neighbors:
+Guichet Unique de Prestations Sociales: 0.7562322020530701
+Guichet Unique de Prestations Sociales: 0.7562322020530701
+éviter les effets de seuil et de dents de scie: 0.7372846603393555
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.734368622303009
+A Tous dès la naissance et toute la vie: 0.7318600416183472
+
+Initial proposal:
+L'AAH n'est pas un minimum social comme les autres et ne doit pas entrer dans le périmètre de du RUA
+Closest neighbors:
+Exclure l'AAH du RUA: 0.8486019968986511
+Les personnes handicapées en situation de pauvreté: 0.8304156064987183
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8245790600776672
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8144899606704712
+L'AAH n'est pas un un minimum social comme les autres: 0.8088607788085938
+
+Initial proposal:
+L'AAH n'est pas un un minimum social comme les autres
+Closest neighbors:
+Exclure l'AAH du RUA: 0.8693130016326904
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8690222501754761
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.8521391153335571
+non à l'intégration de l'AAH dans le RUA: 0.8457485437393188
+Intégration de l'aah dans le RUA: 0.812244713306427
+
+Initial proposal:
+Exclure l'AAH du RUA
+Closest neighbors:
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.9808957576751709
+non à l'intégration de l'AAH dans le RUA: 0.9325834512710571
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.9170819520950317
+LAAH nest pas un minima comme les autres.: 0.901755690574646
+L'AAH ne doit pas être incluse dans le RUA.: 0.901755690574646
+
+Initial proposal:
+A tous à partir de 18 ans
+Closest neighbors:
+TUA pour tous: 0.7567692995071411
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7396489977836609
+L'aah doit continuer d'exister distinctement.: 0.7126780152320862
+A tous les citoyens, sous condition de ressources uniquement: 0.7054882049560547
+Pour qui: 0.7014098763465881
+
+Initial proposal:
+Le RU en lieu et place de toutes les autres allocations
+Closest neighbors:
+A tous les citoyens, sous condition de ressources uniquement: 0.7342028617858887
+Le RUA doit s'adresser à tout adulte majeur !: 0.728360652923584
+Arrêter l'énorme surcoût bureaucratique visant à grapiller sur les non-bénéficiaires: 0.7205095291137695
+tout majeur en dessous de ce RUA: 0.7116050124168396
+UNIVERSEL c'est pour tous: 0.6845357418060303
+
+Initial proposal:
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées
+Closest neighbors:
+non à l'intégration de l'AAH dans le RUA: 0.8335219025611877
+Le RUA ne doit pas s'appliquer aux bénéficiaires de l'AAH: 0.7902857065200806
+A tous mais pas aux allocataires de l'AAH: 0.785504162311554
+RUA et AAH: 0.7661316394805908
+AAH (Allocation adulte Handicapé) - Qui dit activité dit pouvoir travailler: 0.760230541229248
+
+Initial proposal:
+a qui le revenu universel d'activité devra t il s'adresser ?
+Closest neighbors:
+Revenu pour toutes personne en dessous du seuil de pauvreté: 0.7035187482833862
+Un revenu universel pour chacun(e): 0.6702389717102051
+A tous ceux qui sont en précarité, pauvreté: 0.6634292006492615
+pas de RUA pour les étrangers ...: 0.6555043458938599
+Revenu universel pour tous sans condition: 0.6539533734321594
+
+Initial proposal:
+A QUI ? A TOUS
+Closest neighbors:
+un revenu universel: 0.8452324867248535
+inclure les étudiants: 0.801295816898346
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8000913858413696
+Liberté Egalité Fraternité: 0.7948238849639893
+renversons la table!!: 0.7925736308097839
+
+Initial proposal:
+éviter les effets de seuil et de dents de scie
+Closest neighbors:
+AIDE RETOUR A L'EMPLOI: 0.8395547270774841
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8148079514503479
+Universel = Qui s'applique à tous: 0.8121139407157898
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.8092041015625
+Guichet Unique de Prestations Sociales: 0.8038276433944702
+
+Initial proposal:
+A tous français respectueux des lois.
+Closest neighbors:
+Universel signifie pour tous !: 0.8464956283569336
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8432241678237915
+AIDE RETOUR A L'EMPLOI: 0.8252965211868286
+A tous, sous condition de revenus: 0.8235485553741455
+Tout le monde : c'est un revenu UNIVERSEL: 0.8202849626541138
+
+Initial proposal:
+RUA pour tous sans conditions
+Closest neighbors:
+Un RUA dès 18 ans: 0.7749762535095215
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?: 0.7243465185165405
+Universelle: 0.7189089059829712
+Pour tous, à partir de la majorité.: 0.7175073623657227
+Universel .: 0.7166417241096497
+
+Initial proposal:
+Revenu universel pour TOUS
+Closest neighbors:
+TOUT LE MONDE si c'est un revenu universel: 0.8595256805419922
+Universel signifie pour tous !: 0.8548182845115662
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8543418049812317
+On ne veut plus assister les fainéants: 0.8532130122184753
+Universel = Qui s'applique à tous: 0.846491277217865
+
+Initial proposal:
+A qui le Rua doit-il s'adresser
+Closest neighbors:
+non à l'intégration de l'AAH dans le RUA: 0.8133106827735901
+Pas aux porteurs daah: 0.7807177305221558
+Revenu d activite: 0.7597194910049438
+Exclure l'AAH du RUA: 0.7578381299972534
+RUA: 0.74836266040802
+
+Initial proposal:
+Ciblé et mieux encadré
+Closest neighbors:
+LAAH nest pas un minima comme les autres.: 0.692542552947998
+L'AAH ne doit pas être incluse dans le RUA.: 0.692542552947998
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.6902734041213989
+Intégration de l'aah dans le RUA: 0.6852490901947021
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.6849789619445801
+
+Initial proposal:
+Pour tout ceux en situation de pauvreté
+Closest neighbors:
+le seuil de pauvreté: 0.8172470927238464
+RUA: 0.7722412347793579
+A Tous dès la naissance et toute la vie: 0.7384696006774902
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7372199892997742
+RU: 0.7353753447532654
+
+Initial proposal:
+Étudiant et jeunes après leurs études
+Closest neighbors:
+les jeunes finissant leurs études: 0.6766548156738281
+RU pour qui: 0.6624282598495483
+un revenu universel et franco-français: 0.6404566764831543
+Objectif 0 jeune sans ressource et sans accompagnement: 0.6330454349517822
+Aides aux Etudiants: 0.626304030418396
+
+Initial proposal:
+A toute personne pour aider à atteindre un revenu décent
+Closest neighbors:
+AAH: 0.5662740468978882
+emploi ou RUA: 0.5263760685920715
+uniquement aux bénéficiaires qui le nécessite ....: 0.5120056867599487
+éviter les effets de seuil et de dents de scie: 0.5106828212738037
+RUA: 0.5006617307662964
+
+Initial proposal:
+Pour qui
+Closest neighbors:
+A tous à partir de 18 ans: 0.7014098763465881
+A toute personne sans revenus: 0.6898724436759949
+A toute personne sans revenus: 0.6898724436759949
+RUA pour tous sans conditions: 0.6659635901451111
+Travailleurs pauvres et étudiants: 0.6618314385414124
+
+Initial proposal:
+non à l'intégration de l'AAH dans le RUA
+Closest neighbors:
+Exclure l'AAH du RUA: 0.9325834512710571
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.9309506416320801
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.8994516730308533
+LAAH nest pas un minima comme les autres.: 0.8767755627632141
+L'AAH ne doit pas être incluse dans le RUA.: 0.8767755627632141
+
+Initial proposal:
+Objectif 0 jeune sans ressource et sans accompagnement
+Closest neighbors:
+un revenu universel et franco-français: 0.7168905735015869
+Les jeunes en situation de pauvreté: 0.6923607587814331
+RU pour qui: 0.6863906383514404
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.68625807762146
+JEUNES, PERSONNES AGEES, PERSONNES HANDICAPEES... EN SITUATION DE PRECARITE OU SOUS LE SEUIL DE PAUVRETE !: 0.6735920906066895
+
+Initial proposal:
+AAH et revnu universel
+Closest neighbors:
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8310757279396057
+Exclure l'AAH du RUA: 0.8308320045471191
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8221948742866516
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.8197243809700012
+Intégration de l'aah dans le RUA: 0.8108805418014526
+
+Initial proposal:
+droit pour toute personne ayant une retraite inférieur a 1500 euros
+Closest neighbors:
+Mères isolées et familles nombreuses: 0.7228565216064453
+Mère travaillant élevant seule des enfants: 0.7088598012924194
+Et les retraités ?: 0.6830764412879944
+mères isolées ayant élevé elurs enfants seules: 0.6822649240493774
+mère seule: 0.6722987294197083
+
+Initial proposal:
+RUA avec système anti-fraude
+Closest neighbors:
+Le RU en lieu et place de toutes les autres allocations: 0.6733862161636353
+Arrêter l'énorme surcoût bureaucratique visant à grapiller sur les non-bénéficiaires: 0.638146698474884
+A tous les citoyens, sous condition de ressources uniquement: 0.6134661436080933
+"Ouvrir les yeux sur les ""vrais revenus"" pris en compte pour une ouverture de droits": 0.6074912548065186
+Aah: 0.5997428297996521
+
+Initial proposal:
+les personnes en burn out au travail
+Closest neighbors:
+Ne pas laisser de côté les publics fragiles: 0.711122989654541
+NON AU RUA OUI POUR UNE AIDES AU TRAVAILLEURS PAUVRES: 0.6315264701843262
+droits et devoirs: 0.6292520761489868
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6002104878425598
+emploi ou RUA: 0.5775339007377625
+
+Initial proposal:
+RUA à la place de deduction de l'ISF
+Closest neighbors:
+L'intégration de nouveaux publics implique une augmentation des dépenses sociales: 0.6126689314842224
+A tous à partir de 18 ans si on est Français: 0.5565645694732666
+La contribution pour tous: 0.5443300008773804
+Quel critère de citoyenneté pour bénéficier du RUA: 0.5441011786460876
+Le HANDICAP ne doit pas être intégré dans le RUA !: 0.5337601900100708
+
+Initial proposal:
+Certainement pas aux personnes handicapées
+Closest neighbors:
+A qui le Rua doit-il s'adresser: 0.7316277027130127
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.7189401984214783
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.7165782451629639
+Exclure l'AAH du RUA: 0.7149996757507324
+non à l'intégration de l'AAH dans le RUA: 0.7117533683776855
+
+Initial proposal:
+Tous les pauvres sauf les personnes handicapées
+Closest neighbors:
+A qui s adresse le rua: 0.8189971446990967
+Pour qui le RUA: 0.802863359451294
+RUA et AAH: 0.7713937163352966
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7537598609924316
+Pour les handicapés simplification des démarches administratives: 0.7517209053039551
+
+Initial proposal:
+Attention à l'amalgame
+Closest neighbors:
+personne en situation de handicap: 0.8204138278961182
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.783086895942688
+Pourquoi fusionne le revenu universel et L'Aah: 0.767380952835083
+A tous français respectueux des lois.: 0.7569880485534668
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.7489050030708313
+
+Initial proposal:
+Revenu universel en remplacement de tous les aides nationales
+Closest neighbors:
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.8845168352127075
+Un revenu Universel pour tous: 0.8406906127929688
+A TOUT CITOYEN FRANCAIS: 0.8322369456291199
+Un revenu universel pour chacun(e): 0.8277924656867981
+Liberté Egalité Fraternité: 0.8274674415588379
+
+Initial proposal:
+Ne pas inclure les personnes bénéficiant de l'AAH ayant un trouble psychique
+Closest neighbors:
+Ne pas laisser de côté les publics fragiles: 0.8112324476242065
+les bénéficiaires du RSA: 0.7767575979232788
+personne en situation de handicap: 0.7765951752662659
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.7577674388885498
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7573103308677673
+
+Initial proposal:
+Vérifier les revenus réels des bénéficiaires
+Closest neighbors:
+"Ouvrir les yeux sur les ""vrais revenus"" pris en compte pour une ouverture de droits": 0.7256142497062683
+pour tous mais sous conditions: 0.6873226165771484
+Guichet Unique de Prestations Sociales: 0.673866331577301
+Guichet Unique de Prestations Sociales: 0.673866331577301
+A tous quand on montre une motivation à sen sortir: 0.6721614599227905
+
+Initial proposal:
+La Confédération Syndicale des Familles contre l'intégration de l'APL, l'AAH et l'ASPA
+Closest neighbors:
+Guichet Unique de Prestations Sociales: 0.7678335905075073
+Guichet Unique de Prestations Sociales: 0.7678335905075073
+A Tous dès la naissance et toute la vie: 0.735369086265564
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.726225733757019
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.7174703478813171
+
+Initial proposal:
+AAH dans RUA
+Closest neighbors:
+AAH (Allocation adulte Handicapé) - Qui dit activité dit pouvoir travailler: 0.7216941118240356
+cas particulier malades psychique la maladie psychiatrique est chaque fois un cas spécifique donc créer un dossier de suivi: 0.7102931141853333
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.6882866024971008
+Le RUA ne doit prendre en compte l'AAH: 0.6849201321601868
+A qui le RUA s' adresse t il ?: 0.67795330286026
+
+Initial proposal:
+étudiants et inactifs élevant leurs enfants
+Closest neighbors:
+les jeunes finissant leurs études: 0.7914002537727356
+Pour les parents instructeurs: 0.7516617178916931
+Sauf handicapés: 0.7512168884277344
+emploi ou RUA: 0.7404248118400574
+RUA POUR TOUS: 0.7334576845169067
+
+Initial proposal:
+AAH
+Closest neighbors:
+RUA et AAH: 0.8093104362487793
+non à l'intégration de l'AAH dans le RUA: 0.781391441822052
+AAH: 0.7783012390136719
+Exclure l'AAH du RUA: 0.7764493227005005
+A quel public peut-il s'adresser ?: 0.7722078561782837
+
+Initial proposal:
+Remplacer l'AAH par le RUA
+Closest neighbors:
+Intégration de l'aah dans le RUA: 0.8421609997749329
+LAAH nest pas un minima comme les autres.: 0.8327934741973877
+L'AAH ne doit pas être incluse dans le RUA.: 0.8327934741973877
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8210726976394653
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.8041835427284241
+
+Initial proposal:
+Pas d' RUA pour remplacer   l 'AAH du handicap psychique
+Closest neighbors:
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7680634260177612
+Remplacer l'AAH par le RUA: 0.7385364770889282
+A qui le RUA s' adresse t il ?: 0.7106303572654724
+pas AAH: 0.6915842890739441
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.6897550225257874
+
+Initial proposal:
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap
+Closest neighbors:
+RUA: 0.8128092885017395
+A tous les citoyens, sous condition de ressources uniquement: 0.8017951250076294
+L'aah doit continuer d'exister distinctement.: 0.7820014953613281
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.7555540800094604
+A tous à partir de 18 ans: 0.7396489977836609
+
+Initial proposal:
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité
+Closest neighbors:
+RUA et AAH: 0.8789970278739929
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8642452359199524
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.8501057028770447
+A quel public peut-il s'adresser ?: 0.838092565536499
+LAAH nest pas un minima comme les autres.: 0.8142654299736023
+
+Initial proposal:
+Pas aux porteurs daah
+Closest neighbors:
+non à l'intégration de l'AAH dans le RUA: 0.818047285079956
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.7858561277389526
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7850254774093628
+Exclure l'AAH du RUA: 0.7843305468559265
+A qui le Rua doit-il s'adresser: 0.7807177305221558
+
+Initial proposal:
+Le HANDICAP ne doit pas être intégré dans le RUA !
+Closest neighbors:
+La contribution pour tous: 0.7655473947525024
+Remplacer l'AAH par le RUA: 0.7340480089187622
+Pourquoi fusionne le revenu universel et L'Aah: 0.7261147499084473
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.7257114052772522
+LAAH nest pas un minima comme les autres.: 0.7210888266563416
+
+Initial proposal:
+AAH
+Closest neighbors:
+RUA et AAH: 0.8353466987609863
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.8307149410247803
+A qui le RUA s' adresse t il ?: 0.8274974822998047
+dissocier AAH par rapport aux autres revenus: 0.7796617746353149
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.7757644653320312
+
+Initial proposal:
+Ne pas faire de Rua pour les handicapés psychiques
+Closest neighbors:
+RUA et AAH: 0.7275093197822571
+Les personnes handicapées en situation de pauvreté: 0.724782407283783
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.7063973546028137
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.6993725299835205
+vrai statut de l'aidant, hors allocations: 0.6962714791297913
+
+Initial proposal:
+Le RUA pour tous de la naissance jusqu'au décès.
+Closest neighbors:
+éviter les effets de seuil et de dents de scie: 0.7808897495269775
+renversons la table!!: 0.7713901996612549
+Universel = Qui s'applique à tous: 0.7434244155883789
+Revenu universel pour tous sans condition: 0.7398134469985962
+Tout le monde : c'est un revenu UNIVERSEL: 0.7348113059997559
+
+Initial proposal:
+Pension d'invalidité et passage à la retraite
+Closest neighbors:
+Alerte senior et RUA: 0.6877411007881165
+Revenu  décent pour personnes âgées: 0.6639108657836914
+Les personnes âgées en situation de pauvreté: 0.6622766852378845
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.6596092581748962
+Et les retraités ?: 0.644584059715271
+
+Initial proposal:
+Les allocataires de l'ASS
+Closest neighbors:
+Inclure l'ASS au RUA: 0.6901816725730896
+Un revenu non universel et non lié à l'activité.: 0.6597392559051514
+Des allocations avec des objectifs différents: 0.6505477428436279
+l'AAH ne doit pas devenir RUA: 0.6005407571792603
+Dissocier le montant de certaines APL: 0.5745287537574768
+
+Initial proposal:
+Revenu Minimum Unique RMU
+Closest neighbors:
+revenu accordé à toute personne sans travail et sans indemnité dès le début de la précarité et sans condition de ressource remontant à l'année d'avant: 0.7481085062026978
+Revenu universel pour TOUS: 0.7259920835494995
+Universel = Qui s'applique à tous: 0.7225970029830933
+un revenu universel: 0.7207412719726562
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7193844318389893
+
+Initial proposal:
+Créer un revenu pour que chaque être humain puisse vivre dignement
+Closest neighbors:
+A tous (sinon il n'est pas universel): 0.8139657974243164
+Tout le monde : c'est un revenu UNIVERSEL: 0.8009408116340637
+inclure les étudiants: 0.7979052066802979
+A tous, sous condition de revenus: 0.7809540033340454
+Pour toi, pour moi, pour lui, pour tous: 0.7719690799713135
+
+Initial proposal:
+A tout le monde
+Closest neighbors:
+Simplification des procédures et des outils informatiques: 0.6140369176864624
+uniquement aux bénéficiaires qui le nécessite ....: 0.5683581233024597
+A qui doit s'adresser le RUA: universel donc...: 0.5268410444259644
+UNIVERSEL: 0.5263559222221375
+emploi ou RUA: 0.5186944007873535
+
+Initial proposal:
+Raisonner par statut et par tranche d'age
+Closest neighbors:
+AAH: 0.7476420402526855
+LAllocation Suplémentaire d'Invalidité doit absolulment rester hors du champ du RUA car elle a été conçue pour compléter les toutes petites pensions dinvalidités de personnes handicapées ayant travaillé moins de 10 ans (maladies chroniques invalidantes): 0.7307049632072449
+RUA et AAH: 0.7285234928131104
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7245428562164307
+Dissocier le montant de certaines APL: 0.723273515701294
+
+Initial proposal:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.
+Closest neighbors:
+AIDE RETOUR A L'EMPLOI: 0.8610531091690063
+On ne veut plus assister les fainéants: 0.8546850681304932
+Revenu universel pour TOUS: 0.8543418049812317
+Universel signifie pour tous !: 0.834049642086029
+Tout le monde : c'est un revenu UNIVERSEL: 0.8217394351959229
+
+Initial proposal:
+Toute personne vivant sur le territoire français, sans aucune autre condition.
+Closest neighbors:
+Un revenu Universel pour tous: 0.8714464902877808
+A TOUT CITOYEN FRANCAIS: 0.8692851662635803
+Un revenu d'existence pour tous les Français: 0.8680860996246338
+Tout citoyen Français: 0.8452163934707642
+A tous sans exception: 0.8293184041976929
+
+Initial proposal:
+NON AU RUA OUI POUR UNE AIDES AU TRAVAILLEURS PAUVRES
+Closest neighbors:
+Pour chaque individu de la société: 0.6797471046447754
+Ne pas laisser de côté les publics fragiles: 0.6752862334251404
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6646671295166016
+droits et devoirs: 0.6587992310523987
+question: 0.649351179599762
+
+Initial proposal:
+NON à la fabrique de fainéants
+Closest neighbors:
+un revenu universel et franco-français: 0.7769435048103333
+revenu universel d'activite: 0.7194104790687561
+emploi ou RUA: 0.671443521976471
+Un revenu universel pour chacun(e): 0.6610007286071777
+À tous: 0.6544073224067688
+
+Initial proposal:
+En priorite aux familles mono parentales.
+Closest neighbors:
+a qui le revenu universel doit s adresser: 0.8855613470077515
+Situation de précarité: 0.8150609731674194
+Aide aux foyers uni-parentaux: 0.718610405921936
+AU PARENT ISOLE: 0.7171027660369873
+Monoparental et étudiants: 0.6733019351959229
+
+Initial proposal:
+pas AAH
+Closest neighbors:
+A tous les bénéficiaires potentiels sans exception: 0.839850664138794
+A quel public peut-il s'adresser ?: 0.8339971899986267
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8319135904312134
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.8188772797584534
+LAAH nest pas un minima comme les autres.: 0.8057979345321655
+
+Initial proposal:
+DESTINATAIRES
+Closest neighbors:
+Aux jeunes placés et sortant du service de l'Aide Sociale à l'Enfance (sous conditions): 0.8151161074638367
+Liste des personnes qui devraient le percevoir :: 0.803535521030426
+RUA: 0.7697464227676392
+Les personnes avec ou sans emplois sous conditions: 0.7539811134338379
+RUA: 0.7393895387649536
+
+Initial proposal:
+Titre supprimé
+Closest neighbors:
+Titre supprimé: 0.9999995231628418
+AAH: 0.42356759309768677
+NON: 0.4219117760658264
+Universel = tous sans exceptions ou conditions: 0.38868194818496704
+contre: 0.3429410457611084
+
+Initial proposal:
+Ayant droits
+Closest neighbors:
+Réservé aux seuls nationaux: 0.8299747705459595
+A tous les citoyens français: 0.8188340067863464
+Les Français en Europe: 0.7917842864990234
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7809029221534729
+a qui verser l'aide: 0.7743874192237854
+
+Initial proposal:
+AUX FRANCAIS
+Closest neighbors:
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.8118356466293335
+Réservé aux seuls nationaux: 0.753486156463623
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.7073309421539307
+Préférennce: 0.7061523199081421
+Quel critère de citoyenneté pour bénéficier du RUA: 0.6965199708938599
+
+Initial proposal:
+TOUT TYPE DE PUBLIC
+Closest neighbors:
+Ouvrir le Revenu Universel d'Activité à un public plus large sans pour autant léser le public actuel du RSA: 0.7410054802894592
+A tous, dès que la personne n'atteint pas un revenu suffisant pour vivre dignement: 0.7381595373153687
+Kalissy06: 0.7268068194389343
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?: 0.7214460968971252
+RUA pour tous sans conditions: 0.7044916152954102
+
+Initial proposal:
+RUA à 100% du SMIC pour les personnes handicapées ne pouvant pas ou plus exercer une activité professionnelle
+Closest neighbors:
+LAAH nest pas un minima comme les autres.: 0.7250038385391235
+L'AAH ne doit pas être incluse dans le RUA.: 0.7250038385391235
+Intégration de l'aah dans le RUA: 0.7169798612594604
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.6946287155151367
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.6944507360458374
+
+Initial proposal:
+A tous ! Il suffirait de créer un revenu UNIVERSEL (et non un revenu universel d'activité).
+Closest neighbors:
+Une autre vision du revenu d'activité: 0.7773597836494446
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7709577083587646
+Universel signifie pour tous !: 0.7503641843795776
+On ne veut plus assister les fainéants: 0.7444901466369629
+AIDE RETOUR A L'EMPLOI: 0.7373255491256714
+
+Initial proposal:
+Simplification des procédures et des outils informatiques
+Closest neighbors:
+A tout le monde: 0.6140369176864624
+A qui doit s'adresser le RUA: universel donc...: 0.5925713181495667
+Toutes les personnes bénéficient de l'aide social.: 0.5454047918319702
+Guichet Unique de Prestations Sociales: 0.5404248237609863
+Guichet Unique de Prestations Sociales: 0.5404248237609863
+
+Initial proposal:
+A qui doit s'adresser le revenu universel
+Closest neighbors:
+A TOUS LES FRANCAIS: 0.7829517126083374
+Universel .: 0.719849705696106
+pour tous: 0.7155256867408752
+A tous ?: 0.7026318907737732
+A toustes: 0.6943730115890503
+
+Initial proposal:
+RUA
+Closest neighbors:
+Liste des personnes qui devraient le percevoir :: 0.7010354995727539
+Aux jeunes placés et sortant du service de l'Aide Sociale à l'Enfance (sous conditions): 0.6885140538215637
+les jeunes finissant leurs études: 0.6820130944252014
+ceux: 0.6818463802337646
+Et les étudiants: 0.6816204786300659
+
+Initial proposal:
+Pour tous, à partir de la majorité.
+Closest neighbors:
+Un RUA dès 18 ans: 0.7463538646697998
+Les personnes avec ou sans emplois sous conditions: 0.7367795705795288
+Kalissy06: 0.7283439636230469
+Sauf handicapés: 0.7275390625
+Revenu d activite: 0.7236294746398926
+
+Initial proposal:
+RUA au Prorata avec plafond de revenus
+Closest neighbors:
+Travailleurs pauvres et étudiants: 0.7053548693656921
+RUA PROPORTIONNEL: 0.6914492249488831
+tout majeur en dessous de ce RUA: 0.6706827878952026
+A toute personne sans revenus: 0.6619212627410889
+A toute personne sans revenus: 0.6619212627410889
+
+Initial proposal:
+A qui le RUA doit-il s'adresser ?
+Closest neighbors:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7734311819076538
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7612621188163757
+AIDE RETOUR A L'EMPLOI: 0.7607448101043701
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.75129634141922
+Refus intégration AAH et de l'APL et RSA dans le RUA + Minimum à garantir: 0.7449201941490173
+
+Initial proposal:
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 
+Closest neighbors:
+Aux personnes qui se donnent la peine de  chercher du travail: 0.8098393678665161
+condition pour toucher le RUA: 0.7993142604827881
+Elargir le RUA aux étrangers en situation régulière depuis moins de 5 ans: 0.779780387878418
+Les pauvres...: 0.7759578227996826
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.7701247930526733
+
+Initial proposal:
+Revenu universel pour tous
+Closest neighbors:
+TOUT LE MONDE si c'est un revenu universel: 0.8141286373138428
+Revenu universel pour TOUS: 0.8015962839126587
+Prestation universelle pour regrouper les aides: 0.767935037612915
+RUA ou RSU ? Soyons clairs.: 0.7490173578262329
+revenu accordé à toute personne sans travail et sans indemnité dès le début de la précarité et sans condition de ressource remontant à l'année d'avant: 0.7446039319038391
+
+Initial proposal:
+A tous les CITOYENS
+Closest neighbors:
+à toutes les personnes honnêtes et de bonne volonté: 0.6662698984146118
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.6620961427688599
+A TOUS à condition d'être un bon CITOYEN: 0.6593849658966064
+LES BENEVOLES ASSOCIATIFS exerçant des RESPONSABILITES dans le secteur SOCIAL et SOLIDAIRE.: 0.6114990711212158
+A toutes les personnes qui s'engage à faire évoluer la société dans le bon sens en consacrant 5 heures de leur temps toutes les semaines à la faire évoluer.: 0.5868327617645264
+
+Initial proposal:
+Attribution à chaque citoyen français.
+Closest neighbors:
+A tous (sinon il n'est pas universel): 0.8119664788246155
+inclure les étudiants: 0.8071916103363037
+Tout le monde : c'est un revenu UNIVERSEL: 0.7818402647972107
+TOUT LE MONDE si c'est un revenu universel: 0.7799538373947144
+Un engagement envers soi et envers la société: 0.7766533493995667
+
+Initial proposal:
+Un revenu minima pour toute personne ayant la majorité ou étant émancipée
+Closest neighbors:
+Pour tous: 0.7598260641098022
+À tout le monde: 0.7483236789703369
+Pour chaque individu de la société: 0.7329267263412476
+À tout citoyen français disposant dun revenu inférieur à 5000  mensuel.: 0.713603675365448
+Revenu universel pour TOUS: 0.704026460647583
+
+Initial proposal:
+Sauf handicapés
+Closest neighbors:
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8418897390365601
+RUA et AAH: 0.8281240463256836
+AAH: 0.8128577470779419
+dissocier AAH par rapport aux autres revenus: 0.8063175678253174
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7857683897018433
+
+Initial proposal:
+Universel
+Closest neighbors:
+Pour tous: 0.8808355331420898
+Universel ou PAS ?: 0.7835067510604858
+Universel sous conditions ?: 0.7719022631645203
+Créer un revenu pour que chaque être humain puisse vivre dignement: 0.7234755158424377
+Pour tous, sans conditions.: 0.7200599312782288
+
+Initial proposal:
+L'AAH n'est pas un revenu d'activité basta.
+Closest neighbors:
+Exclure l'AAH du RUA: 0.8018028140068054
+garanti de la naion: 0.798789381980896
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.7922106981277466
+NON aux personnes handicapées: 0.7904054522514343
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.7705766558647156
+
+Initial proposal:
+Dés 16 ans en fonction de certain critères d 'éligibilité
+Closest neighbors:
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.799728512763977
+Un revenu Universel pour tous: 0.7959842085838318
+Revenu universel en remplacement de tous les aides nationales: 0.7857736349105835
+"Un vrais ""Revenu Universle"" pour TOUS, modulaire et sous conditions": 0.7717796564102173
+Tout citoyen Français: 0.7668529748916626
+
+Initial proposal:
+Instituer un plafond de patrimoine
+Closest neighbors:
+Pour tous individuellement, imposé: 0.7880262136459351
+Revenu d activite: 0.7546522617340088
+Les personnes avec ou sans emplois sous conditions: 0.7173540592193604
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.7149613499641418
+Kalissy06: 0.7108665108680725
+
+Initial proposal:
+Pour chaque individu de la société
+Closest neighbors:
+REVENU UNIVERSEL: 0.8438735008239746
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.8063340187072754
+question: 0.797714352607727
+le seuil de pauvreté: 0.7941112518310547
+RU: 0.7940632104873657
+
+Initial proposal:
+A tous les citoyens français
+Closest neighbors:
+Ayant droits: 0.8188340067863464
+a qui verser l'aide: 0.7996058464050293
+Les Français en Europe: 0.7935171127319336
+Revenu pour toutes personne en dessous du seuil de pauvreté: 0.7669157981872559
+Limites: 0.7377927303314209
+
+Initial proposal:
+A quel public peut-il s'adresser ?
+Closest neighbors:
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8811386823654175
+RUA et AAH: 0.8745824098587036
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.8745501637458801
+non à l'intégration de l'AAH dans le RUA: 0.8732017874717712
+Pour qui le RUA: 0.8718759417533875
+
+Initial proposal:
+A tous, et en particulier aux précaires, aux SDF et aux non-recours
+Closest neighbors:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8029637336730957
+AIDE RETOUR A L'EMPLOI: 0.7955708503723145
+Guichet Unique de Prestations Sociales: 0.7830988764762878
+Guichet Unique de Prestations Sociales: 0.7830988764762878
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7731257677078247
+
+Initial proposal:
+AIDE RETOUR A L'EMPLOI
+Closest neighbors:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8610531091690063
+éviter les effets de seuil et de dents de scie: 0.8395547270774841
+Pour toi, pour moi, pour lui, pour tous: 0.835780918598175
+Tout le monde : c'est un revenu UNIVERSEL: 0.827552855014801
+A tous français respectueux des lois.: 0.8252965211868286
+
+Initial proposal:
+Prestation universelle pour regrouper les aides
+Closest neighbors:
+Revenu universel pour tous: 0.767935037612915
+Guichet Unique de Prestations Sociales: 0.7614651322364807
+Guichet Unique de Prestations Sociales: 0.7614651322364807
+A tout les citoyens en fonction des ressources / patrimoine: 0.7492091059684753
+"Un ""vrai"" revenu universel pour tous.": 0.7463358640670776
+
+Initial proposal:
+Intégrer Allocation de solidarité spécifique (ASS) dans le revenu universel d'activité ?
+Closest neighbors:
+Travailleurs pauvres et étudiants: 0.7214128375053406
+Alerte senior et RUA: 0.690650224685669
+Inclure l'ASS au RUA: 0.690464198589325
+RMA à 1300 euros nets par mois: 0.6792044043540955
+vrai statut de l'aidant, hors allocations: 0.6776056289672852
+
+Initial proposal:
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA
+Closest neighbors:
+Refus intégration AAH et de l'APL et RSA dans le RUA + Minimum à garantir: 0.8050565719604492
+Guichet Unique de Prestations Sociales: 0.7493834495544434
+Guichet Unique de Prestations Sociales: 0.7493834495544434
+Des allocations avec des objectifs différents: 0.7455405592918396
+non à l'intégration de l'AAH dans le RUA: 0.7397902011871338
+
+Initial proposal:
+emploi ou RUA
+Closest neighbors:
+RUA: 0.8141648769378662
+A QUI DOIT S'ADRESSER LE RUA: 0.7866477966308594
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7710264921188354
+A tout adulte en dessous du seuil de pauvreté.: 0.7706803679466248
+AIDE RETOUR A L'EMPLOI: 0.7608525156974792
+
+Initial proposal:
+Arrêter l'énorme surcoût bureaucratique visant à grapiller sur les non-bénéficiaires
+Closest neighbors:
+Le RU en lieu et place de toutes les autres allocations: 0.7205095291137695
+Pour tous: 0.6771547794342041
+a verser selon un plafond de ressources: 0.6665685176849365
+A tous à partir de 18 ans si on est Français: 0.6519839763641357
+Un revenu universel pour chacun(e): 0.6473042964935303
+
+Initial proposal:
+"Évitons de polluer le débat public ! Les mots ont un sens: ""Universel"" veut dire ""Qui s'applique à tous les cas"" !"
+Closest neighbors:
+Tout le monde: 0.6837596893310547
+A tous (sinon il n'est pas universel): 0.6591257452964783
+Revenu universel pour TOUS: 0.6579252481460571
+Universel = Qui s'applique à tous: 0.6574575901031494
+Universel sous conditions ?: 0.6511284708976746
+
+Initial proposal:
+Les pauvres...
+Closest neighbors:
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.7759578227996826
+A toute personne sans revenus: 0.7649086713790894
+A toute personne sans revenus: 0.7649086713790894
+Aux personnes qui se donnent la peine de  chercher du travail: 0.7332096695899963
+revenu universel aussi pour les enfants: 0.7290254235267639
+
+Initial proposal:
+Aux mères au foyer
+Closest neighbors:
+Des droits équitables pour les parents divorcés ou séparés: 0.7220977544784546
+Mère travaillant élevant seule des enfants: 0.7043070197105408
+mère seule: 0.695990264415741
+mères isolées ayant élevé elurs enfants seules: 0.691380500793457
+Aide aux foyers uni-parentaux: 0.6901673674583435
+
+Initial proposal:
+AUX TITULAIRES D'UNE RQTH (Reconnaissance en Qualité de Travailleur Handicapé) NE BÉNÉFICIANT PAS DE L'AAH
+Closest neighbors:
+dissocier AAH par rapport aux autres revenus: 0.746994137763977
+L'AAH n'est pas un minimum social comme les autres et ne doit pas entrer dans le périmètre de du RUA: 0.7319846153259277
+Les jeunes et les stages: 0.7297805547714233
+A tous mais pas aux allocataires de l'AAH: 0.7199772596359253
+AAH: 0.7103121876716614
+
+Initial proposal:
+"Un vrais ""Revenu Universle"" pour TOUS, modulaire et sous conditions"
+Closest neighbors:
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.7793092131614685
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.7780336737632751
+Dés 16 ans en fonction de certain critères d 'éligibilité: 0.7717796564102173
+Liberté Egalité Fraternité: 0.770952582359314
+Un revenu universel pour chacun(e): 0.767666220664978
+
+Initial proposal:
+A tout le monde sauf au personne handicapées
+Closest neighbors:
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7569760084152222
+A quel public peut-il s'adresser ?: 0.7422887086868286
+aah: 0.7390767931938171
+pas AAH: 0.7386492490768433
+La considération du handicap avec un taux inférieur à 80%: 0.7328165769577026
+
+Initial proposal:
+Exclure l'Allocation pour Adulte Handicapé(e) du Revenu Universel d'Activité.
+Closest neighbors:
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.7642893195152283
+LAAH nest pas un minima comme les autres.: 0.7639103531837463
+L'AAH ne doit pas être incluse dans le RUA.: 0.7639103531837463
+Intégration de l'aah dans le RUA: 0.7624127268791199
+Remplacer l'AAH par le RUA: 0.7541846036911011
+
+Initial proposal:
+Population concernée
+Closest neighbors:
+Jeunes, handicapes, familles pauvres avec enfants: 0.7159044742584229
+Liste des personnes qui devraient le percevoir :: 0.6926965117454529
+Les jeunes de moins de18 à 25 ans sans revenu: 0.680086612701416
+DESTINATAIRES: 0.6614933013916016
+Les jeunes en situation de pauvreté: 0.6486105918884277
+
+Initial proposal:
+À tout le monde, vivant sur le territoire Français et remplissant une feuille d'impôt et n'atteignant pas un certain plafond !
+Closest neighbors:
+A tous les citoyens français: 0.7298820614814758
+Ayant droits: 0.7282314896583557
+Quel critère de citoyenneté pour bénéficier du RUA: 0.7177904844284058
+Revenu pour toutes personne en dessous du seuil de pauvreté: 0.6962694525718689
+Tout citoyen Français: 0.6843827962875366
+
+Initial proposal:
+Ni lAAH, ni lallocation de solidarité aux personnes âgées
+Closest neighbors:
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7836288213729858
+AAH: 0.7674851417541504
+RUA et AAH: 0.7662506103515625
+A quel public peut-il s'adresser ?: 0.7504628896713257
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.7400651574134827
+
+Initial proposal:
+Reconnaitre les aidants pour mieux respecter nos anciens
+Closest neighbors:
+droits et devoirs: 0.7391411662101746
+pour tous en fonction des revenus: 0.7011827230453491
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.6923669576644897
+Guichet Unique de Prestations Sociales: 0.676937460899353
+Guichet Unique de Prestations Sociales: 0.676937460899353
+
+Initial proposal:
+A tous les citoyens, sous condition de ressources uniquement
+Closest neighbors:
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.8017951250076294
+A toute personne sans revenus: 0.7815443277359009
+A toute personne sans revenus: 0.7815443277359009
+Inclure l'ASS au RUA: 0.7690671682357788
+tout majeur en dessous de ce RUA: 0.7612367868423462
+
+Initial proposal:
++ le 2eme parent
+Closest neighbors:
+Égalité des droits lors de Garde Alternée des enfants: 0.7014979124069214
+Aux parents en congé parental: 0.6839894652366638
+Aux personnes qui se donnent la peine de  chercher du travail: 0.6412121057510376
+revenu universel aussi pour les enfants: 0.6313145756721497
+Aux parents en congé parental et aux parents au foyer: 0.6285147666931152
+
+Initial proposal:
+À tous
+Closest neighbors:
+Travailleurs pauvre: 0.7256101965904236
+Universel ? Donc pour tous: 0.709334671497345
+emploi ou RUA: 0.6958893537521362
+Pour tous les publics, sous conditions de revenus: 0.6855227947235107
+A tout adulte en dessous du seuil de pauvreté.: 0.6846771240234375
+
+Initial proposal:
+A TOUS à condition d'être un bon CITOYEN
+Closest neighbors:
+à toutes les personnes honnêtes et de bonne volonté: 0.6637256145477295
+A tous les CITOYENS: 0.6593849658966064
+Un engagement envers soi et envers la société: 0.6536391377449036
+La contribution pour tous: 0.6168754696846008
+A TOUS pour donner à chacun les même chances dés le départ: 0.6111767292022705
+
+Initial proposal:
+LES BENEVOLES ASSOCIATIFS exerçant des RESPONSABILITES dans le secteur SOCIAL et SOLIDAIRE.
+Closest neighbors:
+Priorité aux demandeurs d'emploi et retraités: 0.7605123519897461
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.7596265077590942
+Guichet Unique de Prestations Sociales: 0.7587403655052185
+Guichet Unique de Prestations Sociales: 0.7587403655052185
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7510291337966919
+
+Initial proposal:
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.
+Closest neighbors:
+AIDE RETOUR A L'EMPLOI: 0.8025462031364441
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7746427655220032
+Universelle: 0.7658979892730713
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.7611770629882812
+LES BENEVOLES ASSOCIATIFS exerçant des RESPONSABILITES dans le secteur SOCIAL et SOLIDAIRE.: 0.7596265077590942
+
+Initial proposal:
+Universel = Qui s'applique à tous
+Closest neighbors:
+Revenu universel pour TOUS: 0.846491277217865
+Universel signifie pour tous !: 0.842706561088562
+TOUT LE MONDE si c'est un revenu universel: 0.8385219573974609
+revenu accordé à toute personne sans travail et sans indemnité dès le début de la précarité et sans condition de ressource remontant à l'année d'avant: 0.8234157562255859
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8223488330841064
+
+Initial proposal:
+Revenu d activite
+Closest neighbors:
+Les personnes avec ou sans emplois sous conditions: 0.8428195714950562
+prioriser le revenu universel d'activité: 0.8398174047470093
+Kalissy06: 0.8310053944587708
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7937710285186768
+Aux personnes qui ont un projet: 0.7880330085754395
+
+Initial proposal:
+1 parent ayant un enfant handicapé à charge
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.7406706809997559
+mères isolées ayant élevé elurs enfants seules: 0.727306604385376
+AU PARENT ISOLE: 0.6855213642120361
+Mères isolées et familles nombreuses: 0.677524209022522
+RUA: 0.6753641366958618
+
+Initial proposal:
+revenu accordé à toute personne sans travail et sans indemnité dès le début de la précarité et sans condition de ressource remontant à l'année d'avant
+Closest neighbors:
+Universel = Qui s'applique à tous: 0.8234157562255859
+renversons la table!!: 0.8177263736724854
+Revenu universel pour TOUS: 0.8163315057754517
+TOUT LE MONDE si c'est un revenu universel: 0.8129628300666809
+Universel signifie pour tous !: 0.8035743832588196
+
+Initial proposal:
+un revenu universel
+Closest neighbors:
+A QUI ? A TOUS: 0.8452324867248535
+Universel signifie pour tous !: 0.8269115090370178
+inclure les étudiants: 0.8196642398834229
+Revenu universel pour TOUS: 0.8101546764373779
+Tout le monde : c'est un revenu UNIVERSEL: 0.8100059628486633
+
+Initial proposal:
+La contribution pour tous
+Closest neighbors:
+Le HANDICAP ne doit pas être intégré dans le RUA !: 0.7655473947525024
+RUA POUR TOUS: 0.7292051315307617
+Revenu pour toutes personne en dessous du seuil de pauvreté: 0.700325608253479
+Les Français en Europe: 0.6786649823188782
+A tous ceux qui sont en précarité, pauvreté: 0.6781466603279114
+
+Initial proposal:
+revenu universel pour tous
+Closest neighbors:
+A tous ?: 0.8378400206565857
+Pour toi, pour moi, pour lui, pour tous: 0.8273574113845825
+A tous, sous condition de revenus: 0.804827094078064
+Tout le monde : c'est un revenu UNIVERSEL: 0.8019664287567139
+éviter les effets de seuil et de dents de scie: 0.7914397716522217
+
+Initial proposal:
+les bénéficiaires du RSA
+Closest neighbors:
+personne en situation de handicap: 0.8436076045036316
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?: 0.7984876036643982
+La considération du handicap avec un taux inférieur à 80%: 0.7942550182342529
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.7899867296218872
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7878440618515015
+
+Initial proposal:
+pour tous
+Closest neighbors:
+A tous ?: 0.9107687473297119
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8369714021682739
+Universel signifie pour tous !: 0.8329378366470337
+TOUT LE MONDE si c'est un revenu universel: 0.8254228234291077
+Revenu universel pour TOUS: 0.8152105808258057
+
+Initial proposal:
+Tous les citoyens
+Closest neighbors:
+A tout adulte en dessous du seuil de pauvreté.: 0.722866952419281
+Guichet Unique de Prestations Sociales: 0.7152471542358398
+Guichet Unique de Prestations Sociales: 0.7152471542358398
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.7091495990753174
+Aah: 0.7002809643745422
+
+Initial proposal:
+RUA et AAH
+Closest neighbors:
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.795134961605072
+Tous les pauvres sauf les personnes handicapées: 0.7713937163352966
+Pour qui le RUA: 0.7672510147094727
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7643452286720276
+aah: 0.7613602876663208
+
+Initial proposal:
+Toutes les personnes en âge de travailler et sans emploi
+Closest neighbors:
+Les personnes âgées en situation de pauvreté: 0.7695853114128113
+Ni lAAH, ni lallocation de solidarité aux personnes âgées: 0.7334601879119873
+aux retraités bénéficiaires de l'aspa.: 0.7122378349304199
+Dissocier le montant de certaines APL: 0.7107230424880981
+AAH (Allocation adulte Handicapé) - Qui dit activité dit pouvoir travailler: 0.6831485629081726
+
+Initial proposal:
+revenu universel de solidarité et non pas d'activité !
+Closest neighbors:
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.7932946085929871
+Revenu universel en remplacement de tous les aides nationales: 0.7921110987663269
+A tous ceux qui sont en précarité, pauvreté: 0.7846130132675171
+Un revenu universel pour chacun(e): 0.7659458518028259
+revenu universel d'activite: 0.7601346969604492
+
+Initial proposal:
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :
+Closest neighbors:
+condition pour toucher le RUA: 0.8372599482536316
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.7767089605331421
+Un revenu Universel pour tous: 0.7728425860404968
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.7701247930526733
+1000  A TOUS TOUTE LA VIE: 0.7621238231658936
+
+Initial proposal:
+A tout les citoyens en fonction des ressources / patrimoine
+Closest neighbors:
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8719417452812195
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8436870574951172
+TOUT LE MONDE si c'est un revenu universel: 0.841271698474884
+Un revenu pour tous: 0.8287144303321838
+Universel signifie pour tous !: 0.8241101503372192
+
+Initial proposal:
+À tout citoyen français disposant dun revenu inférieur à 5000  mensuel.
+Closest neighbors:
+A tous quand on montre une motivation à sen sortir: 0.7421897053718567
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7318715453147888
+Travailleurs pauvre: 0.7301570773124695
+Revenu Universel = Toute personne de plus de 18 ans: 0.7297880053520203
+Universel signifie pour tous !: 0.7231411933898926
+
+Initial proposal:
+Un revenu non universel et non lié à l'activité.
+Closest neighbors:
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.7409999966621399
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7309313416481018
+A tous les citoyens, sous condition de ressources uniquement: 0.7221935987472534
+TOUT LE MONDE si c'est un revenu universel: 0.7013551592826843
+Qui peut prétendre au Revenu Universel d'Activité: 0.6902424693107605
+
+Initial proposal:
+Universel ou PAS ?
+Closest neighbors:
+Universel: 0.7835067510604858
+Universel sous conditions ?: 0.774060070514679
+A tous (sinon il n'est pas universel): 0.6788439154624939
+Créer un revenu pour que chaque être humain puisse vivre dignement: 0.672744870185852
+Pour tous: 0.6683523654937744
+
+Initial proposal:
+A TOUS LES FRANCAIS
+Closest neighbors:
+A tous ?: 0.8261857628822327
+a tout le monde: 0.8171333074569702
+A qui doit s'adresser le revenu universel: 0.7829517126083374
+pour tous: 0.7723503112792969
+Pour tous: 0.7319561243057251
+
+Initial proposal:
+Le RUA doit s'adresser à tout adulte majeur !
+Closest neighbors:
+tout majeur en dessous de ce RUA: 0.7793300151824951
+Tous les publics en remplaçant toutes les autres prestations..: 0.7585113048553467
+A toute personne sans revenus: 0.7359648942947388
+A toute personne sans revenus: 0.7359648942947388
+A tous les citoyens, sous condition de ressources uniquement: 0.7334706783294678
+
+Initial proposal:
+A tous .
+Closest neighbors:
+A TOUS pour donner à chacun les même chances dés le départ: 0.7881320118904114
+A toustes: 0.6625352501869202
+A tout le monde dès la naissance: 0.6581367254257202
+Pas de RUA pour les gens en indélicatesses avec la justice le civisme ...: 0.6351730227470398
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.6250361204147339
+
+Initial proposal:
+Mère travaillant élevant seule des enfants
+Closest neighbors:
+mère seule: 0.8731105327606201
+Mères isolées et familles nombreuses: 0.853223443031311
+mères isolées ayant élevé elurs enfants seules: 0.8159425258636475
+des aides oui mais .....: 0.8006216287612915
+RUA: 0.7894414067268372
+
+Initial proposal:
+A tout le monde
+Closest neighbors:
+Universel sous conditions ?: 0.6750044226646423
+Universel: 0.653817355632782
+Pour tous: 0.6491914987564087
+Universel ou PAS ?: 0.6407354474067688
+AAH: 0.5948489308357239
+
+Initial proposal:
+1 200 
+Closest neighbors:
+UNIVERSEL: 0.7206041812896729
+A toute personne sans revenus: 0.716867983341217
+A toute personne sans revenus: 0.716867983341217
+Un RUA dès 18 ans: 0.7158087491989136
+RMA à 1300 euros nets par mois: 0.6587201952934265
+
+Initial proposal:
+Les micro-entrepreneurs
+Closest neighbors:
+Priorité aux demandeurs d'emploi et retraités: 0.678557276725769
+revenu  universel   pour  toutes  les  personnes  ayant  un  revenu  inférieur  à1500   euros  nets  par  mois: 0.6748148202896118
+Travailleurs pauvre: 0.6685047149658203
+A QUI DOIT S'ADRESSER LE RUA: 0.6682583689689636
+AIDE RETOUR A L'EMPLOI: 0.6649887561798096
+
+Initial proposal:
+le revenu universel comme son nom l'indique doit s'appliquer à toutes et tous .
+Closest neighbors:
+A tous français respectueux des lois.: 0.79808109998703
+Pour toi, pour moi, pour lui, pour tous: 0.7908519506454468
+Universel signifie pour tous !: 0.7858179211616516
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7815186977386475
+Qui peut prétendre au Revenu Universel d'Activité: 0.780925452709198
+
+Initial proposal:
+Tout le monde
+Closest neighbors:
+A tous (sinon il n'est pas universel): 0.7920777797698975
+A tous ?: 0.7860772609710693
+TOUT LE MONDE si c'est un revenu universel: 0.7851825952529907
+Tout le monde : c'est un revenu UNIVERSEL: 0.7764701247215271
+pour tous: 0.7759020924568176
+
+Initial proposal:
+a tout le monde
+Closest neighbors:
+A TOUT LE MONDE: 0.8232353925704956
+A TOUS LES FRANCAIS: 0.8171333074569702
+A tous ?: 0.8089543581008911
+Pour toi, pour moi, pour lui, pour tous: 0.7866544127464294
+pour tous: 0.7768820524215698
+
+Initial proposal:
+Revenu universel pour tous
+Closest neighbors:
+Un revenu universel pour chacun(e): 0.7635165452957153
+A tous ceux qui sont en précarité, pauvreté: 0.7524408102035522
+Liberté Egalité Fraternité: 0.7167282700538635
+Un revenu d'existence pour tous les Français: 0.7165005207061768
+revenu universel de solidarité et non pas d'activité !: 0.7152805328369141
+
+Initial proposal:
+RUA
+Closest neighbors:
+Universel ? Donc pour tous: 0.7875943779945374
+Ne pas laisser de côté les publics fragiles: 0.7846189737319946
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7668287754058838
+A tout adulte en dessous du seuil de pauvreté.: 0.7627401947975159
+personne en situation de handicap: 0.7620075941085815
+
+Initial proposal:
+uniquement aux bénéficiaires qui le nécessite ....
+Closest neighbors:
+AAH: 0.6345698237419128
+Vérifier les revenus réels des bénéficiaires: 0.5839028358459473
+emploi ou RUA: 0.5731130838394165
+A tout le monde: 0.5683581233024597
+Reconnaitre les aidants pour mieux respecter nos anciens: 0.5641855597496033
+
+Initial proposal:
+Pour tous
+Closest neighbors:
+Il doit venir en complément du chômage: 0.7332597970962524
+TUA pour tous: 0.7112160325050354
+A QUI DOIT S'ADRESSER LE RUA: 0.7023091912269592
+Universel ? Donc pour tous: 0.6433976292610168
+REVENU UNIVERSEL: 0.6428982615470886
+
+Initial proposal:
+Inclure les APL dans le RUA n'est pas possible car quid des personnes handicapées à l'AAH qui doivent rester hors du cadre du RUA ?!
+Closest neighbors:
+Les personnes handicapées en situation de pauvreté: 0.8133751749992371
+RUA et AAH: 0.808048665523529
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7887435555458069
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.7784534096717834
+Sauf handicapés: 0.7752900719642639
+
+Initial proposal:
+LAllocation Suplémentaire d'Invalidité doit absolulment rester hors du champ du RUA car elle a été conçue pour compléter les toutes petites pensions dinvalidités de personnes handicapées ayant travaillé moins de 10 ans (maladies chroniques invalidantes)
+Closest neighbors:
+A quel public peut-il s'adresser ?: 0.832589864730835
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8235939741134644
+Pour qui le RUA: 0.8211268186569214
+RUA et AAH: 0.7920145988464355
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7830225825309753
+
+Initial proposal:
+Pourquoi fusionne le revenu universel et L'Aah
+Closest neighbors:
+personne en situation de handicap: 0.8384037017822266
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7879367470741272
+A tous français respectueux des lois.: 0.7824063301086426
+AAH: 0.7677348256111145
+intégrer la personne handicapée et seulement ses revenus: 0.7676024436950684
+
+Initial proposal:
+Non à la révision intempestive des taux d'incapacité (MDPH) et taux d'invalidité (CPAM) pour faire entrer un maximum de personnes dans le RUA
+Closest neighbors:
+Etudiants en situation de Handicap reconnus de 50% et 79%: 0.7489725351333618
+A tout le monde sauf au personne handicapées: 0.7232080698013306
+AAH: 0.7025201916694641
+Les handicaps non reconnus ou partiellement: 0.693717360496521
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.688788890838623
+
+Initial proposal:
+Exclure du RUA toutes les personnes handicapées bénéficiaires de l'AAH qui par définition ont une Restriction Substantielle et Durable à lEmploi (RSDAE)
+Closest neighbors:
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7238757014274597
+La considération du handicap avec un taux inférieur à 80%: 0.6916901469230652
+Les personnes handicapées en situation de pauvreté: 0.6862780451774597
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.6798444986343384
+Non à la révision intempestive des taux d'incapacité (MDPH) et taux d'invalidité (CPAM) pour faire entrer un maximum de personnes dans le RUA: 0.6789624691009521
+
+Initial proposal:
+les jeunes finissant leurs études
+Closest neighbors:
+étudiants et inactifs élevant leurs enfants: 0.7914002537727356
+Les jeunes en situation de pauvreté: 0.7686504125595093
+Aides aux Etudiants: 0.7421563863754272
+Ne pas oublier les jeunes et les étudiants !: 0.719924807548523
+Un RUA dès 18 ans: 0.7148854732513428
+
+Initial proposal:
+Personne handicapée
+Closest neighbors:
+RMA à 1300 euros nets par mois: 0.7790782451629639
+renversons la table!!: 0.743615984916687
+Priorité aux demandeurs d'emploi et retraités: 0.7260036468505859
+Exclure l'AAH du RUA: 0.7196974754333496
+Travailleurs pauvres et étudiants: 0.7184787392616272
+
+Initial proposal:
+Aux personnes avec un solde de revenus inférieur à un certain niveau
+Closest neighbors:
+équivoque: 0.7221435904502869
+Éradiquer la pauvreté dans une société solidaire: 0.7064071297645569
+aux personnes travaillant à mi-temps ou 3/4 temps: 0.7048870325088501
+Ancien bénéficiaires de la prime à l 'emploi: 0.7006129026412964
+RUA: 0.6913249492645264
+
+Initial proposal:
+S'adresser à soi-même
+Closest neighbors:
+Ciblé et mieux encadré: 0.5885766744613647
+Universel: 0.5781129598617554
+Pour tous: 0.5560736060142517
+A qui doit s'adresser le RUA: universel donc...: 0.5542281866073608
+Un revenu minima pour toute personne ayant la majorité ou étant émancipée: 0.5411477088928223
+
+Initial proposal:
+Priorité aux demandeurs d'emploi et retraités
+Closest neighbors:
+AIDE RETOUR A L'EMPLOI: 0.8232577443122864
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7865822315216064
+LES BENEVOLES ASSOCIATIFS exerçant des RESPONSABILITES dans le secteur SOCIAL et SOLIDAIRE.: 0.7605123519897461
+A tous, sous condition de revenus: 0.7603678703308105
+A tous français respectueux des lois.: 0.7567408680915833
+
+Initial proposal:
+contrepartie du RUA
+Closest neighbors:
+TUA pour tous: 0.7829799056053162
+A QUI DOIT S'ADRESSER LE RUA: 0.7361220121383667
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6863338947296143
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.6767917275428772
+Un emploi pour la société: 0.6704124212265015
+
+Initial proposal:
+Travailleurs pauvres et étudiants
+Closest neighbors:
+RMA à 1300 euros nets par mois: 0.7669247388839722
+Pour tous: 0.7629202604293823
+Qui peut prétendre au Revenu Universel d'Activité: 0.7519091367721558
+AIDE RETOUR A L'EMPLOI: 0.7513854503631592
+A toute personne sans revenus: 0.7430775761604309
+
+Initial proposal:
+INCITER A LA REPRISE DE TRAVAIL
+Closest neighbors:
+Les handicaps non reconnus ou partiellement: 0.6550098061561584
+Arrêter d aider les gens qui peuvent  travailler sans rien demander en retour: 0.6493108868598938
+RUA un vrai changement: 0.6446908116340637
+Aah: 0.6208997368812561
+intégrer la personne handicapée et seulement ses revenus: 0.5979957580566406
+
+Initial proposal:
+Universel = tous sans exceptions ou conditions
+Closest neighbors:
+Aah: 0.5008586049079895
+je veux que l'AAH reste une prestation à part entière.: 0.4841172397136688
+l'AAH ne doit pas devenir RUA: 0.4788401126861572
+UNIVERSEL c'est pour tous: 0.440504252910614
+contre: 0.4286075234413147
+
+Initial proposal:
+Pourquoi en argent?
+Closest neighbors:
+A toutes les personnes en situation difficile temporaire ou permanente: 0.6687605977058411
+A Tous dès la naissance et toute la vie: 0.6370465159416199
+Revenu d activite: 0.636909544467926
+Tout le monde: 0.6322314143180847
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.6306010484695435
+
+Initial proposal:
+question
+Closest neighbors:
+Pour chaque individu de la société: 0.797714352607727
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7362262010574341
+le seuil de pauvreté: 0.7299997806549072
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7285329103469849
+personne en situation de handicap: 0.7240569591522217
+
+Initial proposal:
+personnes handicapés et aidants : de vrais et potentiels consommateurs
+Closest neighbors:
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.8079973459243774
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7948894500732422
+AAH: 0.7946486473083496
+La considération du handicap avec un taux inférieur à 80%: 0.7927659749984741
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7883820533752441
+
+Initial proposal:
+Arrêt des aides, oui à un revenu universel à tous les français.
+Closest neighbors:
+Revenu universel en remplacement de tous les aides nationales: 0.8845168352127075
+Un revenu universel pour chacun(e): 0.8744898438453674
+A tous ceux qui sont en précarité, pauvreté: 0.8487963080406189
+Un revenu d'existence pour tous les Français: 0.8334868550300598
+Liberté Egalité Fraternité: 0.8114234805107117
+
+Initial proposal:
+Propriétaire ayant leur conjoint décédé
+Closest neighbors:
+RUA un vrai changement: 0.591189980506897
+A tous les CITOYENS: 0.5689267516136169
+Aah: 0.5571701526641846
+Reconnaitre les aidants pour mieux respecter nos anciens: 0.515289843082428
+à toutes les personnes honnêtes et de bonne volonté: 0.4983308017253876
+
+Initial proposal:
+Libérez les TANGUY : + impôt - APL les calculs sont pas bon!
+Closest neighbors:
+Le RUA pour tous de la naissance jusqu'au décès.: 0.6635905504226685
+ÉGALITÉ POUR TOUS DES 18ANS: 0.6222656965255737
+RUA: 0.5944010019302368
+Pour tous, à partir de la majorité.: 0.5902324318885803
+Les jeunes en situation de pauvreté: 0.5897440314292908
+
+Initial proposal:
+Le parent qui est contraint d'arrêter de travailler pour s'occuper de son enfant en situation de handicap
+Closest neighbors:
+Aux parents en congé parental: 0.7088214159011841
+Aux parents en congé parental et aux parents au foyer: 0.7072475552558899
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.6222878694534302
++ le 2eme parent: 0.6183875799179077
+Des droits équitables pour les parents divorcés ou séparés: 0.6178855299949646
+
+Initial proposal:
+droits et devoirs
+Closest neighbors:
+Reconnaitre les aidants pour mieux respecter nos anciens: 0.7391411662101746
+Ne pas laisser de côté les publics fragiles: 0.7233060598373413
+prioriser le revenu universel d'activité: 0.722916841506958
+Revenu d activite: 0.6939817667007446
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6917478442192078
+
+Initial proposal:
+trop de personnes fragilisées
+Closest neighbors:
+Les handicaps non reconnus ou partiellement: 0.732944667339325
+emploi ou RUA: 0.7290306091308594
+Inclure l'ASS au RUA: 0.7145151495933533
+RUA: 0.7130292057991028
+A QUI DOIT S'ADRESSER LE RUA: 0.6913575530052185
+
+Initial proposal:
+Monoparental et étudiants
+Closest neighbors:
+Personnes malades, retraités, stagiaires, salariés les plus pauvres: 0.7170345187187195
+AU PARENT ISOLE: 0.6984848976135254
+A tous: 0.6908133029937744
+mères isolées ayant élevé elurs enfants seules: 0.6831273436546326
+Aide aux foyers uni-parentaux: 0.6804388761520386
+
+Initial proposal:
+revenu  universel   pour  toutes  les  personnes  ayant  un  revenu  inférieur  à1500   euros  nets  par  mois
+Closest neighbors:
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8099863529205322
+Tout le monde : c'est un revenu UNIVERSEL: 0.7625225782394409
+Pour tous les publics, sous conditions de revenus: 0.7572258114814758
+A tout les citoyens en fonction des ressources / patrimoine: 0.756374716758728
+inclure les étudiants: 0.7542341947555542
+
+Initial proposal:
+mères isolées ayant élevé elurs enfants seules
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.8159425258636475
+mère seule: 0.7784595489501953
+AU PARENT ISOLE: 0.7717921137809753
+Mères isolées et familles nombreuses: 0.753754734992981
+Situation de précarité: 0.7284994721412659
+
+Initial proposal:
+La ressource nette par ménage : un pilotage des aides par les écarts
+Closest neighbors:
+éviter les effets de seuil et de dents de scie: 0.8092041015625
+Guichet Unique de Prestations Sociales: 0.808670699596405
+Guichet Unique de Prestations Sociales: 0.808670699596405
+A tous ceux qui sont en précarité, pauvreté: 0.764441967010498
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.7631427049636841
+
+Initial proposal:
+Conditions
+Closest neighbors:
+Universel ? Donc pour tous: 0.7068502902984619
+A tout adulte en dessous du seuil de pauvreté.: 0.6984924674034119
+Équité: 0.6948258876800537
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.6942886710166931
+Solidarité bien ordonnée: 0.6903017163276672
+
+Initial proposal:
+REVENU UNIVERSEL GLOBALISANT TOUTES LES AIDES
+Closest neighbors:
+beneficiaires: 0.6572297215461731
+AAH: 0.6527887582778931
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées: 0.6511329412460327
+Kalissy06: 0.6430802941322327
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.6381964683532715
+
+Initial proposal:
+Cher Ministère des Solidarités et de la Santé,
+Closest neighbors:
+Revenu universel pour TOUS: 0.703799843788147
+Revenu universel pour tous: 0.6845002174377441
+Universel = Qui s'applique à tous: 0.6773977875709534
+éviter les effets de seuil et de dents de scie: 0.6599164009094238
+Pour tout ceux en situation de pauvreté: 0.6572750210762024
+
+Initial proposal:
+Qui peut prétendre au Revenu Universel d'Activité
+Closest neighbors:
+Un revenu pour tous: 0.8334634900093079
+A tous français respectueux des lois.: 0.8187488317489624
+A tout le monde: 0.8141071200370789
+A tout les citoyens en fonction des ressources / patrimoine: 0.8109777569770813
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8079164624214172
+
+Initial proposal:
+TUA pour tous
+Closest neighbors:
+A QUI DOIT S'ADRESSER LE RUA: 0.8015105128288269
+contrepartie du RUA: 0.7829799056053162
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7822256684303284
+Pour chaque individu de la société: 0.7623093128204346
+A tous à partir de 18 ans: 0.7567692995071411
+
+Initial proposal:
+Prime activité
+Closest neighbors:
+RUA Personnes agées: 0.6813887357711792
+AAH: 0.5190290212631226
+A quels publics...: 0.5174604654312134
+je veux que l'AAH reste une prestation à part entière.: 0.46862372756004333
+Pour tous: 0.46429118514060974
+
+Initial proposal:
+vrai statut de l'aidant, hors allocations
+Closest neighbors:
+dissocier AAH par rapport aux autres revenus: 0.7493787407875061
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.7455027103424072
+L'AAH sans prendre en compte le revenu du conjoint: 0.723892092704773
+Les personnes avec ou sans emplois sous conditions: 0.7187914848327637
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.716916024684906
+
+Initial proposal:
+A tous (sinon il n'est pas universel)
+Closest neighbors:
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8860563635826111
+TOUT LE MONDE si c'est un revenu universel: 0.8840498924255371
+A TOUT CITOYEN FRANCAIS: 0.85597825050354
+inclure les étudiants: 0.8522601127624512
+Un engagement envers soi et envers la société: 0.8497046232223511
+
+Initial proposal:
+REVENU UNIVERSEL
+Closest neighbors:
+Pour chaque individu de la société: 0.8438735008239746
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.805205225944519
+RUA: 0.757818877696991
+ceux: 0.7521752119064331
+Pour tous: 0.7483062148094177
+
+Initial proposal:
+RUA
+Closest neighbors:
+ceux: 0.8072875142097473
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.8030866980552673
+RUA: 0.8017980456352234
+Liste des personnes qui devraient le percevoir :: 0.800260603427887
+Ne pas laisser de côté les publics fragiles: 0.7907060384750366
+
+Initial proposal:
+condition pour toucher le RUA
+Closest neighbors:
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.8372599482536316
+Nationalité Française et cotisation minimum: 0.8364301919937134
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.7993142604827881
+Pour tous: 0.7930912971496582
+Elargir le RUA aux étrangers en situation régulière depuis moins de 5 ans: 0.773562490940094
+
+Initial proposal:
+2 catégories de RU : les non employables et les employables
+Closest neighbors:
+Priorité aux demandeurs d'emploi et retraités: 0.71817946434021
+RMA à 1300 euros nets par mois: 0.7118746042251587
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.6751053333282471
+Éradiquer la pauvreté dans une société solidaire: 0.6748889684677124
+A toute personne sans revenus: 0.6602073907852173
+
+Initial proposal:
+Pour tous
+Closest neighbors:
+Pour chaque individu de la société: 0.7679174542427063
+RUA: 0.7670268416404724
+Mère travaillant élevant seule des enfants: 0.7652989029884338
+Un revenu minima pour toute personne ayant la majorité ou étant émancipée: 0.7598260641098022
+Et les étudiants: 0.7552454471588135
+
+Initial proposal:
+Revenu Universel = Toute personne de plus de 18 ans
+Closest neighbors:
+À tout citoyen français disposant dun revenu inférieur à 5000  mensuel.: 0.7297880053520203
+emploi ou RUA: 0.7262141704559326
+Avec la numérisation de la société des métiers vont disparaître: 0.6935626268386841
+éviter les effets de seuil et de dents de scie: 0.6928195357322693
+AIDE RETOUR A L'EMPLOI: 0.6914118528366089
+
+Initial proposal:
+revenu universel pour tous
+Closest neighbors:
+UNIVERSEL c'est pour tous: 0.6381076574325562
+A Tous: 0.5849734544754028
+Une autre vision du revenu d'activité: 0.579761266708374
+garder l'AAH (Allocation Adultes Handicapées a part: 0.5721707344055176
+Pour tous les publics, sous conditions de revenus: 0.5488654971122742
+
+Initial proposal:
+aah
+Closest neighbors:
+A quel public peut-il s'adresser ?: 0.8427850604057312
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8316608667373657
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.8207333087921143
+A tous mais pas aux allocataires de l'AAH: 0.8185034394264221
+Pour qui le RUA: 0.8091309666633606
+
+Initial proposal:
+Nationalité Française et cotisation minimum
+Closest neighbors:
+condition pour toucher le RUA: 0.8364301919937134
+Elargir le RUA aux étrangers en situation régulière depuis moins de 5 ans: 0.8060740828514099
+Réservé aux seuls nationaux: 0.7949978709220886
+Ayant droits: 0.7470162510871887
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.721442699432373
+
+Initial proposal:
+A tous à partir de 18 ans si on est Français
+Closest neighbors:
+RUA POUR TOUS: 0.6977827548980713
+a verser selon un plafond de ressources: 0.6578093767166138
+Arrêter l'énorme surcoût bureaucratique visant à grapiller sur les non-bénéficiaires: 0.6519839763641357
+a qui le revenu universel d'activité devra t il s'adresser ?: 0.6507333517074585
+Aah: 0.6340925693511963
+
+Initial proposal:
+Aux Français
+Closest neighbors:
+Limites: 0.6791056394577026
+Les Français avant tout: 0.641927182674408
+a qui verser l'aide: 0.5925911068916321
+Ayant droits: 0.5753276944160461
+Nationalité Française et cotisation minimum: 0.5445473790168762
+
+Initial proposal:
+Limites
+Closest neighbors:
+a qui verser l'aide: 0.7481447458267212
+A tous les citoyens français: 0.7377927303314209
+Ayant droits: 0.7148295640945435
+Aux Français: 0.6791056394577026
+Revenu pour toutes personne en dessous du seuil de pauvreté: 0.6644668579101562
+
+Initial proposal:
+JEUNES, PERSONNES AGEES, PERSONNES HANDICAPEES... EN SITUATION DE PRECARITE OU SOUS LE SEUIL DE PAUVRETE !
+Closest neighbors:
+Les jeunes en situation de pauvreté: 0.7367805242538452
+ceux: 0.6995234489440918
+Jeunes, handicapes, familles pauvres avec enfants: 0.6765052676200867
+Ne pas inclure les personnes bénéficiant de l'AAH ayant un trouble psychique: 0.6753841042518616
+Objectif 0 jeune sans ressource et sans accompagnement: 0.6735920906066895
+
+Initial proposal:
+AU PARENT ISOLE
+Closest neighbors:
+a qui le revenu universel doit s adresser: 0.7815196514129639
+mères isolées ayant élevé elurs enfants seules: 0.7717921137809753
+Situation de précarité: 0.7528634071350098
+En priorite aux familles mono parentales.: 0.7171027660369873
+Mère travaillant élevant seule des enfants: 0.7075654864311218
+
+Initial proposal:
+RUA ou RSU ? Soyons clairs.
+Closest neighbors:
+TOUT LE MONDE si c'est un revenu universel: 0.7795981168746948
+A tout les citoyens en fonction des ressources / patrimoine: 0.7571160197257996
+Revenu universel pour tous: 0.7490173578262329
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7427473664283752
+Un engagement envers soi et envers la société: 0.7417291402816772
+
+Initial proposal:
+À toute personne, ayant un revenu inférieur à 2000.
+Closest neighbors:
+Dés 16 ans en fonction de certain critères d 'éligibilité: 0.7091697454452515
+UNIVERSEL: 0.6593029499053955
+Les pauvres...: 0.6505942344665527
+Un revenu Universel pour tous: 0.611098051071167
+revenu universel aussi pour les enfants: 0.602540135383606
+
+Initial proposal:
+On ne veut plus assister les fainéants
+Closest neighbors:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.8546850681304932
+Revenu universel pour TOUS: 0.8532130122184753
+Universel signifie pour tous !: 0.8413420915603638
+Tout le monde : c'est un revenu UNIVERSEL: 0.8251683115959167
+TOUT LE MONDE si c'est un revenu universel: 0.8177648186683655
+
+Initial proposal:
+À tout le monde sous le seuil de pauvreté.
+Closest neighbors:
+Éradiquer la pauvreté dans une société solidaire: 0.6727076172828674
+Revenu Minimum Unique RMU: 0.6707663536071777
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.6700972318649292
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.6559457778930664
+A tous ceux qui sont en précarité, pauvreté: 0.6528428196907043
+
+Initial proposal:
+A tous sans exception
+Closest neighbors:
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.8293184041976929
+A TOUT CITOYEN FRANCAIS: 0.8058755993843079
+Liberté Egalité Fraternité: 0.777512788772583
+Revenu universel pour tous sans condition: 0.7745447158813477
+A tous (sinon il n'est pas universel): 0.7643365859985352
+
+Initial proposal:
+A TOUS LES PAUVRES
+Closest neighbors:
+Cher Ministère des Solidarités et de la Santé,: 0.6342775821685791
+Revenu universel pour TOUS: 0.595016360282898
+Reconnaitre les aidants pour mieux respecter nos anciens: 0.589454174041748
+Tout le monde: 0.585127592086792
+RUA un vrai changement: 0.580958902835846
+
+Initial proposal:
+Aah
+Closest neighbors:
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées: 0.7030983567237854
+Tous les citoyens: 0.7002809643745422
+Procédure judiciaire: 0.6824784278869629
+trop de personnes fragilisées: 0.6712061166763306
+non à l'intégration de l'AAH dans le RUA: 0.6595586538314819
+
+Initial proposal:
+Stage
+Closest neighbors:
+Pour aider les actifs en contrat précaire.: 0.6368180513381958
+Aides sociales: 0.600928544998169
+JEUNES, PERSONNES AGEES, PERSONNES HANDICAPEES... EN SITUATION DE PRECARITE OU SOUS LE SEUIL DE PAUVRETE !: 0.5940132141113281
+aux personnes travaillant à mi-temps ou 3/4 temps: 0.5901617407798767
+RUA: 0.5606200695037842
+
+Initial proposal:
+Universel signifie pour tous !
+Closest neighbors:
+Tout le monde : c'est un revenu UNIVERSEL: 0.8679327964782715
+TOUT LE MONDE si c'est un revenu universel: 0.8619720935821533
+Revenu universel pour TOUS: 0.8548182845115662
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.847902774810791
+A tous français respectueux des lois.: 0.8464956283569336
+
+Initial proposal:
+Récupération sur succession?
+Closest neighbors:
+Dissocier le montant de certaines APL: 0.7243059873580933
+aux retraités bénéficiaires de l'aspa.: 0.7065192461013794
+Les personnes âgées en situation de pauvreté: 0.6863527894020081
+Le RUA doit s'adresser à tout adulte majeur !: 0.6510213613510132
+Un revenu pour tous: 0.6386928558349609
+
+Initial proposal:
+jojo
+Closest neighbors:
+Vérifier les revenus réels des bénéficiaires: 0.591648519039154
+Attention à l'amalgame: 0.5711748003959656
+Pour chaque individu de la société: 0.5562993288040161
+Prime temporaire: 0.5551082491874695
+LES BENEVOLES ASSOCIATIFS exerçant des RESPONSABILITES dans le secteur SOCIAL et SOLIDAIRE.: 0.5516493916511536
+
+Initial proposal:
+A tous
+Closest neighbors:
+femmes: 0.7661588788032532
+a qui le revenu universel doit s adresser: 0.7342385053634644
+Situation de précarité: 0.7129514813423157
+Monoparental et étudiants: 0.6908133029937744
+mère seule: 0.6906046867370605
+
+Initial proposal:
+Tous selon ressources et individuellement
+Closest neighbors:
+Prise en compte individuelle des ressources financières: 0.6988883018493652
+L'AAH sans prendre en compte le revenu du conjoint: 0.6890466213226318
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.6747099757194519
+Instituer un plafond de patrimoine: 0.6648758053779602
+AU PARENT ISOLE: 0.6529185175895691
+
+Initial proposal:
+tout majeur en dessous de ce RUA
+Closest neighbors:
+Le RUA doit s'adresser à tout adulte majeur !: 0.7793300151824951
+A tous les citoyens, sous condition de ressources uniquement: 0.7612367868423462
+Un RUA dès 18 ans: 0.7350928783416748
+RMA à 1300 euros nets par mois: 0.7281753420829773
+Le RU en lieu et place de toutes les autres allocations: 0.7116050124168396
+
+Initial proposal:
+Universelle
+Closest neighbors:
+RUA: 0.7728416919708252
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.7658979892730713
+éviter les effets de seuil et de dents de scie: 0.7498140931129456
+AIDE RETOUR A L'EMPLOI: 0.7452414035797119
+Ouvrir le Revenu Universel d'Activité à un public plus large sans pour autant léser le public actuel du RSA: 0.7335438132286072
+
+Initial proposal:
+Pour tous
+Closest neighbors:
+condition pour toucher le RUA: 0.7930912971496582
+a verser selon un plafond de ressources: 0.7791734933853149
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.7663710713386536
+A TOUT CITOYEN FRANCAIS: 0.748073160648346
+Un revenu universel pour chacun(e): 0.7464590668678284
+
+Initial proposal:
+Tous les salariés au SMIC
+Closest neighbors:
+Ne pas inclure les personnes bénéficiant de l'AAH ayant un trouble psychique: 0.7049965858459473
+Mères isolées et familles nombreuses: 0.7007988691329956
+Individualiser le RUA plutôt que de l'accorder à un foyer: 0.6996406316757202
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6862514615058899
+ceux: 0.6840740442276001
+
+Initial proposal:
+Aux étudiants !
+Closest neighbors:
+ceux: 0.7061580419540405
+RUA: 0.6992144584655762
+étudiants et inactifs élevant leurs enfants: 0.6891059875488281
+les jeunes finissant leurs études: 0.6699689626693726
+Le revenu universel doit être attribué dès 18 ans: 0.6452555656433105
+
+Initial proposal:
+Égalité des droits lors de Garde Alternée des enfants
+Closest neighbors:
+Des droits équitables pour les parents divorcés ou séparés: 0.7687304019927979
+Aux parents en congé parental et aux parents au foyer: 0.7037404179573059
++ le 2eme parent: 0.7014979124069214
+Aux parents en congé parental: 0.6964496970176697
+Aux mères au foyer: 0.6685827970504761
+
+Initial proposal:
+équivoque
+Closest neighbors:
+Aux personnes avec un solde de revenus inférieur à un certain niveau: 0.7221435904502869
+A QUI DOIT S'ADRESSER LE RUA: 0.7076891660690308
+RUA: 0.7074506282806396
+emploi ou RUA: 0.6827856302261353
+RUA: 0.6766096353530884
+
+Initial proposal:
+pas de RUA pour les étrangers ...
+Closest neighbors:
+Un revenu universel pour chacun(e): 0.7386800050735474
+Revenu pour toutes personne en dessous du seuil de pauvreté: 0.734068751335144
+a verser selon un plafond de ressources: 0.7289723753929138
+RUA POUR TOUS: 0.7219690680503845
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7098783254623413
+
+Initial proposal:
+Pas de RUA pour les gens en indélicatesses avec la justice le civisme ...
+Closest neighbors:
+A tous: 0.6993995904922485
+REVENU UNIVERSEL: 0.6927589774131775
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.6836745738983154
+RUA: 0.6756600141525269
+qui est concerné ?: 0.6502240896224976
+
+Initial proposal:
+A tous les bénéficiaires potentiels sans exception
+Closest neighbors:
+pas AAH: 0.839850664138794
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8213096857070923
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.7862276434898376
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.7861432433128357
+RUA et AAH: 0.7857717275619507
+
+Initial proposal:
+L'AAH sans prendre en compte le revenu du conjoint
+Closest neighbors:
+non à l'intégration de l'AAH dans le RUA: 0.7581863403320312
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7427520751953125
+intégrer la personne handicapée et seulement ses revenus: 0.7420185208320618
+Individualiser le RUA plutôt que de l'accorder à un foyer: 0.7299308180809021
+Pas aux porteurs daah: 0.7250821590423584
+
+Initial proposal:
+intégrer la personne handicapée et seulement ses revenus
+Closest neighbors:
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7838171124458313
+Pourquoi fusionne le revenu universel et L'Aah: 0.7676024436950684
+personne en situation de handicap: 0.7572288513183594
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.7499989867210388
+prioriser le revenu universel d'activité: 0.7478281855583191
+
+Initial proposal:
+a verser selon un plafond de ressources
+Closest neighbors:
+Pour tous: 0.7791734933853149
+condition pour toucher le RUA: 0.7684935331344604
+pas de RUA pour les étrangers ...: 0.7289723753929138
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.7251870632171631
+un revenu universel et franco-français: 0.7214725017547607
+
+Initial proposal:
+AAH
+Closest neighbors:
+NON: 0.7533994317054749
+uniquement aux bénéficiaires qui le nécessite ....: 0.6345698237419128
+A quels publics...: 0.6047973036766052
+A tout le monde: 0.5948489308357239
+A toute personne pour aider à atteindre un revenu décent: 0.5662740468978882
+
+Initial proposal:
+A tout adulte en dessous du seuil de pauvreté.
+Closest neighbors:
+Universel ? Donc pour tous: 0.8160093426704407
+qui dit activité dit salaire: 0.7936372756958008
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7925955057144165
+Équité: 0.7791460752487183
+emploi ou RUA: 0.7706803679466248
+
+Initial proposal:
+Par expérience lors de l'augmentation de l'aah le gouvernement en a profité pour supprimer le complément de ressources une aide prévu e pour les plus lourdement handicapés en la remplaçant par une aide inférieure sous conditions de toucher l'apl
+Closest neighbors:
+AAH et revnu universel: 0.7527096271514893
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.7487621903419495
+RUA et AAH: 0.7442185878753662
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7436816692352295
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.740403413772583
+
+Initial proposal:
+Le RUA ne doit pas s'appliquer aux bénéficiaires de l'AAH
+Closest neighbors:
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées: 0.7902857065200806
+A tous mais pas aux allocataires de l'AAH: 0.7644383311271667
+Les handicaps non reconnus ou partiellement: 0.7448557615280151
+RUA et AAH: 0.7304062247276306
+non à l'intégration de l'AAH dans le RUA: 0.7255718111991882
+
+Initial proposal:
+A toute personne majeure sans revenu et sans patrimoine, sans condition d'âge.
+Closest neighbors:
+RUA: 0.7810201644897461
+ceux: 0.7689116597175598
+Liste des personnes qui devraient le percevoir :: 0.7576208710670471
+Et les étudiants: 0.7213252782821655
+DESTINATAIRES: 0.7107555270195007
+
+Initial proposal:
+A quels publics...
+Closest neighbors:
+RUA Personnes agées: 0.6249328255653381
+AAH: 0.6047973036766052
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.5693031549453735
+A TOUS LES PAUVRES: 0.5626147985458374
+RUA: 0.5522744655609131
+
+Initial proposal:
+Tout le monde : c'est un revenu UNIVERSEL
+Closest neighbors:
+inclure les étudiants: 0.89748215675354
+Pour toi, pour moi, pour lui, pour tous: 0.8954036831855774
+Universel signifie pour tous !: 0.8679327964782715
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8475703597068787
+A tous (sinon il n'est pas universel): 0.8437795639038086
+
+Initial proposal:
+Universel .
+Closest neighbors:
+A qui doit s'adresser le revenu universel: 0.719849705696106
+RUA: 0.7182015180587769
+RUA pour tous sans conditions: 0.7166417241096497
+Universelle: 0.7036998271942139
+RU: 0.6992071270942688
+
+Initial proposal:
+qui est concerné ?
+Closest neighbors:
+beneficiaires: 0.7460182905197144
+Universel ? Donc pour tous: 0.730557918548584
+Solidarité bien ordonnée: 0.6936797499656677
+Pas de RUA pour les gens en indélicatesses avec la justice le civisme ...: 0.6502240896224976
+REVENU UNIVERSEL: 0.6357913017272949
+
+Initial proposal:
+Mère au foyer
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.711618185043335
+femmes: 0.6889928579330444
+Pour les parents instructeurs: 0.6861860752105713
+mère seule: 0.6770299077033997
+Aide aux foyers uni-parentaux: 0.6696761846542358
+
+Initial proposal:
+Les personnes avec ou sans emplois sous conditions
+Closest neighbors:
+Revenu d activite: 0.8428195714950562
+Des aides, oui, mais...: 0.7933772802352905
+Comme pour le chomage: 0.7878829836845398
+AIDE RETOUR A L'EMPLOI: 0.7851373553276062
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7773699760437012
+
+Initial proposal:
+Liste des personnes qui devraient le percevoir :
+Closest neighbors:
+Aux jeunes placés et sortant du service de l'Aide Sociale à l'Enfance (sous conditions): 0.8043522238731384
+DESTINATAIRES: 0.803535521030426
+RUA: 0.800260603427887
+Les jeunes en situation de pauvreté: 0.7776201963424683
+RUA: 0.7678802013397217
+
+Initial proposal:
+Pour chaque être humain, quelque soit l'âge, la nationalité.
+Closest neighbors:
+A tout les citoyens en fonction des ressources / patrimoine: 0.8719417452812195
+TOUT LE MONDE si c'est un revenu universel: 0.8479748964309692
+Universel signifie pour tous !: 0.847902774810791
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8464041352272034
+Un engagement envers soi et envers la société: 0.8462520837783813
+
+Initial proposal:
+A tout le monde dès la naissance
+Closest neighbors:
+mère seule: 0.7434903383255005
+Pour tous: 0.7293477654457092
+A TOUS pour donner à chacun les même chances dés le départ: 0.7163507342338562
+revenu universel pour tous: 0.7046033143997192
+A toustes: 0.7017356157302856
+
+Initial proposal:
+Un revenu universel proche du SMIC
+Closest neighbors:
+L'aah doit continuer d'exister distinctement.: 0.6668302416801453
+A tous les citoyens, sous condition de ressources uniquement: 0.658502995967865
+Chaque personne en situation de fragilité sociale et économique, dès 18 ans: 0.6489299535751343
+A toute personne sans revenus: 0.64484703540802
+A toute personne sans revenus: 0.64484703540802
+
+Initial proposal:
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL
+Closest neighbors:
+A quel public peut-il s'adresser ?: 0.8745501637458801
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8579854965209961
+RUA et AAH: 0.8421602249145508
+AAH: 0.8345588445663452
+AAH: 0.8307149410247803
+
+Initial proposal:
+Tout le monde
+Closest neighbors:
+RUA POUR TOUS: 0.649428129196167
+Revenu universel pour TOUS: 0.633110761642456
+Pourquoi en argent?: 0.6322314143180847
+A tous ceux qui sont en précarité, pauvreté: 0.6212676167488098
+Reconnaitre les aidants pour mieux respecter nos anciens: 0.6204304099082947
+
+Initial proposal:
+Les Français avant tout
+Closest neighbors:
+Réservé aux seuls nationaux: 0.7124131321907043
+Ayant droits: 0.6733570694923401
+Préférennce: 0.6717913150787354
+Nationalité Française et cotisation minimum: 0.6623262763023376
+Aux Français: 0.641927182674408
+
+Initial proposal:
+Un revenu qui s'adapte aux allocataires
+Closest neighbors:
+Ancien bénéficiaires de la prime à l 'emploi: 0.7271209955215454
+Équité: 0.7259918451309204
+Guichet Unique de Prestations Sociales: 0.7153600454330444
+Guichet Unique de Prestations Sociales: 0.7153600454330444
+qui dit activité dit salaire: 0.7067099809646606
+
+Initial proposal:
+le revenu de développement
+Closest neighbors:
+"Un vrais ""Revenu Universle"" pour TOUS, modulaire et sous conditions": 0.7387949824333191
+Dés 16 ans en fonction de certain critères d 'éligibilité: 0.7179365158081055
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.6831512451171875
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.6447718143463135
+un revenu universel et franco-français: 0.637771487236023
+
+Initial proposal:
+RUA POUR TOUS
+Closest neighbors:
+Un revenu universel pour chacun(e): 0.7740684151649475
+La contribution pour tous: 0.7292051315307617
+pas de RUA pour les étrangers ...: 0.7219690680503845
+A tous ceux qui sont en précarité, pauvreté: 0.7116091847419739
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.7083104848861694
+
+Initial proposal:
+Reconnaissance de l humain
+Closest neighbors:
+A qui doit s'adresser le revenu universel: 0.6808722019195557
+Universel .: 0.6538369059562683
+Pour tous: 0.6389070153236389
+A tous ?: 0.6207932829856873
+un revenu universel: 0.6144859194755554
+
+Initial proposal:
+AAH
+Closest neighbors:
+RUA et AAH: 0.8794651031494141
+non à l'intégration de l'AAH dans le RUA: 0.8680971264839172
+A quel public peut-il s'adresser ?: 0.8675512671470642
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8578999042510986
+Exclure l'AAH du RUA: 0.8477383255958557
+
+Initial proposal:
+RU
+Closest neighbors:
+Pour chaque individu de la société: 0.7940632104873657
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7616145014762878
+pour tous: 0.7455150485038757
+RUA: 0.7448869943618774
+REVENU UNIVERSEL: 0.7426469326019287
+
+Initial proposal:
+Non à l'intégration de l'ASPA et de l'AAH dans le RUA!
+Closest neighbors:
+A tous, sous condition de revenus: 0.6635370254516602
+Travailleurs pauvres et étudiants: 0.6616808176040649
+RUA pour tous sans conditions: 0.6599290370941162
+RMA à 1300 euros nets par mois: 0.6391022801399231
+Non à l'intégration de l'aah et de l'aspa!: 0.6320311427116394
+
+Initial proposal:
+personne en situation de handicap
+Closest neighbors:
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.8628014326095581
+les bénéficiaires du RSA: 0.8436076045036316
+Pourquoi fusionne le revenu universel et L'Aah: 0.8384037017822266
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8324689269065857
+Attention à l'amalgame: 0.8204138278961182
+
+Initial proposal:
+Un revenu d'existence pour tous les Français
+Closest neighbors:
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.8680860996246338
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.8334868550300598
+A TOUT CITOYEN FRANCAIS: 0.8303307294845581
+Un revenu Universel pour tous: 0.8258576989173889
+A tous ceux qui sont en précarité, pauvreté: 0.8188696503639221
+
+Initial proposal:
+Des droits équitables pour les parents divorcés ou séparés
+Closest neighbors:
+Égalité des droits lors de Garde Alternée des enfants: 0.7687304019927979
+Aux mères au foyer: 0.7220977544784546
+Aux parents en congé parental: 0.7140884399414062
+Les personnes avec ou sans emplois sous conditions: 0.7125601172447205
+Taux progressif pour les mineurs: 0.7076592445373535
+
+Initial proposal:
+NON
+Closest neighbors:
+Aah: 0.7582392692565918
+AAH: 0.7533994317054749
+contre: 0.7102022767066956
+Les personnes handicapées et leurs familles en situation de pauvreté: 0.6401636004447937
+Exclure l'Allocation pour Adulte Handicapé(e) du Revenu Universel d'Activité.: 0.5977227091789246
+
+Initial proposal:
+Arrêter d aider les gens qui peuvent  travailler sans rien demander en retour
+Closest neighbors:
+Universel ? Donc pour tous: 0.7634077668190002
+RUA un vrai changement: 0.7240703105926514
+RUA: 0.7240482568740845
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.699204683303833
+des aides oui mais .....: 0.6982369422912598
+
+Initial proposal:
+Non à l'intégration de l'aah et de l'aspa!
+Closest neighbors:
+Les personnes handicapées en situation de pauvreté: 0.7692522406578064
+Les personnes âgées en situation de pauvreté: 0.7527958154678345
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?: 0.7329297065734863
+prioriser le revenu universel d'activité: 0.7202829718589783
+La considération du handicap avec un taux inférieur à 80%: 0.7179061770439148
+
+Initial proposal:
+A QUI DOIT S'ADRESSER LE RUA
+Closest neighbors:
+TUA pour tous: 0.8015105128288269
+emploi ou RUA: 0.7866477966308594
+A tout adulte en dessous du seuil de pauvreté.: 0.7410681843757629
+contrepartie du RUA: 0.7361220121383667
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7358766794204712
+
+Initial proposal:
+S'adresser à tous mais avec une contrepartie.
+Closest neighbors:
+Kalissy06: 0.7692115902900696
+prioriser le revenu universel d'activité: 0.7286921143531799
+Sauf handicapés: 0.6981684565544128
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.6977037787437439
+emploi ou RUA: 0.6968203186988831
+
+Initial proposal:
+Un emploi pour la société
+Closest neighbors:
+AIDE RETOUR A L'EMPLOI: 0.6741144061088562
+emploi ou RUA: 0.6716698408126831
+contrepartie du RUA: 0.6704124212265015
+Pour tous, à partir de la majorité.: 0.6610758900642395
+Les personnes avec ou sans emplois sous conditions: 0.6482750177383423
+
+Initial proposal:
+"Dans RUA, il y a ""universel"""
+Closest neighbors:
+éviter les effets de seuil et de dents de scie: 0.729925274848938
+Qui peut prétendre au Revenu Universel d'Activité: 0.729598879814148
+Le RUA doit s'adresser à tout adulte majeur !: 0.7111213803291321
+A tout le monde: 0.7037087082862854
+Un revenu pour tous: 0.6953327059745789
+
+Initial proposal:
+Des aides, oui, mais...
+Closest neighbors:
+Équité: 0.795795202255249
+Les personnes avec ou sans emplois sous conditions: 0.7933772802352905
+Kalissy06: 0.7672238349914551
+Revenu d activite: 0.7631958723068237
+Comme pour le chomage: 0.7614541053771973
+
+Initial proposal:
+RUA et AAH
+Closest neighbors:
+Exclure l'AAH du RUA: 0.8934880495071411
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8799117803573608
+AAH: 0.8794651031494141
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.8789970278739929
+Les personnes handicapées en situation de pauvreté: 0.878822386264801
+
+Initial proposal:
+Revenu pour tous dès la majorité
+Closest neighbors:
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.7204755544662476
+AIDE RETOUR A L'EMPLOI: 0.7169904708862305
+Revenu universel pour tous: 0.6793091297149658
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.6654341816902161
+Priorité aux demandeurs d'emploi et retraités: 0.6594787240028381
+
+Initial proposal:
+l'AAH ne doit pas devenir RUA
+Closest neighbors:
+A quel public peut-il s'adresser ?: 0.7297182083129883
+Aah: 0.6888173818588257
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.6851889491081238
+Un revenu non universel et non lié à l'activité.: 0.6837543845176697
+A qui le RUA s' adresse t il ?: 0.6759487986564636
+
+Initial proposal:
+Prise en compte individuelle des ressources financières
+Closest neighbors:
+Individualiser le RUA plutôt que de l'accorder à un foyer: 0.7035406827926636
+Tous selon ressources et individuellement: 0.6988883018493652
+AU PARENT ISOLE: 0.6623694896697998
+Instituer un plafond de patrimoine: 0.660746157169342
+Bonification des personnes célibataires: 0.6550987958908081
+
+Initial proposal:
+Préférennce
+Closest neighbors:
+Réservé aux seuls nationaux: 0.7927753329277039
+Ayant droits: 0.7662749290466309
+Les Français en Europe: 0.752238392829895
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7482669353485107
+Nationalité Française et cotisation minimum: 0.7111672163009644
+
+Initial proposal:
+Quel critère de citoyenneté pour bénéficier du RUA
+Closest neighbors:
+Tout citoyen Français: 0.7934004068374634
+Réservé aux seuls nationaux: 0.7545387148857117
+Un revenu universel pour chacun(e): 0.7533823847770691
+Un revenu Universel pour tous: 0.7411367893218994
+Ayant droits: 0.7380506992340088
+
+Initial proposal:
+A tous
+Closest neighbors:
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7627391815185547
+le seuil de pauvreté: 0.7580649256706238
+A Tous dès la naissance et toute la vie: 0.7387043237686157
+Revenu d activite: 0.7373716831207275
+A tous ceux qui sont en précarité, pauvreté: 0.7369277477264404
+
+Initial proposal:
+beneficiaires
+Closest neighbors:
+Revenu d activite: 0.7728970050811768
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7581161856651306
+Universel ? Donc pour tous: 0.746303379535675
+qui est concerné ?: 0.7460182905197144
+personne en situation de handicap: 0.7236948013305664
+
+Initial proposal:
+Jeunes, handicapes, familles pauvres avec enfants
+Closest neighbors:
+Les jeunes de moins de18 à 25 ans sans revenu: 0.7574141621589661
+Liste des personnes qui devraient le percevoir :: 0.7533724904060364
+Les jeunes en situation de pauvreté: 0.7398394346237183
+ÉGALITÉ POUR TOUS DES 18ANS: 0.7251332998275757
+Population concernée: 0.7159044742584229
+
+Initial proposal:
+Il doit venir en complément du chômage
+Closest neighbors:
+Pour tous: 0.7332597970962524
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.6808478236198425
+A QUI DOIT S'ADRESSER LE RUA: 0.6492323875427246
+emploi ou RUA: 0.6484909057617188
+Universel ? Donc pour tous: 0.6457571983337402
+
+Initial proposal:
+RUA PROPORTIONNEL
+Closest neighbors:
+RUA au Prorata avec plafond de revenus: 0.6914492249488831
+tout majeur en dessous de ce RUA: 0.6593884229660034
+Pour qui: 0.6564178466796875
+Les jeunes et les stages: 0.6471161842346191
+contrepartie du RUA: 0.6243466734886169
+
+Initial proposal:
+LA THEORIE DU REVENU UNIVERSEL
+Closest neighbors:
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7881250381469727
+inclure les étudiants: 0.7827230095863342
+A tous (sinon il n'est pas universel): 0.7664965391159058
+Tout le monde : c'est un revenu UNIVERSEL: 0.7429455518722534
+le revenu universel comme son nom l'indique doit s'appliquer à toutes et tous .: 0.7407746911048889
+
+Initial proposal:
+contre
+Closest neighbors:
+NON: 0.7102022767066956
+Aah: 0.6737245917320251
+AAH: 0.5454534292221069
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées: 0.5417614579200745
+LAllocation Suplémentaire d'Invalidité doit absolulment rester hors du champ du RUA car elle a été conçue pour compléter les toutes petites pensions dinvalidités de personnes handicapées ayant travaillé moins de 10 ans (maladies chroniques invalidantes): 0.5415058135986328
+
+Initial proposal:
+Non a l'aah dans le RUA
+Closest neighbors:
+a verser selon un plafond de ressources: 0.7012550830841064
+Le HANDICAP ne doit pas être intégré dans le RUA !: 0.698263943195343
+Remplacer l'AAH par le RUA: 0.6559950113296509
+Pour tous: 0.6287940740585327
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.6217426657676697
+
+Initial proposal:
+Taux progressif pour les mineurs
+Closest neighbors:
+éviter les effets de seuil et de dents de scie: 0.7451410293579102
+REVENU UNIVERSEL DE BASE: 0.7128319144248962
+Des droits équitables pour les parents divorcés ou séparés: 0.7076592445373535
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.6928883790969849
+Aux mères au foyer: 0.6855302453041077
+
+Initial proposal:
+Aux parents en congé parental et aux parents au foyer
+Closest neighbors:
+a qui le revenu universel doit s adresser: 0.7237895727157593
+Aux parents en congé parental: 0.7153397798538208
+Situation de précarité: 0.7094366550445557
+Le parent qui est contraint d'arrêter de travailler pour s'occuper de son enfant en situation de handicap: 0.7072475552558899
+Égalité des droits lors de Garde Alternée des enfants: 0.7037404179573059
+
+Initial proposal:
+Inclure l'ASS au RUA
+Closest neighbors:
+A tous les citoyens, sous condition de ressources uniquement: 0.7690671682357788
+Dissocier le montant de certaines APL: 0.7163053750991821
+trop de personnes fragilisées: 0.7145151495933533
+NON aux personnes handicapées: 0.7118614315986633
+tout majeur en dessous de ce RUA: 0.6920356750488281
+
+Initial proposal:
+RMA à 1300 euros nets par mois
+Closest neighbors:
+Personne handicapée: 0.7790782451629639
+Travailleurs pauvres et étudiants: 0.7669247388839722
+UNIVERSEL: 0.7598229050636292
+A toute personne sans revenus: 0.755537748336792
+A toute personne sans revenus: 0.755537748336792
+
+Initial proposal:
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations
+Closest neighbors:
+personne en situation de handicap: 0.8628014326095581
+prioriser le revenu universel d'activité: 0.8238186836242676
+RUA et AAH: 0.8180941939353943
+personnes handicapés et aidants : de vrais et potentiels consommateurs: 0.8079973459243774
+L'aah doit continuer d'exister distinctement.: 0.7982735633850098
+
+Initial proposal:
+Migrant
+Closest neighbors:
+Préférennce: 0.6124759912490845
+Réservé aux seuls nationaux: 0.6012320518493652
+A tous ceux qui sont en précarité, pauvreté: 0.599715530872345
+IL FAUT GARDER LE SYSTEME EXISTENT AFIN DE CIBLER FINANCIEREMENT LES DIFFERENTS PROBLEMES DES PERSONNES ? NON PAS GLOBALISER LES AIDES: 0.5945992469787598
+AUX FRANCAIS: 0.5941877365112305
+
+Initial proposal:
+Et les étudiants
+Closest neighbors:
+RUA: 0.8602989315986633
+Kalissy06: 0.7736568450927734
+RUA: 0.7639060020446777
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.7632834911346436
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.7600586414337158
+
+Initial proposal:
+Secteur animation
+Closest neighbors:
+Secteur animation sous payé: 0.8357546329498291
+A TOUS MAIS AVEC DES CONDITIONS A DÉTERMINER ET A VÉRIFIER ENSEMBLE: 0.5195532441139221
+1 parent ayant un enfant handicapé à charge: 0.5088763236999512
+Aux parents en congé parental: 0.503967821598053
+revenu universel aussi pour les enfants: 0.49294206500053406
+
+Initial proposal:
+Secteur animation sous payé
+Closest neighbors:
+Secteur animation: 0.8357546329498291
+Jeunes, handicapes, familles pauvres avec enfants: 0.4743857979774475
+Pour les parents instructeurs: 0.457797646522522
+JEUNES, PERSONNES AGEES, PERSONNES HANDICAPEES... EN SITUATION DE PRECARITE OU SOUS LE SEUIL DE PAUVRETE !: 0.43423032760620117
+RUA Personnes agées: 0.4048176407814026
+
+Initial proposal:
+Pour toi, pour moi, pour lui, pour tous
+Closest neighbors:
+Tout le monde : c'est un revenu UNIVERSEL: 0.8954036831855774
+A tous ?: 0.846463143825531
+Universel signifie pour tous !: 0.836088240146637
+AIDE RETOUR A L'EMPLOI: 0.835780918598175
+revenu universel pour tous: 0.8273574113845825
+
+Initial proposal:
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler
+Closest neighbors:
+Ne pas laisser de côté les publics fragiles: 0.8076801300048828
+Pour chaque individu de la société: 0.8063340187072754
+REVENU UNIVERSEL: 0.805205225944519
+RUA: 0.8030866980552673
+A tout adulte en dessous du seuil de pauvreté.: 0.7925955057144165
+
+Initial proposal:
+Revenu universel pour tous sans condition
+Closest neighbors:
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.8223727941513062
+Tout citoyen Français: 0.8145025968551636
+A TOUT CITOYEN FRANCAIS: 0.7902170419692993
+Liberté Egalité Fraternité: 0.7810004353523254
+A tous sans exception: 0.7745447158813477
+
+Initial proposal:
+Aux jeunes placés et sortant du service de l'Aide Sociale à l'Enfance (sous conditions)
+Closest neighbors:
+DESTINATAIRES: 0.8151161074638367
+Liste des personnes qui devraient le percevoir :: 0.8043522238731384
+RUA: 0.7512866258621216
+ÉGALITÉ POUR TOUS DES 18ANS: 0.7263590097427368
+Les jeunes de moins de18 à 25 ans sans revenu: 0.7197844982147217
+
+Initial proposal:
+Et les retraités ?
+Closest neighbors:
+Alerte senior et RUA: 0.7829749584197998
+A tous ceux qui  perçoivent un salaire , une allocation  ou une retraite inférieure au smic .: 0.7417278289794922
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7378723621368408
+Dissocier le montant de certaines APL: 0.7011896371841431
+prioriser le revenu universel d'activité: 0.6942883729934692
+
+Initial proposal:
+ÉGALITÉ POUR TOUS DES 18ANS
+Closest neighbors:
+Liste des personnes qui devraient le percevoir :: 0.7308882474899292
+Aux jeunes placés et sortant du service de l'Aide Sociale à l'Enfance (sous conditions): 0.7263590097427368
+Jeunes, handicapes, familles pauvres avec enfants: 0.7251332998275757
+Les jeunes en situation de pauvreté: 0.7146944999694824
+Ouvrir le RUA aux jeunes avec un projet de création dentreprise viable: 0.7020378112792969
+
+Initial proposal:
+Pour tous, sans conditions.
+Closest neighbors:
+Pour tous: 0.7606273293495178
+Universel: 0.7200599312782288
+Revenu universel à donner à tous sans conditions...revenu universel de citoyenneté: 0.6745914220809937
+Créer un revenu pour que chaque être humain puisse vivre dignement: 0.6438459753990173
+A TOUS LES FRANCAIS: 0.6330204606056213
+
+Initial proposal:
+Personnes malades, retraités, stagiaires, salariés les plus pauvres
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.7797759771347046
+Kalissy06: 0.750782310962677
+Uniquement aux personnes seules sans enfants car elles ne cumulent pas les aides: 0.7352137565612793
+des aides oui mais .....: 0.7313677072525024
+RUA: 0.7296648025512695
+
+Initial proposal:
+Toutes les personnes bénéficient de l'aide social.
+Closest neighbors:
+On ne veut plus assister les fainéants: 0.6841360926628113
+Guichet Unique de Prestations Sociales: 0.6754388809204102
+Guichet Unique de Prestations Sociales: 0.6754388809204102
+Jeunes, étudiants, handicapés, personnes agées: 0.6696987152099609
+Prestation universelle pour regrouper les aides: 0.656318187713623
+
+Initial proposal:
+APL
+Closest neighbors:
+A tout le monde sauf au personne handicapées: 0.653681755065918
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.6443160772323608
+NON aux personnes handicapées: 0.6422136425971985
+AAH ce n'est pas une prime d'activité: 0.6396991610527039
+Procédure judiciaire: 0.6359094381332397
+
+Initial proposal:
+Scandaleux
+Closest neighbors:
+Universel = Qui s'applique à tous: 0.6682733297348022
+Revenu universel pour TOUS: 0.6672968864440918
+TOUT LE MONDE si c'est un revenu universel: 0.6376998424530029
+inclure les étudiants: 0.635599672794342
+A tous (sinon il n'est pas universel): 0.6300433874130249
+
+Initial proposal:
+Les jeunes de moins de18 à 25 ans sans revenu
+Closest neighbors:
+Jeunes, handicapes, familles pauvres avec enfants: 0.7574141621589661
+Liste des personnes qui devraient le percevoir :: 0.7542731165885925
+RUA: 0.73075932264328
+REVENU UNIVERSEL: 0.7293692231178284
+Aux jeunes placés et sortant du service de l'Aide Sociale à l'Enfance (sous conditions): 0.7197844982147217
+
+Initial proposal:
+le quart le plus pauvre des plus de 16 ans, tout simplement
+Closest neighbors:
+Aux personnes qui se donnent la peine de  chercher du travail: 0.8056403398513794
+A toute personne sans revenus: 0.8012446761131287
+A toute personne sans revenus: 0.8012446761131287
+Les jeunes en situation de pauvreté: 0.7862677574157715
+REVENU UNIVERSEL DE BASE: 0.7770935297012329
+
+Initial proposal:
+Pour aider les actifs en contrat précaire.
+Closest neighbors:
+Les jeunes et les stages: 0.6913365125656128
+AUX TITULAIRES D'UNE RQTH (Reconnaissance en Qualité de Travailleur Handicapé) NE BÉNÉFICIANT PAS DE L'AAH: 0.6846300363540649
+aux personnes travaillant à mi-temps ou 3/4 temps: 0.6647711396217346
+les jeunes finissant leurs études: 0.6619371175765991
+DESTINATAIRES: 0.6570979356765747
+
+Initial proposal:
+RUA un vrai changement
+Closest neighbors:
+Universel ? Donc pour tous: 0.7442120313644409
+Arrêter d aider les gens qui peuvent  travailler sans rien demander en retour: 0.7240703105926514
+RUA: 0.6783881783485413
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.667277455329895
+A QUI DOIT S'ADRESSER LE RUA: 0.6646702289581299
+
+Initial proposal:
+Un RUA dès 18 ans
+Closest neighbors:
+RUA pour tous sans conditions: 0.7749762535095215
+A toute personne sans revenus: 0.7580403089523315
+A toute personne sans revenus: 0.7580403089523315
+Tous les publics en remplaçant toutes les autres prestations..: 0.7526310682296753
+Pour tous, à partir de la majorité.: 0.7463538646697998
+
+Initial proposal:
+A qui s adresse le rua
+Closest neighbors:
+Tous les pauvres sauf les personnes handicapées: 0.8189971446990967
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.7787343263626099
+les bénéficiaires du RSA: 0.7379273176193237
+Pour qui le RUA: 0.7284358143806458
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.7266724705696106
+
+Initial proposal:
+A A H
+Closest neighbors:
+A tous ceux qui sont en précarité, pauvreté: 0.706796407699585
+A tous français respectueux des lois.: 0.6860495805740356
+Arrêter d aider les gens qui peuvent  travailler sans rien demander en retour: 0.685131847858429
+intégrer la personne handicapée et seulement ses revenus: 0.6841434836387634
+Revenu d activite: 0.6804676651954651
+
+Initial proposal:
+Pour tous
+Closest neighbors:
+Tout le monde : c'est un revenu UNIVERSEL: 0.8245061039924622
+renversons la table!!: 0.8068279027938843
+Qui peut prétendre au Revenu Universel d'Activité: 0.8061479330062866
+Pour toi, pour moi, pour lui, pour tous: 0.7996647357940674
+On ne veut plus assister les fainéants: 0.7911967039108276
+
+Initial proposal:
+"Ouvrir les yeux sur les ""vrais revenus"" pris en compte pour une ouverture de droits"
+Closest neighbors:
+Vérifier les revenus réels des bénéficiaires: 0.7256142497062683
+RUA avec système anti-fraude: 0.6074912548065186
+Solidarité bien ordonnée: 0.566003143787384
+Arrêter l'énorme surcoût bureaucratique visant à grapiller sur les non-bénéficiaires: 0.5409445762634277
+Guichet Unique de Prestations Sociales: 0.5393131971359253
+
+Initial proposal:
+a qui verser l'aide
+Closest neighbors:
+A tous les citoyens français: 0.7996058464050293
+Ayant droits: 0.7743874192237854
+Limites: 0.7481447458267212
+un revenu universel et franco-français: 0.6804894208908081
+Réservé aux seuls nationaux: 0.6604655981063843
+
+Initial proposal:
+A tous ou à personne
+Closest neighbors:
+A Tous: 0.7277128100395203
+Guichet Unique de Prestations Sociales: 0.7217515110969543
+Guichet Unique de Prestations Sociales: 0.7217515110969543
+Jeunes, étudiants, handicapés, personnes agées: 0.6970442533493042
+Pour tous individuellement, imposé: 0.6896873712539673
+
+Initial proposal:
+à personnes oui à la complexité des individus et de leurs situations
+Closest neighbors:
+Kalissy06: 0.7821597456932068
+personnes handicapés et aidants : de vrais et potentiels consommateurs: 0.7736251354217529
+La considération du handicap avec un taux inférieur à 80%: 0.7605810761451721
+prioriser le revenu universel d'activité: 0.759100079536438
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.75592440366745
+
+Initial proposal:
+le seuil de pauvreté
+Closest neighbors:
+Pour tout ceux en situation de pauvreté: 0.8172470927238464
+Pour chaque individu de la société: 0.7941112518310547
+A tous: 0.7580649256706238
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7344639897346497
+question: 0.7299997806549072
+
+Initial proposal:
+dissocier AAH par rapport aux autres revenus
+Closest neighbors:
+Sauf handicapés: 0.8063175678253174
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.7997019290924072
+"RUA : aux personnes dites ""précaires"". AAH (+ éventuellement CR) : à maintenir absolument aux personnes invalides "" concernées !!!": 0.7945162057876587
+L'AAH n'est pas un minimum social comme les autres et ne doit pas entrer dans le périmètre de du RUA: 0.7834945917129517
+RUA et AAH: 0.780770480632782
+
+Initial proposal:
+A toutes les personnes qui s'engage à faire évoluer la société dans le bon sens en consacrant 5 heures de leur temps toutes les semaines à la faire évoluer.
+Closest neighbors:
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7780159711837769
+AIDE RETOUR A L'EMPLOI: 0.7398084402084351
+Revenu universel pour TOUS: 0.7260424494743347
+Une autre vision du revenu d'activité: 0.7118943929672241
+A Tous dès la naissance et toute la vie: 0.7114750146865845
+
+Initial proposal:
+Aux personnes qui ont un projet
+Closest neighbors:
+Revenu d activite: 0.7880330085754395
+Kalissy06: 0.7565566301345825
+Des aides, oui, mais...: 0.7025138139724731
+beneficiaires: 0.6997640132904053
+personnes handicapés et aidants : de vrais et potentiels consommateurs: 0.6825722455978394
+
+Initial proposal:
+A tous ceux qui  perçoivent un salaire , une allocation  ou une retraite inférieure au smic .
+Closest neighbors:
+Et les retraités ?: 0.7417278289794922
+qui dit activité dit salaire: 0.7256237864494324
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7204024195671082
+Priorité aux demandeurs d'emploi et retraités: 0.7188941240310669
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7161535620689392
+
+Initial proposal:
+REVENU UNIVERSEL DE BASE
+Closest neighbors:
+Éradiquer la pauvreté dans une société solidaire: 0.7877384424209595
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.7770935297012329
+A toute personne sans revenus: 0.7451125383377075
+A toute personne sans revenus: 0.7451125383377075
+RMA à 1300 euros nets par mois: 0.7301774024963379
+
+Initial proposal:
+Liberté Egalité Fraternité
+Closest neighbors:
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8573551177978516
+Un revenu universel pour chacun(e): 0.831334114074707
+A tous ceux qui sont en précarité, pauvreté: 0.8286950588226318
+Revenu universel en remplacement de tous les aides nationales: 0.8274674415588379
+A TOUT CITOYEN FRANCAIS: 0.8227895498275757
+
+Initial proposal:
+UNIVERSEL
+Closest neighbors:
+éviter les effets de seuil et de dents de scie: 0.7431984543800354
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7389463782310486
+Tout le monde : c'est un revenu UNIVERSEL: 0.7333242893218994
+Pour tous les publics, sous conditions de revenus: 0.7284622192382812
+A tous français respectueux des lois.: 0.7266576290130615
+
+Initial proposal:
+pour tous mais sous conditions
+Closest neighbors:
+Éradiquer la pauvreté dans une société solidaire: 0.8011738061904907
+A tous français respectueux des lois.: 0.7814456820487976
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7574849724769592
+A tous, sous condition de revenus: 0.7547841668128967
+Universel signifie pour tous !: 0.7515622973442078
+
+Initial proposal:
+Aux personnes qui se donnent la peine de  chercher du travail
+Closest neighbors:
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.8098393678665161
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.8056403398513794
+revenu universel aussi pour les enfants: 0.8008139133453369
+Un revenu d'existence pour tous les Français: 0.7932793498039246
+A tous ceux qui sont en précarité, pauvreté: 0.7783145308494568
+
+Initial proposal:
+Aides aux Etudiants
+Closest neighbors:
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.7946364879608154
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.7775580883026123
+les jeunes finissant leurs études: 0.7421563863754272
+RUA: 0.737566351890564
+Pour les étudiants à plus de 100km de chez ses parents.: 0.7275174856185913
+
+Initial proposal:
+L'aah doit continuer d'exister distinctement.
+Closest neighbors:
+RUA et AAH: 0.8707098364830017
+NON à la question concernant Les personnes handicapées en situation de pauvreté: 0.8152891397476196
+Exclure l'AAH du RUA: 0.8072436451911926
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7982735633850098
+non à l'intégration de l'AAH dans le RUA: 0.7942360639572144
+
+Initial proposal:
+Les Français en Europe
+Closest neighbors:
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7963482737541199
+A tous les citoyens français: 0.7935171127319336
+Ayant droits: 0.7917842864990234
+Préférennce: 0.752238392829895
+Quel critère de citoyenneté pour bénéficier du RUA: 0.7333111763000488
+
+Initial proposal:
+"Rendre universel ""le revenu universel (d'activité)"""
+Closest neighbors:
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.659110426902771
+Pourquoi fusionne le revenu universel et L'Aah: 0.657171368598938
+La contribution pour tous: 0.6537265777587891
+Le HANDICAP ne doit pas être intégré dans le RUA !: 0.6501433849334717
+A cumuler avec allocations familiales: 0.6100813150405884
+
+Initial proposal:
+Mais qui va payer ?
+Closest neighbors:
+Solidarité bien ordonnée: 0.6424542665481567
+A TOUS LES PAUVRES: 0.5697605013847351
+Une autre vision du revenu d'activité: 0.5683883428573608
+revenu universel pour tous: 0.5403697490692139
+RUA un vrai changement: 0.5323348641395569
+
+Initial proposal:
+Bonification des personnes célibataires
+Closest neighbors:
+Situation de précarité: 0.7905446887016296
+a qui le revenu universel doit s adresser: 0.7407336831092834
+AU PARENT ISOLE: 0.6792992353439331
+Aux parents en congé parental: 0.6702170372009277
+Aux parents en congé parental et aux parents au foyer: 0.6663676500320435
+
+Initial proposal:
+Un revenu Universel pour tous
+Closest neighbors:
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.8714464902877808
+Tout citoyen Français: 0.8590150475502014
+Revenu universel en remplacement de tous les aides nationales: 0.8406906127929688
+Un revenu d'existence pour tous les Français: 0.8258576989173889
+A TOUT CITOYEN FRANCAIS: 0.8219873309135437
+
+Initial proposal:
+A toute personne sans revenus
+Closest neighbors:
+A toute personne sans revenus: 1.0000003576278687
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.8012446761131287
+A tous ceux qui sont en précarité, pauvreté: 0.7910099625587463
+revenu universel aussi pour les enfants: 0.7867293357849121
+A tous les citoyens, sous condition de ressources uniquement: 0.7815443277359009
+
+Initial proposal:
+A toute personne sans revenus
+Closest neighbors:
+A toute personne sans revenus: 1.0000003576278687
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.8012446761131287
+A tous ceux qui sont en précarité, pauvreté: 0.7910099625587463
+revenu universel aussi pour les enfants: 0.7867293357849121
+A tous les citoyens, sous condition de ressources uniquement: 0.7815443277359009
+
+Initial proposal:
+à toutes les personnes honnêtes et de bonne volonté
+Closest neighbors:
+A tous les CITOYENS: 0.6662698984146118
+A TOUS à condition d'être un bon CITOYEN: 0.6637256145477295
+Revenu universel pour TOUS: 0.5855329036712646
+Pour tous: 0.5649223923683167
+A toutes les personnes qui s'engage à faire évoluer la société dans le bon sens en consacrant 5 heures de leur temps toutes les semaines à la faire évoluer.: 0.564346432685852
+
+Initial proposal:
+Guichet Unique de Prestations Sociales
+Closest neighbors:
+Guichet Unique de Prestations Sociales: 1.0
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.808670699596405
+éviter les effets de seuil et de dents de scie: 0.8038276433944702
+Revenu universel pour TOUS: 0.7967666983604431
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.7830988764762878
+
+Initial proposal:
+Guichet Unique de Prestations Sociales
+Closest neighbors:
+Guichet Unique de Prestations Sociales: 1.0
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.808670699596405
+éviter les effets de seuil et de dents de scie: 0.8038276433944702
+Revenu universel pour TOUS: 0.7967666983604431
+A tous, et en particulier aux précaires, aux SDF et aux non-recours: 0.7830988764762878
+
+Initial proposal:
+L'intégration de nouveaux publics implique une augmentation des dépenses sociales
+Closest neighbors:
+Guichet Unique de Prestations Sociales: 0.7632666826248169
+Guichet Unique de Prestations Sociales: 0.7632666826248169
+Justifier d'un besoin et d'une capacité à recevoir le RUA: 0.7600769400596619
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.7297044992446899
+Le RUA ne peut sadresser aux allocataires de lAAH et de toutes les aides aux  personnes en situation de handicap: 0.7016206383705139
+
+Initial proposal:
+Tout citoyen Français
+Closest neighbors:
+Un revenu Universel pour tous: 0.8590150475502014
+A TOUT CITOYEN FRANCAIS: 0.8455500602722168
+Toute personne vivant sur le territoire français, sans aucune autre condition.: 0.8452163934707642
+Revenu universel en remplacement de tous les aides nationales: 0.8273277282714844
+Revenu universel pour tous sans condition: 0.8145025968551636
+
+Initial proposal:
+Dissocier le montant de certaines APL
+Closest neighbors:
+Les personnes âgées en situation de pauvreté: 0.7948927283287048
+aux retraités bénéficiaires de l'aspa.: 0.7521793842315674
+Alerte senior et RUA: 0.7419314980506897
+Récupération sur succession?: 0.7243059873580933
+Raisonner par statut et par tranche d'age: 0.723273515701294
+
+Initial proposal:
+Les jeunes et les stages
+Closest neighbors:
+emploi ou RUA: 0.7348566651344299
+A QUI DOIT S'ADRESSER LE RUA: 0.7307859659194946
+AUX TITULAIRES D'UNE RQTH (Reconnaissance en Qualité de Travailleur Handicapé) NE BÉNÉFICIANT PAS DE L'AAH: 0.7297805547714233
+RUA: 0.7216859459877014
+les jeunes finissant leurs études: 0.7013940215110779
+
+Initial proposal:
+Pour les handicapés simplification des démarches administratives
+Closest neighbors:
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.774246871471405
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.7704402208328247
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.7687282562255859
+Pour qui le RUA: 0.7666014432907104
+RUA et AAH: 0.7612798810005188
+
+Initial proposal:
+Pour tous les publics, sous conditions de revenus
+Closest neighbors:
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7982445955276489
+Tout le monde : c'est un revenu UNIVERSEL: 0.7635300755500793
+revenu  universel   pour  toutes  les  personnes  ayant  un  revenu  inférieur  à1500   euros  nets  par  mois: 0.7572258114814758
+inclure les étudiants: 0.7503380179405212
+Universel signifie pour tous !: 0.749575674533844
+
+Initial proposal:
+Alerte senior et RUA
+Closest neighbors:
+Et les retraités ?: 0.7829749584197998
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7731071710586548
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7541336417198181
+Les handicaps non reconnus ou partiellement: 0.7422081232070923
+Dissocier le montant de certaines APL: 0.7419314980506897
+
+Initial proposal:
+A tous mais pas aux allocataires de l'AAH
+Closest neighbors:
+aah: 0.8185034394264221
+non à l'intégration de l'AAH dans le RUA: 0.7859456539154053
+Les personnes bénéficiaires de L'AAH ne devraient pas être concernées: 0.785504162311554
+Pas aux porteurs daah: 0.7724367380142212
+Exclure l'AAH du RUA: 0.7665083408355713
+
+Initial proposal:
+Éradiquer la pauvreté dans une société solidaire
+Closest neighbors:
+pour tous mais sous conditions: 0.8011738061904907
+REVENU UNIVERSEL DE BASE: 0.7877384424209595
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7691999077796936
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7590685486793518
+Les travailleurs pauvres: 0.758578896522522
+
+Initial proposal:
+aux personnes travaillant à mi-temps ou 3/4 temps
+Closest neighbors:
+Les travailleurs pauvres: 0.7797493934631348
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.7271087169647217
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7206881046295166
+RUA: 0.7153523564338684
+Aux personnes avec un solde de revenus inférieur à un certain niveau: 0.7048870325088501
+
+Initial proposal:
+Tous les publics en remplaçant toutes les autres prestations..
+Closest neighbors:
+Qui peut prétendre au Revenu Universel d'Activité: 0.7779266834259033
+A toute personne sans revenus: 0.7759699821472168
+A toute personne sans revenus: 0.7759699821472168
+A tous, sous condition de revenus: 0.77320396900177
+renversons la table!!: 0.7676501274108887
+
+Initial proposal:
+Procédure judiciaire
+Closest neighbors:
+Le RUA ne doit prendre en compte l'AAH: 0.7532142400741577
+Pour qui le RUA: 0.73836749792099
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.7378665804862976
+La considération du handicap avec un taux inférieur à 80%: 0.7123802900314331
+Tous les pauvres sauf les personnes handicapées: 0.7099334597587585
+
+Initial proposal:
+Les aidants
+Closest neighbors:
+A tous les citoyens, sous condition de ressources uniquement: 0.7403071522712708
+Les handicaps non reconnus ou partiellement: 0.7286291122436523
+dissocier AAH par rapport aux autres revenus: 0.7081704139709473
+Sauf handicapés: 0.702234148979187
+vrai statut de l'aidant, hors allocations: 0.7009872198104858
+
+Initial proposal:
+Les handicaps non reconnus ou partiellement
+Closest neighbors:
+NON aux personnes handicapées: 0.7483225464820862
+Le RUA ne doit pas s'appliquer aux bénéficiaires de l'AAH: 0.7448557615280151
+Alerte senior et RUA: 0.7422081232070923
+aah: 0.7369869947433472
+trop de personnes fragilisées: 0.732944667339325
+
+Initial proposal:
+Situation de précarité
+Closest neighbors:
+a qui le revenu universel doit s adresser: 0.9449708461761475
+En priorite aux familles mono parentales.: 0.8150609731674194
+Bonification des personnes célibataires: 0.7905446887016296
+AU PARENT ISOLE: 0.7528634071350098
+mères isolées ayant élevé elurs enfants seules: 0.7284994721412659
+
+Initial proposal:
+ressources
+Closest neighbors:
+RUA pour tous sans conditions: 0.42508238554000854
+trop de personnes fragilisées: 0.41628751158714294
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.4058673083782196
+Faire comme la prime activité  avec les même plafond resources: 0.4025830030441284
+A tous quand on montre une motivation à sen sortir: 0.3909052312374115
+
+Initial proposal:
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources)
+Closest neighbors:
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8210132122039795
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.810996413230896
+La considération du handicap avec un taux inférieur à 80%: 0.8053059577941895
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.8032146692276001
+les bénéficiaires du RSA: 0.7899867296218872
+
+Initial proposal:
+Ancien bénéficiaires de la prime à l 'emploi
+Closest neighbors:
+qui dit activité dit salaire: 0.7492175698280334
+Un revenu qui s'adapte aux allocataires: 0.7271209955215454
+Alerte senior et RUA: 0.7196956872940063
+AUX PERSONNES EN RECHERCHE D' EMPLOI ( sans chômage et sans AUCUN  REVENUS  ) entre 55 et 65 ans: 0.7190121412277222
+A tout adulte en dessous du seuil de pauvreté.: 0.7150393128395081
+
+Initial proposal:
+La subvention, c'est de la cocaïne
+Closest neighbors:
+AAH: 0.5013817548751831
+Aux personnes qui ont un projet: 0.47679615020751953
+Solidarité bien ordonnée: 0.4474792778491974
+qui est concerné ?: 0.43346452713012695
+beneficiaires: 0.4210290014743805
+
+Initial proposal:
+Minimum alimentaire
+Closest neighbors:
+UNIVERSEL: 0.7243734002113342
+1 200 : 0.6132900714874268
+1000  A TOUS TOUTE LA VIE: 0.5879272222518921
+Un revenu Universel pour tous: 0.5739099383354187
+Les pauvres...: 0.5706044435501099
+
+Initial proposal:
+des aides oui mais .....
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.8006216287612915
+mère seule: 0.7441239356994629
+Mères isolées et familles nombreuses: 0.7419509887695312
+Personnes malades, retraités, stagiaires, salariés les plus pauvres: 0.7313677072525024
+Arrêter d aider les gens qui peuvent  travailler sans rien demander en retour: 0.6982369422912598
+
+Initial proposal:
+Aux chômeurs en fin de droits (ASS)
+Closest neighbors:
+Les travailleurs pauvres: 0.7233171463012695
+question: 0.7160612344741821
+A qui le Rua doit-il s'adresser: 0.7109657526016235
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6959342360496521
+RUA: 0.6933420300483704
+
+Initial proposal:
+A toutes &amp
+Closest neighbors:
+Liberté: 1.0000004768371582
+AAH: 0.45705273747444153
+Prime activité: 0.39397069811820984
+NON: 0.37944525480270386
+A tous: 0.34406813979148865
+
+Initial proposal:
+AAH (Allocation adulte Handicapé) - Qui dit activité dit pouvoir travailler
+Closest neighbors:
+A quel public peut-il s'adresser ?: 0.8275390267372131
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8094435334205627
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.7892852425575256
+non à l'intégration de l'AAH dans le RUA: 0.7888213396072388
+AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL: 0.787831723690033
+
+Initial proposal:
+Aides sociales
+Closest neighbors:
+dissocier AAH par rapport aux autres revenus: 0.7248578071594238
+RUA et AAH: 0.7108303308486938
+il faut distinguer les personnes contraintes par la maladie ou le Handicap  des autres situations: 0.707665205001831
+Sauf handicapés: 0.7065562009811401
+emploi ou RUA: 0.7044984102249146
+
+Initial proposal:
+1000  A TOUS TOUTE LA VIE
+Closest neighbors:
+Un revenu Universel pour tous: 0.8030233383178711
+Tout citoyen Français: 0.7923084497451782
+Dés 16 ans en fonction de certain critères d 'éligibilité: 0.7658563256263733
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.7621238231658936
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.7602542638778687
+
+Initial proposal:
+TOUT LE MONDE si c'est un revenu universel
+Closest neighbors:
+A tous (sinon il n'est pas universel): 0.8840498924255371
+Universel signifie pour tous !: 0.8619720935821533
+Revenu universel pour TOUS: 0.8595256805419922
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8479748964309692
+Un engagement envers soi et envers la société: 0.8465664386749268
+
+Initial proposal:
+revenu universel d'activite
+Closest neighbors:
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7765040993690491
+un revenu universel et franco-français: 0.7615156173706055
+revenu universel de solidarité et non pas d'activité !: 0.7601346969604492
+NON à la fabrique de fainéants: 0.7194104790687561
+A tous ceux qui sont en précarité, pauvreté: 0.6970162987709045
+
+Initial proposal:
+A toutes personnes subissant un changement de situation non souhaité
+Closest neighbors:
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.7203692197799683
+Prime temporaire: 0.7066351175308228
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.6838402152061462
+Individualiser le RUA plutôt que de l'accorder à un foyer: 0.6819965839385986
+Revenu d activite: 0.6730270385742188
+
+Initial proposal:
+qui dit activité dit salaire
+Closest neighbors:
+Universel ? Donc pour tous: 0.8001799583435059
+A tout adulte en dessous du seuil de pauvreté.: 0.7936372756958008
+Ancien bénéficiaires de la prime à l 'emploi: 0.7492175698280334
+Une autre vision du revenu d'activité: 0.7396267652511597
+Guichet Unique de Prestations Sociales: 0.7304487228393555
+
+Initial proposal:
+POUR UN REVENU DE BASE VRAIMENT UNIVERSEL
+Closest neighbors:
+Un revenu de base ne peut être qu'universel, c'est à dire versé à tous les membres de la communauté sans condition.: 0.93108731508255
+Universel signifie pour tous !: 0.7842357158660889
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.747161328792572
+Pour toi, pour moi, pour lui, pour tous: 0.7432389259338379
+le revenu universel comme son nom l'indique doit s'appliquer à toutes et tous .: 0.7409260272979736
+
+Initial proposal:
+renversons la table!!
+Closest neighbors:
+Tout le monde : c'est un revenu UNIVERSEL: 0.8337349891662598
+A tous, sous condition de revenus: 0.8278198838233948
+revenu accordé à toute personne sans travail et sans indemnité dès le début de la précarité et sans condition de ressource remontant à l'année d'avant: 0.8177263736724854
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8144265413284302
+Pour tous: 0.8068279027938843
+
+Initial proposal:
+Tout majeur et mineur émancipé
+Closest neighbors:
+A tout majeur et mineur émancipé: 0.7816263437271118
+Un revenu Universel pour tous: 0.7493574619293213
+Un revenu pour tous: 0.7161682844161987
+Revenu universel en remplacement de tous les aides nationales: 0.711846649646759
+A tout les citoyens en fonction des ressources / patrimoine: 0.7088213562965393
+
+Initial proposal:
+A tout le monde
+Closest neighbors:
+Qui peut prétendre au Revenu Universel d'Activité: 0.8141071200370789
+un revenu universel: 0.7904268503189087
+A QUI ? A TOUS: 0.7736338376998901
+A tous ?: 0.7687809467315674
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.7610250115394592
+
+Initial proposal:
+A tout majeur et mineur émancipé
+Closest neighbors:
+Tout majeur et mineur émancipé: 0.7816263437271118
+a verser selon un plafond de ressources: 0.6492592096328735
+L'AAH n'est pas un un minimum social comme les autres: 0.648756742477417
+A qui le RUA s' adresse t il ?: 0.6443722248077393
+A quel public peut-il s'adresser ?: 0.6300356388092041
+
+Initial proposal:
+Réservé aux seuls nationaux
+Closest neighbors:
+Ayant droits: 0.8299747705459595
+Nationalité Française et cotisation minimum: 0.7949978709220886
+Préférennce: 0.7927753329277039
+Elargir le RUA aux étrangers en situation régulière depuis moins de 5 ans: 0.7873924374580383
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester: 0.7608500719070435
+
+Initial proposal:
+Revenu adapté
+Closest neighbors:
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.5970836281776428
+éviter les effets de seuil et de dents de scie: 0.5743009448051453
+A toutes les personnes en situation difficile temporaire ou permanente: 0.5655786991119385
+À tous: 0.5638427138328552
+A toute personne sans activité de plus de 18 ans respectant les critères d'éligibilité suivants :: 0.5532999038696289
+
+Initial proposal:
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA
+Closest neighbors:
+Les personnes handicapées en situation de pauvreté: 0.8833454251289368
+A quel public peut-il s'adresser ?: 0.8811386823654175
+Exclure l'AAH du RUA: 0.8701749444007874
+RUA et AAH: 0.8680701851844788
+L'AAH ne doit surtout pas être incluse dans le Revenu Universel d'Activité: 0.8642452359199524
+
+Initial proposal:
+A TOUS pour donner à chacun les même chances dés le départ
+Closest neighbors:
+A tous .: 0.7881320118904114
+A tout le monde dès la naissance: 0.7163507342338562
+Revenu universel à donner à tous sans conditions...revenu universel de citoyenneté: 0.6352152228355408
+Pas de RUA pour les gens en indélicatesses avec la justice le civisme ...: 0.628636360168457
+REVENU UNIVERSEL: 0.6135901212692261
+
+Initial proposal:
+A tous mais attention aux casiers juridiques
+Closest neighbors:
+REVENU UNIVERSEL: 0.7014588117599487
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.6660908460617065
+d'une ouverture de droit simple (un seul et unique intervenant), Indexé a minima sur l'inflation, mensualisé: 0.6499682664871216
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.6474367380142212
+ÉGALITÉ POUR TOUS DES 18ANS: 0.6469825506210327
+
+Initial proposal:
+A tous quand on montre une motivation à sen sortir
+Closest neighbors:
+"Un ""vrai"" revenu universel pour tous.": 0.8087621927261353
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7977837920188904
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7954976558685303
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.793888509273529
+Universel signifie pour tous !: 0.7849568128585815
+
+Initial proposal:
+un revenu universel et franco-français
+Closest neighbors:
+NON à la fabrique de fainéants: 0.7769435048103333
+revenu universel d'activite: 0.7615156173706055
+Pour tous: 0.7359722256660461
+Ayant droits: 0.7351799011230469
+Un revenu universel pour chacun(e): 0.728323221206665
+
+Initial proposal:
+etudes supérieures gratuites
+Closest neighbors:
+Et les étudiants: 0.7109565734863281
+RUA: 0.707352876663208
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.7069326639175415
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.7007164359092712
+Sauf handicapés: 0.6987221240997314
+
+Initial proposal:
+inclure les étudiants
+Closest neighbors:
+Tout le monde : c'est un revenu UNIVERSEL: 0.89748215675354
+A tous (sinon il n'est pas universel): 0.8522601127624512
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.8512125611305237
+TOUT LE MONDE si c'est un revenu universel: 0.831010103225708
+Universel signifie pour tous !: 0.8255957365036011
+
+Initial proposal:
+La considération du handicap avec un taux inférieur à 80%
+Closest neighbors:
+L'allocation d'Adulte Handicapé, l'APL et toutes les aides concernant le handicap ne doit pas être inclusent dans le Revenu Universel d'Activité: 0.8532954454421997
+NON À L INCLUSION DE L'AAH DANS LE FUTUR RUA: 0.8443549871444702
+Les personnes handicapées en situation de pauvreté: 0.8085671067237854
+Le RUA n'est pas adapté à toutes les situations de handicap: 0.8065576553344727
+Prime d'activité pour l'ensembles des personnes en invalidité (sous conditions de ressources): 0.8053059577941895
+
+Initial proposal:
+Pour tous individuellement, imposé
+Closest neighbors:
+Instituer un plafond de patrimoine: 0.7880262136459351
+Revenu d activite: 0.7560127377510071
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7462118268013
+Guichet Unique de Prestations Sociales: 0.7323086857795715
+Guichet Unique de Prestations Sociales: 0.7323086857795715
+
+Initial proposal:
+RU pour qui
+Closest neighbors:
+Aux personnes qui se donnent la peine de  chercher du travail: 0.7728630304336548
+Le RUA s'adresserait à toutes les personnes ayant un revenu inférieur au seuil de pauvreté qui est de 1 026 : 0.7599241733551025
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.6962783336639404
+Objectif 0 jeune sans ressource et sans accompagnement: 0.6863906383514404
+Étudiant et jeunes après leurs études: 0.6624282598495483
+
+Initial proposal:
+A tous ceux qui sont en précarité, pauvreté
+Closest neighbors:
+Arrêt des aides, oui à un revenu universel à tous les français.: 0.8487963080406189
+Un revenu universel pour chacun(e): 0.8377924561500549
+Liberté Egalité Fraternité: 0.8286950588226318
+revenu universel aussi pour les enfants: 0.82660311460495
+Revenu universel en remplacement de tous les aides nationales: 0.8255367279052734
+
+Initial proposal:
+Ne pas laisser de côté les publics fragiles
+Closest neighbors:
+Ne pas inclure les personnes bénéficiant de l'AAH ayant un trouble psychique: 0.8112324476242065
+Aux travailleurs et à ceux qui sont dans l'incapacité de travailler: 0.8076801300048828
+prioriser le revenu universel d'activité: 0.8000780940055847
+RUA: 0.7907060384750366
+RUA: 0.7846189737319946
+
+Initial proposal:
+Individualiser le RUA plutôt que de l'accorder à un foyer
+Closest neighbors:
+L'AAH sans prendre en compte le revenu du conjoint: 0.7299308180809021
+Les personnes avec ou sans emplois sous conditions: 0.7179701924324036
+vrai statut de l'aidant, hors allocations: 0.7133500576019287
+Pour tous, à partir de la majorité.: 0.7064868211746216
+Prise en compte individuelle des ressources financières: 0.7035406827926636
+
+Initial proposal:
+obligation pour le bénéficiaire de vivre en france et de vouloir y rester
+Closest neighbors:
+AUX FRANCAIS: 0.8118356466293335
+Les Français en Europe: 0.7963482737541199
+Ayant droits: 0.7809029221534729
+revenu universel d'activite: 0.7765040993690491
+Réservé aux seuls nationaux: 0.7608500719070435
+
+Initial proposal:
+A Tous dès la naissance et toute la vie
+Closest neighbors:
+A tous ceux qui sont en précarité, pauvreté: 0.7816514372825623
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7707560062408447
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.7614689469337463
+Guichet Unique de Prestations Sociales: 0.7550661563873291
+Guichet Unique de Prestations Sociales: 0.7550661563873291
+
+Initial proposal:
+A Tous
+Closest neighbors:
+A tous ou à personne: 0.7277128100395203
+Une autre vision du revenu d'activité: 0.7125357389450073
+tout majeur en dessous de ce RUA: 0.7061156034469604
+RUA: 0.6931778788566589
+Guichet Unique de Prestations Sociales: 0.6910451650619507
+
+Initial proposal:
+mère seule
+Closest neighbors:
+Mère travaillant élevant seule des enfants: 0.8731105327606201
+Mères isolées et familles nombreuses: 0.8148407340049744
+femmes: 0.7857717275619507
+mères isolées ayant élevé elurs enfants seules: 0.7784595489501953
+des aides oui mais .....: 0.7441239356994629
+
+Initial proposal:
+A TOUS MAIS AVEC DES CONDITIONS A DÉTERMINER ET A VÉRIFIER ENSEMBLE
+Closest neighbors:
+Les personnes avec ou sans emplois sous conditions: 0.7303020358085632
+le quart le plus pauvre des plus de 16 ans, tout simplement: 0.7121520042419434
+A quel public le Revenu Universel d'Activité doit-il s'adresser ?: 0.7067708373069763
+Le RUA doit s'adresser à tout adulte majeur !: 0.697583794593811
+Pour tous, à partir de la majorité.: 0.6942696571350098
+
+Initial proposal:
+A tous les citoyens comme est censé l'être un réel revenu universel
+Closest neighbors:
+A tous (sinon il n'est pas universel): 0.8860563635826111
+Liberté Egalité Fraternité: 0.8573551177978516
+inclure les étudiants: 0.8512125611305237
+Tout le monde : c'est un revenu UNIVERSEL: 0.8475703597068787
+Pour chaque être humain, quelque soit l'âge, la nationalité.: 0.8464041352272034
+
+Initial proposal:
+Prime temporaire
+Closest neighbors:
+A toutes les personnes  ayant des revenus inférieurs à 800 euros/mois: 0.7790929079055786
+Universel ? Donc pour tous: 0.774797260761261
+RUA: 0.760672926902771
+Équité: 0.7591607570648193
+Revenu d activite: 0.7561041116714478
+
+Initial proposal:
+Une autre vision du revenu d'activité
+Closest neighbors:
+A tout les citoyens en fonction des ressources / patrimoine: 0.7825360894203186
+A tous ! Il suffirait de créer un revenu UNIVERSEL (et non un revenu universel d'activité).: 0.7773597836494446
+A tous les citoyens comme est censé l'être un réel revenu universel: 0.7460983991622925
+revenu  universel   pour  toutes  les  personnes  ayant  un  revenu  inférieur  à1500   euros  nets  par  mois: 0.7442355751991272
+Un revenu pour tous: 0.7426384091377258
+
+Initial proposal:
+Pour les étudiants à plus de 100km de chez ses parents.
+Closest neighbors:
+Aides aux Etudiants: 0.7275174856185913
+les jeunes finissant leurs études: 0.6681698560714722
+A TOUS MAIS AVEC DES CONDITIONS A DÉTERMINER ET A VÉRIFIER ENSEMBLE: 0.654148519039154
+Monoparental et étudiants: 0.6480435132980347
+A TOUS LES ETUDIANTS SANS DISTINCTION: 0.6476560831069946
+
+Initial proposal:
+A toutes les personnes en situation difficile temporaire ou permanente
+Closest neighbors:
+Universelle: 0.7153760194778442
+RUA: 0.7076005339622498
+La ressource nette par ménage : un pilotage des aides par les écarts: 0.698215126991272
+A qui doit s'adresser le RUA: universel donc...: 0.6959471702575684
+INNOVER pour une SOCIETE PLUS INCLUSIVE et moins DISCRIMINATOIRE : LES AIDANTS et ACCUEILLANTS FAMILIAUX.: 0.6692664623260498
+
+Initial proposal:
+Faire comme la prime activité  avec les même plafond resources
+Closest neighbors:
+aux personnes travaillant à mi-temps ou 3/4 temps: 0.6346368789672852
+A tous ! Il suffirait de créer un revenu UNIVERSEL (et non un revenu universel d'activité).: 0.6280131936073303
+A tous quand on montre une motivation à sen sortir: 0.6238576173782349
+A QUI DOIT S'ADRESSER LE RUA: 0.6110091805458069
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.6087698936462402
+
+Initial proposal:
+Les travailleurs pauvres
+Closest neighbors:
+aux personnes travaillant à mi-temps ou 3/4 temps: 0.7797493934631348
+Universel : Qui s'étend, s'applique à la totalité des objets (personnes ou choses) qui existent.: 0.7674745321273804
+Éradiquer la pauvreté dans une société solidaire: 0.758578896522522
+pour tous mais sous conditions: 0.729831337928772
+Aux chômeurs en fin de droits (ASS): 0.7233171463012695
+

@@ -1,0 +1,3906 @@
+Initial proposal:
+Financer le Revenu universel d'activité par la solidarité nationale
+Closest neighbors:
+Augmenter les minimas sociaux: 0.6517736315727234
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.6469721794128418
+Un Revenu Universel d'Activité compensatoire: 0.6416153311729431
+les risques: 0.6406453847885132
+Confier la gestion et le versement du RUA au futur service public de l'insertion (et de l'emploi): 0.6385973691940308
+
+Initial proposal:
+Dès l'attribution du Revenu universel d'activité, offrir un accompagnement professionnel et/ou social immédiat, selon la situation de la personne
+Closest neighbors:
+RU: 0.7558786869049072
+Universalité Prendre en compte les revenues et les périodes travailler: 0.7365500330924988
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7119304537773132
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7107515335083008
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.7086831331253052
+
+Initial proposal:
+Détecter les personnes éligibles au Revenu universel d'activité afin de les informer de leur droit
+Closest neighbors:
+Un versement automatisé: 0.6930117011070251
+Développer lapplication mobile mesdroitssociaux.gouv.fr: 0.6561144590377808
+Intégrer une AUTOMATICITÉ dans les modalités d'attribution: 0.6553422212600708
+Automatisation des aides: 0.6550652384757996
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.6512737274169922
+
+Initial proposal:
+Prendre en compte le fait d'avoir des enfants à charge
+Closest neighbors:
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.7697440981864929
+Egalité entre les enfants d'une même fratrie: 0.7501220107078552
+Prise en compte des ressources: 0.7305914163589478
+Monoparental (h ou f): 0.7248926162719727
+Plafonner, diminuer ou supprimer les allocations familiales au dela de 3 ou 4 enfants.: 0.697472333908081
+
+Initial proposal:
+Prendre en compte les revenus de tout le foyer
+Closest neighbors:
+Prendre en compte les revenus et la situation du foyer: 0.7577659487724304
+Revenu: 0.7244987487792969
+Prise en compte des ressources: 0.7079206705093384
+juste sur les revenus: 0.7047687768936157
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.6940388679504395
+
+Initial proposal:
+En mesure d'accompagnement, permettre à chacun de convertir en en  son compte personnel formation
+Closest neighbors:
+En cas de chômage après 55 ans: 0.6773531436920166
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.6748663187026978
+prise en compte pour les personnes qui vivent en couples sans être mariés mais aussi pour la pension de réversion!: 0.6727477312088013
+adapter +++ aux différences et cas particuliers: 0.6384313106536865
+Fin du droit automatique sans contrepartie: 0.6377063393592834
+
+Initial proposal:
+Majorer les montants en fonction de l'éloignement des centres de formation
+Closest neighbors:
+EMPLOI DU PERSONNEL QUI TOUCHE LE RSA: 0.44805213809013367
+fusion de toutes les aides sociales: 0.43183988332748413
+Montant: 0.4237767457962036
+Un RUA centré sur le parcours de l'individu plutôt que le foyer: 0.40910449624061584
+QUE LE MONTANT SOIT SUPERIEUR AU RSA: 0.4090772867202759
+
+Initial proposal:
+Permettre à chacun de choisir son projet professionnel sur plusieurs annéess
+Closest neighbors:
+INFORMER LES PERSONNES: 0.540991485118866
+Réinsertion: 0.5377272367477417
+Droit du sol: 0.5339767336845398
+A TOUS MAIS AVEC DES CONDITIONS ET A VÉRIFIER ENSEMBLE: 0.51604825258255
+Revoir régulièrement la situation de la personne: 0.508151650428772
+
+Initial proposal:
+Expérimenter sur 3 régions et diffuser les résultats
+Closest neighbors:
+carte bleue crédité de l'aide gérée par la poste ...: 0.5545750856399536
+PRISE EN COMPTE DES ALLOCATIONS SPECIFIQUES DE LA VILLE DE PARIS: 0.5506578683853149
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.5106472969055176
+Le revenu de développement: 0.5030343532562256
+Les conditions pour bénéficier du Revenu universel d'activité: 0.5019060373306274
+
+Initial proposal:
+augmentation des cotisations patronales, arrét de la baisse des charges
+Closest neighbors:
+Conditionner le versement de dividendes à l'amélioration des salaires: 0.6562618017196655
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.6534039974212646
+Une répartition équitable, sans contre-sens décourageants: 0.6495769619941711
+les modalites: 0.6394146680831909
+Donner 1000 euros à tous à partir de 18 ans: 0.6272411942481995
+
+Initial proposal:
+Pourquoi les employeurs continuent-ils à reçevoir des aides avec l'argent de nos impôts sans contreparties? c'est du VOL!
+Closest neighbors:
+unique condition = citoyen Français: 0.5397588014602661
+carte bleue crédité de l'aide gérée par la poste ...: 0.5380550622940063
+Faire un emprunt la première année puis largent reviendra automatiquement dans les caisses de létat les années suivantes puisque réinjecté dans léconomie à travers les dépenses quotidiennes des français (TVA, taxes sur le carburants, impôts, ...etc): 0.5296139121055603
+Arrêtez de harceler les plus faibles: 0.5167565941810608
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.5133192539215088
+
+Initial proposal:
+Traitement individuel ou conjoint
+Closest neighbors:
+Kalissy06: 0.7364040017127991
+Plafonner, diminuer ou supprimer les allocations familiales au dela de 3 ou 4 enfants.: 0.6985092163085938
+Partage équitable des aides entre deux parents divorcés ou séparés: 0.6958212852478027
+prise en compte pour les personnes qui vivent en couples sans être mariés mais aussi pour la pension de réversion!: 0.6816775798797607
+Jeune -25 ans: 0.6806458830833435
+
+Initial proposal:
+les risques
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.8821724653244019
+Prendre en compte les revenus de tout le foyer: 0.8816772699356079
+Les revenus du foyer: 0.8626381158828735
+Revenu universel d' activité: 0.6948938369750977
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.693606972694397
+
+Initial proposal:
+prise en compte pour les personnes qui vivent en couples sans être mariés mais aussi pour la pension de réversion!
+Closest neighbors:
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.6923775672912598
+Traitement individuel ou conjoint: 0.6816775798797607
+En mesure d'accompagnement, permettre à chacun de convertir en en  son compte personnel formation: 0.6727477312088013
+Universel: 0.6054589748382568
+Attention à prendre en compte toutes les situations: 0.5953024625778198
+
+Initial proposal:
+REVENU UNIVERSEL DACTIVITÉ (bonne idée ou usine à gaz ?)
+Closest neighbors:
+Objet: Revenu universel d'activité / Revenu de base inconditionnel: 0.597036600112915
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.5865898132324219
+Pas d'impots supplementaires: 0.5821649432182312
+JE SUIS CONTRE UN REVENU UNIVERSEL SANS CONTREPARTIE D'UN TRAVAIL: 0.5485204458236694
+En traquant les fraudes et les gaspillages: 0.5426146984100342
+
+Initial proposal:
+Ne pas prendre la situation personnelle de la personne dans le calcul du revenu (AAH)
+Closest neighbors:
+individualiser les aides: 0.7140862941741943
+Revenu universel d' activité: 0.7014280557632446
+juste sur les revenus: 0.6874369382858276
+Prendre en compte les revenus et la situation du foyer: 0.6863213181495667
+conditions: 0.6858986616134644
+
+Initial proposal:
+Les revenus du foyer
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.9356749653816223
+Prendre en compte les revenus de tout le foyer: 0.9350165128707886
+les risques: 0.8626381158828735
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7592971920967102
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7458095550537109
+
+Initial proposal:
+financement par création monétaire
+Closest neighbors:
+financement par création monétaire: 1.0000001192092896
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté: 0.6646105051040649
+aller vers un revenu universel: 0.6419506072998047
+Revenu universel: 0.6247952580451965
+Financement: 0.624323844909668
+
+Initial proposal:
+financement par création monétaire
+Closest neighbors:
+financement par création monétaire: 1.0000001192092896
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté: 0.6646105051040649
+aller vers un revenu universel: 0.6419506072998047
+Revenu universel: 0.6247952580451965
+Financement: 0.624323844909668
+
+Initial proposal:
+financement RSA
+Closest neighbors:
+financement R.U.A: 0.6473571062088013
+En traquant les fraudes et les gaspillages: 0.6105238199234009
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6093701124191284
+financement du RUA: 0.6033339500427246
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.5997635126113892
+
+Initial proposal:
+Pas d'impots supplementaires
+Closest neighbors:
+Par l'impot payé par tous: 0.8157711029052734
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.8110105395317078
+Revenu universel pour TOUS: 0.7880469560623169
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.7670961618423462
+Droits et devoir: 0.758228600025177
+
+Initial proposal:
+Plus de controle
+Closest neighbors:
+Non un point c tout: 0.7448424100875854
+Pas d'impots supplementaires: 0.722846508026123
+Un fichier central pour une bureaucratie fluide: 0.7221633791923523
+Universal Credit au Royaume Uni: 0.715090811252594
+Effet pervers du financement par l'impôt?: 0.6981775760650635
+
+Initial proposal:
+Un Revenu Universel dActivité pour compenser un manque de revenu
+Closest neighbors:
+Un Revenu Universel d'Activité compensatoire: 0.9922613501548767
+Eviter les effets de seuil: 0.7699140310287476
+Pas que le revenu , les dépenses du foyer aussi ...: 0.7568944692611694
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7554673552513123
+Prendre en compte les revenus de tout le foyer: 0.741517186164856
+
+Initial proposal:
+Tenir compte des échecs thérapeutiques pour l'AAH
+Closest neighbors:
+Le financement du RUA: 0.641552746295929
+NON à la fusion de l'AAH avec le RUA: 0.6253620982170105
+AAH: 0.5348212122917175
+Question sans objet car les Bénéficiaires de l'AAH ne doivent pas être inclus dans le RUA: 0.5319725871086121
+stop  pas touche  a mon  aah: 0.508926272392273
+
+Initial proposal:
+CAISSE DES REVENUS
+Closest neighbors:
+En traquant les fraudes et les gaspillages: 0.6669945120811462
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6599684357643127
+Revenu universel pour TOUS: 0.6579265594482422
+Comment redistribuer de façon solidaire: 0.652249813079834
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.6445513367652893
+
+Initial proposal:
+Universalité Prendre en compte les revenues et les périodes travailler
+Closest neighbors:
+Réinsertion: 0.7885371446609497
+Solidarité nationale ET taxe entreprise: 0.7486957311630249
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7416197657585144
+Dès l'attribution du Revenu universel d'activité, offrir un accompagnement professionnel et/ou social immédiat, selon la situation de la personne: 0.7365500330924988
+Autofinancement: 0.7331413626670837
+
+Initial proposal:
+JE SUIS CONTRE UN REVENU UNIVERSEL SANS CONTREPARTIE D'UN TRAVAIL
+Closest neighbors:
+non: 0.658399224281311
+Sortir de la règle des 5/95, soit 5% de la population qui vit grassement: 0.6327807903289795
+activite = travail: 0.6294339895248413
+Objet: Revenu universel d'activité / Revenu de base inconditionnel: 0.6233091950416565
+Pas d'impots supplementaires: 0.611969530582428
+
+Initial proposal:
+Le financement du RUA
+Closest neighbors:
+NON à la fusion de l'AAH avec le RUA: 0.8021583557128906
+modalités de demande du RUA: 0.7603404521942139
+stop  pas touche  a mon  aah: 0.7282385230064392
+Aides au logement et aah.: 0.7216887474060059
+Prendre en compte les revenus de tout le foyer: 0.7024140954017639
+
+Initial proposal:
+AAH
+Closest neighbors:
+les risques: 0.5851811170578003
+Délinquance: 0.5774168372154236
+Prendre en compte les revenus de tout le foyer: 0.5474038124084473
+Prendre en compte les revenus de tout le foyer: 0.5447460412979126
+JE SUIS CONTRE UN REVENU UNIVERSEL SANS CONTREPARTIE D'UN TRAVAIL: 0.5202305316925049
+
+Initial proposal:
+modalités de demande du RUA
+Closest neighbors:
+Le financement du RUA: 0.7603404521942139
+stop  pas touche  a mon  aah: 0.7186329960823059
+Revenu universel d' activité: 0.7123716473579407
+ne pas compter l'APL dans cette réforme: 0.7116632461547852
+Un fichier central pour une bureaucratie fluide: 0.710487961769104
+
+Initial proposal:
+Objet: Revenu universel d'activité / Revenu de base inconditionnel
+Closest neighbors:
+Par l'impot payé par tous: 0.6544201374053955
+Sortir de la règle des 5/95, soit 5% de la population qui vit grassement: 0.6512108445167542
+Pas d'impots supplementaires: 0.6407376527786255
+Fixer un revenu minimum décent.: 0.6395494937896729
+non: 0.6319035887718201
+
+Initial proposal:
+Rua pour les personnes en desous du seuil de pauvreté
+Closest neighbors:
+Financement sur la succession: 0.7392875552177429
+Le rua ne doit pas comprendre tt les aides: 0.7172538638114929
+Un Revenu Universel d'Activité compensatoire: 0.7140442132949829
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7081502676010132
+Eviter les effets de seuil: 0.7031378746032715
+
+Initial proposal:
+Qu'un avis du Conseil d'Etat puisse aussi être demandé par M. le Défenseur des Droits
+Closest neighbors:
+Augmenter les minimas sociaux: 0.6691297292709351
+Une actualisation mensuelle: 0.6660491824150085
+Plus de controle: 0.6512385010719299
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République: 0.644490659236908
+Suspendre ou supprimer le RSA pour les personnes auteurs ou dont les enfants à charge sont auteurs de dégradations de biens publiques ou privés: 0.6409993767738342
+
+Initial proposal:
+Prendre en compte les montants du loyer ou crédit immobilier
+Closest neighbors:
+Monoparental (h ou f): 0.6971985697746277
+juste sur les revenus: 0.685367226600647
+Prendre en compte le fait d'avoir des enfants à charge: 0.6541368961334229
+Composition familiale, revenus du travail, loyer dû : Le RUA serait calculer en fonction de plusieurs critères: 0.6467140316963196
+Prendre en compte les revenus de tout le foyer: 0.642281711101532
+
+Initial proposal:
+A associer aux besoins
+Closest neighbors:
+Pourquoi pas des chèques solidarité ?: 0.7473555207252502
+Donner une partie de l'aide en nature: 0.6934850811958313
+Justificatif: 0.6651744246482849
+fonctionnement: 0.6591578722000122
+Prise en compte de la situation familiale: 0.6389715671539307
+
+Initial proposal:
+DU TRAVAIL EN CONTREPARTIE
+Closest neighbors:
+Réinsertion: 0.8218417763710022
+Montant RUA limité: 0.7536846399307251
+Continuer à prendre en compte les frais réels: 0.7530957460403442
+Eviter les effets de seuil: 0.728521466255188
+Un revenu, un travail: 0.7247880697250366
+
+Initial proposal:
+Revoir régulièrement la situation de la personne
+Closest neighbors:
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE: 0.7760728001594543
+Réinsertion: 0.7265796661376953
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.7115768790245056
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.6888281106948853
+REUNIR: 0.6810781955718994
+
+Initial proposal:
+Un Revenu Universel d'Activité compensatoire
+Closest neighbors:
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.9922613501548767
+Eviter les effets de seuil: 0.7602971792221069
+Pas que le revenu , les dépenses du foyer aussi ...: 0.7567939162254333
+Prendre en compte les revenus de tout le foyer: 0.7437987327575684
+Prendre en compte les revenus de tout le foyer: 0.7425248622894287
+
+Initial proposal:
+Financer le revenu universel en cessant les gaspillages d'argent public
+Closest neighbors:
+économiser en supprimant des avantages exagérés: 0.8187094926834106
+Financement: 0.6826967000961304
+En traquant les fraudes et les gaspillages: 0.6530708074569702
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.6512553691864014
+Restaurer le congés Bilan de compéténces: 0.6486058831214905
+
+Initial proposal:
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...
+Closest neighbors:
+Passer d'un RUA à un Revenu Universel: 0.6257737874984741
+Prévisions du RUA à long terme: 0.5985963940620422
+CAISSE DES REVENUS: 0.5878623723983765
+REVENU UNIVERSEL DACTIVITÉ (bonne idée ou usine à gaz ?): 0.5865898132324219
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.5711120367050171
+
+Initial proposal:
+mon mode opératoire du rua
+Closest neighbors:
+Reconnaître la précarité: 0.7773836851119995
+Un filet de sécurité: 0.7720990180969238
+juste sur les revenus: 0.7584956884384155
+Montant: 0.7515414953231812
+Fonctionnement par points en regroupant tous les critères des aides déjà existantes: 0.7497559785842896
+
+Initial proposal:
+Kalissy06
+Closest neighbors:
+Prendre en compte les revenus et la situation du foyer: 0.7682008147239685
+Prendre en compte le handicap et les enfants à charge: 0.7523622512817383
+Traitement individuel ou conjoint: 0.7364040017127991
+Jeune -25 ans: 0.7351645231246948
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.7253310680389404
+
+Initial proposal:
+Prendre en compte les revenus de tout le foyer
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.9998437762260437
+Les revenus du foyer: 0.9350165128707886
+les risques: 0.8816772699356079
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7742857933044434
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7722855806350708
+
+Initial proposal:
+Les prérequis facilitant la mise en oeuvre du revenu universel
+Closest neighbors:
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7409524321556091
+Pour un nouveau système économique basé sur le droit à l'existence, et non sur la nécessité d'avoir un emploi: 0.7090224027633667
+Comment redistribuer de façon solidaire: 0.6926715970039368
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.6897184252738953
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.6877932548522949
+
+Initial proposal:
+Prendre en compte les problématiques spécifiques
+Closest neighbors:
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7032053470611572
+Prendre en compte les revenus (souvent inexistants) des jeunes et étudiants: 0.7028840184211731
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.6895745992660522
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6876415014266968
+Reconnaître la précarité: 0.6684653759002686
+
+Initial proposal:
+Éviter la redondance des demandes de justificatifs ou de documents
+Closest neighbors:
+Un versement automatisé: 0.6619101166725159
+Détecter les personnes éligibles au Revenu universel d'activité afin de les informer de leur droit: 0.6020864844322205
+Intégrer une AUTOMATICITÉ dans les modalités d'attribution: 0.5907087922096252
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.5353819727897644
+Reconnaître l'investissement bénévole dans des organismes d'intérêt général: 0.5148490071296692
+
+Initial proposal:
+Un versement automatisé
+Closest neighbors:
+Automatisation des aides: 0.6930449604988098
+Détecter les personnes éligibles au Revenu universel d'activité afin de les informer de leur droit: 0.6930117011070251
+Simplification radicale: 0.6808586120605469
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6709635853767395
+Éviter la redondance des demandes de justificatifs ou de documents: 0.6619101166725159
+
+Initial proposal:
+Tous égaux alors même aide financière
+Closest neighbors:
+Vous avez dit universel!: 0.6953957080841064
+Les conditions pour bénéficier du Revenu universel d'activité: 0.6378189921379089
+Avoir 18 ans: 0.6317282319068909
+Droit du sol: 0.6125257015228271
+Conditions - 1400 euros net Revenu minimum universel: 0.5577471256256104
+
+Initial proposal:
+dégradation des aides sociales
+Closest neighbors:
+Un RU non imposable !: 0.7592291235923767
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7369337677955627
+Eviter les effets de seuil: 0.7348002195358276
+ECRAN DE FUMEE: 0.7281433939933777
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7272672057151794
+
+Initial proposal:
+La banque ADN  une banque qui assure sur la vie de l'humanité
+Closest neighbors:
+C'estun revenu donc c'est imposable: 0.7223360538482666
+Revenu universel pour TOUS: 0.720241904258728
+Reconnaître la précarité: 0.7183225154876709
+Conditions à remplir: 0.69621342420578
+Salaire mensuel universel individuel: 0.6895387768745422
+
+Initial proposal:
+Étudiants
+Closest neighbors:
+Faire les modalités de demande du rua pendant le service national universel: 0.7294632196426392
+Aucune condition pour en bénéficier: 0.693787157535553
+RUA pour l'autonomie des jeunes: 0.6896962523460388
+tout le monde à la même enseigne: 0.6864281296730042
+Équité: 0.6794221997261047
+
+Initial proposal:
+"Faire passer la compétence ""bourse"" du CROUS à l'organisme chargé du RUA"
+Closest neighbors:
+Par l'impot payé par tous: 0.6337802410125732
+justifier de faibles revenus: 0.6249425411224365
+Attribution automatique: 0.6032262444496155
+Redistribution: 0.602208137512207
+Plus de controle: 0.5931422710418701
+
+Initial proposal:
+Financement de l'Etat pour laisser les départements et les villes faire des aides exceptionnelles
+Closest neighbors:
+Pour tous = simplification: 0.7779213190078735
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.7611376643180847
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7083720564842224
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.6995528936386108
+Fusionner entre les différentes strates de la collectivité.: 0.658808708190918
+
+Initial proposal:
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations
+Closest neighbors:
+Sortir de la règle des 5/95, soit 5% de la population qui vit grassement: 0.777138888835907
+Pas d'impots supplementaires: 0.7670961618423462
+Droits et devoir: 0.7598084211349487
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.7248281240463257
+Universal Credit au Royaume Uni: 0.71540766954422
+
+Initial proposal:
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire
+Closest neighbors:
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.7971237897872925
+Financer aussi un vrai accompagnement des bénéficiaires: 0.7808804512023926
+Réinsertion: 0.769520103931427
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.7436704635620117
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7276467084884644
+
+Initial proposal:
+revenu digne
+Closest neighbors:
+Reconnaître la précarité: 0.703701376914978
+Instituer le Revenu Universel tout court (et donc pas « d'activité »): 0.6944079995155334
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.6838366389274597
+Eviter les effets de seuil: 0.6795471906661987
+Un revenu, un travail: 0.6619805097579956
+
+Initial proposal:
+L'âge
+Closest neighbors:
+Avoir 18 ans: 0.6104282140731812
+Jeune -25 ans: 0.5430288910865784
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.532828152179718
+Un revenu minimum de 18 à 62 ans: 0.532039999961853
+Simple et garanti ex: 600 par adulte, 300 par enfants, pour tou(te)s quel que soit le revenu.: 0.5275840759277344
+
+Initial proposal:
+Prendre en compte le coût du logement
+Closest neighbors:
+Revenu: 0.6961748600006104
+Composition familiale, revenus du travail, loyer dû : Le RUA serait calculer en fonction de plusieurs critères: 0.6836062669754028
+versement allocation logement: 0.6684901714324951
+Prendre en compte les revenus et la situation du foyer: 0.6557232737541199
+Prendre en compte les montants du loyer ou crédit immobilier: 0.6290898323059082
+
+Initial proposal:
+Prendre en compte les revenus (souvent inexistants) des jeunes et étudiants
+Closest neighbors:
+justifier de faibles revenus: 0.7044572234153748
+Prendre en compte les problématiques spécifiques: 0.7028840184211731
+Étudiants: 0.6708777546882629
+stop  pas touche  a mon  aah: 0.6249022483825684
+Faire les modalités de demande du rua pendant le service national universel: 0.6062822341918945
+
+Initial proposal:
+La France ne peut stopper la mondialisation mais peut privilégier l Europe et
+Closest neighbors:
+Taxer les transactions financières: 0.6405906677246094
+financement du RUA: 0.6343144178390503
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.6172059178352356
+VEILLER à contrôler la baisse prévue du taux de redristibution et éviter un effet d'aubaine et de renforcement de l'assistanat.: 0.5878631472587585
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.5850563645362854
+
+Initial proposal:
+Les taxes sur les robots, les gaffas...
+Closest neighbors:
+Prendre l'argent là où il y en a: 0.6575745940208435
+Taxe technologique (robot): 0.6380483508110046
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.6377788782119751
+Flat tax: 0.6317285895347595
+financement: 0.6086928844451904
+
+Initial proposal:
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE
+Closest neighbors:
+Revoir régulièrement la situation de la personne: 0.7760728001594543
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.7515841126441956
+VERSEMENT: 0.7239405512809753
+Un Revenu Universel d'Activité compensatoire: 0.7048585414886475
+En cas de chômage après 55 ans: 0.7007713317871094
+
+Initial proposal:
+REVENU minimum pour tous et toutes sans distinction
+Closest neighbors:
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6580120325088501
+Revenu universel pour TOUS: 0.6540120244026184
+Fixer un revenu minimum décent.: 0.6343297362327576
+Pas d'impots supplementaires: 0.6231074333190918
+Être citoyen français émancipé (soit plus à charge): 0.622782826423645
+
+Initial proposal:
+Fixer un revenu minimum décent.
+Closest neighbors:
+Un montant pour chacun: 0.7808256149291992
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7547049522399902
+Le RUA est indexé sur le seuil de pauvreté municipale/intercommunal et l'inflation: 0.7385007739067078
+Pas d'impots supplementaires: 0.7156124114990234
+Revenu universel pour TOUS: 0.7105236053466797
+
+Initial proposal:
+CONTRIBUER : la SEULE Vraie Voie de Sortie
+Closest neighbors:
+Reconnaître l'investissement bénévole dans des organismes d'intérêt général: 0.6644617915153503
+Solidarité nationale ET taxe entreprise: 0.6530606150627136
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.6499588489532471
+Autofinancement: 0.6329988241195679
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.6317400336265564
+
+Initial proposal:
+Prendre en compte le handicap et les enfants à charge
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.8249148726463318
+atteinte aux droit des familles des personnes handicapé: 0.7864886522293091
+Kalissy06: 0.7523622512817383
+UNIVERSALITE: 0.7293432354927063
+adapter +++ aux différences et cas particuliers: 0.7184371948242188
+
+Initial proposal:
+Le RUA est indexé sur le seuil de pauvreté municipale/intercommunal et l'inflation
+Closest neighbors:
+Fixer un revenu minimum décent.: 0.7385007739067078
+Reconnaître la précarité: 0.7314335107803345
+Revenu universel pour TOUS: 0.7265708446502686
+Le revenu universel pour tous: 0.6980769634246826
+C'estun revenu donc c'est imposable: 0.6960961222648621
+
+Initial proposal:
+Et pourquoi pas deux versions du RUA ? un RU et un RUA
+Closest neighbors:
+stop  pas touche  a mon  aah: 0.8154585957527161
+seule (ou seul) avec un enfant porteur de handicap ...: 0.7976230978965759
+Exclure le Handicap du champ du RUA: 0.7784794569015503
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.771264374256134
+Aides au logement et aah.: 0.7553650736808777
+
+Initial proposal:
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.
+Closest neighbors:
+Continuer à prendre en compte les frais réels: 0.7653251886367798
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA: 0.7479093074798584
+Aah: 0.7403464317321777
+Prendre en compte les revenus de tout le foyer: 0.707853376865387
+Prendre en compte les revenus de tout le foyer: 0.7048624753952026
+
+Initial proposal:
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL
+Closest neighbors:
+stop  pas touche  a mon  aah: 0.7500525712966919
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA: 0.732789933681488
+Un Revenu Universel d'Activité compensatoire: 0.7271382808685303
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7123570442199707
+Que viennent faire les apl ainsi que l aah dans le rua?: 0.7059001922607422
+
+Initial proposal:
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?
+Closest neighbors:
+Taxer les transactions financières: 0.6812171936035156
+financement du RUA: 0.6614423990249634
+Redistribution: 0.6561755537986755
+Rétablir de l'ISF: 0.6445149183273315
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.6438214778900146
+
+Initial proposal:
+Un financement Etat et non par les collectivité locales
+Closest neighbors:
+Pour un nouveau système économique basé sur le droit à l'existence, et non sur la nécessité d'avoir un emploi: 0.6852303743362427
+Porter plus efficacement à la connaissance de chacun ses droits, et respecter les choix faits: 0.6580472588539124
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6469358205795288
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6319051384925842
+Effet pervers du financement par l'impôt?: 0.6265272498130798
+
+Initial proposal:
+Vous avez dit universel!
+Closest neighbors:
+1 200 : 0.7367272973060608
+Tous égaux alors même aide financière: 0.6953957080841064
+Bulletin de salaire: 0.6248329877853394
+Taxe de participation: 0.6213479042053223
+Envisager un impôt sur le revenu des personnes physiques négatif faisant office de revenu universel d'activité: 0.5917298793792725
+
+Initial proposal:
+Une étude minutieuse des conditions de vie pour le versement de ce revenu
+Closest neighbors:
+Prise en compte des ressources: 0.7503020763397217
+Sous quelles conditions: 0.7396619915962219
+En cas de chômage après 55 ans: 0.7340750694274902
+ressources pour tous: 0.726211428642273
+Kalissy06: 0.714836597442627
+
+Initial proposal:
+Un RUA centré sur le parcours de l'individu plutôt que le foyer
+Closest neighbors:
+Prendre en compte les revenus et la situation du foyer: 0.6925389766693115
+Revenu: 0.6873251795768738
+Kalissy06: 0.6529383063316345
+Prendre en compte le revenu de la personne: 0.6427137851715088
+revenus par personne: 0.6360564827919006
+
+Initial proposal:
+Universel
+Closest neighbors:
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7354315519332886
+Simple et garanti ex: 600 par adulte, 300 par enfants, pour tou(te)s quel que soit le revenu.: 0.7311165928840637
+Un filet de sécurité: 0.7286390066146851
+Flat tax: 0.7182006239891052
+Universalité et Financement: 0.7162852883338928
+
+Initial proposal:
+Assurer la continuité des droits et interdire les suspensions abusives de versement des allocations
+Closest neighbors:
+juste sur les revenus: 0.7178254723548889
+Justificatif: 0.7014088034629822
+Prendre en compte les revenus de tout le foyer: 0.6974498629570007
+Eviter les effets de seuil: 0.6973617672920227
+Prendre en compte les revenus de tout le foyer: 0.6971943974494934
+
+Initial proposal:
+conditions pour le revenu universel d'activité
+Closest neighbors:
+conditions: 0.7773968577384949
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7319981455802917
+Sous quelles conditions: 0.7233666777610779
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7230179905891418
+revenu dactivité universel sauf apl: 0.7207392454147339
+
+Initial proposal:
+Les robots au boulot, les prolos au bistrot
+Closest neighbors:
+Les robots ou machines robotiques remplacent déjà les salariés dans beaucoup d'entreprises...: 0.7250610589981079
+Prélever une taxe sur les machines: 0.6247699856758118
+Taxe technologique (robot): 0.6085376739501953
+mauvaise idee: 0.6004616618156433
+les modalites: 0.5945315361022949
+
+Initial proposal:
+AAH
+Closest neighbors:
+NON à la fusion de l'AAH avec le RUA: 0.7528142929077148
+Aides au logement et aah.: 0.7466884851455688
+AAH et RUA: 0.7327917814254761
+Revenu universel d' activité: 0.7076955437660217
+Le financement du RUA: 0.6707286834716797
+
+Initial proposal:
+selon les ressources de chaque entité, séparement : couple, enfant, personne seule...
+Closest neighbors:
+Simplification radicale: 0.7377514839172363
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7237628698348999
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.71873539686203
+FUSION: 0.7040753364562988
+Prendre en compte les revenus de tout le foyer: 0.6962098479270935
+
+Initial proposal:
+La politique familiale ne mène qu'à la décadence
+Closest neighbors:
+Traitement individuel ou conjoint: 0.6501316428184509
+stop  pas touche  a mon  aah: 0.5979479551315308
+faire appliquer l'obligation alimentaire et la récupération sur succession à toutes les aides sociales: 0.5638403296470642
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.5625540018081665
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.5560193061828613
+
+Initial proposal:
+Eviter les effets de seuil
+Closest neighbors:
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.8039358854293823
+Montant RUA limité: 0.7906022667884827
+Un RU non imposable !: 0.7752164006233215
+un minimum décent pour les demandeurs d'emploi et retraités: 0.773950457572937
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7699140310287476
+
+Initial proposal:
+Prendre en compte les revenus de tout le foyer
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.9998437762260437
+Les revenus du foyer: 0.9356749653816223
+les risques: 0.8821724653244019
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7707852125167847
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7701465487480164
+
+Initial proposal:
+mauvaise idee
+Closest neighbors:
+En traquant les fraudes et les gaspillages: 0.7188711166381836
+Econnomies sur le fonctionnement: 0.6910549402236938
+ECRAN DE FUMEE: 0.6885835528373718
+économiser en supprimant des avantages exagérés: 0.6779888868331909
+le symptome et non la cause: 0.671875536441803
+
+Initial proposal:
+RUA fonctionnement
+Closest neighbors:
+Simplification radicale: 0.7591977715492249
+REUNIR: 0.7578725814819336
+Justificatif: 0.7289329171180725
+FUSION: 0.7259213924407959
+Pour tous = simplification: 0.724548876285553
+
+Initial proposal:
+Universalité et Financement
+Closest neighbors:
+Conditions à remplir: 0.8415645360946655
+Ne rien prendre en compte: 0.8414711356163025
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.8320728540420532
+Salaire mensuel universel individuel: 0.8286688327789307
+C'estun revenu donc c'est imposable: 0.8165724873542786
+
+Initial proposal:
+Jeune -25 ans
+Closest neighbors:
+Kalissy06: 0.7351645231246948
+LE REVENU DOIT ETRE INDIVIDUEL ET INDIVIDUALISE: 0.7107080221176147
+Traitement individuel ou conjoint: 0.6806458830833435
+RUA pour l'autonomie des jeunes: 0.6525312662124634
+Un RUA centré sur le parcours de l'individu plutôt que le foyer: 0.6177815794944763
+
+Initial proposal:
+Revenu de base
+Closest neighbors:
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.7404831647872925
+Revenu Minimum Unique RMU: 0.6558859348297119
+Revenu universel pour TOUS: 0.6509664058685303
+Reconnaître la précarité: 0.6507026553153992
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.6477260589599609
+
+Initial proposal:
+AAH et RUA
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.7407643795013428
+AAH: 0.7327917814254761
+Exclure le Handicap du champ du RUA: 0.72299724817276
+Prendre en compte le handicap et les enfants à charge: 0.7083110809326172
+Revenu universel d' activité: 0.7041015028953552
+
+Initial proposal:
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...
+Closest neighbors:
+Pas de conditions de ressources si ce doit être universel.: 0.9999992847442627
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.8284740447998047
+Pour tous = simplification: 0.736517608165741
+REUNIR: 0.72223961353302
+Le rua ne doit pas comprendre tt les aides: 0.6809881925582886
+
+Initial proposal:
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants
+Closest neighbors:
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...: 0.8284740447998047
+Pas de conditions de ressources si ce doit être universel.: 0.8284740447998047
+Financement de l'Etat pour laisser les départements et les villes faire des aides exceptionnelles: 0.7611376643180847
+Pour tous = simplification: 0.7494016289710999
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.7293269038200378
+
+Initial proposal:
+Pas de conditions de ressources si ce doit être universel.
+Closest neighbors:
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...: 0.9999992847442627
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.8284740447998047
+Pour tous = simplification: 0.736517608165741
+REUNIR: 0.72223961353302
+Le rua ne doit pas comprendre tt les aides: 0.6809881925582886
+
+Initial proposal:
+Surtout pas de conditions de ressources, sinon ce n'est plus universel
+Closest neighbors:
+Sans condition car c'est universel: 0.7325950860977173
+FUSION: 0.7190507054328918
+REUNIR: 0.682589590549469
+Simplification radicale: 0.6772163510322571
+un socle unique: 0.6676126718521118
+
+Initial proposal:
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil
+Closest neighbors:
+Plafonner, diminuer ou supprimer les allocations familiales au dela de 3 ou 4 enfants.: 0.8015180230140686
+Prendre en compte le fait d'avoir des enfants à charge: 0.7697440981864929
+Egalité entre les enfants d'une même fratrie: 0.7325240969657898
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7258718609809875
+Kalissy06: 0.7253310680389404
+
+Initial proposal:
+Revenu minimum pour toutes et  tous
+Closest neighbors:
+Un Revenu Universel pour tous les citoyens: 0.7482249736785889
+conditions: 0.7255561947822571
+financement R.U.A: 0.7053655385971069
+Aucune condition juste celle d'exister.: 0.7011023759841919
+Équité: 0.6947017908096313
+
+Initial proposal:
+RUA pour tous sans conditions
+Closest neighbors:
+un socle unique: 0.8493966460227966
+RU: 0.8437417149543762
+Reconnaître la précarité: 0.8413833379745483
+Conditions à remplir: 0.8408574461936951
+C'estun revenu donc c'est imposable: 0.802792489528656
+
+Initial proposal:
+Revenu universel pour TOUS
+Closest neighbors:
+C'estun revenu donc c'est imposable: 0.8548182845115662
+Revenu universel même sans activité: 0.8371464610099792
+Reconnaître la précarité: 0.834887683391571
+un socle unique: 0.8272968530654907
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.8176111578941345
+
+Initial proposal:
+Récompenser la vertu
+Closest neighbors:
+Par l'impot payé par tous: 0.5243507623672485
+Allocations familiales dès le 1er enfant: 0.5133313536643982
+Droits ok, mais devoirs aussi: 0.4997473955154419
+Délinquance: 0.4959532916545868
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.49545079469680786
+
+Initial proposal:
+Sous quelles conditions
+Closest neighbors:
+conditions: 0.7829265594482422
+Prendre en compte les revenus et la situation du foyer: 0.7751579880714417
+juste sur les revenus: 0.7715194821357727
+Prise en compte des ressources: 0.7661119103431702
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.7565923929214478
+
+Initial proposal:
+Simplifiez !
+Closest neighbors:
+Une instance unique pour gérer les revenus d'un foyer: 0.7972208857536316
+juste sur les revenus: 0.7305086851119995
+Prendre en compte les revenus de tout le foyer: 0.7145588994026184
+conditions: 0.7067996859550476
+Recensement et demarche: 0.6978316307067871
+
+Initial proposal:
+Ne pas inclure l'aah dans le revenu universel
+Closest neighbors:
+stop  pas touche  a mon  aah: 0.7274153232574463
+Reconnaître la précarité: 0.7194576263427734
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.7162618041038513
+Eviter les effets de seuil: 0.710578203201294
+Aides au logement et aah.: 0.704021155834198
+
+Initial proposal:
+que le Revenu universel soit imposable
+Closest neighbors:
+Revenu universel pour TOUS: 0.7884557843208313
+Revenu universel ça veut dire pour tout le monde.: 0.7558473348617554
+Revenu universel même sans activité: 0.7473382949829102
+Effet pervers du financement par l'impôt?: 0.7428947687149048
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7388014197349548
+
+Initial proposal:
+Les robots ou machines robotiques remplacent déjà les salariés dans beaucoup d'entreprises...
+Closest neighbors:
+Les robots au boulot, les prolos au bistrot: 0.7250610589981079
+Taxe technologique (robot): 0.7247111797332764
+Le financement est à imposer aux entreprises qui ont installés l'automatisation de leur activités.: 0.6218204498291016
+En traquant les fraudes et les gaspillages: 0.5959594249725342
+Comment financer: 0.5882860422134399
+
+Initial proposal:
+Fonctionnement par points en regroupant tous les critères des aides déjà existantes
+Closest neighbors:
+C'estun revenu donc c'est imposable: 0.8464391231536865
+Reconnaître la précarité: 0.8340790867805481
+un socle unique: 0.8299962878227234
+Conditions à remplir: 0.7864362001419067
+Ne rien prendre en compte: 0.7863600254058838
+
+Initial proposal:
+Montant
+Closest neighbors:
+Reconnaître la précarité: 0.7578264474868774
+mon mode opératoire du rua: 0.7515414953231812
+Être citoyen français émancipé (soit plus à charge): 0.7508046627044678
+Un filet de sécurité: 0.7316471338272095
+financement R.U.A: 0.7068372368812561
+
+Initial proposal:
+FINANCEMENT
+Closest neighbors:
+Instauration d'une TVA sociale associée à une diminution des charges salariales: 0.6310493350028992
+Faire un emprunt la première année puis largent reviendra automatiquement dans les caisses de létat les années suivantes puisque réinjecté dans léconomie à travers les dépenses quotidiennes des français (TVA, taxes sur le carburants, impôts, ...etc): 0.5705182552337646
+proposition de financement: 0.5580203533172607
+Taxer les transactions financières: 0.541786789894104
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.5313518047332764
+
+Initial proposal:
+Salaire mensuel universel individuel
+Closest neighbors:
+Conditions à remplir: 0.8379305005073547
+Universalité et Financement: 0.8286688327789307
+Le revenu universel pour tous: 0.8257073760032654
+un socle unique: 0.8148046731948853
+Ne rien prendre en compte: 0.8141448497772217
+
+Initial proposal:
+Donner une partie de l'aide en nature
+Closest neighbors:
+Pourquoi pas des chèques solidarité ?: 0.761542022228241
+fonctionnement: 0.7531063556671143
+Des aides en contrepartie dun travail: 0.7392389178276062
+Justificatif: 0.733847439289093
+Droits et devoir: 0.7299543619155884
+
+Initial proposal:
+Automatisation totale et pas d'activité
+Closest neighbors:
+C'estun revenu donc c'est imposable: 0.7663962244987488
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7564165592193604
+Conditions à remplir: 0.7552303671836853
+Universalité et Financement: 0.7511165738105774
+Salaire mensuel universel individuel: 0.7476946115493774
+
+Initial proposal:
+RUA compatible avec les allocations chômage
+Closest neighbors:
+Un RU non imposable !: 0.7359704375267029
+1 200 : 0.6601797938346863
+dégradation des aides sociales: 0.6565781831741333
+Rua pour les personnes en desous du seuil de pauvreté: 0.6565477848052979
+Augmenter les minimas sociaux: 0.656151294708252
+
+Initial proposal:
+Revenu universel d' activité
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.766801118850708
+Montant RUA limité: 0.7659915685653687
+Aides au logement et aah.: 0.7638429403305054
+Aah: 0.7603366374969482
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.7510516047477722
+
+Initial proposal:
+les personnes seules  handicapes
+Closest neighbors:
+Un filet de sécurité: 0.7699599266052246
+un minimum décent pour les demandeurs d'emploi et retraités: 0.6914212107658386
+Montant: 0.6820825934410095
+Conditions - 1400 euros net Revenu minimum universel: 0.6731963157653809
+Bulletin de salaire: 0.6585789918899536
+
+Initial proposal:
+Arrêtez de harceler les plus faibles
+Closest neighbors:
+financement du RUA: 0.64044189453125
+Obligation d'exercer une mission d'intêret publique en contrepartie: 0.6287975907325745
+Par l'impot payé par tous: 0.6258525848388672
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.6221393346786499
+Attribution automatique: 0.6215108633041382
+
+Initial proposal:
+Pour un nouveau système économique basé sur le droit à l'existence, et non sur la nécessité d'avoir un emploi
+Closest neighbors:
+Les prérequis facilitant la mise en oeuvre du revenu universel: 0.7090224027633667
+Un financement Etat et non par les collectivité locales: 0.6852303743362427
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.6721529364585876
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6657969951629639
+Comment redistribuer de façon solidaire: 0.665237307548523
+
+Initial proposal:
+individualiser les aides
+Closest neighbors:
+Prise en compte de la situation familiale: 0.7502495050430298
+Ne pas prendre la situation personnelle de la personne dans le calcul du revenu (AAH): 0.7140862941741943
+Une instance unique pour gérer les revenus d'un foyer: 0.6997078061103821
+A toutes personnes subissant un changement de situation non souhaité: 0.6926625967025757
+Justificatif: 0.6888230443000793
+
+Initial proposal:
+Le RUA pour tous sans distinction de revenu des que l'on a  18 ans
+Closest neighbors:
+Aucune condition pour en bénéficier: 0.745364785194397
+RUA pour l'autonomie des jeunes: 0.7031072378158569
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6982043981552124
+Fixer un revenu minimum décent.: 0.6588011980056763
+LE REVENU DOIT ETRE INDIVIDUEL ET INDIVIDUALISE: 0.6476691961288452
+
+Initial proposal:
+Suspendre ou supprimer le RSA pour les personnes auteurs ou dont les enfants à charge sont auteurs de dégradations de biens publiques ou privés
+Closest neighbors:
+Pas que le revenu , les dépenses du foyer aussi ...: 0.7072579860687256
+stop  pas touche  a mon  aah: 0.6941523551940918
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.677706778049469
+Augmenter les minimas sociaux: 0.67307448387146
+Un Revenu Universel d'Activité compensatoire: 0.6714577078819275
+
+Initial proposal:
+Bouclier universel
+Closest neighbors:
+ressources pour tous: 0.7236574292182922
+Et comment gérer le tiers payant lorsque l'APL (ou AL) est demandé par le bailleur ?: 0.7059939503669739
+Eviter les effets de seuil: 0.6986613273620605
+Revenu: 0.6881696581840515
+juste sur les revenus: 0.6797773838043213
+
+Initial proposal:
+Revenu Minimum Unique RMU
+Closest neighbors:
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.733538031578064
+Un filet de sécurité: 0.7270839810371399
+Revenu universel pour TOUS: 0.7259920835494995
+Par l'impot payé par tous: 0.7164701223373413
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7162847518920898
+
+Initial proposal:
+les modalites
+Closest neighbors:
+Une répartition équitable, sans contre-sens décourageants: 0.6544451713562012
+augmentation des cotisations patronales, arrét de la baisse des charges: 0.6394146680831909
+L'Entreprise paie: 0.6200491189956665
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.618127167224884
+Continuer à prendre en compte les frais réels: 0.6108061671257019
+
+Initial proposal:
+Condition à remplir
+Closest neighbors:
+Aucune condition pour en bénéficier: 0.5683587789535522
+solidarité nationale + taxe sur les transaction financiere des banque d'affaire: 0.5630764365196228
+Toutes personnes sous un certain seuil.: 0.5328549742698669
+Étudiants: 0.5149974822998047
+Surtout pas de conditions de ressources, sinon ce n'est plus universel: 0.5019021034240723
+
+Initial proposal:
+financement
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.7957330346107483
+juste sur les revenus: 0.7597408294677734
+Financement par l'impôt comme d'habitude.: 0.7486369013786316
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.7349040508270264
+Flat tax: 0.7197479605674744
+
+Initial proposal:
+Etre français puisque c'est une allocation non assurantielle
+Closest neighbors:
+Récupération sur succession: 0.6253661513328552
+Il ne devrait y avoir aucune condition pour bénéficier du revenu universel, autre que l'âge (et encore..).: 0.6046910881996155
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.5928069949150085
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.5894874334335327
+pour le financement: 0.5824654698371887
+
+Initial proposal:
+Récupérer les aides sur succession
+Closest neighbors:
+revenu universel calcul: 0.7160595655441284
+seule (ou seul) avec un enfant porteur de handicap ...: 0.7159194350242615
+Prendre en compte le handicap et les enfants à charge: 0.6974700689315796
+Exclure le Handicap du champ du RUA: 0.6928754448890686
+AAH et RUA: 0.6589193344116211
+
+Initial proposal:
+aller vers un revenu universel
+Closest neighbors:
+le symptome et non la cause: 0.7170253396034241
+Un RU non imposable !: 0.6805597543716431
+Prélever une taxe sur les machines: 0.6752790808677673
+financement du RUA: 0.6534464955329895
+En traquant les fraudes et les gaspillages: 0.652440071105957
+
+Initial proposal:
+Prévisions du RUA à long terme
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.6233668923377991
+Prendre en compte les revenus de tout le foyer: 0.6171347498893738
+Financement sur la succession: 0.609785258769989
+RUA quid de l'ASS et trimestre retraite ?: 0.5994221568107605
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE: 0.5993605256080627
+
+Initial proposal:
+Donner du temps à la société
+Closest neighbors:
+DU TRAVAIL EN CONTREPARTIE: 0.7083683013916016
+contrer partie: 0.6992132067680359
+Un revenu, un travail: 0.6982427835464478
+Avec plus de moyens financiers car il aura des perdants: 0.6859837770462036
+Universalité Prendre en compte les revenues et les périodes travailler: 0.683459997177124
+
+Initial proposal:
+Il ne devrait y avoir aucune condition pour bénéficier du revenu universel, autre que l'âge (et encore..).
+Closest neighbors:
+Etre français puisque c'est une allocation non assurantielle: 0.6046910881996155
+Droit du sol: 0.5717594027519226
+Récupération sur succession: 0.5680487155914307
+PRISE EN COMPTE DES ALLOCATIONS SPECIFIQUES DE LA VILLE DE PARIS: 0.5165572166442871
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.5086550712585449
+
+Initial proposal:
+Prendre en compte uniquement  la situation personnelle du demandeur
+Closest neighbors:
+Traitement individuel ou conjoint: 0.5910014510154724
+Un RUA centré sur le parcours de l'individu plutôt que le foyer: 0.5902485847473145
+Délinquance: 0.5828589200973511
+Kalissy06: 0.5809243321418762
+Jeune -25 ans: 0.5474934577941895
+
+Initial proposal:
+carte bleue crédité de l'aide gérée par la poste ...
+Closest neighbors:
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.694945752620697
+Pour tous = simplification: 0.6730706691741943
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.6644872426986694
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.6089602112770081
+Récupération sur succession: 0.6089387536048889
+
+Initial proposal:
+Critères pour bénéficier du RUA =&gt
+Closest neighbors:
+solidarité nationale + taxe sur les transaction financiere des banque d'affaire: 0.36747312545776367
+Proposition: 0.333134263753891
+Prendre en compte uniquement  la situation personnelle du demandeur: 0.30832770466804504
+fusion de toutes les aides sociales: 0.3066908121109009
+Prendre en compte le handicap et les enfants à charge: 0.29244905710220337
+
+Initial proposal:
+CONDITIONS doit s'apparenter à  UN SENTIMENT DE LIBRE CHOIX !
+Closest neighbors:
+Prise en compte des ressources: 0.7045241594314575
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6935147047042847
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.6755889654159546
+Prendre en compte les revenus et la situation du foyer: 0.6717675924301147
+Reconnaître la précarité: 0.6652384996414185
+
+Initial proposal:
+VERSEMENT
+Closest neighbors:
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE: 0.7239405512809753
+Tout prendre en compte: 0.7021055221557617
+fusion de toutes les aides sociales: 0.6454002261161804
+Contrôle des droits: 0.6400542855262756
+regarder la situation  la plus récente: 0.6349756717681885
+
+Initial proposal:
+le symptome et non la cause
+Closest neighbors:
+aller vers un revenu universel: 0.7170253396034241
+En traquant les fraudes et les gaspillages: 0.6830867528915405
+Prélever une taxe sur les machines: 0.674221396446228
+mauvaise idee: 0.671875536441803
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6675871014595032
+
+Initial proposal:
+TVA A 33%
+Closest neighbors:
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.5804455280303955
+proposition de financement: 0.5243958234786987
+Prendre l'argent là où il y en a: 0.4833267331123352
+Les taxes sur les robots, les gaffas...: 0.47317543625831604
+financement RSA: 0.4530413746833801
+
+Initial proposal:
+TAXE 1 EURO SUR LA TECHNOLOGIE
+Closest neighbors:
+1 200 : 0.6399393677711487
+Augmenter les minimas sociaux: 0.5880236625671387
+Vous avez dit universel!: 0.5829535126686096
+Eviter la pauvreté et l'inflation.: 0.5707468390464783
+Eviter à la fois la pauvreté et l'inflation.: 0.5707468390464783
+
+Initial proposal:
+Pas que le revenu , les dépenses du foyer aussi ...
+Closest neighbors:
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7568944692611694
+Un Revenu Universel d'Activité compensatoire: 0.7567939162254333
+Le rua ne doit pas comprendre tt les aides: 0.7408004403114319
+stop  pas touche  a mon  aah: 0.7358604669570923
+Etre réaliste et agir au bon moment: 0.7180781364440918
+
+Initial proposal:
+prendre en compte l'argent figurant sur les comptes bancaires
+Closest neighbors:
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?: 0.5543617010116577
+Les conditions pour bénéficier du Revenu universel d'activité: 0.5382786393165588
+INFORMER LES PERSONNES: 0.5352833867073059
+modalites: 0.49515023827552795
+Récupération sur succession: 0.49494093656539917
+
+Initial proposal:
+INFORMER LES PERSONNES
+Closest neighbors:
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.717886209487915
+Des agents formés: 0.6323157548904419
+Contrôle des droits: 0.6269696950912476
+A toutes personnes subissant un changement de situation non souhaité: 0.6204932332038879
+adapter +++ aux différences et cas particuliers: 0.6169933676719666
+
+Initial proposal:
+Déclaration de revenus devraient inclure l'ensemble des aides perçues
+Closest neighbors:
+Automatisation des aides: 0.7448517084121704
+Une instance unique pour gérer les revenus d'un foyer: 0.6992198824882507
+selon les ressources de chaque entité, séparement : couple, enfant, personne seule...: 0.685433030128479
+Simplification radicale: 0.6829860210418701
+Prendre en compte les revenus de tout le foyer: 0.6803065538406372
+
+Initial proposal:
+Droits et devoir
+Closest neighbors:
+Des aides en contrepartie dun travail: 0.8096935153007507
+La dignité par le travail: 0.7888786792755127
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.7598084211349487
+Pas d'impots supplementaires: 0.758228600025177
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.7560862302780151
+
+Initial proposal:
+Conditions à remplir
+Closest neighbors:
+un socle unique: 0.8643967509269714
+Ne rien prendre en compte: 0.8533809185028076
+Universalité et Financement: 0.8415645360946655
+RUA pour tous sans conditions: 0.8408574461936951
+Sans Conditions: 0.8379390239715576
+
+Initial proposal:
+Taxer les bénéfices des entreprises
+Closest neighbors:
+Conditionner le versement de dividendes à l'amélioration des salaires: 0.678375780582428
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.6702388525009155
+mauvaise idee: 0.6372174024581909
+Aucune: 0.5906410813331604
+Un revenu, un travail: 0.5617961883544922
+
+Initial proposal:
+Envisager un impôt sur le revenu des personnes physiques négatif faisant office de revenu universel d'activité
+Closest neighbors:
+Automatisation totale et pas d'activité: 0.7165990471839905
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7089064121246338
+Salaire mensuel universel individuel: 0.6876974105834961
+Universalité et Financement: 0.679250955581665
+financement R.U.A: 0.6751372218132019
+
+Initial proposal:
+Prendre en compte les revenus de tout le foyer
+Closest neighbors:
+financement: 0.7957330346107483
+conditions: 0.7806470990180969
+Simplification radicale: 0.7613502144813538
+Eviter la pauvreté et l'inflation.: 0.7558602094650269
+Eviter à la fois la pauvreté et l'inflation.: 0.7558602094650269
+
+Initial proposal:
+devoir des allocataire
+Closest neighbors:
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.6941370964050293
+Autofinancement: 0.6827301979064941
+La dignité par le travail: 0.6286752223968506
+Les prérequis facilitant la mise en oeuvre du revenu universel: 0.6240410804748535
+Réinsertion: 0.6214531064033508
+
+Initial proposal:
+les conditions à remplir
+Closest neighbors:
+Prendre en compte la situation globale: 0.7531780004501343
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.723465085029602
+juste sur les revenus: 0.7169402241706848
+Prendre en compte les revenus de tout le foyer: 0.708504855632782
+Prendre en compte les revenus de tout le foyer: 0.7071346044540405
+
+Initial proposal:
+Composition familiale, revenus du travail, loyer dû : Le RUA serait calculer en fonction de plusieurs critères
+Closest neighbors:
+ressources pour tous: 0.6948105692863464
+Prendre en compte le coût du logement: 0.6836062669754028
+juste sur les revenus: 0.6600921154022217
+Prendre en compte les montants du loyer ou crédit immobilier: 0.6467140316963196
+Et comment gérer le tiers payant lorsque l'APL (ou AL) est demandé par le bailleur ?: 0.6313925981521606
+
+Initial proposal:
+En supprimant le CICE.
+Closest neighbors:
+Rétablir de l'ISF: 0.6212045550346375
+financement par création monétaire: 0.6090425848960876
+financement par création monétaire: 0.6090425848960876
+Contribution Universelle Boursière: 0.6080824136734009
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?: 0.6015986800193787
+
+Initial proposal:
+En taxant le cannabis, après sa légalisation.
+Closest neighbors:
+Comment financer: 0.4689362645149231
+En traquant les fraudes et les gaspillages: 0.4473768472671509
+revenus par personne: 0.43698638677597046
+Baser des impôts sur des courbes, des fonctions mathématiques et supprimer les tranches.: 0.419345498085022
+Toutes personnes sous un certain seuil.: 0.4164578318595886
+
+Initial proposal:
+Inconditionnel à chaque citoyen français
+Closest neighbors:
+Le revenu universel pour tous: 0.8398640155792236
+Universalité et Financement: 0.79013592004776
+Ne rien prendre en compte: 0.782484769821167
+Un filet de sécurité: 0.758950412273407
+Salaire mensuel universel individuel: 0.757630467414856
+
+Initial proposal:
+Récupération sur succession
+Closest neighbors:
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.6998276710510254
+Passer d'un RUA à un Revenu Universel: 0.6398941874504089
+Les conditions pour bénéficier du Revenu universel d'activité: 0.6330318450927734
+Etre français puisque c'est une allocation non assurantielle: 0.6253661513328552
+Comment redistribuer de façon solidaire: 0.6127126812934875
+
+Initial proposal:
+Déclaration trimestrielle
+Closest neighbors:
+regarder la situation  la plus récente: 0.6042814254760742
+Ne pas prendre en compte le patrimoine mobilier: 0.5771821141242981
+Une actualisation mensuelle: 0.5692238211631775
+Universal Credit au Royaume Uni: 0.5674968957901001
+VERSEMENT: 0.5674578547477722
+
+Initial proposal:
+Simplification et fusion des différentes aides
+Closest neighbors:
+Un système à points: 0.7263461351394653
+Pour tous = simplification: 0.712458074092865
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.7111644744873047
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6882542371749878
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6834080815315247
+
+Initial proposal:
+Prise en compte des ressources
+Closest neighbors:
+Prendre en compte les revenus et la situation du foyer: 0.803047239780426
+Sous quelles conditions: 0.7661119103431702
+Revenu: 0.754984438419342
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.7503020763397217
+juste sur les revenus: 0.7323085069656372
+
+Initial proposal:
+Econnomies sur le fonctionnement
+Closest neighbors:
+mauvaise idee: 0.6910549402236938
+justificatifs de faibles ressources à l'appui: 0.6827155947685242
+Financement: 0.646181583404541
+économiser en supprimant des avantages exagérés: 0.645858883857727
+Justificatif: 0.6377663016319275
+
+Initial proposal:
+Eviter les doublons
+Closest neighbors:
+Prise en compte de la situation familiale: 0.6619048714637756
+Prendre en compte les revenus et la situation du foyer: 0.6536709666252136
+Revenu: 0.6442866921424866
+Prendre en compte les revenus de tout le foyer: 0.6421194076538086
+Kalissy06: 0.6332681179046631
+
+Initial proposal:
+REUNIR
+Closest neighbors:
+RUA fonctionnement: 0.7578725814819336
+Pour tous = simplification: 0.7397078275680542
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...: 0.72223961353302
+Pas de conditions de ressources si ce doit être universel.: 0.72223961353302
+FUSION: 0.7180784344673157
+
+Initial proposal:
+FUSION
+Closest neighbors:
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.8255990147590637
+Simplification radicale: 0.7918068766593933
+Guichet Unique de Prestations Sociales ( GUPS ): 0.768242597579956
+Revenu universel pour TOUS: 0.7637149691581726
+C'estun revenu donc c'est imposable: 0.7542495131492615
+
+Initial proposal:
+Prendre en compte les revenus et la situation du foyer
+Closest neighbors:
+Revenu: 0.9438972473144531
+juste sur les revenus: 0.8101327419281006
+Prise en compte des ressources: 0.803047239780426
+Sous quelles conditions: 0.7751579880714417
+Tout prendre en compte: 0.7706664204597473
+
+Initial proposal:
+Ne pas considérer comme ressources les petites économies
+Closest neighbors:
+conditions: 0.6118317246437073
+Automaticité: 0.60912024974823
+Un RUA social: 0.5837603211402893
+Ne pas prendre en compte le patrimoine mobilier: 0.5692104697227478
+Prendre en compte le revenu de la personne: 0.5622905492782593
+
+Initial proposal:
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA
+Closest neighbors:
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7493834495544434
+Aah: 0.7493299245834351
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.7479093074798584
+stop  pas touche  a mon  aah: 0.7432103157043457
+ne pas compter l'APL dans cette réforme: 0.7424432039260864
+
+Initial proposal:
+A LONG TERME...
+Closest neighbors:
+Comment redistribuer de façon solidaire: 0.6785516738891602
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6375569105148315
+En traquant les fraudes et les gaspillages: 0.6217779517173767
+aller vers un revenu universel: 0.6196445822715759
+Senio: 0.6151540279388428
+
+Initial proposal:
+solidarité nationale + taxe sur les transaction financiere des banque d'affaire
+Closest neighbors:
+Condition à remplir: 0.5630764365196228
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.4268157482147217
+activite = travail: 0.4009357988834381
+Sensibiliser les paradis fiscaux à la Solidarité Nationale: 0.39659470319747925
+VERSEMENT: 0.3910253942012787
+
+Initial proposal:
+que le RUA vienne en plus de l ahh ou pension d'invalidité
+Closest neighbors:
+revenu dactivité universel sauf apl: 0.8307790756225586
+un socle unique: 0.81206214427948
+C'estun revenu donc c'est imposable: 0.7895828485488892
+tout le monde à la même enseigne: 0.7884270548820496
+Reconnaître la précarité: 0.7856411933898926
+
+Initial proposal:
+Équité
+Closest neighbors:
+Revenu minimum pour toutes et  tous: 0.6947017908096313
+Un Revenu Universel pour tous les citoyens: 0.6854531764984131
+Étudiants: 0.6794221997261047
+Simplification radicale: 0.6784372329711914
+Ne pas inclure l'aah dans le revenu universel: 0.6730825901031494
+
+Initial proposal:
+Recensement et demarche
+Closest neighbors:
+Simplifiez !: 0.6978316307067871
+les conditions à remplir: 0.6761219501495361
+Une instance unique pour gérer les revenus d'un foyer: 0.6748923063278198
+Contrôle des droits: 0.6490350961685181
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE: 0.6300758123397827
+
+Initial proposal:
+Contrôle des droits
+Closest neighbors:
+Réinsertion: 0.6706220507621765
+Solidarité nationale ET taxe entreprise: 0.6602877378463745
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6580120325088501
+Universalité Prendre en compte les revenues et les périodes travailler: 0.6576653122901917
+Revoir régulièrement la situation de la personne: 0.6535694599151611
+
+Initial proposal:
+Solidarité nationale ET taxe entreprise
+Closest neighbors:
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7920055389404297
+Continuer à prendre en compte les frais réels: 0.7602104544639587
+Réinsertion: 0.7522341012954712
+Universalité Prendre en compte les revenues et les périodes travailler: 0.7486957311630249
+Un revenu, un travail: 0.7363895177841187
+
+Initial proposal:
+La dignité par le travail
+Closest neighbors:
+Droits et devoir: 0.7888786792755127
+fonctionnement: 0.7883808016777039
+Des aides en contrepartie dun travail: 0.7779258489608765
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.7271743416786194
+Autofinancement: 0.701524019241333
+
+Initial proposal:
+Des agents formés
+Closest neighbors:
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE: 0.662746250629425
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.6437011957168579
+INFORMER LES PERSONNES: 0.6323157548904419
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.6285947561264038
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.6194407939910889
+
+Initial proposal:
+Attribution automatique
+Closest neighbors:
+Plus de controle: 0.6292659044265747
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.6237778663635254
+Redistribution: 0.6224950551986694
+Arrêtez de harceler les plus faibles: 0.6215108633041382
+"Faire passer la compétence ""bourse"" du CROUS à l'organisme chargé du RUA": 0.6032262444496155
+
+Initial proposal:
+Reconnaître l'investissement bénévole dans des organismes d'intérêt général
+Closest neighbors:
+Prendre en compte la situation globale: 0.7216676473617554
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.7043006420135498
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.671477198600769
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6652026176452637
+CONTRIBUER : la SEULE Vraie Voie de Sortie: 0.6644617915153503
+
+Initial proposal:
+doit continuer à être versé sous conditions de ressources
+Closest neighbors:
+Simplifications: 0.5810415744781494
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.5724583864212036
+Guichet Unique de Prestations Sociales ( GUPS ): 0.5644139051437378
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.5546120405197144
+Financement par l'impôt comme d'habitude.: 0.5355319380760193
+
+Initial proposal:
+Faire les modalités de demande du rua pendant le service national universel
+Closest neighbors:
+Étudiants: 0.7294632196426392
+RUA pour l'autonomie des jeunes: 0.6652246117591858
+Prendre en compte les problématiques spécifiques: 0.6120059490203857
+Prendre en compte les revenus (souvent inexistants) des jeunes et étudiants: 0.6062822341918945
+tout le monde à la même enseigne: 0.5758122205734253
+
+Initial proposal:
+L'Entreprise paie
+Closest neighbors:
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.6708427667617798
+mauvaise idee: 0.634568989276886
+Solidarité nationale ET taxe entreprise: 0.6304149031639099
+les modalites: 0.6200491189956665
+ECRAN DE FUMEE: 0.6081168055534363
+
+Initial proposal:
+QUE LE MONTANT SOIT SUPERIEUR AU RSA
+Closest neighbors:
+Un Revenu Universel d'Activité compensatoire: 0.6735768914222717
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.6620221138000488
+Pas que le revenu , les dépenses du foyer aussi ...: 0.6435285806655884
+Prendre en compte les revenus de tout le foyer: 0.6399953961372375
+stop  pas touche  a mon  aah: 0.6384181380271912
+
+Initial proposal:
+revenu dactivité universel sauf apl
+Closest neighbors:
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.8307790756225586
+conditions: 0.7951889038085938
+Un filet de sécurité: 0.7766413688659668
+un socle unique: 0.7765845060348511
+Reconnaître la précarité: 0.7688654661178589
+
+Initial proposal:
+ECRAN DE FUMEE
+Closest neighbors:
+Un RU non imposable !: 0.7357543706893921
+dégradation des aides sociales: 0.7281433939933777
+Solidarité nationale ET taxe entreprise: 0.7193713784217834
+Le rua ne doit pas comprendre tt les aides: 0.7002173066139221
+mauvaise idee: 0.6885835528373718
+
+Initial proposal:
+A quand un vrai projet de salaire minimum raisonnable ?
+Closest neighbors:
+Le rua ne doit pas comprendre tt les aides: 0.5405111312866211
+Que viennent faire les apl ainsi que l aah dans le rua?: 0.5332447290420532
+Ne pas récupérer le RUA sur succession, même si l'ASPA y est intégrée: 0.5290239453315735
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.5250121355056763
+Pas que le revenu , les dépenses du foyer aussi ...: 0.515588641166687
+
+Initial proposal:
+un socle unique
+Closest neighbors:
+C'estun revenu donc c'est imposable: 0.8947208523750305
+Reconnaître la précarité: 0.8907107710838318
+Ne rien prendre en compte: 0.8766371011734009
+Un Revenu Universel pour tous les citoyens: 0.8690670132637024
+Conditions à remplir: 0.8643967509269714
+
+Initial proposal:
+adapter +++ aux différences et cas particuliers
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.779814600944519
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7610213756561279
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7439129948616028
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7382316589355469
+Prendre en compte le handicap et les enfants à charge: 0.7184371948242188
+
+Initial proposal:
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA
+Closest neighbors:
+Réinsertion: 0.7468754053115845
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.7436704635620117
+Des aides en contrepartie dun travail: 0.7398623824119568
+Autofinancement: 0.7389886379241943
+La dignité par le travail: 0.7271743416786194
+
+Initial proposal:
+LE REVENU DOIT ETRE INDIVIDUEL ET INDIVIDUALISE
+Closest neighbors:
+RUA pour l'autonomie des jeunes: 0.7726442813873291
+conditions: 0.7210633754730225
+Jeune -25 ans: 0.7107080221176147
+Sous quelles conditions: 0.6913421154022217
+Reconnaître la précarité: 0.6910513639450073
+
+Initial proposal:
+Financer le revenu universel par la taxation des transactions et des dividendes boursières
+Closest neighbors:
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République: 0.7381571531295776
+Impôt progressif sur les successions: 0.7024494409561157
+Financement: 0.6839917898178101
+Financement par l'impôt comme d'habitude.: 0.677659273147583
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.6737626194953918
+
+Initial proposal:
+revenu universel activite
+Closest neighbors:
+Fixer un revenu minimum décent.: 0.6764857769012451
+La dignité par le travail: 0.6619585156440735
+Un montant pour chacun: 0.6605823040008545
+Uniquement considéré le seuil de pauvreté de manière absolue: 0.6329219937324524
+revenu universel calcul: 0.6296440958976746
+
+Initial proposal:
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...)
+Closest neighbors:
+Eviter les effets de seuil: 0.8039358854293823
+Solidarité nationale ET taxe entreprise: 0.7920055389404297
+RU: 0.7917912006378174
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7639491558074951
+Continuer à prendre en compte les frais réels: 0.7575974464416504
+
+Initial proposal:
+égalité de la république, que les plus riche partages avec les plus pauvres
+Closest neighbors:
+Eviter les effets de seuil: 0.6899225115776062
+mon mode opératoire du rua: 0.684755802154541
+1 200 : 0.6750532388687134
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté: 0.6485363841056824
+juste sur les revenus: 0.6453254222869873
+
+Initial proposal:
+comme les députée, pas de critère
+Closest neighbors:
+Solidarité nationela qui inclue les revenus du capital: 0.6826112270355225
+Plus de controle: 0.6800294518470764
+économiser en supprimant des avantages exagérés: 0.6506068110466003
+non: 0.648478627204895
+Un fichier central pour une bureaucratie fluide: 0.636224627494812
+
+Initial proposal:
+comme les députés, il faut s'auto gérer
+Closest neighbors:
+Pas d'impots supplementaires: 0.5856298804283142
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.5553487539291382
+Fonctionnement RU: 0.5538076162338257
+économiser en supprimant des avantages exagérés: 0.5512359738349915
+Financer le revenu universel en cessant les gaspillages d'argent public: 0.5483425259590149
+
+Initial proposal:
+pourquoi est ce honteux ou offensant de demander une contrepartie en échange d'un RUA ???
+Closest neighbors:
+les risques: 0.49325740337371826
+Que viennent faire les apl ainsi que l aah dans le rua?: 0.48532649874687195
+stop  pas touche  a mon  aah: 0.4747534394264221
+comme les députée, pas de critère: 0.4704315662384033
+une augmentation de 0,5 % de TVA pourrait financer cet effort de solidarité.: 0.4665275812149048
+
+Initial proposal:
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat
+Closest neighbors:
+financement du RUA: 0.7289638519287109
+Taxer les transactions financières: 0.7278413772583008
+Uniquement en fonction des conditions de ressources: 0.6834607720375061
+Bulletin de salaire: 0.6828674077987671
+financement R.U.A: 0.6759512424468994
+
+Initial proposal:
+unique condition = citoyen Français
+Closest neighbors:
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.6699283123016357
+Pas d'impots supplementaires: 0.6388403177261353
+Par l'impot payé par tous: 0.6371256709098816
+Uniquement en fonction des conditions de ressources: 0.6280380487442017
+Augmenter les minimas sociaux: 0.6199507713317871
+
+Initial proposal:
+Financement
+Closest neighbors:
+économiser en supprimant des avantages exagérés: 0.773283839225769
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République: 0.728506326675415
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.6839917898178101
+En traquant les fraudes et les gaspillages: 0.6838282346725464
+Financer le revenu universel en cessant les gaspillages d'argent public: 0.6826967000961304
+
+Initial proposal:
+Travailleurs Indépendants : un calcul Mensuel
+Closest neighbors:
+Financer le RUA avec l'aide ACS CMU-C: 0.7806403636932373
+Eviter les effets de seuil: 0.7320311069488525
+Une répartition équitable, sans contre-sens décourageants: 0.7115657329559326
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7060293555259705
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.7013471126556396
+
+Initial proposal:
+Une actualisation mensuelle
+Closest neighbors:
+Etre réaliste et agir au bon moment: 0.7724160552024841
+Un Revenu Universel d'Activité compensatoire: 0.7393964529037476
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7307021617889404
+Pas que le revenu , les dépenses du foyer aussi ...: 0.704448401927948
+justificatifs de faibles ressources à l'appui: 0.6989144086837769
+
+Initial proposal:
+Les conditions pour bénéficier du Revenu universel d'activité
+Closest neighbors:
+Droit du sol: 0.7557437419891357
+Avoir 18 ans: 0.7232374548912048
+Tous égaux alors même aide financière: 0.6378189921379089
+Récupération sur succession: 0.6330318450927734
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.6227777600288391
+
+Initial proposal:
+RUA pour l'autonomie des jeunes
+Closest neighbors:
+LE REVENU DOIT ETRE INDIVIDUEL ET INDIVIDUALISE: 0.7726442813873291
+Le RUA pour tous sans distinction de revenu des que l'on a  18 ans: 0.7031072378158569
+Étudiants: 0.6896962523460388
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6667066216468811
+Faire les modalités de demande du rua pendant le service national universel: 0.6652246117591858
+
+Initial proposal:
+non
+Closest neighbors:
+Solidarité nationela qui inclue les revenus du capital: 0.7788481712341309
+RU: 0.7418572902679443
+Un revenu, un travail: 0.7398881912231445
+revenu dactivité universel sauf apl: 0.7224697470664978
+C'estun revenu donc c'est imposable: 0.7091310620307922
+
+Initial proposal:
+TVA
+Closest neighbors:
+Comment financer: 0.7844417095184326
+Revenu universel ça veut dire pour tout le monde.: 0.7124568223953247
+Revenu universel même sans activité: 0.7080647349357605
+Prendre en compte les revenus de tout le foyer: 0.7037517428398132
+Instauration d'une TVA sociale associée à une diminution des charges salariales: 0.6952224969863892
+
+Initial proposal:
+EMPLOI DU PERSONNEL QUI TOUCHE LE RSA
+Closest neighbors:
+fonctionnement: 0.7124165296554565
+Universalité Prendre en compte les revenues et les périodes travailler: 0.668133020401001
+Réinsertion: 0.6577271223068237
+Des aides en contrepartie dun travail: 0.646881103515625
+Pourquoi pas des chèques solidarité ?: 0.6259379982948303
+
+Initial proposal:
+fusion de toutes les aides sociales
+Closest neighbors:
+VERSEMENT: 0.6454002261161804
+Récupérer les aides sur succession: 0.6068621873855591
+CONDITIONS doit s'apparenter à  UN SENTIMENT DE LIBRE CHOIX !: 0.6050207614898682
+Une somme minimale + un bonus/malus selon les cas: 0.5922664999961853
+Question sans objet car les Bénéficiaires de l'AAH ne doivent pas être inclus dans le RUA: 0.5669928193092346
+
+Initial proposal:
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé
+Closest neighbors:
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.7971237897872925
+Prendre en compte la situation globale: 0.7621364593505859
+PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE: 0.7515841126441956
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7399860620498657
+Financer aussi un vrai accompagnement des bénéficiaires: 0.73930424451828
+
+Initial proposal:
+RUA pourrait évoluer vers un principe d'impôt négatif
+Closest neighbors:
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...: 0.6364080905914307
+Pas de conditions de ressources si ce doit être universel.: 0.6364080905914307
+Eviter les effets de seuil: 0.614035427570343
+RUA fonctionnement: 0.6092968583106995
+1 200 : 0.6088225245475769
+
+Initial proposal:
+Une instance unique pour gérer les revenus d'un foyer
+Closest neighbors:
+Simplifiez !: 0.7972208857536316
+individualiser les aides: 0.6997078061103821
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.6992198824882507
+Prendre en compte les revenus de tout le foyer: 0.6968450546264648
+conditions: 0.6938639283180237
+
+Initial proposal:
+1 200 
+Closest neighbors:
+Vous avez dit universel!: 0.7367272973060608
+Eviter les effets de seuil: 0.693321704864502
+Augmenter les minimas sociaux: 0.6788890361785889
+égalité de la république, que les plus riche partages avec les plus pauvres: 0.6750532388687134
+Envisager un impôt sur le revenu des personnes physiques négatif faisant office de revenu universel d'activité: 0.6728799343109131
+
+Initial proposal:
+Eviter la pauvreté et l'inflation.
+Closest neighbors:
+Eviter à la fois la pauvreté et l'inflation.: 0.9999997019767761
+Prendre en compte les revenus de tout le foyer: 0.7558602094650269
+juste sur les revenus: 0.7133767604827881
+conditions: 0.7037091851234436
+Justificatif: 0.703332245349884
+
+Initial proposal:
+Eviter à la fois la pauvreté et l'inflation.
+Closest neighbors:
+Eviter la pauvreté et l'inflation.: 0.9999997019767761
+Prendre en compte les revenus de tout le foyer: 0.7558602094650269
+juste sur les revenus: 0.7133767604827881
+conditions: 0.7037091851234436
+Justificatif: 0.703332245349884
+
+Initial proposal:
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe
+Closest neighbors:
+Comment financer: 0.7018276453018188
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.6737626194953918
+Instauration d'une TVA sociale associée à une diminution des charges salariales: 0.6682472825050354
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République: 0.6629749536514282
+Prendre l'argent là où il y en a: 0.6523649096488953
+
+Initial proposal:
+Un RUA social
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.7414736151695251
+Prendre en compte les revenus de tout le foyer: 0.7398727536201477
+les risques: 0.6904821991920471
+Augmenter les minimas sociaux: 0.6899206042289734
+Les revenus du foyer: 0.6539637446403503
+
+Initial proposal:
+Aides au logement et aah.
+Closest neighbors:
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.8175878524780273
+UNIVERSALITE: 0.78016597032547
+Revenu universel d' activité: 0.7638429403305054
+tout le monde à la même enseigne: 0.7622981071472168
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7553650736808777
+
+Initial proposal:
+Revenu
+Closest neighbors:
+Prendre en compte les revenus et la situation du foyer: 0.9438972473144531
+juste sur les revenus: 0.8127385377883911
+Prendre en compte le revenu de la personne: 0.7875493168830872
+Tout prendre en compte: 0.772722065448761
+Prise en compte des ressources: 0.754984438419342
+
+Initial proposal:
+Plafonner, diminuer ou supprimer les allocations familiales au dela de 3 ou 4 enfants.
+Closest neighbors:
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.8015180230140686
+Kalissy06: 0.7036522626876831
+Traitement individuel ou conjoint: 0.6985092163085938
+Prendre en compte le fait d'avoir des enfants à charge: 0.697472333908081
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6863304376602173
+
+Initial proposal:
+financement du RUA
+Closest neighbors:
+Par l'impot payé par tous: 0.8097627758979797
+Guichet Unique de Prestations Sociales ( GUPS ): 0.777362585067749
+Comment redistribuer de façon solidaire: 0.7507054805755615
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.7495936751365662
+En traquant les fraudes et les gaspillages: 0.7411907315254211
+
+Initial proposal:
+Un montant pour chacun
+Closest neighbors:
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7867593169212341
+Fixer un revenu minimum décent.: 0.7808256149291992
+Reconnaître la précarité: 0.7349981665611267
+A prendre en compte: 0.7337257266044617
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7210819125175476
+
+Initial proposal:
+Effet pervers du financement par l'impôt?
+Closest neighbors:
+Non un point c tout: 0.778082013130188
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté: 0.7582910656929016
+que le Revenu universel soit imposable: 0.7428947687149048
+Revenu universel pour TOUS: 0.7357217073440552
+Pas d'impots supplementaires: 0.7326309680938721
+
+Initial proposal:
+Attention à prendre en compte toutes les situations
+Closest neighbors:
+un minimum décent pour les demandeurs d'emploi et retraités: 0.7454899549484253
+En cas de chômage après 55 ans: 0.7275181412696838
+Eviter les effets de seuil: 0.715173602104187
+Financer le RUA avec l'aide ACS CMU-C: 0.7145084738731384
+RU cumul ancienneté et enfant à charge: 0.7068158388137817
+
+Initial proposal:
+versement allocation logement
+Closest neighbors:
+Revenu: 0.7457538843154907
+Les propriétaires de leur logement ont des emprunts à charge: 0.7366849780082703
+Prendre en compte le coût du logement: 0.6684901714324951
+Monoparental (h ou f): 0.6508026719093323
+Prendre en compte les revenus mais aussi le patrimoine: 0.6490989327430725
+
+Initial proposal:
+Augmenter les minimas sociaux
+Closest neighbors:
+Etre réaliste et agir au bon moment: 0.7198371887207031
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7186427712440491
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.7067916393280029
+Un Revenu Universel d'Activité compensatoire: 0.703575849533081
+Prendre en compte les revenus de tout le foyer: 0.69542396068573
+
+Initial proposal:
+associer droits aux devoirs
+Closest neighbors:
+Exclusion définitive du rua: 0.6298021078109741
+La condition humaine devrait suffire: 0.5983322262763977
+Porter plus efficacement à la connaissance de chacun ses droits, et respecter les choix faits: 0.5899919271469116
+faire la demande auprès d'une assitante sociale (et en augmenter les effectifs): 0.5887378454208374
+adapter +++ aux différences et cas particuliers: 0.5809665322303772
+
+Initial proposal:
+justificatifs de faibles ressources à l'appui
+Closest neighbors:
+Une actualisation mensuelle: 0.6989144086837769
+Econnomies sur le fonctionnement: 0.6827155947685242
+Universal Credit au Royaume Uni: 0.669856607913971
+Justificatif: 0.664905309677124
+Plus de controle: 0.6470848917961121
+
+Initial proposal:
+justifier de faibles revenus
+Closest neighbors:
+stop  pas touche  a mon  aah: 0.732791543006897
+Prendre en compte les revenus (souvent inexistants) des jeunes et étudiants: 0.7044572234153748
+pour les étudiants nouvellement diplômés: 0.679071307182312
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6663328409194946
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.6622318029403687
+
+Initial proposal:
+Donner 1000 euros à tous à partir de 18 ans
+Closest neighbors:
+Garantir un écart significatif avec le travail: 0.700779139995575
+Aucune: 0.677427351474762
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.6655026078224182
+Un revenu, un travail: 0.6623533368110657
+Continuer à prendre en compte les frais réels: 0.6534419059753418
+
+Initial proposal:
+économiser en supprimant des avantages exagérés
+Closest neighbors:
+Financer le revenu universel en cessant les gaspillages d'argent public: 0.8187094926834106
+Financement: 0.773283839225769
+En traquant les fraudes et les gaspillages: 0.7102841138839722
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République: 0.6905092000961304
+REDISTRIBUTION JUSTICE SOCIALE ET FISCALE.: 0.6807551383972168
+
+Initial proposal:
+pour les étudiants nouvellement diplômés
+Closest neighbors:
+A TOUS MAIS AVEC DES CONDITIONS ET A VÉRIFIER ENSEMBLE: 0.7281355857849121
+Pas d'incompatibilités excluantes pour les étudiants: 0.7075290083885193
+justifier de faibles revenus: 0.679071307182312
+Egalité entre les enfants d'une même fratrie: 0.6700747609138489
+Réinsertion: 0.631350576877594
+
+Initial proposal:
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE
+Closest neighbors:
+Aides au logement et aah.: 0.8175878524780273
+Sous quelles conditions: 0.7565923929214478
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.7492501139640808
+Revenu universel d' activité: 0.7327726483345032
+En cas de chômage après 55 ans: 0.7306126952171326
+
+Initial proposal:
+Contribution Universelle Boursière
+Closest neighbors:
+Rétablir de l'ISF: 0.6214861273765564
+Prendre en compte la situation globale: 0.6183533072471619
+Une actualisation mensuelle: 0.6151513457298279
+En supprimant le CICE.: 0.6080824136734009
+justificatifs de faibles ressources à l'appui: 0.6073848605155945
+
+Initial proposal:
+Modalité : l'acte de naître
+Closest neighbors:
+ressources pour tous: 0.6049256920814514
+Financement sur la succession: 0.5975207686424255
+Prendre en compte les revenus de tout le foyer: 0.5936256647109985
+Prendre en compte les revenus de tout le foyer: 0.5926224589347839
+Un Revenu vraiment universel...: 0.5793797373771667
+
+Initial proposal:
+La condition humaine devrait suffire
+Closest neighbors:
+associer droits aux devoirs: 0.5983322262763977
+Passer d'un RUA à un Revenu Universel: 0.5706124305725098
+juste sur les revenus: 0.5699731707572937
+les conditions à remplir: 0.5618913173675537
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.5515949726104736
+
+Initial proposal:
+Des aides en contrepartie dun travail
+Closest neighbors:
+Droits et devoir: 0.8096935153007507
+fonctionnement: 0.7843491435050964
+La dignité par le travail: 0.7779258489608765
+Aides au logement et aah.: 0.7525874376296997
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7482513189315796
+
+Initial proposal:
+salaire à vie sans ruiner l'état (mais que les patrons n'apprécieront pas)
+Closest neighbors:
+Eviter les effets de seuil: 0.7563512325286865
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7346590757369995
+un minimum décent pour les demandeurs d'emploi et retraités: 0.7112877368927002
+Un RU non imposable !: 0.698822021484375
+Réinsertion: 0.6874059438705444
+
+Initial proposal:
+un minimum décent pour les demandeurs d'emploi et retraités
+Closest neighbors:
+Eviter les effets de seuil: 0.773950457572937
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7498446106910706
+Attention à prendre en compte toutes les situations: 0.7454899549484253
+Financer le RUA avec l'aide ACS CMU-C: 0.7454081773757935
+salaire à vie sans ruiner l'état (mais que les patrons n'apprécieront pas): 0.7112877368927002
+
+Initial proposal:
+Sensibiliser les paradis fiscaux à la Solidarité Nationale
+Closest neighbors:
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.4264014959335327
+solidarité nationale + taxe sur les transaction financiere des banque d'affaire: 0.39659470319747925
+l'Allocation Logement (APL) n'est pas un revenu d'activité: 0.3767232596874237
+Un RUA centré sur le parcours de l'individu plutôt que le foyer: 0.3674069344997406
+Prévisions du RUA à long terme: 0.35971227288246155
+
+Initial proposal:
+Développer lapplication mobile mesdroitssociaux.gouv.fr
+Closest neighbors:
+Intégrer une AUTOMATICITÉ dans les modalités d'attribution: 0.6934086084365845
+Détecter les personnes éligibles au Revenu universel d'activité afin de les informer de leur droit: 0.6561144590377808
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.6394298672676086
+Guichet Unique de Prestations Sociales ( GUPS ): 0.5956668853759766
+Automatisation des aides: 0.5913534164428711
+
+Initial proposal:
+Fin du droit automatique sans contrepartie
+Closest neighbors:
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7330402731895447
+tout le monde à la même enseigne: 0.7277572751045227
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7016581892967224
+seule (ou seul) avec un enfant porteur de handicap ...: 0.6958123445510864
+adapter +++ aux différences et cas particuliers: 0.6942881345748901
+
+Initial proposal:
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires
+Closest neighbors:
+Guichet Unique de Prestations Sociales ( GUPS ): 0.8255614638328552
+Pas d'impots supplementaires: 0.8110105395317078
+Un montant pour chacun: 0.7867593169212341
+Par l'impot payé par tous: 0.7815007567405701
+Reconnaître la précarité: 0.7796981930732727
+
+Initial proposal:
+Un revenu minimum de 18 à 62 ans
+Closest neighbors:
+Non à l'intégration de l'aspa comme de l'aah!: 0.6830641031265259
+Dès l'attribution du Revenu universel d'activité, offrir un accompagnement professionnel et/ou social immédiat, selon la situation de la personne: 0.6803709864616394
+RUA pour tous sans conditions: 0.6651855707168579
+tout le monde à la même enseigne: 0.6471514105796814
+Senio: 0.6460514068603516
+
+Initial proposal:
+une augmentation de 0,5 % de TVA pourrait financer cet effort de solidarité.
+Closest neighbors:
+Revenu universel même sans activité: 0.7112365365028381
+Revenu universel pour TOUS: 0.7102154493331909
+Effet pervers du financement par l'impôt?: 0.7059990167617798
+Comment redistribuer de façon solidaire: 0.6936342716217041
+Financement: 0.675696611404419
+
+Initial proposal:
+PRISE EN COMPTE DES ALLOCATIONS SPECIFIQUES DE LA VILLE DE PARIS
+Closest neighbors:
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS: 0.8510838747024536
+Variable selon les prix du loyer et du coût des transports.: 0.5837558507919312
+Financement de l'Etat pour laisser les départements et les villes faire des aides exceptionnelles: 0.5822593569755554
+Pour tous = simplification: 0.5722162127494812
+carte bleue crédité de l'aide gérée par la poste ...: 0.5660132765769958
+
+Initial proposal:
+ALLOCATIONS PARTICULIERES  DE LA VILLE DE PARIS A PRENDRE EN COMPTE  DANS LE CALCUL DES REVENUS
+Closest neighbors:
+PRISE EN COMPTE DES ALLOCATIONS SPECIFIQUES DE LA VILLE DE PARIS: 0.8510838747024536
+Financement de l'Etat pour laisser les départements et les villes faire des aides exceptionnelles: 0.6995528936386108
+carte bleue crédité de l'aide gérée par la poste ...: 0.6644872426986694
+Pour tous = simplification: 0.6504932045936584
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.6412414908409119
+
+Initial proposal:
+Modalités
+Closest neighbors:
+Conditions - 1400 euros net Revenu minimum universel: 0.5865715742111206
+CAISSE DES REVENUS: 0.5587303042411804
+Pas d'impots supplementaires: 0.5523629784584045
+VERSEMENT: 0.5322920680046082
+Monoparental (h ou f): 0.5148240327835083
+
+Initial proposal:
+Conditions - 1400 euros net Revenu minimum universel
+Closest neighbors:
+les personnes seules  handicapes: 0.6731963157653809
+Universel: 0.6728483438491821
+Un Revenu Universel pour tous les citoyens: 0.6633718013763428
+Un filet de sécurité: 0.6575751304626465
+Augmenter les minimas sociaux: 0.6560355424880981
+
+Initial proposal:
+Attribution grâce à la déclaration d'impôt
+Closest neighbors:
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.6212443709373474
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.6019494533538818
+Justificatif: 0.6010878086090088
+Lutter contre le non-recours est intéressant à condition de le financer: 0.5946321487426758
+Simplifiez !: 0.5917457938194275
+
+Initial proposal:
+Restaurer le congés Bilan de compéténces
+Closest neighbors:
+Solidarité nationale ET taxe entreprise: 0.7005027532577515
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6904125809669495
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.6661415696144104
+adapter +++ aux différences et cas particuliers: 0.6640661358833313
+Un revenu, un travail: 0.6605445742607117
+
+Initial proposal:
+TICPE
+Closest neighbors:
+simplification: 0.516315758228302
+Taxe de participation: 0.5113409757614136
+Pourquoi les employeurs continuent-ils à reçevoir des aides avec l'argent de nos impôts sans contreparties? c'est du VOL!: 0.5046969652175903
+Faire un emprunt la première année puis largent reviendra automatiquement dans les caisses de létat les années suivantes puisque réinjecté dans léconomie à travers les dépenses quotidiennes des français (TVA, taxes sur le carburants, impôts, ...etc): 0.47745296359062195
+modalites: 0.47654372453689575
+
+Initial proposal:
+Automaticité
+Closest neighbors:
+Ne pas considérer comme ressources les petites économies: 0.60912024974823
+Proposition: 0.6073920726776123
+Délinquance: 0.6056487560272217
+l'Allocation Logement (APL) n'est pas un revenu d'activité: 0.5382701754570007
+Aah: 0.53488689661026
+
+Initial proposal:
+Enfant à charge
+Closest neighbors:
+Fonctionnement RU: 0.5104794502258301
+simplification: 0.47974255681037903
+modalites: 0.47093838453292847
+Dès la naissance, être déclaré sur les registres d'état civil et versement automatique: 0.4650958180427551
+Prendre en compte le fait d'avoir des enfants à charge: 0.45755672454833984
+
+Initial proposal:
+Monoparental (h ou f)
+Closest neighbors:
+Prendre en compte le fait d'avoir des enfants à charge: 0.7248926162719727
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.7241246104240417
+Revenu: 0.7090292572975159
+Prendre en compte les montants du loyer ou crédit immobilier: 0.6971985697746277
+Egalité entre les enfants d'une même fratrie: 0.6608409881591797
+
+Initial proposal:
+Conditions de ressources
+Closest neighbors:
+juste sur les revenus: 0.7213594913482666
+mon mode opératoire du rua: 0.6704331636428833
+Eviter les effets de seuil: 0.668154776096344
+Revenu: 0.6648419499397278
+conditions pour le revenu universel d'activité: 0.6539917588233948
+
+Initial proposal:
+Amour du travaille
+Closest neighbors:
+Un revenu, un travail: 0.647292971611023
+fonctionnement: 0.6390130519866943
+Montant: 0.6310543417930603
+Eviter les effets de seuil: 0.6091897487640381
+Autofinancement: 0.6037595272064209
+
+Initial proposal:
+ressources pour tous
+Closest neighbors:
+Eviter les effets de seuil: 0.7499414682388306
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.726211428642273
+Bouclier universel: 0.7236574292182922
+Aides au logement et aah.: 0.7180445194244385
+juste sur les revenus: 0.7156872153282166
+
+Initial proposal:
+Bulletin de salaire
+Closest neighbors:
+Flat tax: 0.7211017608642578
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.6997498273849487
+Travailleurs Indépendants : un calcul Mensuel: 0.6928044557571411
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.6828674077987671
+financement: 0.6788890361785889
+
+Initial proposal:
+Senio
+Closest neighbors:
+Reconnaître la précarité: 0.8473048210144043
+C'estun revenu donc c'est imposable: 0.7845492362976074
+un socle unique: 0.7605906128883362
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.7446509003639221
+Revenu universel pour TOUS: 0.7426061034202576
+
+Initial proposal:
+Avoir 18 ans
+Closest neighbors:
+Les conditions pour bénéficier du Revenu universel d'activité: 0.7232374548912048
+Droit du sol: 0.719529390335083
+Le revenu de développement: 0.6433207988739014
+Tous égaux alors même aide financière: 0.6317282319068909
+L'âge: 0.6104282140731812
+
+Initial proposal:
+NON à la fusion de l'AAH avec le RUA
+Closest neighbors:
+Le financement du RUA: 0.8021583557128906
+Prendre en compte les revenus de tout le foyer: 0.7549492716789246
+Prendre en compte les revenus de tout le foyer: 0.7547342777252197
+AAH: 0.7528142929077148
+Aides au logement et aah.: 0.7495895624160767
+
+Initial proposal:
+Le peuple pour le peuple
+Closest neighbors:
+Par l'impot payé par tous: 0.729236364364624
+Universalité et Financement: 0.7181549072265625
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.689113438129425
+financement du RUA: 0.6790249943733215
+Revenu Minimum Unique RMU: 0.6652647256851196
+
+Initial proposal:
+UNIVERSALITE
+Closest neighbors:
+tout le monde à la même enseigne: 0.8160196542739868
+Aides au logement et aah.: 0.78016597032547
+les conditions: 0.7558086514472961
+un socle unique: 0.7327846884727478
+Prendre en compte le handicap et les enfants à charge: 0.7293432354927063
+
+Initial proposal:
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.8044208288192749
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.771264374256134
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7639491558074951
+adapter +++ aux différences et cas particuliers: 0.7610213756561279
+Des aides en contrepartie dun travail: 0.7482513189315796
+
+Initial proposal:
+Tout prendre en compte
+Closest neighbors:
+Revenu: 0.772722065448761
+Prendre en compte les revenus et la situation du foyer: 0.7706664204597473
+regarder la situation  la plus récente: 0.7505234479904175
+juste sur les revenus: 0.7157578468322754
+VERSEMENT: 0.7021055221557617
+
+Initial proposal:
+Dépenses
+Closest neighbors:
+Econnomies sur le fonctionnement: 0.62288498878479
+économiser en supprimant des avantages exagérés: 0.5626522302627563
+Les gains de la lutte contre la fraude fiscale: 0.5594744682312012
+RUA fonctionnement: 0.546390950679779
+RUA pourrait évoluer vers un principe d'impôt négatif: 0.5354015231132507
+
+Initial proposal:
+stop  pas touche  a mon  aah
+Closest neighbors:
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.8154585957527161
+seule (ou seul) avec un enfant porteur de handicap ...: 0.762192964553833
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.752644956111908
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.7500525712966919
+Aah: 0.748904824256897
+
+Initial proposal:
+Pour tous = simplification
+Closest neighbors:
+Financement de l'Etat pour laisser les départements et les villes faire des aides exceptionnelles: 0.7779213190078735
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.7494016289710999
+REUNIR: 0.7397078275680542
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...: 0.736517608165741
+Pas de conditions de ressources si ce doit être universel.: 0.736517608165741
+
+Initial proposal:
+Délinquance
+Closest neighbors:
+Proposition: 0.6363680362701416
+Automaticité: 0.6056487560272217
+Prendre en compte uniquement  la situation personnelle du demandeur: 0.5828589200973511
+JE SUIS CONTRE UN REVENU UNIVERSEL SANS CONTREPARTIE D'UN TRAVAIL: 0.5822546482086182
+AAH: 0.5774168372154236
+
+Initial proposal:
+Un Revenu Universel pour tous les citoyens
+Closest neighbors:
+un socle unique: 0.8690670132637024
+Conditions à remplir: 0.8206628561019897
+Ne rien prendre en compte: 0.8200343251228333
+Reconnaître la précarité: 0.8104362487792969
+C'estun revenu donc c'est imposable: 0.8077493906021118
+
+Initial proposal:
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté
+Closest neighbors:
+Effet pervers du financement par l'impôt?: 0.7582910656929016
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.7459568381309509
+financement du RUA: 0.7385934591293335
+Revenu universel même sans activité: 0.7317207455635071
+Financement par l'impôt comme d'habitude.: 0.7313351631164551
+
+Initial proposal:
+contrer partie
+Closest neighbors:
+Donner du temps à la société: 0.6992132067680359
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.6055813431739807
+Universalité Prendre en compte les revenues et les périodes travailler: 0.5873658657073975
+Simplifications: 0.5839515924453735
+Avec plus de moyens financiers car il aura des perdants: 0.5800719261169434
+
+Initial proposal:
+Fusionner entre les différentes strates de la collectivité.
+Closest neighbors:
+Financement de l'Etat pour laisser les départements et les villes faire des aides exceptionnelles: 0.658808708190918
+Pour tous = simplification: 0.6388435363769531
+selon les ressources de chaque entité, séparement : couple, enfant, personne seule...: 0.5910626649856567
+Un fichier central pour une bureaucratie fluide: 0.5735749006271362
+Des aides en contrepartie dun travail: 0.5705699920654297
+
+Initial proposal:
+Financement par l'impôt comme d'habitude.
+Closest neighbors:
+Impôt progressif sur les successions: 0.7528050541877747
+financement: 0.7486369013786316
+Prendre en compte les revenus de tout le foyer: 0.7361516356468201
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté: 0.7313351631164551
+Non un point c tout: 0.7180381417274475
+
+Initial proposal:
+Toutes personnes sous un certain seuil.
+Closest neighbors:
+Pour un RMA à 1300 euros nets par mois pour tous sans conditions de revenus: 0.6032513380050659
+Un RUA social: 0.6021105051040649
+Prendre en compte les revenus de tout le foyer: 0.6016073822975159
+Prendre en compte les revenus de tout le foyer: 0.5985898971557617
+VERSEMENT: 0.5744042992591858
+
+Initial proposal:
+aucune condition n'est à remplir pour bénéficier du RUA
+Closest neighbors:
+Inquiétudes pour le RUA: 0.5199562907218933
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.5187493562698364
+Attribution automatique: 0.4701087474822998
+Les conditions pour bénéficier du Revenu universel d'activité: 0.4643764793872833
+Droit du sol: 0.4497793912887573
+
+Initial proposal:
+Un RU non imposable !
+Closest neighbors:
+Eviter les effets de seuil: 0.7752164006233215
+dégradation des aides sociales: 0.7592291235923767
+RUA compatible avec les allocations chômage: 0.7359704375267029
+ECRAN DE FUMEE: 0.7357543706893921
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7270687222480774
+
+Initial proposal:
+Uniquement en fonction des conditions de ressources
+Closest neighbors:
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.6834607720375061
+non: 0.6775954365730286
+financement R.U.A: 0.671532154083252
+Revenu Minimum Unique RMU: 0.6707663536071777
+Eviter les effets de seuil: 0.6453882455825806
+
+Initial proposal:
+Sans condition car c'est universel
+Closest neighbors:
+Ne rien prendre en compte: 0.8116074800491333
+un socle unique: 0.7587577700614929
+Sans Conditions: 0.7515071630477905
+Un Revenu Universel pour tous les citoyens: 0.7410071492195129
+Revenu universel pour TOUS: 0.7397457361221313
+
+Initial proposal:
+l'Allocation Logement (APL) n'est pas un revenu d'activité
+Closest neighbors:
+Aah: 0.704804539680481
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.6472007632255554
+DU TRAVAIL EN CONTREPARTIE: 0.6193984150886536
+Réinsertion: 0.5869474411010742
+Revenu universel d' activité: 0.5704611539840698
+
+Initial proposal:
+Le revenu universel pour tous
+Closest neighbors:
+Ne rien prendre en compte: 0.8660708665847778
+Sans Conditions: 0.846194863319397
+Inconditionnel à chaque citoyen français: 0.8398640155792236
+Salaire mensuel universel individuel: 0.8257073760032654
+C'estun revenu donc c'est imposable: 0.8217658400535583
+
+Initial proposal:
+C'estun revenu donc c'est imposable
+Closest neighbors:
+un socle unique: 0.8947208523750305
+Reconnaître la précarité: 0.8813655376434326
+Ne rien prendre en compte: 0.8672789335250854
+Revenu universel pour TOUS: 0.8548182845115662
+Fonctionnement par points en regroupant tous les critères des aides déjà existantes: 0.8464391231536865
+
+Initial proposal:
+Récupérable Sur la sucession
+Closest neighbors:
+Ne pas récupérer le RUA sur succession, même si l'ASPA y est intégrée: 0.7531648874282837
+Financement sur la succession: 0.7288464903831482
+Que viennent faire les apl ainsi que l aah dans le rua?: 0.7013681530952454
+RUA quid de l'ASS et trimestre retraite ?: 0.6782610416412354
+Un versement automatisé: 0.6506633162498474
+
+Initial proposal:
+Pour bénéficier du Revenu universel d'activité il faudra en contrepartie effecteur travail d'intérêt général (TIG = travail non rémunéré au bénéfice d'une association ou d'un service public)
+Closest neighbors:
+salaire à vie sans ruiner l'état (mais que les patrons n'apprécieront pas): 0.6142235994338989
+Dès l'attribution du Revenu universel d'activité, offrir un accompagnement professionnel et/ou social immédiat, selon la situation de la personne: 0.6047137379646301
+Réinsertion: 0.5973420143127441
+DU TRAVAIL EN CONTREPARTIE: 0.5919070839881897
+financement R.U.A: 0.5882365703582764
+
+Initial proposal:
+Simplifications
+Closest neighbors:
+CAISSE DES REVENUS: 0.5905633568763733
+REVENU minimum pour tous et toutes sans distinction: 0.5895105600357056
+contrer partie: 0.5839515924453735
+doit continuer à être versé sous conditions de ressources: 0.5810415744781494
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.570042073726654
+
+Initial proposal:
+Déclaration de revenus
+Closest neighbors:
+financement: 0.6925398111343384
+les conditions à remplir: 0.6477516293525696
+juste sur les revenus: 0.6461395025253296
+Prendre en compte les revenus de tout le foyer: 0.6346919536590576
+Envisager un impôt sur le revenu des personnes physiques négatif faisant office de revenu universel d'activité: 0.6181116104125977
+
+Initial proposal:
+A prendre en compte
+Closest neighbors:
+Eviter les effets de seuil: 0.7478919625282288
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7443646192550659
+Un montant pour chacun: 0.7337257266044617
+Continuer à prendre en compte les frais réels: 0.7263091802597046
+Il doit tout prendre en compte: 0.72547447681427
+
+Initial proposal:
+Pourquoi pas des chèques solidarité ?
+Closest neighbors:
+Donner une partie de l'aide en nature: 0.761542022228241
+A associer aux besoins: 0.7473555207252502
+fonctionnement: 0.6934240460395813
+Justificatif: 0.6700950860977173
+Des aides en contrepartie dun travail: 0.6559066772460938
+
+Initial proposal:
+Montant RUA limité
+Closest neighbors:
+Eviter les effets de seuil: 0.7906022667884827
+Aah: 0.7675032019615173
+Revenu universel d' activité: 0.7659915685653687
+revenu dactivité universel sauf apl: 0.7637839317321777
+DU TRAVAIL EN CONTREPARTIE: 0.7536846399307251
+
+Initial proposal:
+Ne rien prendre en compte
+Closest neighbors:
+Sans Conditions: 0.8895928263664246
+un socle unique: 0.8766371011734009
+C'estun revenu donc c'est imposable: 0.8672789335250854
+Le revenu universel pour tous: 0.8660708665847778
+Conditions à remplir: 0.8533809185028076
+
+Initial proposal:
+La solidarité familiale avant la solidarité nationale
+Closest neighbors:
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.6916147470474243
+Sortir de la règle des 5/95, soit 5% de la population qui vit grassement: 0.6800187230110168
+modalités de demande du RUA: 0.6795710921287537
+faire appliquer l'obligation alimentaire et la récupération sur succession à toutes les aides sociales: 0.6570256948471069
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6465533375740051
+
+Initial proposal:
+des process sans couture
+Closest neighbors:
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.7079898715019226
+Prendre en compte la situation globale: 0.662801206111908
+Revoir régulièrement la situation de la personne: 0.6332613825798035
+Un versement automatisé: 0.6328505277633667
+Une actualisation mensuelle: 0.6276270151138306
+
+Initial proposal:
+Instituer le Revenu Universel tout court (et donc pas « d'activité »)
+Closest neighbors:
+revenu digne: 0.6944079995155334
+Uniquement considéré le seuil de pauvreté de manière absolue: 0.6491112112998962
+Un revenu, un travail: 0.6383785009384155
+non: 0.629236102104187
+activite = travail: 0.6281224489212036
+
+Initial proposal:
+proposition de financement
+Closest neighbors:
+Instauration d'une TVA sociale associée à une diminution des charges salariales: 0.679766058921814
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.6453546285629272
+Taxer les transactions financières: 0.6354329586029053
+Universalité et Financement: 0.629220187664032
+financement R.U.A: 0.6276283264160156
+
+Initial proposal:
+Revenu universel même sans activité
+Closest neighbors:
+Revenu universel ça veut dire pour tout le monde.: 0.8391678333282471
+Revenu universel pour TOUS: 0.8371464610099792
+Conditions à remplir: 0.7965813875198364
+C'estun revenu donc c'est imposable: 0.791060209274292
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.78089439868927
+
+Initial proposal:
+Question sans objet car les Bénéficiaires de l'AAH ne doivent pas être inclus dans le RUA
+Closest neighbors:
+Exclure le Handicap du champ du RUA: 0.6955680847167969
+AAH et RUA: 0.5984377861022949
+Récupérer les aides sur succession: 0.5791181921958923
+fusion de toutes les aides sociales: 0.5669928193092346
+Aah: 0.5534983277320862
+
+Initial proposal:
+Solidarité nationela qui inclue les revenus du capital
+Closest neighbors:
+non: 0.7788481712341309
+faire appliquer l'obligation alimentaire et la récupération sur succession à toutes les aides sociales: 0.7266338467597961
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.718361496925354
+revenu dactivité universel sauf apl: 0.7028425931930542
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.6904962062835693
+
+Initial proposal:
+faire la demande auprès d'une assitante sociale (et en augmenter les effectifs)
+Closest neighbors:
+associer droits aux devoirs: 0.5887378454208374
+La condition humaine devrait suffire: 0.5052023530006409
+Passer d'un RUA à un Revenu Universel: 0.43973472714424133
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.43897998332977295
+Simplification et fusion des différentes aides: 0.42924177646636963
+
+Initial proposal:
+Prendre en compte les revenus mais aussi le patrimoine
+Closest neighbors:
+versement allocation logement: 0.6490989327430725
+Prendre en compte les revenus et la situation du foyer: 0.6164370775222778
+Aah: 0.606909990310669
+Revenu: 0.6045704483985901
+Les propriétaires de leur logement ont des emprunts à charge: 0.6020091772079468
+
+Initial proposal:
+Financement par l'économie de la simplification et la contribution des hauts revenus
+Closest neighbors:
+Universalité et Financement: 0.8320728540420532
+un socle unique: 0.8270750045776367
+FUSION: 0.8255990147590637
+C'estun revenu donc c'est imposable: 0.8206361532211304
+financement R.U.A: 0.8020077347755432
+
+Initial proposal:
+Aucune condition juste celle d'exister.
+Closest neighbors:
+Revenu minimum pour toutes et  tous: 0.7011023759841919
+juste sur les revenus: 0.6876225471496582
+conditions: 0.6778247356414795
+Une instance unique pour gérer les revenus d'un foyer: 0.6687606573104858
+UNIVERSALITE: 0.6687469482421875
+
+Initial proposal:
+Partage équitable des aides entre deux parents divorcés ou séparés
+Closest neighbors:
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.7230539321899414
+Sous quelles conditions: 0.7090428471565247
+Traitement individuel ou conjoint: 0.6958212852478027
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.6927793025970459
+Egalité entre les enfants d'une même fratrie: 0.6912927627563477
+
+Initial proposal:
+Egalité entre les enfants d'une même fratrie
+Closest neighbors:
+Prendre en compte le fait d'avoir des enfants à charge: 0.7501220107078552
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.7325240969657898
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7159819006919861
+Partage équitable des aides entre deux parents divorcés ou séparés: 0.6912927627563477
+Sous quelles conditions: 0.6711437702178955
+
+Initial proposal:
+Que viennent faire les apl ainsi que l aah dans le rua?
+Closest neighbors:
+ne pas compter l'APL dans cette réforme: 0.7407526969909668
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.7059001922607422
+Récupérable Sur la sucession: 0.7013681530952454
+stop  pas touche  a mon  aah: 0.6941937208175659
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.6902353167533875
+
+Initial proposal:
+Le revenu de développement
+Closest neighbors:
+Avoir 18 ans: 0.6433207988739014
+Les conditions pour bénéficier du Revenu universel d'activité: 0.6029970645904541
+Le peuple pour le peuple: 0.5884997248649597
+unique condition = citoyen Français: 0.5874931812286377
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.5805692672729492
+
+Initial proposal:
+Les gains de la lutte contre la fraude fiscale
+Closest neighbors:
+Justificatif: 0.6321254968643188
+Lutter contre l'évasion fiscale et arrêter les cadeaux fiscaux (CICE) etc: 0.6309641599655151
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6194223165512085
+REDISTRIBUTION JUSTICE SOCIALE ET FISCALE.: 0.614279568195343
+Financement par l'impôt comme d'habitude.: 0.6018818616867065
+
+Initial proposal:
+CONTRE LE FAIT DE FONDRE LASS ET RSA DANS LE FUTUR RUA
+Closest neighbors:
+Solidarité nationale ET taxe entreprise: 0.7123947143554688
+RUA quid de l'ASS et trimestre retraite ?: 0.7100949287414551
+Financer le RUA avec l'aide ACS CMU-C: 0.6980803608894348
+Continuer à prendre en compte les frais réels: 0.6803776025772095
+Le rua ne doit pas comprendre tt les aides: 0.6768571734428406
+
+Initial proposal:
+Un fichier central pour une bureaucratie fluide
+Closest neighbors:
+Penser aussi aux économies à réaliser pour aider vraiment ceux qui en ont besoin: 0.75182044506073
+Plus de controle: 0.7221633791923523
+modalités de demande du RUA: 0.710487961769104
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6846765875816345
+Effet pervers du financement par l'impôt?: 0.6555072069168091
+
+Initial proposal:
+Pas d'incompatibilités excluantes pour les étudiants
+Closest neighbors:
+pour les étudiants nouvellement diplômés: 0.7075290083885193
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.6922585964202881
+Solidarité nationale ET taxe entreprise: 0.6647021174430847
+Continuer à prendre en compte les frais réels: 0.6245307922363281
+justifier de faibles revenus: 0.6066787242889404
+
+Initial proposal:
+atteinte aux droit des familles des personnes handicapé
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.8231741189956665
+Prendre en compte le handicap et les enfants à charge: 0.7864886522293091
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7417816519737244
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.722947895526886
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.7180975675582886
+
+Initial proposal:
+RU
+Closest neighbors:
+RUA pour tous sans conditions: 0.8437417149543762
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7917912006378174
+un socle unique: 0.7732211947441101
+tout le monde à la même enseigne: 0.7636172771453857
+Être citoyen français émancipé (soit plus à charge): 0.7613980770111084
+
+Initial proposal:
+Non à l'intégration de l'aspa comme de l'aah!
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.7379646897315979
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7174721956253052
+Aides au logement et aah.: 0.7153791785240173
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7006298303604126
+tout le monde à la même enseigne: 0.698628306388855
+
+Initial proposal:
+Prélever une taxe sur les machines
+Closest neighbors:
+Un revenu, un travail: 0.7142676115036011
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7087880373001099
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.6959801912307739
+aller vers un revenu universel: 0.6752790808677673
+le symptome et non la cause: 0.674221396446228
+
+Initial proposal:
+Revenu
+Closest neighbors:
+versement allocation logement: 0.7457538843154907
+ressources pour tous: 0.709902286529541
+Monoparental (h ou f): 0.7090292572975159
+juste sur les revenus: 0.6967996954917908
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.6931319236755371
+
+Initial proposal:
+Prise en compte de la situation familiale
+Closest neighbors:
+Justificatif: 0.7620226144790649
+individualiser les aides: 0.7502495050430298
+Donner une partie de l'aide en nature: 0.7286636829376221
+Un système à points: 0.7231201529502869
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.7055413722991943
+
+Initial proposal:
+Comment redistribuer de façon solidaire
+Closest neighbors:
+Revenu universel pour TOUS: 0.7922549247741699
+En traquant les fraudes et les gaspillages: 0.770060658454895
+Revenu universel même sans activité: 0.7573801875114441
+financement du RUA: 0.7507054805755615
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7498170733451843
+
+Initial proposal:
+Les propriétaires de leur logement ont des emprunts à charge
+Closest neighbors:
+versement allocation logement: 0.7366849780082703
+Prendre en compte le coût du logement: 0.6079127788543701
+Prendre en compte les revenus mais aussi le patrimoine: 0.6020091772079468
+Aah: 0.5983749628067017
+conditions: 0.5915762186050415
+
+Initial proposal:
+simplification
+Closest neighbors:
+modalites: 0.6459815502166748
+Fonctionnement RU: 0.5290365815162659
+TICPE: 0.516315758228302
+Enfant à charge: 0.47974255681037903
+Penser aussi aux économies à réaliser pour aider vraiment ceux qui en ont besoin: 0.4658990502357483
+
+Initial proposal:
+REDISTRIBUTION JUSTICE SOCIALE ET FISCALE.
+Closest neighbors:
+Justificatif: 0.709412693977356
+économiser en supprimant des avantages exagérés: 0.6807551383972168
+Lutter contre l'évasion fiscale et arrêter les cadeaux fiscaux (CICE) etc: 0.6659725904464722
+Prendre en compte les revenus de tout le foyer: 0.6650429368019104
+En traquant les fraudes et les gaspillages: 0.6624988317489624
+
+Initial proposal:
+Être citoyen français émancipé (soit plus à charge)
+Closest neighbors:
+RUA pour tous sans conditions: 0.7794892191886902
+Reconnaître la précarité: 0.7614820003509521
+RU: 0.7613980770111084
+un socle unique: 0.7566844820976257
+Montant: 0.7508046627044678
+
+Initial proposal:
+Revenu universel
+Closest neighbors:
+Taxer les transactions financières: 0.6772706508636475
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?: 0.6407960653305054
+financement par création monétaire: 0.6247952580451965
+financement par création monétaire: 0.6247952580451965
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.6185534000396729
+
+Initial proposal:
+"Prévoir une campagne de sensibilisation,auprès du grand public sur le ""statut"" de précaire"
+Closest neighbors:
+Un montant pour chacun: 0.6609582901000977
+Droits et devoir: 0.6486473083496094
+Fixer un revenu minimum décent.: 0.6480696201324463
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.632204532623291
+Objet: Revenu universel d'activité / Revenu de base inconditionnel: 0.6312847137451172
+
+Initial proposal:
+Non un point c tout
+Closest neighbors:
+Effet pervers du financement par l'impôt?: 0.778082013130188
+Plus de controle: 0.7448424100875854
+Pas d'impots supplementaires: 0.7404263615608215
+Universal Credit au Royaume Uni: 0.7335360050201416
+En traquant les fraudes et les gaspillages: 0.7225160598754883
+
+Initial proposal:
+financement R.U.A
+Closest neighbors:
+Universalité et Financement: 0.8080935478210449
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.8020077347755432
+Revenu universel ça veut dire pour tout le monde.: 0.7621367573738098
+Conditions à remplir: 0.7521331310272217
+un socle unique: 0.744514524936676
+
+Initial proposal:
+contre
+Closest neighbors:
+ECRAN DE FUMEE: 0.6665140390396118
+Un RU non imposable !: 0.6477153897285461
+Le rua ne doit pas comprendre tt les aides: 0.6266739368438721
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.5970360040664673
+DU TRAVAIL EN CONTREPARTIE: 0.5959140062332153
+
+Initial proposal:
+Proposition
+Closest neighbors:
+Délinquance: 0.6363680362701416
+Automaticité: 0.6073920726776123
+JE SUIS CONTRE UN REVENU UNIVERSEL SANS CONTREPARTIE D'UN TRAVAIL: 0.5174039006233215
+Aucune condition pour en bénéficier: 0.5160543918609619
+AAH: 0.5009365677833557
+
+Initial proposal:
+Garantir un écart significatif avec le travail
+Closest neighbors:
+Un revenu, un travail: 0.7067815661430359
+Donner 1000 euros à tous à partir de 18 ans: 0.700779139995575
+Dès l'attribution du Revenu universel d'activité, offrir un accompagnement professionnel et/ou social immédiat, selon la situation de la personne: 0.680095911026001
+activité en contrepartie du rua: 0.6741353869438171
+Continuer à prendre en compte les frais réels: 0.6698528528213501
+
+Initial proposal:
+Taxe de participation
+Closest neighbors:
+financement: 0.6732809543609619
+1 200 : 0.6450488567352295
+Universel: 0.6360672116279602
+Vous avez dit universel!: 0.6213479042053223
+Bulletin de salaire: 0.6172139644622803
+
+Initial proposal:
+Pour un RMA à 1300 euros nets par mois pour tous sans conditions de revenus
+Closest neighbors:
+Un Revenu Universel pour tous les citoyens: 0.715239405632019
+Eviter les effets de seuil: 0.713533341884613
+Prendre en compte les revenus de tout le foyer: 0.7018178701400757
+Prendre en compte les revenus de tout le foyer: 0.7012326121330261
+Reconnaître la précarité: 0.6965864896774292
+
+Initial proposal:
+Un système à points
+Closest neighbors:
+Simplification et fusion des différentes aides: 0.7263461351394653
+Donner une partie de l'aide en nature: 0.724601149559021
+Prise en compte de la situation familiale: 0.7231201529502869
+Penser aussi aux économies à réaliser pour aider vraiment ceux qui en ont besoin: 0.7044722437858582
+Droits et devoir: 0.6909763216972351
+
+Initial proposal:
+Taxer les transactions financières
+Closest neighbors:
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.7278413772583008
+financement du RUA: 0.7226394414901733
+financement R.U.A: 0.6837254762649536
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?: 0.6812171936035156
+Revenu universel: 0.6772706508636475
+
+Initial proposal:
+Traquer les fraude, appliquer le non cumul des mandats, réduire les disparités public/ privé
+Closest neighbors:
+En traquant les fraudes et les gaspillages: 0.7953293919563293
+Financement par l'impôt comme d'habitude.: 0.6657335758209229
+Non un point c tout: 0.6652218103408813
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6594246625900269
+REDISTRIBUTION JUSTICE SOCIALE ET FISCALE.: 0.6457254886627197
+
+Initial proposal:
+tout le monde à la même enseigne
+Closest neighbors:
+un socle unique: 0.8169311285018921
+UNIVERSALITE: 0.8160196542739868
+Reconnaître la précarité: 0.7894539833068848
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.7884270548820496
+RUA pour tous sans conditions: 0.7853158116340637
+
+Initial proposal:
+Droit du sol
+Closest neighbors:
+Les conditions pour bénéficier du Revenu universel d'activité: 0.7557437419891357
+Avoir 18 ans: 0.719529390335083
+Tous égaux alors même aide financière: 0.6125257015228271
+Il ne devrait y avoir aucune condition pour bénéficier du revenu universel, autre que l'âge (et encore..).: 0.5717594027519226
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.5713750123977661
+
+Initial proposal:
+Financement
+Closest neighbors:
+Financement par l'impôt comme d'habitude.: 0.7077810764312744
+financement R.U.A: 0.696723461151123
+une augmentation de 0,5 % de TVA pourrait financer cet effort de solidarité.: 0.675696611404419
+Revenu universel même sans activité: 0.6634631156921387
+En traquant les fraudes et les gaspillages: 0.6610499024391174
+
+Initial proposal:
+En traquant les fraudes et les gaspillages
+Closest neighbors:
+Traquer les fraude, appliquer le non cumul des mandats, réduire les disparités public/ privé: 0.7953293919563293
+Comment redistribuer de façon solidaire: 0.770060658454895
+Revenu universel même sans activité: 0.7673894166946411
+Revenu universel pour TOUS: 0.7639266848564148
+Revenu universel ça veut dire pour tout le monde.: 0.7416272163391113
+
+Initial proposal:
+Uniquement considéré le seuil de pauvreté de manière absolue
+Closest neighbors:
+Montant: 0.6857402324676514
+Fixer un revenu minimum décent.: 0.6850967407226562
+Un filet de sécurité: 0.6668427586555481
+Reconnaître la précarité: 0.6653350591659546
+Un montant pour chacun: 0.6566372513771057
+
+Initial proposal:
+Aah
+Closest neighbors:
+Montant RUA limité: 0.7675032019615173
+Revenu universel d' activité: 0.7603366374969482
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA: 0.7493299245834351
+stop  pas touche  a mon  aah: 0.748904824256897
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.7403464317321777
+
+Initial proposal:
+Aucune condition pour en bénéficier
+Closest neighbors:
+Le RUA pour tous sans distinction de revenu des que l'on a  18 ans: 0.745364785194397
+Étudiants: 0.693787157535553
+Sans condition car c'est universel: 0.6535346508026123
+Revenu universel pour TOUS: 0.6453918814659119
+Sans Conditions: 0.6448975801467896
+
+Initial proposal:
+Droits ok, mais devoirs aussi
+Closest neighbors:
+Par l'impot payé par tous: 0.6268421411514282
+Le peuple pour le peuple: 0.616606593132019
+non: 0.5801630020141602
+Obligation d'exercer une mission d'intêret publique en contrepartie: 0.5703686475753784
+Pas d'impots supplementaires: 0.5688371658325195
+
+Initial proposal:
+Financer le RUA avec l'aide ACS CMU-C
+Closest neighbors:
+Travailleurs Indépendants : un calcul Mensuel: 0.7806403636932373
+Eviter les effets de seuil: 0.747197687625885
+un minimum décent pour les demandeurs d'emploi et retraités: 0.7454081773757935
+Attention à prendre en compte toutes les situations: 0.7145084738731384
+Une répartition équitable, sans contre-sens décourageants: 0.7138877511024475
+
+Initial proposal:
+Prendre en compte le revenu de la personne
+Closest neighbors:
+Revenu: 0.7875493168830872
+conditions: 0.7571985125541687
+Prendre en compte les revenus et la situation du foyer: 0.736036479473114
+Tout prendre en compte: 0.6992051005363464
+juste sur les revenus: 0.6774940490722656
+
+Initial proposal:
+activite = travail
+Closest neighbors:
+Être citoyen français émancipé (soit plus à charge): 0.6861099004745483
+Donner du temps à la société: 0.6598517298698425
+Aucune: 0.6349327564239502
+JE SUIS CONTRE UN REVENU UNIVERSEL SANS CONTREPARTIE D'UN TRAVAIL: 0.6294339895248413
+Instituer le Revenu Universel tout court (et donc pas « d'activité »): 0.6281224489212036
+
+Initial proposal:
+Baser des impôts sur des courbes, des fonctions mathématiques et supprimer les tranches.
+Closest neighbors:
+Tout prendre en compte: 0.6265968084335327
+En traquant les fraudes et les gaspillages: 0.6196231245994568
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.6129180788993835
+regarder la situation  la plus récente: 0.6024290919303894
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.595199465751648
+
+Initial proposal:
+Redistribution
+Closest neighbors:
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.7253122329711914
+Par l'impot payé par tous: 0.6609163880348206
+Plus de controle: 0.6565481424331665
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?: 0.6561755537986755
+Taxer les transactions financières: 0.6557262539863586
+
+Initial proposal:
+Conditionner le versement de dividendes à l'amélioration des salaires
+Closest neighbors:
+Taxer les bénéfices des entreprises: 0.678375780582428
+Un SMIC à 2000  et un RUA à 800  ! Système de paiement des salaires par l'Etat: 0.667293906211853
+augmentation des cotisations patronales, arrét de la baisse des charges: 0.6562618017196655
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.6468658447265625
+Impôt progressif sur les successions: 0.6364647150039673
+
+Initial proposal:
+Exclure le Handicap du champ du RUA
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.7913414835929871
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7784794569015503
+AAH et RUA: 0.72299724817276
+revenu universel calcul: 0.7147849798202515
+Rente de redistribution sociale: 0.7124795913696289
+
+Initial proposal:
+revenu universel calcul
+Closest neighbors:
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.7768291234970093
+seule (ou seul) avec un enfant porteur de handicap ...: 0.748557448387146
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.7211503386497498
+Récupérer les aides sur succession: 0.7160595655441284
+Exclure le Handicap du champ du RUA: 0.7147849798202515
+
+Initial proposal:
+Financer aussi un vrai accompagnement des bénéficiaires
+Closest neighbors:
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.7808804512023926
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7743858098983765
+Confier la gestion et le versement du RUA au futur service public de l'insertion (et de l'emploi): 0.7642506957054138
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.73930424451828
+Un Revenu Universel dActivité pour compenser un manque de revenu: 0.7295324802398682
+
+Initial proposal:
+Confier la gestion et le versement du RUA au futur service public de l'insertion (et de l'emploi)
+Closest neighbors:
+Financer aussi un vrai accompagnement des bénéficiaires: 0.7642506957054138
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.678081750869751
+Réinsertion: 0.6755658388137817
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.6650162935256958
+ECRAN DE FUMEE: 0.657654345035553
+
+Initial proposal:
+Impôt progressif sur les successions
+Closest neighbors:
+Financement par l'impôt comme d'habitude.: 0.7528050541877747
+Prendre en compte les revenus de tout le foyer: 0.7461867928504944
+Un Revenu vraiment universel...: 0.7270726561546326
+Financement sur la succession: 0.7265653610229492
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.7236480116844177
+
+Initial proposal:
+Par l'impot payé par tous
+Closest neighbors:
+Pas d'impots supplementaires: 0.8157711029052734
+financement du RUA: 0.8097627758979797
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7815007567405701
+Revenu universel pour TOUS: 0.7608720064163208
+Le peuple pour le peuple: 0.729236364364624
+
+Initial proposal:
+Simple et garanti ex: 600 par adulte, 300 par enfants, pour tou(te)s quel que soit le revenu.
+Closest neighbors:
+Universel: 0.7311165928840637
+Un filet de sécurité: 0.701688289642334
+Reconnaître la précarité: 0.693326473236084
+Un Revenu Universel pour tous les citoyens: 0.6906359195709229
+mon mode opératoire du rua: 0.6789599061012268
+
+Initial proposal:
+Sans Conditions
+Closest neighbors:
+Ne rien prendre en compte: 0.8895928263664246
+Le revenu universel pour tous: 0.846194863319397
+Conditions à remplir: 0.8379390239715576
+un socle unique: 0.8032655715942383
+Salaire mensuel universel individuel: 0.8001089096069336
+
+Initial proposal:
+Comment financer
+Closest neighbors:
+TVA: 0.7844417095184326
+Instauration d'une TVA sociale associée à une diminution des charges salariales: 0.7134960293769836
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.7018276453018188
+En traquant les fraudes et les gaspillages: 0.7016381025314331
+Prendre en compte les revenus de tout le foyer: 0.6571981906890869
+
+Initial proposal:
+Continuer à prendre en compte les frais réels
+Closest neighbors:
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.7653251886367798
+Solidarité nationale ET taxe entreprise: 0.7602104544639587
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7575974464416504
+DU TRAVAIL EN CONTREPARTIE: 0.7530957460403442
+Eviter les effets de seuil: 0.7516496777534485
+
+Initial proposal:
+modalites
+Closest neighbors:
+simplification: 0.6459815502166748
+Des agents formés: 0.5933128595352173
+Fonctionnement RU: 0.5894367098808289
+Contribution Universelle Boursière: 0.5432136654853821
+Assurer la continuité des droits et interdire les suspensions abusives de versement des allocations: 0.5230424404144287
+
+Initial proposal:
+conditions
+Closest neighbors:
+revenus par personne: 0.8020858764648438
+revenu dactivité universel sauf apl: 0.7951889038085938
+Sous quelles conditions: 0.7829265594482422
+Prendre en compte les revenus de tout le foyer: 0.7806470990180969
+conditions pour le revenu universel d'activité: 0.7773968577384949
+
+Initial proposal:
+Une somme minimale + un bonus/malus selon les cas
+Closest neighbors:
+fusion de toutes les aides sociales: 0.5922664999961853
+Financer le RUA avec l'aide ACS CMU-C: 0.5384951829910278
+DU TRAVAIL EN CONTREPARTIE: 0.5381917953491211
+Donner une partie de l'aide en nature: 0.5350198745727539
+EMPLOI DU PERSONNEL QUI TOUCHE LE RSA: 0.5245187282562256
+
+Initial proposal:
+à tous puisqu il sera universel sans conditions ....
+Closest neighbors:
+Un vrai revenu UNIVERSEL (pas lié à l'activité): 0.706712007522583
+Automatisation totale et pas d'activité: 0.6857132911682129
+que le RUA vienne en plus de l ahh ou pension d'invalidité: 0.6828179359436035
+un socle unique: 0.6811949014663696
+non: 0.6801093816757202
+
+Initial proposal:
+juste sur les revenus
+Closest neighbors:
+Revenu: 0.8127385377883911
+Prendre en compte les revenus et la situation du foyer: 0.8101327419281006
+Sous quelles conditions: 0.7715194821357727
+financement: 0.7597408294677734
+mon mode opératoire du rua: 0.7584956884384155
+
+Initial proposal:
+Recentrer le soutien social sur les seuls ressortissants nationaux
+Closest neighbors:
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.7293269038200378
+Pour tous = simplification: 0.7278749942779541
+Récupération sur succession: 0.6998276710510254
+pour le financement: 0.6474833488464355
+Redistribution: 0.6463603377342224
+
+Initial proposal:
+Travail des personnes condamnées
+Closest neighbors:
+Prélever une taxe sur les machines: 0.5053609609603882
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.4971592426300049
+Universal Credit au Royaume Uni: 0.4833674728870392
+contre: 0.47696006298065186
+Pas d'impots supplementaires: 0.47031286358833313
+
+Initial proposal:
+Taxe technologique (robot)
+Closest neighbors:
+Les robots ou machines robotiques remplacent déjà les salariés dans beaucoup d'entreprises...: 0.7247111797332764
+Les taxes sur les robots, les gaffas...: 0.6380483508110046
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.6346016526222229
+Prendre l'argent là où il y en a: 0.6336157917976379
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.6315889358520508
+
+Initial proposal:
+pour le financement
+Closest neighbors:
+Par l'impot payé par tous: 0.6479062438011169
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.6474833488464355
+Récupération sur succession: 0.6112143397331238
+Etre français puisque c'est une allocation non assurantielle: 0.5824654698371887
+Redistribution: 0.5793856382369995
+
+Initial proposal:
+Un filet de sécurité
+Closest neighbors:
+Reconnaître la précarité: 0.8513683080673218
+un socle unique: 0.8188999891281128
+C'estun revenu donc c'est imposable: 0.8124932646751404
+Un Revenu Universel pour tous les citoyens: 0.8019349575042725
+RUA pour tous sans conditions: 0.7841843962669373
+
+Initial proposal:
+revenus par personne
+Closest neighbors:
+conditions: 0.8020858764648438
+Sous quelles conditions: 0.7509357333183289
+Revenu: 0.745802104473114
+Prendre en compte les revenus et la situation du foyer: 0.7450502514839172
+Pas d'impots supplementaires: 0.7313201427459717
+
+Initial proposal:
+RUA quid de l'ASS et trimestre retraite ?
+Closest neighbors:
+En cas de chômage après 55 ans: 0.7606360912322998
+Financer le RUA avec l'aide ACS CMU-C: 0.7136430740356445
+CONTRE LE FAIT DE FONDRE LASS ET RSA DANS LE FUTUR RUA: 0.7100949287414551
+Financement sur la succession: 0.6899098753929138
+Une actualisation mensuelle: 0.6896114349365234
+
+Initial proposal:
+Demander au Ministère des finances
+Closest neighbors:
+Financer aussi un vrai accompagnement des bénéficiaires: 0.667875349521637
+Universal Credit au Royaume Uni: 0.601848840713501
+En traquant les fraudes et les gaspillages: 0.5909566879272461
+Restaurer le congés Bilan de compéténces: 0.5909020900726318
+Guichet Unique de Prestations Sociales ( GUPS ): 0.5869036912918091
+
+Initial proposal:
+Instauration d'une TVA sociale associée à une diminution des charges salariales
+Closest neighbors:
+Comment financer: 0.7134960293769836
+TVA: 0.6952224969863892
+proposition de financement: 0.679766058921814
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.6682472825050354
+financement du RUA: 0.6585119962692261
+
+Initial proposal:
+Un Revenu vraiment universel...
+Closest neighbors:
+Impôt progressif sur les successions: 0.7270726561546326
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7201169729232788
+Financement sur la succession: 0.714102029800415
+ressources pour tous: 0.706760823726654
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.706046462059021
+
+Initial proposal:
+Intégrer une AUTOMATICITÉ dans les modalités d'attribution
+Closest neighbors:
+Développer lapplication mobile mesdroitssociaux.gouv.fr: 0.6934086084365845
+Détecter les personnes éligibles au Revenu universel d'activité afin de les informer de leur droit: 0.6553422212600708
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.6233582496643066
+les conditions à remplir: 0.6216938495635986
+Simplification et fusion des différentes aides: 0.6208820343017578
+
+Initial proposal:
+Foyer de plus de 3 enfants inéligibles
+Closest neighbors:
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.5732731223106384
+RUA pour l'autonomie des jeunes: 0.5597373247146606
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.5554389357566833
+Confier la gestion et le versement du RUA au futur service public de l'insertion (et de l'emploi): 0.5538747906684875
+contre: 0.5451472997665405
+
+Initial proposal:
+Exclusion définitive du rua
+Closest neighbors:
+associer droits aux devoirs: 0.6298021078109741
+Kalissy06: 0.5662369132041931
+A TOUS MAIS AVEC DES CONDITIONS ET A VÉRIFIER ENSEMBLE: 0.546968936920166
+les conditions à remplir: 0.5467729568481445
+Jeune -25 ans: 0.541780948638916
+
+Initial proposal:
+Sortir de la règle des 5/95, soit 5% de la population qui vit grassement
+Closest neighbors:
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.777138888835907
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7308052182197571
+Pas d'impots supplementaires: 0.714962899684906
+Universal Credit au Royaume Uni: 0.6976070404052734
+Par l'impot payé par tous: 0.6934921741485596
+
+Initial proposal:
+Porter plus efficacement à la connaissance de chacun ses droits, et respecter les choix faits
+Closest neighbors:
+Pas d'impots supplementaires: 0.7009572982788086
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6886156797409058
+Un financement Etat et non par les collectivité locales: 0.6580472588539124
+Droits et devoir: 0.6475501656532288
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6304363012313843
+
+Initial proposal:
+Rétablir de l'ISF
+Closest neighbors:
+Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté: 0.6474706530570984
+Une souscription permettant de d'utiliser les bénéfices générés pour co-financer le RU (ou RUA, si vous y tenez...)?: 0.6445149183273315
+Universal Credit au Royaume Uni: 0.6281784772872925
+Contribution Universelle Boursière: 0.6214861273765564
+En supprimant le CICE.: 0.6212045550346375
+
+Initial proposal:
+Financer une partie du RUA via une taxe AIRBNB
+Closest neighbors:
+Prendre en compte les montants du loyer ou crédit immobilier: 0.5665461421012878
+Variable selon les prix du loyer et du coût des transports.: 0.5527394413948059
+Composition familiale, revenus du travail, loyer dû : Le RUA serait calculer en fonction de plusieurs critères: 0.5498486757278442
+Un RUA social: 0.5129244923591614
+Les propriétaires de leur logement ont des emprunts à charge: 0.5118700265884399
+
+Initial proposal:
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République
+Closest neighbors:
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.7381571531295776
+Financement: 0.728506326675415
+économiser en supprimant des avantages exagérés: 0.6905092000961304
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.6629749536514282
+En traquant les fraudes et les gaspillages: 0.6561928391456604
+
+Initial proposal:
+Prendre en compte la situation globale de la personne
+Closest neighbors:
+"Prévoir une campagne de sensibilisation,auprès du grand public sur le ""statut"" de précaire": 0.6012387275695801
+Le financement du RUA: 0.576110303401947
+A prendre en compte: 0.5642117261886597
+Prendre en compte les handicaps non reconnus.: 0.5614113807678223
+Il doit tout prendre en compte: 0.5582460165023804
+
+Initial proposal:
+Financement sur la succession
+Closest neighbors:
+En cas de chômage après 55 ans: 0.7866709232330322
+Rua pour les personnes en desous du seuil de pauvreté: 0.7392875552177429
+Récupérable Sur la sucession: 0.7288464903831482
+Impôt progressif sur les successions: 0.7265653610229492
+Prendre en compte les revenus de tout le foyer: 0.721021831035614
+
+Initial proposal:
+Un revenu, un travail
+Closest neighbors:
+non: 0.7398881912231445
+Solidarité nationale ET taxe entreprise: 0.7363895177841187
+En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du RUA serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...): 0.7268675565719604
+DU TRAVAIL EN CONTREPARTIE: 0.7247880697250366
+Réinsertion: 0.721148669719696
+
+Initial proposal:
+Le financement est à imposer aux entreprises qui ont installés l'automatisation de leur activités.
+Closest neighbors:
+Les robots ou machines robotiques remplacent déjà les salariés dans beaucoup d'entreprises...: 0.6218204498291016
+Prélever une taxe sur les machines: 0.6184635162353516
+Les robots au boulot, les prolos au bistrot: 0.5930340886116028
+Automatisation des aides: 0.5917847752571106
+aller vers un revenu universel: 0.5816540718078613
+
+Initial proposal:
+Revenu universel ça veut dire pour tout le monde.
+Closest neighbors:
+Revenu universel même sans activité: 0.8391678333282471
+Conditions à remplir: 0.8252354860305786
+C'estun revenu donc c'est imposable: 0.8240807056427002
+un socle unique: 0.8057111501693726
+Revenu universel pour TOUS: 0.8012880086898804
+
+Initial proposal:
+Guichet Unique de Prestations Sociales ( GUPS )
+Closest neighbors:
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.8255614638328552
+Revenu universel pour TOUS: 0.7967666983604431
+Universal Credit au Royaume Uni: 0.7805716395378113
+financement du RUA: 0.777362585067749
+Financer aussi un vrai accompagnement des bénéficiaires: 0.7743858098983765
+
+Initial proposal:
+Lutter contre le non-recours est intéressant à condition de le financer
+Closest neighbors:
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7255263924598694
+Pas d'impots supplementaires: 0.712396502494812
+Une actualisation mensuelle: 0.6901918053627014
+Fonctionnement RU: 0.6861912608146667
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6838589906692505
+
+Initial proposal:
+Et comment gérer le tiers payant lorsque l'APL (ou AL) est demandé par le bailleur ?
+Closest neighbors:
+Bouclier universel: 0.7059939503669739
+JE SENT CE PAYS REGRESSER COMME JE VOIS LE CLIMAT CE DEGRADER.: 0.7046457529067993
+versement allocation logement: 0.6443519592285156
+Prendre en compte les montants du loyer ou crédit immobilier: 0.6337893605232239
+Composition familiale, revenus du travail, loyer dû : Le RUA serait calculer en fonction de plusieurs critères: 0.6313925981521606
+
+Initial proposal:
+FICHIER UNIQUE ET PARTAGE
+Closest neighbors:
+Un système à points: 0.4838932454586029
+Simplification et fusion des différentes aides: 0.46306273341178894
+Éviter la redondance des demandes de justificatifs ou de documents: 0.4520420432090759
+Un versement automatisé: 0.447942316532135
+Penser aussi aux économies à réaliser pour aider vraiment ceux qui en ont besoin: 0.4290023148059845
+
+Initial proposal:
+Allocations familiales dès le 1er enfant
+Closest neighbors:
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.5651848912239075
+Pas d'impots supplementaires: 0.5645992755889893
+Plafonner, diminuer ou supprimer les allocations familiales au dela de 3 ou 4 enfants.: 0.5574069619178772
+Sortir de la règle des 5/95, soit 5% de la population qui vit grassement: 0.5258142948150635
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.5164464116096497
+
+Initial proposal:
+Un vrai revenu UNIVERSEL (pas lié à l'activité)
+Closest neighbors:
+Revenu universel pour TOUS: 0.8176111578941345
+un socle unique: 0.8036990165710449
+C'estun revenu donc c'est imposable: 0.7942715883255005
+Reconnaître la précarité: 0.7940655946731567
+Revenu universel même sans activité: 0.78089439868927
+
+Initial proposal:
+Lutter contre l'évasion fiscale et arrêter les cadeaux fiscaux (CICE) etc
+Closest neighbors:
+REDISTRIBUTION JUSTICE SOCIALE ET FISCALE.: 0.6659725904464722
+Comment financer: 0.6355791091918945
+Financement: 0.6352761387825012
+Taxe sur les Gros salaires des patrons d'entreprise et les rentiers de la République: 0.6337944865226746
+Les gains de la lutte contre la fraude fiscale: 0.6309641599655151
+
+Initial proposal:
+Automatisation des aides
+Closest neighbors:
+Déclaration de revenus devraient inclure l'ensemble des aides perçues: 0.7448517084121704
+Simplification radicale: 0.7024996280670166
+Un versement automatisé: 0.6930449604988098
+Simplification et fusion des différentes aides: 0.6783373355865479
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6711075901985168
+
+Initial proposal:
+Prendre en compte la situation globale
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.7648642063140869
+Prendre en compte les revenus de tout le foyer: 0.7627000212669373
+Le conditionner à de l'insertion professionnelle, sociale ou insertion par la santé: 0.7621364593505859
+les conditions à remplir: 0.7531780004501343
+Reconnaître l'investissement bénévole dans des organismes d'intérêt général: 0.7216676473617554
+
+Initial proposal:
+En cas de chômage après 55 ans
+Closest neighbors:
+Financement sur la succession: 0.7866709232330322
+RUA quid de l'ASS et trimestre retraite ?: 0.7606360912322998
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.7340750694274902
+PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE: 0.7306126952171326
+Attention à prendre en compte toutes les situations: 0.7275181412696838
+
+Initial proposal:
+les beneficiaires pourront etre aider financierement mais aussi administrativement  pour ouvrir une micro entreprise
+Closest neighbors:
+ne pas compter l'APL dans cette réforme: 0.6879575252532959
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6829023361206055
+Solidarité nationale ET taxe entreprise: 0.6824554204940796
+Réinsertion: 0.6738154292106628
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6716930270195007
+
+Initial proposal:
+Le rua ne doit pas comprendre tt les aides
+Closest neighbors:
+Pas que le revenu , les dépenses du foyer aussi ...: 0.7408004403114319
+Rua pour les personnes en desous du seuil de pauvreté: 0.7172538638114929
+Eviter les effets de seuil: 0.7052983045578003
+ECRAN DE FUMEE: 0.7002173066139221
+Un Revenu Universel d'Activité compensatoire: 0.6925656199455261
+
+Initial proposal:
+Réinsertion
+Closest neighbors:
+DU TRAVAIL EN CONTREPARTIE: 0.8218417763710022
+Universalité Prendre en compte les revenues et les périodes travailler: 0.7885371446609497
+activité en contrepartie du rua: 0.7705251574516296
+Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire: 0.769520103931427
+Solidarité nationale ET taxe entreprise: 0.7522341012954712
+
+Initial proposal:
+Misère, Pauvreté, problèmes de santé, handicaps, précarité ...
+Closest neighbors:
+Prendre en compte les revenus et la situation du foyer: 0.657541811466217
+Revenu: 0.6231992244720459
+activite = travail: 0.5392395257949829
+Kalissy06: 0.535895049571991
+Contrôle des droits: 0.5282047986984253
+
+Initial proposal:
+RU cumul ancienneté et enfant à charge
+Closest neighbors:
+ressources pour tous: 0.7108896970748901
+Attention à prendre en compte toutes les situations: 0.7068158388137817
+REUNIR: 0.6866775155067444
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.6863524913787842
+un minimum décent pour les demandeurs d'emploi et retraités: 0.6819299459457397
+
+Initial proposal:
+La subvention, c'est de la cocaïne.
+Closest neighbors:
+Fixer un revenu minimum décent.: 0.5069848895072937
+REVENU UNIVERSEL DACTIVITÉ (bonne idée ou usine à gaz ?): 0.4867591857910156
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.4712391793727875
+associer droits aux devoirs: 0.4692945182323456
+AAH: 0.4646918475627899
+
+Initial proposal:
+Une répartition équitable, sans contre-sens décourageants
+Closest neighbors:
+Financer le RUA avec l'aide ACS CMU-C: 0.7138877511024475
+Travailleurs Indépendants : un calcul Mensuel: 0.7115657329559326
+Continuer à prendre en compte les frais réels: 0.6811513304710388
+Un RU non imposable !: 0.6571826934814453
+les modalites: 0.6544451713562012
+
+Initial proposal:
+Variable selon les prix du loyer et du coût des transports.
+Closest neighbors:
+Augmenter les minimas sociaux: 0.6457469463348389
+Un RUA social: 0.6406650543212891
+Prendre en compte les revenus de tout le foyer: 0.6400974988937378
+Prendre en compte les revenus de tout le foyer: 0.6382699608802795
+Par l'impot payé par tous: 0.6371225118637085
+
+Initial proposal:
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.
+Closest neighbors:
+Droits et devoir: 0.7560862302780151
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7401416301727295
+fonctionnement: 0.7343758940696716
+Des aides en contrepartie dun travail: 0.7296164631843567
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.7248281240463257
+
+Initial proposal:
+regarder la situation  la plus récente
+Closest neighbors:
+Tout prendre en compte: 0.7505234479904175
+Sous quelles conditions: 0.722489595413208
+revenus par personne: 0.7192389965057373
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.6943210959434509
+conditions pour le revenu universel d'activité: 0.6726937294006348
+
+Initial proposal:
+Obligation d'exercer une mission d'intêret publique en contrepartie
+Closest neighbors:
+Arrêtez de harceler les plus faibles: 0.6287975907325745
+Par l'impot payé par tous: 0.6180413961410522
+Attribution automatique: 0.599124550819397
+Le RU doit remplacer l'ensemble des prestations sociales et donc peut bénéficier de la réorientation des crédits existants: 0.5989969372749329
+Redistribution: 0.5886181592941284
+
+Initial proposal:
+Flat tax
+Closest neighbors:
+conditions: 0.7429608702659607
+Un filet de sécurité: 0.740827202796936
+financement R.U.A: 0.7303728461265564
+Universalité et Financement: 0.7275800704956055
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7261757254600525
+
+Initial proposal:
+Universal Credit au Royaume Uni
+Closest neighbors:
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7805716395378113
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7588943839073181
+Pas d'impots supplementaires: 0.7388863563537598
+Non un point c tout: 0.7335360050201416
+En traquant les fraudes et les gaspillages: 0.7333104610443115
+
+Initial proposal:
+Inquiétudes pour le RUA
+Closest neighbors:
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.5720925331115723
+AAH et RUA: 0.5690776109695435
+Le financement du RUA: 0.5346477031707764
+NON à la fusion de l'AAH avec le RUA: 0.5308002829551697
+aucune condition n'est à remplir pour bénéficier du RUA: 0.5199562907218933
+
+Initial proposal:
+A toutes personnes subissant un changement de situation non souhaité
+Closest neighbors:
+individualiser les aides: 0.6926625967025757
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6843021512031555
+fonctionnement: 0.6778587102890015
+Des aides en contrepartie dun travail: 0.6771053671836853
+Financer aussi un vrai accompagnement des bénéficiaires: 0.6753351092338562
+
+Initial proposal:
+fonctionnement
+Closest neighbors:
+La dignité par le travail: 0.7883808016777039
+Des aides en contrepartie dun travail: 0.7843491435050964
+Donner une partie de l'aide en nature: 0.7531063556671143
+De la justice SVP - permettre à chacun de vivre avec un minimum décent au vu des éléments subits (et non choisis) de sa situation.: 0.7343758940696716
+Droits et devoir: 0.7229881882667542
+
+Initial proposal:
+Prendre en compte les handicaps non reconnus.
+Closest neighbors:
+Prendre en compte la situation globale de la personne: 0.5614113807678223
+Récupérer les aides sur succession: 0.5531178116798401
+Le financement du RUA: 0.47833865880966187
+AAH et RUA: 0.4639987349510193
+Tenir compte des échecs thérapeutiques pour l'AAH: 0.46031779050827026
+
+Initial proposal:
+Ne pas prendre en compte le patrimoine mobilier
+Closest neighbors:
+En cas de chômage après 55 ans: 0.6841244101524353
+Il doit tout prendre en compte: 0.6707274913787842
+Assurer la continuité des droits et interdire les suspensions abusives de versement des allocations: 0.6647462248802185
+revenu dactivité universel sauf apl: 0.645746111869812
+Financement sur la succession: 0.6374000310897827
+
+Initial proposal:
+VEILLER à contrôler la baisse prévue du taux de redristibution et éviter un effet d'aubaine et de renforcement de l'assistanat.
+Closest neighbors:
+Par l'impot payé par tous: 0.7185050249099731
+Impôt progressif sur les successions: 0.6841052174568176
+Prendre en compte les revenus de tout le foyer: 0.6760855913162231
+financement du RUA: 0.6756383180618286
+Revenu universel ça veut dire pour tout le monde.: 0.657743513584137
+
+Initial proposal:
+ne pas compter l'APL dans cette réforme
+Closest neighbors:
+Laccompagnement et laccès à lemploi ne peuvent pas être dissociés du RUA: 0.7424432039260864
+Que viennent faire les apl ainsi que l aah dans le rua?: 0.7407526969909668
+stop  pas touche  a mon  aah: 0.7151094675064087
+faire appliquer l'obligation alimentaire et la récupération sur succession à toutes les aides sociales: 0.7146818041801453
+modalités de demande du RUA: 0.7116632461547852
+
+Initial proposal:
+Passer d'un RUA à un Revenu Universel
+Closest neighbors:
+Récupération sur succession: 0.6398941874504089
+Un « REvenu de VOcation CItoyens » (REVOCI / « Rêve aussi » !...) POUR TOU-TE-S, plutôt que le RUA : modalités de mise en uvre, pour réinventer/(ré)enchanter le Travail, notre Société et nos vies...: 0.6257737874984741
+Les conditions pour bénéficier du Revenu universel d'activité: 0.5981173515319824
+Recentrer le soutien social sur les seuls ressortissants nationaux: 0.5881730318069458
+Aucune condition puisqu'il remplacera l'ensemble des prestations sociales...: 0.5840171575546265
+
+Initial proposal:
+Autofinancement
+Closest neighbors:
+FAIRE DES HEURES DE BENEVOLATS EN MILIEU ASSOCIATIF EN CONTRE PARTIE DU RUA: 0.7389886379241943
+Universalité Prendre en compte les revenues et les périodes travailler: 0.7331413626670837
+Des aides en contrepartie dun travail: 0.7134279012680054
+La dignité par le travail: 0.701524019241333
+Droits et devoir: 0.6903128027915955
+
+Initial proposal:
+Possibilité en plus de l'Etat, de gestion par caisses privées.
+Closest neighbors:
+Prendre en compte les revenus de tout le foyer: 0.678005039691925
+Prendre en compte les revenus de tout le foyer: 0.6764339804649353
+Revenu universel d' activité: 0.6763243675231934
+Guichet Unique de Prestations Sociales ( GUPS ): 0.6708248853683472
+Prendre en compte la situation globale: 0.6672120094299316
+
+Initial proposal:
+Rente de redistribution sociale
+Closest neighbors:
+seule (ou seul) avec un enfant porteur de handicap ...: 0.7191752195358276
+stop  pas touche  a mon  aah: 0.7138081789016724
+Exclure le Handicap du champ du RUA: 0.7124795913696289
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.706368625164032
+D'accord mais sauf le cas des personnes en situation d'handicap (AAH, d'autres allocations et aides aux personnes handicapées) et l'APL: 0.6631640195846558
+
+Initial proposal:
+seule (ou seul) avec un enfant porteur de handicap ...
+Closest neighbors:
+Prendre en compte le handicap et les enfants à charge: 0.8249148726463318
+atteinte aux droit des familles des personnes handicapé: 0.8231741189956665
+RUA c'est bien beau, mais il y à plus de licenciements que d'embauche, encore moins quand on est handicapé, donc il ne faudrait pas inclure l'AAH et l'APL ou autre aide au logement: 0.8044208288192749
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.7976230978965759
+Exclure le Handicap du champ du RUA: 0.7913414835929871
+
+Initial proposal:
+Il doit tout prendre en compte
+Closest neighbors:
+A prendre en compte: 0.72547447681427
+seule (ou seul) avec un enfant porteur de handicap ...: 0.6862332820892334
+Et pourquoi pas deux versions du RUA ? un RU et un RUA: 0.6783092021942139
+Droits et devoir: 0.6737005114555359
+atteinte aux droit des familles des personnes handicapé: 0.6710308790206909
+
+Initial proposal:
+Etre réaliste et agir au bon moment
+Closest neighbors:
+Une actualisation mensuelle: 0.7724160552024841
+Augmenter les minimas sociaux: 0.7198371887207031
+Pas que le revenu , les dépenses du foyer aussi ...: 0.7180781364440918
+Financer le RUA avec l'aide ACS CMU-C: 0.6799414157867432
+Un Revenu Universel d'Activité compensatoire: 0.658934473991394
+
+Initial proposal:
+Justificatif
+Closest neighbors:
+Prise en compte de la situation familiale: 0.7620226144790649
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7513169050216675
+Simplification radicale: 0.7481808066368103
+Prendre en compte les revenus de tout le foyer: 0.7481400370597839
+Donner une partie de l'aide en nature: 0.733847439289093
+
+Initial proposal:
+Faire un emprunt la première année puis largent reviendra automatiquement dans les caisses de létat les années suivantes puisque réinjecté dans léconomie à travers les dépenses quotidiennes des français (TVA, taxes sur le carburants, impôts, ...etc)
+Closest neighbors:
+Taxer les transactions financières: 0.6561982035636902
+financement par création monétaire: 0.6220272183418274
+financement par création monétaire: 0.6220272183418274
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.: 0.6016997694969177
+Revenu universel: 0.5873420238494873
+
+Initial proposal:
+A TOUS MAIS AVEC DES CONDITIONS ET A VÉRIFIER ENSEMBLE
+Closest neighbors:
+pour les étudiants nouvellement diplômés: 0.7281355857849121
+Kalissy06: 0.6988580822944641
+Une étude minutieuse des conditions de vie pour le versement de ce revenu: 0.6922910213470459
+adapter +++ aux différences et cas particuliers: 0.6834936141967773
+Prendre en compte le handicap et les enfants à charge: 0.6800280809402466
+
+Initial proposal:
+Fonctionnement RU
+Closest neighbors:
+Guichet Unique de Prestations Sociales ( GUPS ): 0.7458906173706055
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.7193602323532104
+Universal Credit au Royaume Uni: 0.7039396166801453
+Prendre en compte les revenus de tout le foyer: 0.6931051015853882
+Prise en compte de la situation familiale: 0.6915261149406433
+
+Initial proposal:
+faire appliquer l'obligation alimentaire et la récupération sur succession à toutes les aides sociales
+Closest neighbors:
+Solidarité nationela qui inclue les revenus du capital: 0.7266338467597961
+ne pas compter l'APL dans cette réforme: 0.7146818041801453
+Prendre en compte la diversité des réalités et des difficultés sociales des allocataires: 0.6846180558204651
+Prendre en compte tous les biens et revenus (individuels ou foyers selon évaluation) et toutes les charges et obligations: 0.6720862984657288
+revenu dactivité universel sauf apl: 0.6665115356445312
+
+Initial proposal:
+Reconnaître la précarité
+Closest neighbors:
+un socle unique: 0.8907107710838318
+C'estun revenu donc c'est imposable: 0.8813655376434326
+Un filet de sécurité: 0.8513683080673218
+Senio: 0.8473048210144043
+RUA pour tous sans conditions: 0.8413833379745483
+
+Initial proposal:
+Ne pas récupérer le RUA sur succession, même si l'ASPA y est intégrée
+Closest neighbors:
+Récupérable Sur la sucession: 0.7531648874282837
+Financer le Revenu universel d'activité par la solidarité nationale: 0.635701060295105
+Que viennent faire les apl ainsi que l aah dans le rua?: 0.614914059638977
+RUA quid de l'ASS et trimestre retraite ?: 0.610393762588501
+les risques: 0.6040706634521484
+
+Initial proposal:
+Prendre l'argent là où il y en a
+Closest neighbors:
+Financement par l'impôt comme d'habitude.: 0.684238851070404
+Financer le revenu universel par la taxation des transactions et des dividendes boursières: 0.6590631008148193
+Les taxes sur les robots, les gaffas...: 0.6575745940208435
+Financement par des prélèvements sur les gros patrimoines et Une TVA majorée sur les produits de luxe: 0.6523649096488953
+Taxer les transactions financières: 0.6374244689941406
+
+Initial proposal:
+Simplification radicale
+Closest neighbors:
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7948772311210632
+FUSION: 0.7918068766593933
+Prendre en compte les revenus de tout le foyer: 0.7613502144813538
+RUA fonctionnement: 0.7591977715492249
+C'estun revenu donc c'est imposable: 0.7516674399375916
+
+Initial proposal:
+les conditions
+Closest neighbors:
+UNIVERSALITE: 0.7558086514472961
+Un Revenu Universel pour tous les citoyens: 0.7448745965957642
+tout le monde à la même enseigne: 0.7353761792182922
+un socle unique: 0.7265589833259583
+Sans condition car c'est universel: 0.7200590968132019
+
+Initial proposal:
+Automatique pour tous
+Closest neighbors:
+Simplification radicale: 0.6923025846481323
+tout le monde à la même enseigne: 0.6831613779067993
+Aucune condition juste celle d'exister.: 0.6381083726882935
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.6308221220970154
+RUA pour tous sans conditions: 0.6285747289657593
+
+Initial proposal:
+Dès la naissance, être déclaré sur les registres d'état civil et versement automatique
+Closest neighbors:
+Aucune condition juste celle d'exister.: 0.6572309732437134
+Automatique pour tous: 0.5858013033866882
+UNIVERSALITE: 0.5806659460067749
+Modalité : l'acte de naître: 0.5475303530693054
+Simplifiez !: 0.5224061012268066
+
+Initial proposal:
+Seule avec enfant
+Closest neighbors:
+Traitement individuel ou conjoint: 0.5458468794822693
+Jeune -25 ans: 0.462416410446167
+Kalissy06: 0.46010446548461914
+Prendre en compte uniquement  la situation personnelle du demandeur: 0.4526655673980713
+enlever les allocations aux familles dont les enfants sont placés en famille d'accueil: 0.44925135374069214
+
+Initial proposal:
+Aucune
+Closest neighbors:
+Revenu universel ça veut dire pour tout le monde.: 0.7776440382003784
+financement R.U.A: 0.7364935278892517
+En traquant les fraudes et les gaspillages: 0.7268885374069214
+Financement par l'économie de la simplification et la contribution des hauts revenus: 0.7255499362945557
+C'estun revenu donc c'est imposable: 0.7171192169189453
+
+Initial proposal:
+Penser aussi aux économies à réaliser pour aider vraiment ceux qui en ont besoin
+Closest neighbors:
+Un fichier central pour une bureaucratie fluide: 0.75182044506073
+Un système à points: 0.7044722437858582
+Plus de controle: 0.6848950386047363
+Prise en compte de la situation familiale: 0.6762427687644958
+Fonctionnement RU: 0.6596187353134155
+
+Initial proposal:
+Avec plus de moyens financiers car il aura des perdants
+Closest neighbors:
+A prendre en compte: 0.7088643312454224
+Un revenu, un travail: 0.6925683617591858
+Donner du temps à la société: 0.6859837770462036
+Il doit tout prendre en compte: 0.6704319715499878
+Droits et devoir: 0.6580947637557983
+
+Initial proposal:
+activité en contrepartie du rua
+Closest neighbors:
+Réinsertion: 0.7705251574516296
+DU TRAVAIL EN CONTREPARTIE: 0.7035131454467773
+Dès l'attribution du Revenu universel d'activité, offrir un accompagnement professionnel et/ou social immédiat, selon la situation de la personne: 0.6989951133728027
+Un revenu, un travail: 0.6817630529403687
+Revoir régulièrement la situation de la personne: 0.6807251572608948
+
+Initial proposal:
+Redonner une cohérence à l'ensemble des prélèvements obligatoires.
+Closest neighbors:
+Revenu universel ça veut dire pour tout le monde.: 0.753311812877655
+financement: 0.7349040508270264
+Impôt progressif sur les successions: 0.7236480116844177
+Aucune: 0.7148306369781494
+financement R.U.A: 0.7111005783081055
+
