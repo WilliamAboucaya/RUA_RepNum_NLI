@@ -1,5 +1,6 @@
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
+import nltk
 
 from collections import Counter
 
@@ -17,7 +18,7 @@ model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
 # proposal_contents = proposals["Contenu"].tolist()
 
 # For RUA datasets
-consultation_data = pd.read_csv("consultation_data/rua-principes.csv", encoding='unicode_escape', engine='python', quoting=3, sep=';')
+consultation_data = pd.read_csv("consultation_data/rua-principes.csv", engine='python', quoting=3, sep=';')
 consultation_data["contributions_title"] = consultation_data["contributions_title"].fillna("")
 consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
@@ -34,13 +35,13 @@ for paraphrase in paraphrases:
     paraphrase_scores[i][j] = score
     paraphrase_scores[j][i] = score
 
-with open('results/proposals_content_comparison_principes.txt', 'w', encoding='utf8') as f:
+with open('results/proposals_content_comparison_principes_clean.txt', 'w', encoding='utf8') as f:
     for idx, sentence_paraphrase_scores in enumerate(paraphrase_scores):
         k = Counter(sentence_paraphrase_scores)
         highest_scores = k.most_common(5)
 
-        f.write(f"Initial proposal:\n{proposal_titles[idx]}\nClosest neighbors:\n")
+        f.write(f"Initial proposal:\n{proposal_contents[idx]}\nClosest neighbors:\n")
 
         for score in highest_scores:
-            f.write(f"{proposal_titles[score[0]]}: {score[1]}\n")
+            f.write(f"{proposal_contents[score[0]]}: {score[1]}\n")
         f.write("\n")
