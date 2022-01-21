@@ -8,7 +8,7 @@ model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')
 
 # Single list of sentences - Possible tens of thousands of sentences
 
-consultation_data = pd.read_csv("consultation_data/rua-publics.csv", encoding='unicode_escape', engine='python', quoting=3, sep=';')
+consultation_data = pd.read_csv("consultation_data/rua-publics.csv", encoding="utf-8",  engine='python', quoting=3, sep=';')
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
 
 # sentences = ["Afin d'être parfaitement équitable, il faut que ce revenu universel le soit. Pour tous, sans aucune condition ni calcul alambiqué. Le travailleur reçoit autant que celui qui ne travaille pas, ainsi il n'y a pas d'hésitation à aller travailler et pas de problèmes d'administration de l'aide ni de fraude.",
