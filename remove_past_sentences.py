@@ -1,4 +1,4 @@
-from treetagger import TreeTagger
+import treetaggerwrapper as ttwp
 import nltk
 import pandas as pd
 
@@ -8,7 +8,7 @@ consultation_data["contributions_bodyText"] = consultation_data["contributions_b
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
 proposal_contents = proposals["contributions_bodyText"].tolist()
 
-tt_fr = TreeTagger(language='french')
+tt_fr = ttwp.TreeTagger(TAGLANG="fr")
 french_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
 
 past_tense_tags = ["VER:impf", "VER:pper", "VER:simp", "VER:subi"]
@@ -21,8 +21,8 @@ for proposal_content in proposal_contents:
 
         not_past_sentences = []
         for sentence in sentences:
-            sentence_pos = tt_fr.tag(sentence)
-            if not any(pos[1] in past_tense_tags for pos in sentence_pos):
+            sentence_pos = ttwp.make_tags(tt_fr.tag_text(sentence))
+            if not any(pos.pos in past_tense_tags for pos in sentence_pos):
                 not_past_sentences.append(sentence)
 
         proposals_clean.append(" ".join(not_past_sentences))
