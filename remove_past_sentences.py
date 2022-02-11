@@ -3,7 +3,7 @@ import nltk
 import pandas as pd
 
 
-consultation_data = pd.read_csv("consultation_data/rua-publics.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
+consultation_data = pd.read_csv("consultation_data/rua-principes.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
 consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
 proposal_contents = proposals["contributions_bodyText"].tolist()
@@ -27,7 +27,7 @@ for proposal_content in proposal_contents:
 
         proposals_clean.append(" ".join(not_past_sentences))
 
-with open("results/nopast-publics-contents.txt", "w", encoding="utf8") as nopast:
+with open("results/nopast-principes-contents.txt", "w", encoding="utf8") as nopast:
     for proposal in proposals_clean:
         if proposal != "":
             nopast.write(proposal + "\n")
