@@ -1,17 +1,18 @@
-from transformers import AutoTokenizer, AutoModelForTokenClassification, TrainingArguments, Trainer, DataCollatorForTokenClassification
+from transformers import AutoTokenizer, AutoModelForTokenClassification, TrainingArguments, Trainer, \
+    DataCollatorForTokenClassification
 from datasets import load_dataset, load_metric
 
 import numpy as np
 
 label_all_tokens = True
 model_checkpoint = "gilf/french-camembert-postag-model"
-batch_size = 4
+batch_size = 2
 
-tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=514)
+tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
 
 
 def tokenize_and_align_labels(examples):
-    tokenized_inputs = tokenizer(examples["tokens"], max_length=514, truncation=True, is_split_into_words=True)
+    tokenized_inputs = tokenizer(examples["tokens"], max_length=512, truncation=True, is_split_into_words=True)
 
     labels = []
     for i, label in enumerate(examples["pos_tags"]):
@@ -59,15 +60,26 @@ def compute_metrics(p):
         "f1": results["overall_f1"],
         "accuracy": results["overall_accuracy"],
     }
+    # accuracy_results = accuracy_metric.compute(predictions=true_predictions, references=true_labels)
+    # f1_results = f1_metric.compute(predictions=true_predictions, references=true_labels)
+    # precision_results = precision_metric.compute(predictions=true_predictions, references=true_labels)
+    # recall_results = recall_metric.compute(predictions=true_predictions, references=true_labels)
+    # return {
+    #     "precision": precision_results["precision"],
+    #     "recall": recall_results["recall"],
+    #     "f1": f1_results["f1"],
+    #     "accuracy": accuracy_results["accuracy"],
+    # }
 
 
 perceo_datasets = load_dataset('./datasets/perceo')
 label_list = perceo_datasets["train"].features["pos_tags"].feature.names
 
 tokenized_datasets = perceo_datasets.map(tokenize_and_align_labels, batched=True)
-model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, num_labels=len(label_list), ignore_mismatched_sizes=True)
+model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, num_labels=len(label_list),
+                                                        ignore_mismatched_sizes=True)
 
-model_name = model_checkpoint
+model_name = model_checkpoint.split("/")[-1]
 args = TrainingArguments(
     f"{model_name}-finetuned-pos",
     evaluation_strategy="epoch",
@@ -81,6 +93,10 @@ args = TrainingArguments(
 data_collator = DataCollatorForTokenClassification(tokenizer)
 
 metric = load_metric("seqeval")
+# accuracy_metric = load_metric("accuracy")
+# f1_metric = load_metric("f1")
+# precision_metric = load_metric("precision")
+# recall_metric = load_metric("recall")
 
 trainer = Trainer(
     model,
@@ -93,4 +109,6 @@ trainer = Trainer(
 )
 
 trainer.train()
-print(trainer.evaluate())
+trainer.evaluate()
+
+trainer.save_model(f"{model_name}-finetuned-perceo")
