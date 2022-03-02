@@ -178,9 +178,9 @@ class Perceo(datasets.GeneratorBasedBuilder):
                 if "\tLOC\t" in line:
                     sentence_idx += 1
 
-                if sentence_idx > corpus_size / 3 and file_to_write == training_file and "\tLOC\t" in line:
+                if sentence_idx > 8 * corpus_size / 10 and file_to_write == training_file and "\tLOC\t" in line:
                     file_to_write = dev_file
-                elif sentence_idx > 2 * corpus_size / 3 and file_to_write == dev_file and "\tLOC\t" in line:
+                elif sentence_idx > 9 * corpus_size / 10 and file_to_write == dev_file and "\tLOC\t" in line:
                     file_to_write = test_file
 
         data_files = {
