@@ -15,7 +15,6 @@ label_list = perceo_datasets["train"].features["pos_tags"].feature.names
 
 config = AutoConfig.from_pretrained(model_checkpoint)
 
-config.name_or_path = f"waboucay/{model_name}-finetuned-perceo"
 config.id2label = {idx: label for (idx, label) in enumerate(label_list)}
 config.label2id = {label: idx for (idx, label) in enumerate(label_list)}
 
@@ -70,9 +69,9 @@ def compute_metrics(p):
         "recall_micro": results["overall_recall_micro"],
         "f1_micro": results["overall_f1_micro"],
         "f1_macro": results["overall_f1_macro"],
-        "f1_VER:impf": results["VER:impf"]["f1"],
-        "f1_VER:simp": results["VER:simp"]["f1"],
-        "f1_VER:subi": results["VER:subi"]["f1"],
+        # "f1_VER:impf": results["ER:impf"]["f1"] if "ER:impf" in results else 0,
+        # "f1_VER:simp": results["ER:simp"]["f1"] if "ER:simp" in results else 0,
+        # "f1_VER:subi": results["ER:subi"]["f1"] if "ER:subi" in results else 0,
         "accuracy": results["overall_accuracy"],
     }
     # accuracy_results = accuracy_metric.compute(predictions=true_predictions, references=true_labels)
@@ -99,7 +98,9 @@ perceo_datasets = load_dataset('./datasets/perceo')
 label_list = perceo_datasets["train"].features["pos_tags"].feature.names
 
 tokenized_datasets = perceo_datasets.map(tokenize_and_align_labels, batched=True)
-model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, config=config, ignore_mismatched_sizes=True)
+model = AutoModelForTokenClassification.from_pretrained(model_checkpoint, ignore_mismatched_sizes=True, config=config)
+
+model.config.name_or_path = f"waboucay/{model_name}-finetuned-perceo"
 
 args = TrainingArguments(
     f"{model_name}-finetuned-pos",
@@ -133,6 +134,6 @@ trainer.train()
 print("With validation set:")
 print(trainer.evaluate())
 print("With test set:")
-print(trainer.evaluate(eval_dataset=tokenized_datasets["validation"]))
+print(trainer.evaluate(eval_dataset=tokenized_datasets["test"]))
 
 trainer.save_model(f"{model_name}-finetuned-perceo")
