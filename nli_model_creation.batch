@@ -5,20 +5,15 @@
 #SBATCH --nodes=1                                                 # Run all processes on a single node
 #SBATCH --ntasks=1                                                # Run a single task
 #SBATCH --cpus-per-task=1                                         # Number of CPU cores per task
-#SBATCH --gres=gpu:rtx6000:1                                      # GPU nodes are only available in gpu partition
-#SBATCH --mem=16G                                                 # Total memory allocated
+#SBATCH --gres=gpu:rtx6000:2                                      # GPU nodes are only available in gpu partition
+#SBATCH --mem=24gb                                                 # Total memory allocated
 #SBATCH --hint=multithread                                        # we get physical cores not logical
 #SBATCH --time=24:00:00                                           # total run time limit (HH:MM:SS)
 #SBATCH --output=ruarepnum_nli_model_%j.log                        # Standard output and error log
 #SBATCH --partition=gpu
 
-conda init bash
-conda activate ruarepnum
-
 module load cuda/11.4.0
 
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-
-pip install -r requirements.txt
+pip install -r requirements.txt 2> >(grep -v 'Requirement already satisfied' 1>&2)
 
 python nli_model_creation.py

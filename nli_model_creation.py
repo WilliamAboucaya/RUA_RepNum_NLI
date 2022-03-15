@@ -6,7 +6,7 @@ from datasets import load_dataset, load_metric
 xnli_datasets = load_dataset("./datasets/xnli_fr")
 
 model_checkpoint = "camembert-base"
-batch_size = 16
+batch_size = 2
 
 model_name = model_checkpoint.split("/")[-1]
 
@@ -58,6 +58,10 @@ trainer = Trainer(
     compute_metrics=compute_metrics
 )
 
-trainer.train()
+trainer.train(resume_from_checkpoint=True)
+print("With validation set:")
 print(trainer.evaluate())
+print("With test set:")
 print(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
+
+trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr")
