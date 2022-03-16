@@ -1,6 +1,9 @@
 from datasets import load_dataset, load_metric
 
 import treetaggerwrapper as ttwp
+import warnings
+
+warnings.filterwarnings("ignore")
 
 tt_fr = ttwp.TreeTagger(TAGLANG="fr")
 metric = load_metric("./metrics/seqeval_exhaustive")
@@ -14,9 +17,16 @@ def evaluate(dataset):
     actual_tags = []
 
     for line in dataset:
-        tokens = line["tokens"][0:512] if len(line["tokens"]) > 512 else line["tokens"]
-        pos_tags = line["pos_tags"][0:512] if len(line["pos_tags"]) > 512 else line["pos_tags"]
+        tokens = line["tokens"]
+        pos_tags = line["pos_tags"]
         pos_predicted = ttwp.make_tags(tt_fr.tag_text(tokens, tagonly=True))
+
+        for i in range(len(tokens)):
+            if label_list[pos_tags[i]].startswith(tokens[i]):
+                pos_tags[i] = tokens[i]
+            if label_list[pos_tags[i]].startswith("AUX"):
+                tense = label_list[pos_tags[i]].split(":")[1]
+                pos_tags[i] = label_list.index(f"VER:{tense}")
 
         predicted_tags.append([token.pos if isinstance(token, ttwp.Tag) else "UNK" for token in pos_predicted])
         actual_tags.append([label_list[label_id] for label_id in pos_tags])
