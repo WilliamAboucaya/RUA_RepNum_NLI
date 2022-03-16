@@ -1,7 +1,11 @@
 import numpy as np
-from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
+import torch
 
+from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
 from datasets import load_dataset, load_metric
+from pprint import pprint
+
+assert torch.cuda.is_available()
 
 xnli_datasets = load_dataset("./datasets/xnli_fr")
 
@@ -25,7 +29,7 @@ num_labels = len(label_list)
 model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, config=config)
 
 metric = load_metric('glue', "mnli")
-metric_name = "accuracy"
+metric_name = "./metrics/seqeval_exhaustive"
 
 model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr"
 
@@ -58,10 +62,10 @@ trainer = Trainer(
     compute_metrics=compute_metrics
 )
 
-trainer.train(resume_from_checkpoint=True)
+trainer.train()
 print("With validation set:")
-print(trainer.evaluate())
+pprint(trainer.evaluate())
 print("With test set:")
-print(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
+pprint(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
 
 trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr")

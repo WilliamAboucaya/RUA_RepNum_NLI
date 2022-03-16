@@ -1,4 +1,5 @@
 from datasets import load_dataset, load_metric
+from pprint import pprint
 
 import treetaggerwrapper as ttwp
 import warnings
@@ -42,8 +43,7 @@ def evaluate(dataset):
 
 
 print("With validation set:")
-print(evaluate(perceo_datasets["validation"]))
-
+pprint(evaluate(perceo_datasets["validation"]))
 
 print("With test set:")
-print(evaluate(perceo_datasets["test"]))
+pprint(evaluate(perceo_datasets["test"]))
