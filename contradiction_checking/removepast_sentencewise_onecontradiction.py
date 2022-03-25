@@ -36,6 +36,9 @@ with open("../results/contradiction_checking/removepast_sentencewise_onecontradi
                 predicted_label = predict_nli(row["premise"], row["hypothesis"], nli_tokenizer, nli_model)
                 if predicted_label:
                     has_contradictory_pairs = True
+                    break
+            if has_contradictory_pairs:
+                break
 
         labeled_proposals_couples.at[idx, "predicted_label"] = int(has_contradictory_pairs)
 
