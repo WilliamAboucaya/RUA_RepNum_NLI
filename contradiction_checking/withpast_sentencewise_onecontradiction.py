@@ -25,13 +25,13 @@ labeled_proposals_couples["predicted_label"] = np.nan
 with open("../results/contradiction_checking/withpast_sentencewise_onecontradiction.log", "w", encoding="utf8") as file:
     for idx, row in labeled_proposals_couples.iterrows():
         premise_sentences = sentences_tokenizer.tokenize(row["premise"])
-        hypothesis_sentences = sentences_tokenizer.tokenize(row["premise"])
+        hypothesis_sentences = sentences_tokenizer.tokenize(row["hypothesis"])
 
         has_contradictory_pairs = False
 
         for i in range(len(premise_sentences)):
             for j in range(len(hypothesis_sentences)):
-                predicted_label = predict_nli(row["premise"], row["hypothesis"], nli_tokenizer, nli_model)
+                predicted_label = predict_nli(premise_sentences[i], hypothesis_sentences[j], nli_tokenizer, nli_model)
                 if predicted_label:
                     has_contradictory_pairs = True
                     break
