@@ -13,7 +13,6 @@
 #SBATCH --partition=gpu
 
 module purge
-module load cuda/11.4.0
 
 cd ${SLURM_SUBMIT_DIR}
 
@@ -21,6 +20,8 @@ cd ${SLURM_SUBMIT_DIR}
 source /home/$USER/.bashrc
 # tensorflow environment shloud bre created previously
 source activate ruarepnum
+
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
 pip install -r requirements.txt | grep -v 'already satisfied'
 

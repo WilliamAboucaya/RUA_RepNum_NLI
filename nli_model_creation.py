@@ -1,20 +1,29 @@
+import datasets
 import numpy as np
 import torch
 
 from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
-from datasets import load_dataset, load_metric
+from datasets import load_dataset, load_metric, concatenate_datasets
 from pprint import pprint
 
 assert torch.cuda.is_available()
 
 xnli_datasets = load_dataset("./datasets/xnli_fr")
+repnum_datasets = load_dataset("./datasets/repnum_nli")
+rua_datasets = load_dataset("./datasets/rua_nli")
+
+train_dataset = concatenate_datasets([xnli_datasets["train"], repnum_datasets["train"], rua_datasets["train"]])
+eval_dataset = concatenate_datasets([xnli_datasets["validation"], repnum_datasets["validation"], rua_datasets["validation"]])
+test_dataset = concatenate_datasets([xnli_datasets["test"], repnum_datasets["test"], rua_datasets["test"]])
+
+nli_datasets = datasets.DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
 model_checkpoint = "camembert-base"
 batch_size = 2
 
 model_name = model_checkpoint.split("/")[-1]
 
-label_list = xnli_datasets["train"].features["label"].names
+label_list = nli_datasets["train"].features["label"].names
 
 config = AutoConfig.from_pretrained(model_checkpoint)
 
@@ -23,25 +32,28 @@ config.label2id = {label: idx for (idx, label) in enumerate(label_list)}
 
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512, use_fast=True)
 
-encoded_dataset = xnli_datasets.map(lambda examples: tokenizer(examples["premise"], examples["hypothesis"], max_length=512, truncation=True), batched=True)
+encoded_dataset = nli_datasets.map(lambda examples: tokenizer(examples["premise"], examples["hypothesis"], max_length=512, truncation=True), batched=True)
 
 num_labels = len(label_list)
 model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, config=config)
 
-metric = load_metric('glue', "mnli")
-metric_name = "./metrics/seqeval_exhaustive"
+metric_name = "f1"
+metric = load_metric(metric_name)
 
-model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr"
+model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr-repnum_wl-rua_wl"
 
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
     predictions = np.argmax(predictions, axis=1)
-    return metric.compute(predictions=predictions, references=labels)
+    return {
+        "f1_micro": metric.compute(predictions=predictions, references=labels, average="micro"),
+        "f1_macro": metric.compute(predictions=predictions, references=labels, average="macro")
+    }
 
 
 args = TrainingArguments(
-    f"{model_name}-finetuned-xnli_fr",
+    f"{model_name}-finetuned-xnli_fr-repnum_wl-rua_wl",
     evaluation_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
@@ -50,7 +62,7 @@ args = TrainingArguments(
     num_train_epochs=5,
     weight_decay=0.01,
     load_best_model_at_end=True,
-    metric_for_best_model=metric_name
+    metric_for_best_model="f1_macro"
 )
 
 trainer = Trainer(
@@ -68,4 +80,4 @@ pprint(trainer.evaluate())
 print("With test set:")
 pprint(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
 
-trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr")
+trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr-repnum_wl-rua_wl")

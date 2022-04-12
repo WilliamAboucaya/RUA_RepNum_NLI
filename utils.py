@@ -1,3 +1,8 @@
+import re
+
+import pandas as pd
+
+
 def remove_past_sentences(proposal_content, sentences_tokenizer, nlp_token_classifier):
     past_tense_tags = ["VER:impf", "VER:simp", "VER:subi"]
 
@@ -17,3 +22,24 @@ def predict_nli(premise, hypothesis, nli_tokenizer, nli_model) -> int:
     logits = nli_model(x)[0]
     probs = logits[:, ::].softmax(dim=1)
     return int(float(probs[:, 1]) > float(probs[:, 0]))
+
+
+def get_original_proposal_repnum(reply_contribution: pd.Series, previous_contributions: pd.DataFrame) -> pd.Series:
+    related_to = reply_contribution["Lié.à.."]
+
+    original_post_id = re.search('\d+', related_to).group()
+    original_contribution_type = re.search('Proposition|Modification|Source|Argument', related_to).group()
+
+    original_contribution = previous_contributions.loc[
+        (previous_contributions["Identifiant"] == original_post_id) &
+        (previous_contributions["Type.de.contenu"] == original_contribution_type)].iloc[0]
+
+    return original_contribution
+
+
+def get_original_proposal_rua(reply_contribution: pd.Series, previous_contributions: pd.DataFrame) -> pd.Series:
+    original_post_id = reply_contribution["contributions_arguments_related_id"]
+
+    original_contribution = previous_contributions.loc[previous_contributions["contributions_id"] == original_post_id].iloc[0]
+
+    return original_contribution
