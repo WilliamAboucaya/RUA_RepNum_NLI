@@ -47,8 +47,8 @@ def compute_metrics(eval_pred):
     predictions, labels = eval_pred
     predictions = np.argmax(predictions, axis=1)
     return {
-        "f1_micro": metric.compute(predictions=predictions, references=labels, average="micro"),
-        "f1_macro": metric.compute(predictions=predictions, references=labels, average="macro")
+        "f1_micro": metric.compute(predictions=predictions, references=labels, average="micro")["f1"],
+        "f1_macro": metric.compute(predictions=predictions, references=labels, average="macro")["f1"]
     }
 
 
@@ -74,7 +74,7 @@ trainer = Trainer(
     compute_metrics=compute_metrics
 )
 
-trainer.train()
+trainer.train("camembert-base-finetuned-xnli_fr-repnum_wl-rua_wl/checkpoint-400522")
 print("With validation set:")
 pprint(trainer.evaluate())
 print("With test set:")
