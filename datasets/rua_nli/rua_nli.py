@@ -45,7 +45,7 @@ _CITATION = """\
 _URLS = {
     "fonctionnement": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-fonctionnement.csv",
     "publics": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-publics.csv",
-    # "principes": "https://www.data.gouv.fr/fr/datasets/r/f86b8a64-de75-45f7-a55c-84c34bec1e56"
+    "principes": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-principes.csv"
 }
 _TRAINING_FILE = "train.csv"
 _DEV_FILE = "valid.csv"
@@ -111,7 +111,11 @@ class RuaNli(datasets.GeneratorBasedBuilder):
 
             arguments = consultation_data.loc[consultation_data["type"] == "argument"]
 
+            arguments = arguments[arguments["contributions_arguments_trashed"] != 1]
+
             arguments["initial_proposal"] = arguments.apply(lambda row: get_original_proposal_rua(row, consultation_data)["contributions_bodyText"], axis=1)
+            arguments = arguments[(arguments["initial_proposal"] != "") &
+                                  (arguments["contributions_arguments_body"] != "")]
 
             arguments["label"] = arguments["contributions_arguments_type"].apply(lambda category: "non-contradiction" if category == "FOR" else "contradiction")
 

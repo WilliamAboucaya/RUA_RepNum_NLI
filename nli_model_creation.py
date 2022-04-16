@@ -19,7 +19,7 @@ test_dataset = concatenate_datasets([xnli_datasets["test"], repnum_datasets["tes
 nli_datasets = datasets.DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
 model_checkpoint = "camembert-base"
-batch_size = 2
+batch_size = 8
 
 model_name = model_checkpoint.split("/")[-1]
 

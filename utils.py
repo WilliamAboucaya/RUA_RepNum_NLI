@@ -41,5 +41,7 @@ def get_original_proposal_rua(reply_contribution: pd.Series, previous_contributi
     original_post_id = reply_contribution["contributions_arguments_related_id"]
 
     original_contribution = previous_contributions.loc[previous_contributions["contributions_id"] == original_post_id].iloc[0]
+    if original_contribution["contributions_trashed"] == 1:
+        original_contribution["contributions_bodyText"] = ""
 
     return original_contribution
