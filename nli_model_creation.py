@@ -8,17 +8,21 @@ from pprint import pprint
 
 assert torch.cuda.is_available()
 
-xnli_datasets = load_dataset("./datasets/xnli_fr")
+# xnli_datasets = load_dataset("./datasets/xnli_fr")
 repnum_datasets = load_dataset("./datasets/repnum_nli")
 rua_datasets = load_dataset("./datasets/rua_nli")
 
-train_dataset = concatenate_datasets([xnli_datasets["train"], repnum_datasets["train"], rua_datasets["train"]])
-eval_dataset = concatenate_datasets([xnli_datasets["validation"], repnum_datasets["validation"], rua_datasets["validation"]])
-test_dataset = concatenate_datasets([xnli_datasets["test"], repnum_datasets["test"], rua_datasets["test"]])
+# train_dataset = concatenate_datasets([xnli_datasets["train"], repnum_datasets["train"], rua_datasets["train"]])
+# eval_dataset = concatenate_datasets([xnli_datasets["validation"], repnum_datasets["validation"], rua_datasets["validation"]])
+# test_dataset = concatenate_datasets([xnli_datasets["test"], repnum_datasets["test"], rua_datasets["test"]])
+
+train_dataset = concatenate_datasets([repnum_datasets["train"], rua_datasets["train"]])
+eval_dataset = concatenate_datasets([repnum_datasets["validation"], rua_datasets["validation"]])
+test_dataset = concatenate_datasets([repnum_datasets["test"], rua_datasets["test"]])
 
 nli_datasets = datasets.DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
-model_checkpoint = "camembert-base"
+model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr"
 batch_size = 8
 
 model_name = model_checkpoint.split("/")[-1]
@@ -40,7 +44,7 @@ model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, con
 metric_name = "f1"
 metric = load_metric(metric_name)
 
-model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr-repnum_wl-rua_wl"
+model.config.name_or_path = f"waboucay/{model_name}-finetuned-repnum_wl-rua_wl"
 
 
 def compute_metrics(eval_pred):
@@ -53,7 +57,7 @@ def compute_metrics(eval_pred):
 
 
 args = TrainingArguments(
-    f"{model_name}-finetuned-xnli_fr-repnum_wl-rua_wl",
+    f"{model_name}-finetuned-repnum_wl-rua_wl",
     evaluation_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
@@ -74,10 +78,10 @@ trainer = Trainer(
     compute_metrics=compute_metrics
 )
 
-trainer.train("camembert-base-finetuned-xnli_fr-repnum_wl-rua_wl/checkpoint-400522")
+trainer.train()
 print("With validation set:")
 pprint(trainer.evaluate())
 print("With test set:")
 pprint(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
 
-trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr-repnum_wl-rua_wl")
+trainer.save_model(f"{model_name}-finetuned-nli-repnum_wl-rua_wl")

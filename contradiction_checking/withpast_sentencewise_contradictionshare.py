@@ -7,6 +7,9 @@ from transformers import AutoModelForTokenClassification, AutoModelForSequenceCl
 
 from utils import predict_nli
 
+model_checkpoint = "waboucay/camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl"
+model_name = model_checkpoint.split("/")[-1]
+
 labeled_proposals_couples = pd.read_csv("../consultation_data/nli_labeled_proposals.csv", encoding="utf8",
                                         engine='python', quoting=3, sep=';', dtype={"label": int})
 
@@ -15,15 +18,15 @@ pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-cam
 pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
 nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
 
-nli_model = AutoModelForSequenceClassification.from_pretrained("waboucay/camembert-base-finetuned-xnli_fr")
-nli_tokenizer = AutoTokenizer.from_pretrained("waboucay/camembert-base-finetuned-xnli_fr", model_max_length=512)
+nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
+nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
 accuracy_metric = load_metric("accuracy")
 f1_metric = load_metric("f1")
 
 for threshold in np.arange(0.1, 1, 0.1):
     labeled_proposals_couples[f"predicted_label_{threshold}"] = np.nan
 
-with open("../results/contradiction_checking/withpast_sentencewise_contradictionshare.log", "w", encoding="utf8") as file:
+with open(f"../results/contradiction_checking/{model_name}/withpast_sentencewise_contradictionshare.log", "w", encoding="utf8") as file:
     for idx, row in labeled_proposals_couples.iterrows():
         premise_sentences = sentences_tokenizer.tokenize(row["premise"])
         hypothesis_sentences = sentences_tokenizer.tokenize(row["hypothesis"])
@@ -50,7 +53,7 @@ with open("../results/contradiction_checking/withpast_sentencewise_contradiction
         if idx % 5 == 4:
             file.write("===========================================\n\n")
 
-with open(f"../results/contradiction_checking/withpast_sentencewise_contradictionshare_metrics.log", "w", encoding="utf8") as file:
+with open(f"../results/contradiction_checking/{model_name}/withpast_sentencewise_contradictionshare_metrics.log", "w", encoding="utf8") as file:
     labels = labeled_proposals_couples["label"].tolist()
     for threshold in np.arange(0.1, 1, 0.1):
         predictions = labeled_proposals_couples[f"predicted_label_{threshold}"].tolist()
