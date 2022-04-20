@@ -15,7 +15,8 @@ consultation_data["Type.de.profil"] = consultation_data["Type.de.profil"].fillna
 
 proposals = consultation_data.loc[consultation_data["Type.de.contenu"] == "Proposition"]
 proposal_titles = proposals["Titre"].tolist()
-proposal_contents = proposals["Contenu"].tolist()
+proposal_contents = proposals["Contenu"].apply(lambda content: "".join([s for s in content.splitlines(True) if s.strip()]))
+proposal_contents = proposal_contents.tolist()
 
 # For RUA datasets
 # consultation_data_1 = pd.read_csv("consultation_data/rua-fonctionnement.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
