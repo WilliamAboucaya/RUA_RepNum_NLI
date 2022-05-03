@@ -7,7 +7,7 @@ from transformers import AutoModelForTokenClassification, AutoModelForSequenceCl
 
 from utils import remove_past_sentences, predict_nli
 
-model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
+model_checkpoint = "waboucay/camembert-base-finetuned-nli-rua_wl"
 model_name = model_checkpoint.split("/")[-1]
 
 labeled_proposals_couples = pd.read_csv("../consultation_data/nli_labeled_proposals.csv", encoding="utf8",
