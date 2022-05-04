@@ -7,11 +7,12 @@ from transformers import AutoModelForTokenClassification, AutoModelForSequenceCl
 
 from utils import predict_nli
 
-model_checkpoint = "waboucay/camembert-base-finetuned-nli-rua_wl"
+consultation_name = "repnum"
+model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
 model_name = model_checkpoint.split("/")[-1]
 
-labeled_proposals_couples = pd.read_csv("../consultation_data/nli_labeled_proposals.csv", encoding="utf8",
-                                        engine='python', quoting=3, sep=';', dtype={"label": int})
+labeled_proposals_couples = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{consultation_name}.csv", encoding="utf8",
+                                        engine='python', quoting=0, sep=';', dtype={"label": int})
 
 sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
 pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
@@ -25,7 +26,7 @@ f1_metric = load_metric("f1")
 
 labeled_proposals_couples["predicted_label"] = np.nan
 
-with open(f"../results/contradiction_checking/{model_name}/withpast_proposalwise.log", "w", encoding="utf8") as file:
+with open(f"../results/contradiction_checking/{consultation_name}/{model_name}/withpast_proposalwise.log", "w", encoding="utf8") as file:
     for idx, row in labeled_proposals_couples.iterrows():
         predicted_label = predict_nli(row["premise"], row["hypothesis"], nli_tokenizer, nli_model)
         labeled_proposals_couples.at[idx, "predicted_label"] = predicted_label
@@ -36,7 +37,7 @@ with open(f"../results/contradiction_checking/{model_name}/withpast_proposalwise
         if idx % 5 == 4:
             file.write("===========================================\n\n")
 
-with open(f"../results/contradiction_checking/{model_name}/withpast_proposalwise_metrics.log", "w", encoding="utf8") as file:
+with open(f"../results/contradiction_checking/{consultation_name}/{model_name}/withpast_proposalwise_metrics.log", "w", encoding="utf8") as file:
     predictions = labeled_proposals_couples["predicted_label"].tolist()
     labels = labeled_proposals_couples["label"].tolist()
     file.write("Accuracy: ")
