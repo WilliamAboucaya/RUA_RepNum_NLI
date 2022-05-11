@@ -1,14 +1,15 @@
 import nltk
 import numpy as np
 import pandas as pd
+import os
 
 from datasets import load_metric
 from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
 from utils import predict_nli
 
-consultation_name = "repnum"
-model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl"
+consultation_name = "rua_with_titles"
+model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr"
 model_name = model_checkpoint.split("/")[-1]
 
 labeled_proposals_couples = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{consultation_name}.csv", encoding="utf8",
@@ -23,6 +24,9 @@ nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
 nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
 accuracy_metric = load_metric("accuracy")
 f1_metric = load_metric("f1")
+
+if not os.path.exists(f"../results/contradiction_checking/{consultation_name}/{model_name}"):
+    os.mkdir(f"../results/contradiction_checking/{consultation_name}/{model_name}")
 
 for threshold in np.arange(0.1, 1, 0.1):
     labeled_proposals_couples[f"predicted_label_{threshold}"] = np.nan

@@ -19,15 +19,15 @@ proposal_contents = proposals["Contenu"].apply(lambda content: "".join([s for s 
 proposal_contents = proposal_contents.tolist()
 
 # For RUA datasets
-# consultation_data_1 = pd.read_csv("consultation_data/rua-fonctionnement.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
+# consultation_data_1 = pd.read_csv("consultation_data/rua-fonctionnement.csv", encoding="utf8",  engine='python', sep=';')
 # consultation_data_1["contributions_title"] = consultation_data_1["contributions_title"].fillna("")
 # consultation_data_1["contributions_bodyText"] = consultation_data_1["contributions_bodyText"].fillna("")
 #
-# consultation_data_2 = pd.read_csv("consultation_data/rua-principes.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
+# consultation_data_2 = pd.read_csv("consultation_data/rua-principes.csv", encoding="utf8",  engine='python', sep=';')
 # consultation_data_2["contributions_title"] = consultation_data_2["contributions_title"].fillna("")
 # consultation_data_2["contributions_bodyText"] = consultation_data_2["contributions_bodyText"].fillna("")
 #
-# consultation_data_3 = pd.read_csv("consultation_data/rua-publics.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
+# consultation_data_3 = pd.read_csv("consultation_data/rua-publics.csv", encoding="utf8",  engine='python', sep=';')
 # consultation_data_3["contributions_title"] = consultation_data_3["contributions_title"].fillna("")
 # consultation_data_3["contributions_bodyText"] = consultation_data_3["contributions_bodyText"].fillna("")
 #

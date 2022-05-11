@@ -1,3 +1,5 @@
+import os
+
 import nltk
 import numpy as np
 import pandas as pd
@@ -7,7 +9,7 @@ from transformers import AutoModelForTokenClassification, AutoModelForSequenceCl
 
 from utils import predict_nli, remove_past_sentences
 
-consultation_name = "repnum"
+consultation_name = "rua_with_titles"
 model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr"
 model_name = model_checkpoint.split("/")[-1]
 
@@ -23,6 +25,9 @@ nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
 nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
 accuracy_metric = load_metric("accuracy")
 f1_metric = load_metric("f1")
+
+if not os.path.exists(f"../results/contradiction_checking/{consultation_name}/{model_name}"):
+    os.mkdir(f"../results/contradiction_checking/{consultation_name}/{model_name}")
 
 labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
 labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))

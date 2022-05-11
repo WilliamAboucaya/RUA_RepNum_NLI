@@ -3,13 +3,13 @@ import numpy as np
 import torch
 
 from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
-from datasets import load_dataset, load_metric, concatenate_datasets
+from datasets import load_dataset, load_metric
 from pprint import pprint
 
 assert torch.cuda.is_available()
 
-# xnli_datasets = load_dataset("./datasets/xnli_fr")
-repnum_datasets = load_dataset("./datasets/repnum_nli")
+xnli_datasets = load_dataset("./datasets/xnli_fr")
+# repnum_datasets = load_dataset("./datasets/repnum_nli")
 # rua_datasets = load_dataset("./datasets/rua_nli")
 
 # train_dataset = concatenate_datasets([xnli_datasets["train"], repnum_datasets["train"], rua_datasets["train"]])
@@ -20,17 +20,21 @@ repnum_datasets = load_dataset("./datasets/repnum_nli")
 # eval_dataset = concatenate_datasets([repnum_datasets["validation"], rua_datasets["validation"]])
 # test_dataset = concatenate_datasets([repnum_datasets["test"], rua_datasets["test"]])
 
+train_dataset = xnli_datasets["train"]
+eval_dataset = xnli_datasets["validation"]
+test_dataset = xnli_datasets["test"]
+
 # train_dataset = rua_datasets["train"]
 # eval_dataset = rua_datasets["validation"]
 # test_dataset = rua_datasets["test"]
 
-train_dataset = repnum_datasets["train"]
-eval_dataset = repnum_datasets["validation"]
-test_dataset = repnum_datasets["test"]
+# train_dataset = repnum_datasets["train"]
+# eval_dataset = repnum_datasets["validation"]
+# test_dataset = repnum_datasets["test"]
 
 nli_datasets = datasets.DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
-model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr"
+model_checkpoint = "camembert/camembert-large"
 batch_size = 8
 
 model_name = model_checkpoint.split("/")[-1]
@@ -52,7 +56,7 @@ model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, con
 metric_name = "f1"
 metric = load_metric(metric_name)
 
-model.config.name_or_path = f"waboucay/{model_name}-finetuned-repnum_wl"
+model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr"
 
 
 def compute_metrics(eval_pred):
@@ -65,7 +69,7 @@ def compute_metrics(eval_pred):
 
 
 args = TrainingArguments(
-    f"{model_name}-finetuned-repnum_wl",
+    f"{model_name}-finetuned-xnli_fr",
     evaluation_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
@@ -92,4 +96,4 @@ pprint(trainer.evaluate())
 print("With test set:")
 pprint(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
 
-trainer.save_model(f"{model_name}-finetuned-nli-repnum_wl")
+trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr")
