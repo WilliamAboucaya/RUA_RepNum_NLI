@@ -8,7 +8,7 @@ from pprint import pprint
 
 assert torch.cuda.is_available()
 
-xnli_datasets = load_dataset("./datasets/xnli_fr")
+xnli_datasets = load_dataset("./datasets/xnli_fr", "3_classes")
 # repnum_datasets = load_dataset("./datasets/repnum_nli")
 # rua_datasets = load_dataset("./datasets/rua_nli")
 
@@ -34,7 +34,7 @@ test_dataset = xnli_datasets["test"]
 
 nli_datasets = datasets.DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
-model_checkpoint = "camembert/camembert-large"
+model_checkpoint = "camembert-base"
 batch_size = 8
 
 model_name = model_checkpoint.split("/")[-1]

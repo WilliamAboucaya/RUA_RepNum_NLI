@@ -1,0 +1,4 @@
+Best F1 macro:
+camembert-base-finetuned-nli-repnum_wl-rua_wl withpast_proposalwise_metrics.log: 0.6655518394648829
+camembert-base-finetuned-nli-repnum_wl removepast_proposalwise_metrics.log: 0.6571889493849566
+camembert-base-finetuned-nli-repnum_wl withpast_proposalwise_metrics.log: 0.6571889493849566

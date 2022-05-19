@@ -1,6 +1,5 @@
 import os
 
-import nltk
 import numpy as np
 import pandas as pd
 
@@ -9,14 +8,13 @@ from transformers import AutoModelForTokenClassification, AutoModelForSequenceCl
 
 from utils import predict_nli
 
-consultation_name = "rua_with_titles"
-model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr"
+consultation_name = "repnum"
+model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl"
 model_name = model_checkpoint.split("/")[-1]
 
 labeled_proposals_couples = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{consultation_name}.csv", encoding="utf8",
                                         engine='python', quoting=0, sep=';', dtype={"label": int})
 
-sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
 pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
 pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
 nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)

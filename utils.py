@@ -21,7 +21,7 @@ def predict_nli(premise, hypothesis, nli_tokenizer, nli_model) -> int:
     x = nli_tokenizer.encode(premise, hypothesis, return_tensors='pt', max_length=512, truncation=True)
     logits = nli_model(x)[0]
     probs = logits[:, ::].softmax(dim=1)
-    return int(float(probs[:, 1]) > float(probs[:, 0]))
+    return int(probs.detach().argmax() == 1)
 
 
 def get_original_proposal_repnum(reply_contribution: pd.Series, previous_contributions: pd.DataFrame) -> pd.Series:

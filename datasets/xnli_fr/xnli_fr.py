@@ -70,20 +70,34 @@ class XnliFr(datasets.GeneratorBasedBuilder):
     BUILDER_CONFIG_CLASS = XnliFrConfig
     BUILDER_CONFIGS = [
         XnliFrConfig(
-            name="xnli_fr",
+            name="3_classes",
             version=datasets.Version("1.1.0", ""),
             description="Plain text import of XNLI for the fr language",
-        )
+        ),
+        XnliFrConfig(
+            name="2_classes",
+            version=datasets.Version("1.1.0", ""),
+            description="Plain text import of XNLI for the fr language, only 2 classes: Non-contradictory (0) or Contradictory (1)",
+        ),
     ]
 
     def _info(self):
-        features = datasets.Features(
-            {
-                "premise": datasets.Value("string"),
-                "hypothesis": datasets.Value("string"),
-                "label": datasets.ClassLabel(names=["non-contradiction", "contradiction"]),
-            }
-        )
+        if self.config.name == "2_classes":
+            features = datasets.Features(
+                {
+                    "premise": datasets.Value("string"),
+                    "hypothesis": datasets.Value("string"),
+                    "label": datasets.ClassLabel(names=["non-contradiction", "contradiction"]),
+                }
+            )
+        else:
+            features = datasets.Features(
+                {
+                    "premise": datasets.Value("string"),
+                    "hypothesis": datasets.Value("string"),
+                    "label": datasets.ClassLabel(names=["entailment", "contradiction", "neutral"]),
+                }
+            )
         return datasets.DatasetInfo(
             description=_DESCRIPTION,
             features=features,
@@ -124,25 +138,49 @@ class XnliFr(datasets.GeneratorBasedBuilder):
     def _generate_examples(self, data_format, filepaths):
         """This function returns the examples in the raw (text) form."""
 
-        if data_format == "XNLI-MT":
-            for file_idx, filepath in enumerate(filepaths):
-                file = open(filepath, encoding="utf-8")
-                reader = csv.DictReader(file, delimiter="\t", quoting=csv.QUOTE_NONE)
-                for row_idx, row in enumerate(reader):
-                    key = str(file_idx) + "_" + str(row_idx)
-                    yield key, {
-                        "premise": row["premise"],
-                        "hypothesis": row["hypo"],
-                        "label": "contradiction" if row["label"] == "contradictory" else "non-contradiction",
-                    }
+        if self.config.name == "2_classes":
+            if data_format == "XNLI-MT":
+                for file_idx, filepath in enumerate(filepaths):
+                    file = open(filepath, encoding="utf-8")
+                    reader = csv.DictReader(file, delimiter="\t", quoting=csv.QUOTE_NONE)
+                    for row_idx, row in enumerate(reader):
+                        key = str(file_idx) + "_" + str(row_idx)
+                        yield key, {
+                            "premise": row["premise"],
+                            "hypothesis": row["hypo"],
+                            "label": "contradiction" if row["label"] == "contradictory" else "non-contradiction",
+                        }
+            else:
+                for filepath in filepaths:
+                    with open(filepath, encoding="utf-8") as f:
+                        reader = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
+                        for row in reader:
+                            if row["language"] == "fr":
+                                yield row["pairID"], {
+                                    "premise": row["sentence1"],
+                                    "hypothesis": row["sentence2"],
+                                    "label": row["gold_label"] if row["gold_label"] == "contradiction" else "non-contradiction",
+                                }
         else:
-            for filepath in filepaths:
-                with open(filepath, encoding="utf-8") as f:
-                    reader = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
-                    for row in reader:
-                        if row["language"] == "fr":
-                            yield row["pairID"], {
-                                "premise": row["sentence1"],
-                                "hypothesis": row["sentence2"],
-                                "label": row["gold_label"] if row["gold_label"] == "contradiction" else "non-contradiction",
-                            }
+            if data_format == "XNLI-MT":
+                for file_idx, filepath in enumerate(filepaths):
+                    file = open(filepath, encoding="utf-8")
+                    reader = csv.DictReader(file, delimiter="\t", quoting=csv.QUOTE_NONE)
+                    for row_idx, row in enumerate(reader):
+                        key = str(file_idx) + "_" + str(row_idx)
+                        yield key, {
+                            "premise": row["premise"],
+                            "hypothesis": row["hypo"],
+                            "label": "contradiction" if row["label"] == "contradictory" else row["label"],
+                        }
+            else:
+                for filepath in filepaths:
+                    with open(filepath, encoding="utf-8") as f:
+                        reader = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
+                        for row in reader:
+                            if row["language"] == "fr":
+                                yield row["pairID"], {
+                                    "premise": row["sentence1"],
+                                    "hypothesis": row["sentence2"],
+                                    "label": row["gold_label"]
+                                }
