@@ -13,8 +13,8 @@
 
 MODEL_TO_USE=('camembert-base-finetuned-nli-repnum_wl' 'camembert-base-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr_3_classes')
 
-conda init bash
-conda activate ruarepnum
+source /home/$USER/.bashrc
+source activate ruarepnum
 
 pip install -r requirements.txt | grep -v 'already satisfied'
 
