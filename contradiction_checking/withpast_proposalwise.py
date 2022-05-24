@@ -1,4 +1,5 @@
 import os
+import sys
 
 import numpy as np
 import pandas as pd
@@ -6,10 +7,15 @@ import pandas as pd
 from datasets import load_metric
 from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
-from utils import predict_nli
+from utils.functions import predict_nli
 
-consultation_name = "repnum"
-model_checkpoint = "waboucay/camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl"
+if len(sys.argv) == 3:
+    consultation_name = sys.argv[1]
+    model_checkpoint = sys.argv[2]
+else:
+    consultation_name = "rua_with_titles_section"
+    model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
+
 model_name = model_checkpoint.split("/")[-1]
 
 labeled_proposals_couples = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{consultation_name}.csv", encoding="utf8",

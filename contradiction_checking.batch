@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH --job-name=ruarepnum_contradiction_checking                # Job name
+#SBATCH --mail-type=END,FAIL                                       # Mail events (NONE, BEGIN, END, FAIL, ALL)
+#SBATCH --mail-user=william.aboucaya@inria.fr
+#SBATCH --nodes=1                                                  # Run all processes on a single node
+#SBATCH --ntasks=1                                                 # Run a single task
+#SBATCH --cpus-per-task=1                                          # Number of CPU cores per task
+#SBATCH --mem=4gb                                                  # Total memory allocated
+#SBATCH --time=47:59:59                                            # total run time limit (HH:MM:SS)
+#SBATCH --output=ruarepnum_contradiction_checking_%j.log           # Standard output and error log
+#SBATCH --partition=cpu_devel
+#SBATCH --array=0-6
+
+MODEL_TO_USE=('camembert-base-finetuned-nli-repnum_wl' 'camembert-base-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr_3_classes')
+
+conda init bash
+conda activate ruarepnum
+
+pip install -r requirements.txt | grep -v 'already satisfied'
+
+cd contradiction_checking
+
+srun python removepast_proposalwise.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python removepast_sentencecouple_contradictionshare.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python removepast_sentencewise_contradictionshare.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python removepast_sentencewise_onecontradiction.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python withpast_proposalwise.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python withpast_sentencecouple_contradictionshare.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python withpast_sentencewise_contradictionshare.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python withpast_sentencewise_onecontradiction.py repnum waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}

@@ -23,7 +23,7 @@ import os
 import datasets
 import pandas as pd
 
-from utils import get_original_proposal_repnum, get_original_proposal_rua
+from utils.functions import get_original_proposal_rua
 
 _DESCRIPTION = """\
 XNLI is a subset of a few thousand examples from MNLI which has been translated

@@ -1,0 +1,36 @@
+With threshold = 0.1
+Accuracy: 0.43
+F1 micro: 0.42999999999999994
+F1 macro: 0.40370331624646927
+With threshold = 0.2
+Accuracy: 0.48
+F1 micro: 0.48
+F1 macro: 0.44229944229944224
+With threshold = 0.30000000000000004
+Accuracy: 0.57
+F1 micro: 0.57
+F1 macro: 0.50997150997151
+With threshold = 0.4
+Accuracy: 0.61
+F1 micro: 0.61
+F1 macro: 0.5400400990682863
+With threshold = 0.5
+Accuracy: 0.64
+F1 micro: 0.64
+F1 macro: 0.5535714285714286
+With threshold = 0.6
+Accuracy: 0.74
+F1 micro: 0.74
+F1 macro: 0.6329757199322417
+With threshold = 0.7000000000000001
+Accuracy: 0.85
+F1 micro: 0.85
+F1 macro: 0.7278170930865542
+With threshold = 0.8
+Accuracy: 0.87
+F1 micro: 0.87
+F1 macro: 0.7518610421836229
+With threshold = 0.9
+Accuracy: 0.93
+F1 micro: 0.93
+F1 macro: 0.8280520756570867
