@@ -1,4 +1,4 @@
 Best F1 macro:
-camembert-base-finetuned-xnli_fr withpast_proposalwise_metrics.log: 0.6561439556676316
-camembert-base-finetuned-xnli_fr removepast_proposalwise_metrics.log: 0.6486082355647572
-camembert-base-finetuned-xnli_fr withpast_sentencecouple_contradictionshare_metrics.log 0.5: 0.6283997469955723
+camembert-base-finetuned-xnli_fr withpast_proposalwise_metrics.log: 0.6683673469387755
+camembert-base-finetuned-xnli_fr removepast_proposalwise_metrics.log: 0.6592323271760084
+camembert-base-finetuned-xnli_fr withpast_sentencecouple_contradictionshare_metrics.log 0.30000000000000004: 0.6533252476248232
