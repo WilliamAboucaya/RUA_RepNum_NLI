@@ -11,7 +11,7 @@
 #SBATCH --partition=cpu_devel
 #SBATCH --array=0-6
 
-CONSULTATION_NAME='rua_with_titles_section'
+CONSULTATION_NAME='rua'
 #MODEL_TO_USE=('camembert-base-finetuned-nli-repnum_wl' 'camembert-base-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr_3_classes')
 MODEL_TO_USE=('camembert-base-finetuned-nli-rua_wl' 'camembert-base-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr' 'camembert-base-finetuned-xnli_fr-finetuned-nli-rua_wl' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr_3_classes')
 source /home/$USER/.bashrc

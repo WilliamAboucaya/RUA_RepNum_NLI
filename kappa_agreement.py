@@ -8,14 +8,14 @@ if __name__ == '__main__':
     oana = []
     william = []
     annotations = []
-    with open(oana_file, 'r') as data:
-        for line in csv.DictReader(data):
+    with open(oana_file, 'r', encoding='utf-8') as data:
+        for line in csv.DictReader(data, delimiter=";"):
             #print(line["label"])
             if len(line["label"]):
                 oana.append(line["label"])
                 annotations.append(line)
 
-    with open(william_file, 'r') as data:
+    with open(william_file, 'r', encoding='utf-8') as data:
         for line in csv.DictReader(data, delimiter=';'):
             #print(line["label"])
             william.append(line["label"])

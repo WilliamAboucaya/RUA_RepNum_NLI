@@ -1,7 +1,7 @@
 import os
 import re
 
-consultation_name = "rua_with_titles_section"
+consultation_name = "rua"
 assessment_results = {}
 
 for model_name in os.listdir(f"../results/contradiction_checking/{consultation_name}"):

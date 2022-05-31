@@ -1,16 +1,16 @@
-import datasets
 import numpy as np
 import torch
-
 from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
-from datasets import load_dataset, load_metric
+from datasets import load_dataset, load_metric, DatasetDict, concatenate_datasets
 from pprint import pprint
+
+from utils.functions import remove_outliers_from_datasets
 
 assert torch.cuda.is_available()
 
-xnli_datasets = load_dataset("./datasets/xnli_fr", "3_classes")
-# repnum_datasets = load_dataset("./datasets/repnum_nli")
-# rua_datasets = load_dataset("./datasets/rua_nli")
+# xnli_datasets = load_dataset("./datasets/xnli_fr", "2_classes")
+# repnum_datasets = remove_outliers_from_datasets(load_dataset("./datasets/repnum_nli"))
+rua_datasets = remove_outliers_from_datasets(load_dataset("./datasets/rua_nli"))
 
 # train_dataset = concatenate_datasets([xnli_datasets["train"], repnum_datasets["train"], rua_datasets["train"]])
 # eval_dataset = concatenate_datasets([xnli_datasets["validation"], repnum_datasets["validation"], rua_datasets["validation"]])
@@ -20,19 +20,19 @@ xnli_datasets = load_dataset("./datasets/xnli_fr", "3_classes")
 # eval_dataset = concatenate_datasets([repnum_datasets["validation"], rua_datasets["validation"]])
 # test_dataset = concatenate_datasets([repnum_datasets["test"], rua_datasets["test"]])
 
-train_dataset = xnli_datasets["train"]
-eval_dataset = xnli_datasets["validation"]
-test_dataset = xnli_datasets["test"]
+# train_dataset = xnli_datasets["train"]
+# eval_dataset = xnli_datasets["validation"]
+# test_dataset = xnli_datasets["test"]
 
-# train_dataset = rua_datasets["train"]
-# eval_dataset = rua_datasets["validation"]
-# test_dataset = rua_datasets["test"]
+train_dataset = rua_datasets["train"]
+eval_dataset = rua_datasets["validation"]
+test_dataset = rua_datasets["test"]
 
 # train_dataset = repnum_datasets["train"]
 # eval_dataset = repnum_datasets["validation"]
 # test_dataset = repnum_datasets["test"]
 
-nli_datasets = datasets.DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
+nli_datasets = DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
 model_checkpoint = "camembert-base"
 batch_size = 8
@@ -56,7 +56,7 @@ model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, con
 metric_name = "f1"
 metric = load_metric(metric_name)
 
-model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr"
+model.config.name_or_path = f"waboucay/{model_name}-finetuned-rua_wl"
 
 
 def compute_metrics(eval_pred):
@@ -69,7 +69,7 @@ def compute_metrics(eval_pred):
 
 
 args = TrainingArguments(
-    f"{model_name}-finetuned-xnli_fr",
+    f"{model_name}-finetuned-rua_wl",
     evaluation_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
@@ -96,4 +96,4 @@ pprint(trainer.evaluate())
 print("With test set:")
 pprint(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
 
-trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr")
+trainer.save_model(f"{model_name}-finetuned-nli-rua_wl")
