@@ -19,7 +19,7 @@ def get_tokens_distribution(texts: Iterable[str], quantile_1: float = 0.05, quan
 
 
 if __name__ == "__main__":
-    dataset_name = "repnum_nli"
+    dataset_name = "rua_nli"
     dataset = load_dataset(f"./datasets/{dataset_name}")
 
     arguments = concatenate_datasets([dataset["train"], dataset["validation"], dataset["test"]])["hypothesis"]

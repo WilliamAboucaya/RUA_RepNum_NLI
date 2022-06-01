@@ -14,6 +14,7 @@
 CONSULTATION_NAME='rua'
 #MODEL_TO_USE=('camembert-base-finetuned-nli-repnum_wl' 'camembert-base-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr_3_classes')
 MODEL_TO_USE=('camembert-base-finetuned-nli-rua_wl' 'camembert-base-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-nli-xnli_fr-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr' 'camembert-base-finetuned-xnli_fr-finetuned-nli-rua_wl' 'camembert-base-finetuned-xnli_fr-finetuned-nli-repnum_wl-rua_wl' 'camembert-base-finetuned-xnli_fr_3_classes')
+MODEL_REVISION='filtered'
 source /home/$USER/.bashrc
 source activate ruarepnum
 
@@ -21,11 +22,11 @@ pip install -r requirements.txt | grep -v 'already satisfied'
 
 cd contradiction_checking
 
-srun python removepast_proposalwise.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python removepast_sentencecouple_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python removepast_sentencewise_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python removepast_sentencewise_onecontradiction.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python withpast_proposalwise.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python withpast_sentencecouple_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python withpast_sentencewise_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
-srun python withpast_sentencewise_onecontradiction.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]}
+srun python removepast_proposalwise.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python removepast_sentencecouple_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python removepast_sentencewise_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python removepast_sentencewise_onecontradiction.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python withpast_proposalwise.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python withpast_sentencecouple_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python withpast_sentencewise_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python withpast_sentencewise_onecontradiction.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION

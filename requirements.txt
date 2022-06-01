@@ -8,5 +8,4 @@ datasets~=1.18.3
 numpy~=1.22.2
 seqeval~=1.2.2
 scikit-learn~=1.0.2
-torch~=1.10.2+cu113
 matplotlib~=3.5.2
