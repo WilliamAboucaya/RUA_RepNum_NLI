@@ -38,5 +38,6 @@ if __name__ == "__main__":
     ax.text(highest_five_p + 10, ax.get_ylim()[1] / 2, int(highest_five_p), textstyle, bbox=boxstyle)
     ax.set_xlabel("Number of tokens", fontsize='large')
     ax.set_ylabel("Number of texts", fontsize='large')
+    ax.set_title(f"With {dataset_name} dataset")
     plt.tight_layout()
     plt.show()

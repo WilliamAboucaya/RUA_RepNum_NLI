@@ -29,8 +29,14 @@ pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-cam
 pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
 nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
 
-nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
-nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
+try:
+    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
+    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
+except OSError as error:
+    model_revision = "main"
+    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
+    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
+
 accuracy_metric = load_metric("accuracy")
 f1_metric = load_metric("f1")
 
@@ -70,7 +76,7 @@ with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{(
         if idx % 5 == 4:
             file.write("===========================================\n\n")
 
-with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/{model_name}/removepast_sentencecouple_contradictionshare_metrics.log", "w", encoding="utf8") as file:
+with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/removepast_sentencecouple_contradictionshare_metrics.log", "w", encoding="utf8") as file:
     labels = labeled_proposals_couples["label"].tolist()
     for threshold in np.arange(0.1, 1, 0.1):
         predictions = labeled_proposals_couples[f"predicted_label_{threshold}"].tolist()
