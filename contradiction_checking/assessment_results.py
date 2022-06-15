@@ -1,7 +1,7 @@
 import os
 import re
 
-consultation_name = "repnum_with_titles"
+consultation_name = "rua_with_titles_section"
 assessment_results = {}
 
 for model_name in os.listdir(f"../results/contradiction_checking/{consultation_name}"):
@@ -12,8 +12,9 @@ for model_name in os.listdir(f"../results/contradiction_checking/{consultation_n
                     if "contradictionshare" in file_name:
                         threshold = 0
                         for i, line in enumerate(file):
-                            if i % 4 == 3:
-                                threshold += 0.1
+                            if i == 0:
+                                threshold = float(re.findall("\d+\.\d+", line)[0])
+                            elif i == 3:
                                 assessment_results[f"{model_name} {file_name} {str(threshold)}"] = float(re.findall("\d+\.\d+", line)[0])
                     else:
                         for i, line in enumerate(file):

@@ -12,6 +12,9 @@
 #SBATCH --output=ruarepnum_nli_model_%j.log                        # Standard output and error log
 #SBATCH --partition=gpu
 
+DATASETS_NAMES='repnum_wl-rua_wl'
+DATASETS_ARG='3_classes'
+
 module purge
 
 cd ${SLURM_SUBMIT_DIR}
@@ -26,4 +29,4 @@ conda install -c conda-forge protobuf
 
 pip install -r requirements.txt | grep -v 'already satisfied'
 
-srun python nli_model_creation.py
+srun python nli_model_creation.py $DATASETS_NAMES $DATASETS_ARG

@@ -69,27 +69,41 @@ class RuaNli(datasets.GeneratorBasedBuilder):
     BUILDER_CONFIG_CLASS = RuaNliConfig
     BUILDER_CONFIGS = [
         RuaNliConfig(
-            name="rua_nli",
+            name="3_classes",
             version=datasets.Version("1.0.0", ""),
             description="Plain text import of RUA consultation NLI (weakly labeled)",
+        ),
+        RuaNliConfig(
+            name="2_classes",
+            version=datasets.Version("1.0.0", ""),
+            description="Plain text import of RUA consultation NLI (weakly labeled), only 2 classes: Non-contradictory (0) or Contradictory (1)",
         )
     ]
 
     def _info(self):
-        features = datasets.Features(
-            {
-                "premise": datasets.Value("string"),
-                "hypothesis": datasets.Value("string"),
-                "label": datasets.ClassLabel(names=["non-contradiction", "contradiction"]),
-            }
-        )
+        if self.config.name == "2_classes":
+            features = datasets.Features(
+                {
+                    "premise": datasets.Value("string"),
+                    "hypothesis": datasets.Value("string"),
+                    "label": datasets.ClassLabel(names=["non-contradiction", "contradiction"]),
+                }
+            )
+        else:
+            features = datasets.Features(
+                {
+                    "premise": datasets.Value("string"),
+                    "hypothesis": datasets.Value("string"),
+                    "label": datasets.ClassLabel(names=["entailment", "contradiction", "neutral"]),
+                }
+            )
         return datasets.DatasetInfo(
             description=_DESCRIPTION,
             features=features,
             # No default supervised_keys (as we have to pass both premise
             # and hypothesis as input).
             supervised_keys=None,
-            homepage="https://republique-numerique.fr/",
+            homepage="https://consultation-rua.gouv.fr/",
             citation=_CITATION,
         )
 
@@ -104,25 +118,47 @@ class RuaNli(datasets.GeneratorBasedBuilder):
         eval_dataset = pd.DataFrame(columns=['premise', 'hypothesis', 'label'])
         test_dataset = pd.DataFrame(columns=['premise', 'hypothesis', 'label'])
 
+        dataframes = []
         for dl_file in dl_files.values():
+            dataframes.append(pd.read_csv(dl_file, encoding="utf8", engine='python', sep=';', quotechar='"'))
 
-            consultation_data = pd.read_csv(dl_file, encoding="utf8", engine='python', sep=';', quotechar='"')
-            consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
+        consultation_data = pd.concat(dataframes, ignore_index=True)
+        consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
 
-            arguments = consultation_data.loc[consultation_data["type"] == "argument"]
+        arguments = consultation_data.loc[consultation_data["type"] == "argument"]
 
-            arguments = arguments[arguments["contributions_arguments_trashed"] != 1]
+        arguments = arguments[arguments["contributions_arguments_trashed"] != 1]
 
-            arguments["initial_proposal"] = arguments.apply(lambda row: get_original_proposal_rua(row, consultation_data)["contributions_bodyText"], axis=1)
-            arguments = arguments[(arguments["initial_proposal"] != "") &
-                                  (arguments["contributions_arguments_body"] != "")]
+        arguments["initial_proposal"] = arguments.apply(lambda row: get_original_proposal_rua(row, consultation_data)["contributions_bodyText"], axis=1)
+        arguments = arguments[(arguments["initial_proposal"] != "") &
+                              (arguments["contributions_arguments_body"] != "")]
 
-            arguments["label"] = arguments["contributions_arguments_type"].apply(lambda category: "non-contradiction" if category == "FOR" else "contradiction")
+        argument_for_label = "non-contradiction" if self.config.name == "2_classes" else "entailment"
+        arguments["label"] = arguments["contributions_arguments_type"].apply(lambda category: argument_for_label if category == "FOR" else "contradiction")
 
-            for i in range(arguments.shape[0]):
-                row = arguments.iloc[i]
+        for i in range(len(arguments.index)):
+            row = arguments.iloc[i]
 
-                formatted_row = pd.DataFrame({'premise': [row["initial_proposal"]], 'hypothesis': [row["contributions_arguments_body"]], 'label': [row["label"]]})
+            formatted_row = pd.DataFrame({'premise': [row["initial_proposal"]], 'hypothesis': [row["contributions_arguments_body"]], 'label': [row["label"]]})
+
+            if i % 10 < 8:
+                training_dataset = pd.concat([training_dataset, formatted_row], ignore_index=True)
+            elif i % 10 < 9:
+                eval_dataset = pd.concat([eval_dataset, formatted_row], ignore_index=True)
+            else:
+                test_dataset = pd.concat([test_dataset, formatted_row], ignore_index=True)
+
+        if self.config.name == "3_classes":
+            proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
+
+            unrelated_arguments = consultation_data.loc[consultation_data["type"] == "argument"].sample(n=int(len(arguments.index) / 2), random_state=1234)
+            unrelated_arguments["initial_category"] = unrelated_arguments.apply(lambda row: get_original_proposal_rua(row, consultation_data)["contributions_consultation_title"], axis=1)
+            unrelated_arguments["initial_proposal"] = unrelated_arguments.apply(lambda row: proposals.loc[proposals["contributions_consultation_title"] != row["initial_category"]].sample(random_state=int(row.name))["contributions_bodyText"].iloc[0], axis=1)
+            for i in range(len(unrelated_arguments.index)):
+                row = unrelated_arguments.iloc[i]
+
+                formatted_row = pd.DataFrame(
+                    {'premise': [row["initial_proposal"]], 'hypothesis': [row["contributions_arguments_body"]], 'label': ["neutral"]})
 
                 if i % 10 < 8:
                     training_dataset = pd.concat([training_dataset, formatted_row], ignore_index=True)
@@ -130,6 +166,10 @@ class RuaNli(datasets.GeneratorBasedBuilder):
                     eval_dataset = pd.concat([eval_dataset, formatted_row], ignore_index=True)
                 else:
                     test_dataset = pd.concat([test_dataset, formatted_row], ignore_index=True)
+
+            training_dataset = training_dataset.sample(frac=1).reset_index(drop=True)
+            eval_dataset = eval_dataset.sample(frac=1).reset_index(drop=True)
+            test_dataset = test_dataset.sample(frac=1).reset_index(drop=True)
 
         training_dataset.to_csv(training_path, encoding="utf-8")
         eval_dataset.to_csv(eval_path, encoding="utf-8")

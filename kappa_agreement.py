@@ -1,4 +1,5 @@
 from sklearn.metrics import cohen_kappa_score
+from pprint import pprint
 import csv
 import sys
 
@@ -16,7 +17,7 @@ if __name__ == '__main__':
                 annotations.append(line)
 
     with open(william_file, 'r', encoding='utf-8') as data:
-        for line in csv.DictReader(data, delimiter=';'):
+        for line in csv.DictReader(data, delimiter=','):
             #print(line["label"])
             william.append(line["label"])
 
@@ -25,5 +26,5 @@ if __name__ == '__main__':
     for i in range(0, len(oana)):
         print(str(oana[i]) + str(william[i]))
         if oana[i] != william[i]:
-            print(annotations[i])
+            pprint(annotations[i])
             print("\n")

@@ -5,61 +5,68 @@ import numpy as np
 import pandas as pd
 
 from datasets import load_metric
-from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 from utils.functions import predict_nli
 
-if len(sys.argv) >= 4:
-    consultation_name = sys.argv[1]
-    model_checkpoint = sys.argv[2]
-    model_revision = sys.argv[3]
-else:
-    consultation_name = "rua_with_titles_section"
-    model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
-    model_revision = "main"
 
-model_name = model_checkpoint.split("/")[-1]
+def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
+    model_name = model_checkpoint.split("/")[-1]
 
-labeled_proposals_couples = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{consultation_name}.csv", encoding="utf8",
-                                        engine='python', quoting=0, sep=';', dtype={"label": int})
+    labeled_proposals_couples = proposals_couples.copy()
 
-pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
+    try:
+        nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
+        nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
+    except OSError:
+        print(f"No such revision '{model_revision}' for model '{model_name}'")
+        quit()
 
-try:
-    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
-    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
-except OSError as error:
-    model_revision = "main"
-    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
-    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
+    labeled_proposals_couples["predicted_label"] = np.nan
 
-accuracy_metric = load_metric("accuracy")
-f1_metric = load_metric("f1")
-
-if not os.path.exists(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}"):
-    os.mkdir(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}")
-
-labeled_proposals_couples["predicted_label"] = np.nan
-
-with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/withpast_proposalwise.log", "w", encoding="utf8") as file:
-    for idx, row in labeled_proposals_couples.iterrows():
+    for idx, row in labeled_proposals.iterrows():
         predicted_label = predict_nli(row["premise"], row["hypothesis"], nli_tokenizer, nli_model)
         labeled_proposals_couples.at[idx, "predicted_label"] = predicted_label
-        if idx % 5 == 0:
-            file.write(f'{row["premise"]}\n\n')
-        file.write(f'Label: {row["label"]};Prediction: {predicted_label};{row["hypothesis"]}\n')
 
-        if idx % 5 == 4:
-            file.write("===========================================\n\n")
+    return labeled_proposals_couples
 
-with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/withpast_proposalwise_metrics.log", "w", encoding="utf8") as file:
-    predictions = labeled_proposals_couples["predicted_label"].tolist()
-    labels = labeled_proposals_couples["label"].tolist()
-    file.write("Accuracy: ")
-    file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
-    file.write("\nF1 micro: ")
-    file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
-    file.write("\nF1 macro: ")
-    file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="macro")["f1"]))
+
+if __name__ == "__main__":
+    if len(sys.argv) >= 4:
+        input_consultation_name = sys.argv[1]
+        input_model_checkpoint = sys.argv[2]
+        input_model_revision = sys.argv[3]
+    else:
+        input_consultation_name = "repnum"
+        input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
+        input_model_revision = "main"
+
+    input_model_name = input_model_checkpoint.split("/")[-1]
+    accuracy_metric = load_metric("accuracy")
+    f1_metric = load_metric("f1")
+
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv", encoding="utf8",
+                                                engine='python', quoting=0, sep=';', dtype={"label": int})
+    labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
+
+    if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
+        os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")
+
+    with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise.log", "w", encoding="utf8") as file:
+        for idx, row in labeled_proposals.iterrows():
+            if idx % 5 == 0:
+                file.write(f'{row["premise"]}\n\n')
+            file.write(f'Label: {row["label"]};Prediction: {row["predicted_label"]};{row["hypothesis"]}\n')
+
+            if idx % 5 == 4:
+                file.write("===========================================\n\n")
+
+    with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise_metrics.log", "w", encoding="utf8") as file:
+        predictions = labeled_proposals["predicted_label"].tolist()
+        labels = labeled_proposals["label"].tolist()
+        file.write("Accuracy: ")
+        file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
+        file.write("\nF1 micro: ")
+        file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
+        file.write("\nF1 macro: ")
+        file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="macro")["f1"]))

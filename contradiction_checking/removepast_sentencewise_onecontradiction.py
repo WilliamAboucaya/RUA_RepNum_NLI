@@ -33,9 +33,8 @@ try:
     nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
     nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
 except OSError as error:
-    model_revision = "main"
-    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
-    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
+    print(f"No such revision '{model_revision}' for model '{model_name}'")
+    quit()
 
 accuracy_metric = load_metric("accuracy")
 f1_metric = load_metric("f1")

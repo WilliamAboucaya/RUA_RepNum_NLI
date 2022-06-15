@@ -66,20 +66,34 @@ class RepNumNli(datasets.GeneratorBasedBuilder):
     BUILDER_CONFIG_CLASS = RepNumNliConfig
     BUILDER_CONFIGS = [
         RepNumNliConfig(
-            name="repnum_nli",
+            name="3_classes",
             version=datasets.Version("1.0.0", ""),
             description="Plain text import of RepNum consultation NLI (weakly labeled)",
+        ),
+        RepNumNliConfig(
+            name="2_classes",
+            version=datasets.Version("1.0.0", ""),
+            description="Plain text import of RepNum consultation NLI (weakly labeled), only 2 classes: Non-contradictory (0) or Contradictory (1)",
         )
     ]
 
     def _info(self):
-        features = datasets.Features(
-            {
-                "premise": datasets.Value("string"),
-                "hypothesis": datasets.Value("string"),
-                "label": datasets.ClassLabel(names=["non-contradiction", "contradiction"]),
-            }
-        )
+        if self.config.name == "2_classes":
+            features = datasets.Features(
+                {
+                    "premise": datasets.Value("string"),
+                    "hypothesis": datasets.Value("string"),
+                    "label": datasets.ClassLabel(names=["non-contradiction", "contradiction"]),
+                }
+            )
+        else:
+            features = datasets.Features(
+                {
+                    "premise": datasets.Value("string"),
+                    "hypothesis": datasets.Value("string"),
+                    "label": datasets.ClassLabel(names=["entailment", "contradiction", "neutral"]),
+                }
+            )
         return datasets.DatasetInfo(
             description=_DESCRIPTION,
             features=features,
@@ -107,7 +121,8 @@ class RepNumNli(datasets.GeneratorBasedBuilder):
 
         arguments["Initial_proposal"] = arguments.apply(lambda row: get_original_proposal_repnum(row, consultation_data)["Contenu"], axis=1)
 
-        arguments["label"] = arguments["Catégorie"].apply(lambda category: "non-contradiction" if category == "Pour" else "contradiction")
+        argument_for_label = "non-contradiction" if self.config.name == "2_classes" else "entailment"
+        arguments["label"] = arguments["Catégorie"].apply(lambda category: argument_for_label if category == "Pour" else "contradiction")
 
         training_dataset = pd.DataFrame(columns=['premise', 'hypothesis', 'label'])
         eval_dataset = pd.DataFrame(columns=['premise', 'hypothesis', 'label'])
@@ -124,6 +139,29 @@ class RepNumNli(datasets.GeneratorBasedBuilder):
                 eval_dataset = pd.concat([eval_dataset, formatted_row], ignore_index=True)
             else:
                 test_dataset = pd.concat([test_dataset, formatted_row], ignore_index=True)
+
+        if self.config.name == "3_classes":
+            proposals = consultation_data.loc[consultation_data["Type.de.contenu"] == "Proposition"]
+
+            unrelated_arguments = consultation_data.loc[consultation_data["Type.de.contenu"] == "Argument"].sample(n=int(len(arguments.index) / 2), random_state=1234)
+            unrelated_arguments["Initial_category"] = unrelated_arguments.apply(lambda row: get_original_proposal_repnum(row, consultation_data)["Catégorie"], axis=1)
+            unrelated_arguments["Initial_proposal"] = unrelated_arguments.apply(lambda row: proposals.loc[proposals["Catégorie"] != row["Initial_category"]].sample(random_state=int(row["Identifiant"]))["Contenu"].iloc[0], axis=1)
+            for i in range(len(unrelated_arguments.index)):
+                row = unrelated_arguments.iloc[i]
+
+                formatted_row = pd.DataFrame(
+                    {'premise': [row["Initial_proposal"]], 'hypothesis': [row["Contenu"]], 'label': ["neutral"]})
+
+                if i % 10 < 8:
+                    training_dataset = pd.concat([training_dataset, formatted_row], ignore_index=True)
+                elif i % 10 < 9:
+                    eval_dataset = pd.concat([eval_dataset, formatted_row], ignore_index=True)
+                else:
+                    test_dataset = pd.concat([test_dataset, formatted_row], ignore_index=True)
+
+            training_dataset = training_dataset.sample(frac=1).reset_index(drop=True)
+            eval_dataset = eval_dataset.sample(frac=1).reset_index(drop=True)
+            test_dataset = test_dataset.sample(frac=1).reset_index(drop=True)
 
         training_dataset.to_csv(training_path, encoding="utf-8")
         eval_dataset.to_csv(eval_path, encoding="utf-8")

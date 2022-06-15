@@ -1,5 +1,8 @@
+import sys
+
 import numpy as np
 import torch
+from matplotlib import pyplot as plt
 from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
 from datasets import load_dataset, load_metric, DatasetDict, concatenate_datasets
 from pprint import pprint
@@ -8,36 +11,29 @@ from utils.functions import remove_outliers_from_datasets
 
 assert torch.cuda.is_available()
 
-xnli_datasets = load_dataset("./datasets/xnli_fr", "2_classes")
-repnum_datasets = remove_outliers_from_datasets(load_dataset("./datasets/repnum_nli"))
-rua_datasets = remove_outliers_from_datasets(load_dataset("./datasets/rua_nli"))
+datasets_names = sys.argv[1]
+datasets_arg = sys.argv[2]
 
-train_dataset = concatenate_datasets([xnli_datasets["train"], repnum_datasets["train"], rua_datasets["train"]])
-eval_dataset = concatenate_datasets([xnli_datasets["validation"], repnum_datasets["validation"], rua_datasets["validation"]])
-test_dataset = concatenate_datasets([xnli_datasets["test"], repnum_datasets["test"], rua_datasets["test"]])
+datasets_list = []
 
-# train_dataset = concatenate_datasets([repnum_datasets["train"], rua_datasets["train"]])
-# eval_dataset = concatenate_datasets([repnum_datasets["validation"], rua_datasets["validation"]])
-# test_dataset = concatenate_datasets([repnum_datasets["test"], rua_datasets["test"]])
+if "xnli_fr" in datasets_names:
+    datasets_list.append(load_dataset("./datasets/xnli_fr", datasets_arg))
+if "repnum_wl" in datasets_names:
+    datasets_list.append(remove_outliers_from_datasets(load_dataset("./datasets/repnum_nli", datasets_arg)))
+if "rua_wl" in datasets_names:
+    datasets_list.append(remove_outliers_from_datasets(load_dataset("./datasets/rua_nli", datasets_arg)))
 
-# train_dataset = xnli_datasets["train"]
-# eval_dataset = xnli_datasets["validation"]
-# test_dataset = xnli_datasets["test"]
-
-# train_dataset = rua_datasets["train"]
-# eval_dataset = rua_datasets["validation"]
-# test_dataset = rua_datasets["test"]
-
-# train_dataset = repnum_datasets["train"]
-# eval_dataset = repnum_datasets["validation"]
-# test_dataset = repnum_datasets["test"]
+train_dataset = concatenate_datasets([dataset["train"] for dataset in datasets_list])
+eval_dataset = concatenate_datasets([dataset["validation"] for dataset in datasets_list])
+test_dataset = concatenate_datasets([dataset["test"] for dataset in datasets_list])
 
 nli_datasets = DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
 model_checkpoint = "camembert-base"
+model_name = model_checkpoint.split("/")[-1]
 batch_size = 8
 
-model_name = model_checkpoint.split("/")[-1]
+trainer_name = f"{model_name}-finetuned-{datasets_names}{('_' + datasets_arg) if datasets_arg != '2_classes' else ''}"
 
 label_list = nli_datasets["train"].features["label"].names
 
@@ -56,7 +52,7 @@ model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, con
 metric_name = "f1"
 metric = load_metric(metric_name)
 
-model.config.name_or_path = f"waboucay/{model_name}-finetuned-xnli_fr-repnum_wl-rua_wl"
+model.config.name_or_path = f"waboucay/{trainer_name}"
 
 
 def compute_metrics(eval_pred):
@@ -69,13 +65,13 @@ def compute_metrics(eval_pred):
 
 
 args = TrainingArguments(
-    f"{model_name}-finetuned-xnli_fr-repnum_wl-rua_wl",
-    evaluation_strategy="epoch",
-    save_strategy="epoch",
-    learning_rate=2e-5,
+    f"../scratch/{trainer_name}",
+    evaluation_strategy="steps",
+    save_strategy="steps",
+    learning_rate=1e-5,
     per_device_train_batch_size=batch_size,
     per_device_eval_batch_size=batch_size,
-    num_train_epochs=5,
+    num_train_epochs=7,
     weight_decay=0.01,
     load_best_model_at_end=True,
     metric_for_best_model="f1_macro"
@@ -96,4 +92,25 @@ pprint(trainer.evaluate())
 print("With test set:")
 pprint(trainer.evaluate(eval_dataset=encoded_dataset["test"]))
 
-trainer.save_model(f"{model_name}-finetuned-nli-xnli_fr-repnum_wl-rua_wl")
+trainer.save_model(trainer_name)
+
+log_history = trainer.state.log_history
+x = sorted(list({log["step"] for log in log_history}))
+y1 = [log["loss"] if "loss" in log else log["train_loss"] for log in list(filter(lambda log: ("loss" in log) or ("train_loss" in log), log_history))]
+y2 = [log["eval_loss"] for log in list(filter(lambda log: "eval_loss" in log, log_history))]
+
+if len(x) < len(y1) or len(x) < len(y2):
+    print(f"log_history: {log_history}")
+    y1 = y1[:len(x)]
+    y2 = y2[:len(x)]
+
+fig, ax = plt.subplots()
+ax.plot(x, y1, 'r', label="train_loss")
+ax.plot(x, y2, 'g', label="eval_loss")
+ax.set_ylim(0, 1)
+ax.set_xlabel("Step", fontsize='large')
+ax.set_ylabel("Loss", fontsize='large')
+ax.legend()
+plt.tight_layout()
+fig.savefig(f"results/figures/{trainer_name}_loss.eps", format="eps")
+plt.show()

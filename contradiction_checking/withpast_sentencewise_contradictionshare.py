@@ -6,82 +6,74 @@ import pandas as pd
 import os
 
 from datasets import load_metric
-from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-from utils.functions import predict_nli
+from utils.functions import maximize_f1_score, apply_model_sentencewise
 
-if len(sys.argv) >= 4:
-    consultation_name = sys.argv[1]
-    model_checkpoint = sys.argv[2]
-    model_revision = sys.argv[3]
-else:
-    consultation_name = "rua_with_titles_section"
-    model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
-    model_revision = "main"
 
-model_name = model_checkpoint.split("/")[-1]
+def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
+    labeled_proposals_couples = proposals_couples.copy()
 
-labeled_proposals_couples = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{consultation_name}.csv", encoding="utf8",
-                                        engine='python', quoting=0, sep=';', dtype={"label": int})
+    sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
 
-sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
+    try:
+        nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
+        nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
+    except OSError:
+        print(f"No such revision '{model_revision}' for model '{model_checkpoint}'")
+        quit()
 
-try:
-    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
-    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
-except OSError as error:
-    model_revision = "main"
-    nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint)
-    nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, model_max_length=512)
+    labeled_proposals_couples["model_results"] = labeled_proposals_couples.apply(lambda row: apply_model_sentencewise(row, sentences_tokenizer, nli_tokenizer, nli_model), axis=1)
 
-accuracy_metric = load_metric("accuracy")
-f1_metric = load_metric("f1")
+    labeled_proposals_couples["share_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][1], axis=1)
+    labeled_proposals_couples["nb_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][0], axis=1)
 
-if not os.path.exists(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}"):
-    os.mkdir(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}")
+    return labeled_proposals_couples
 
-for threshold in np.arange(0.1, 1, 0.1):
-    labeled_proposals_couples[f"predicted_label_{threshold}"] = np.nan
+if __name__ == "__main__":
+    if len(sys.argv) >= 4:
+        input_consultation_name = sys.argv[1]
+        input_model_checkpoint = sys.argv[2]
+        input_model_revision = sys.argv[3]
+    else:
+        input_consultation_name = "rua_with_titles_section"
+        input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
+        input_model_revision = "main"
 
-with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/withpast_sentencewise_contradictionshare.log", "w", encoding="utf8") as file:
-    for idx, row in labeled_proposals_couples.iterrows():
-        premise_sentences = sentences_tokenizer.tokenize(row["premise"])
-        hypothesis_sentences = sentences_tokenizer.tokenize(row["hypothesis"])
+    input_model_name = input_model_checkpoint.split("/")[-1]
+    accuracy_metric = load_metric("accuracy")
+    f1_metric = load_metric("f1")
 
-        nb_contradictory_pairs = 0
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
+                                    encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
-        for i in range(len(premise_sentences)):
-            for j in range(len(hypothesis_sentences)):
-                predicted_label = predict_nli(premise_sentences[i], hypothesis_sentences[j], nli_tokenizer, nli_model)
-                nb_contradictory_pairs += predicted_label
+    labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
 
-        try:
-            share_contradictory_pairs = nb_contradictory_pairs / (len(premise_sentences) * len(hypothesis_sentences))
-        except ZeroDivisionError:
-            share_contradictory_pairs = 0
+    if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
+        os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")
 
-        for threshold in np.arange(0.1, 1, 0.1):
-            labeled_proposals_couples.at[idx, f"predicted_label_{threshold}"] = int(share_contradictory_pairs >= threshold)
+    with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencewise_contradictionshare.log",
+              "w", encoding="utf8") as file:
+        for idx, row in labeled_proposals.iterrows():
+            if idx % 5 == 0:
+                file.write(f'{row["premise"]}\n\n')
+            file.write(f'Label: {row["label"]};Nb contradictory pairs: {row["nb_contradictory_pairs"]};Share contradictory pairs: {row["share_contradictory_pairs"]};{row["hypothesis"]}\n')
 
-        if idx % 5 == 0:
-            file.write(f'{row["premise"]}\n\n')
-        file.write(f'Label: {row["label"]};Nb contradictory pairs: {nb_contradictory_pairs};Share contradictory pairs: {share_contradictory_pairs};{row["hypothesis"]}\n')
+            if idx % 5 == 4:
+                file.write("===========================================\n\n")
 
-        if idx % 5 == 4:
-            file.write("===========================================\n\n")
+    with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencewise_contradictionshare_metrics.log",
+              "w", encoding="utf8") as file:
+        threshold, max_f1 = maximize_f1_score(labeled_proposals["share_contradictory_pairs"],
+                                              labeled_proposals["label"])
+        predictions = (labeled_proposals["share_contradictory_pairs"] >= threshold).astype(int).tolist()
+        labels = labeled_proposals["label"].tolist()
 
-with open(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/withpast_sentencewise_contradictionshare_metrics.log", "w", encoding="utf8") as file:
-    labels = labeled_proposals_couples["label"].tolist()
-    for threshold in np.arange(0.1, 1, 0.1):
-        predictions = labeled_proposals_couples[f"predicted_label_{threshold}"].tolist()
         file.write(f"With threshold = {threshold}\n")
         file.write("Accuracy: ")
         file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
         file.write("\nF1 micro: ")
         file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
         file.write("\nF1 macro: ")
-        file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="macro")["f1"]))
+        file.write(str(max_f1))
         file.write("\n")
