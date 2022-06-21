@@ -29,7 +29,7 @@ test_dataset = concatenate_datasets([dataset["test"] for dataset in datasets_lis
 
 nli_datasets = DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
-model_checkpoint = "camembert-base"
+model_checkpoint = "waboucay/camembert-large-finetuned-xnli_fr_3_classes"
 model_name = model_checkpoint.split("/")[-1]
 batch_size = 8
 
@@ -71,7 +71,7 @@ args = TrainingArguments(
     learning_rate=1e-5,
     per_device_train_batch_size=batch_size,
     per_device_eval_batch_size=batch_size,
-    num_train_epochs=7,
+    num_train_epochs=5,
     weight_decay=0.01,
     load_best_model_at_end=True,
     metric_for_best_model="f1_macro"

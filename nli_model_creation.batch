@@ -12,7 +12,7 @@
 #SBATCH --output=ruarepnum_nli_model_%j.log                        # Standard output and error log
 #SBATCH --partition=gpu
 
-DATASETS_NAMES='repnum_wl-rua_wl'
+DATASETS_NAMES='rua_wl'
 DATASETS_ARG='3_classes'
 
 module purge

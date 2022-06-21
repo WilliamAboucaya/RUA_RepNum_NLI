@@ -11,7 +11,7 @@
 #SBATCH --partition=cpu_devel
 #SBATCH --array=0-7
 
-CONSULTATION_NAME='rua_with_titles'
+DATASET_NAME='repnum_nli'
 MODEL_TO_USE=('camembert-large-finetuned-repnum_wl_3_classes'
               'camembert-large-finetuned-rua_wl_3_classes'
               'camembert-large-finetuned-xnli_fr_3_classes'
@@ -28,19 +28,11 @@ pip install -r requirements.txt | grep -v 'already satisfied'
 
 cd contradiction_checking
 
-srun python removepast_proposalwise.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
-echo 'removepast_proposalwise achieved'
-srun python removepast_sentencecouple_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python compute_threshold.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION removepast_sentencecouple_contradictionshare
 echo 'removepast_sentencecouple_contradictionshare achieved'
-srun python removepast_sentencewise_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python compute_threshold.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION removepast_sentencewise_contradictionshare
 echo 'removepast_sentencewise_contradictionshare achieved'
-#srun python removepast_sentencewise_onecontradiction.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
-#echo 'removepast_sentencewise_onecontradiction achieved'
-srun python withpast_proposalwise.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
-echo 'withpast_proposalwise achieved'
-srun python withpast_sentencecouple_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python compute_threshold.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION withpast_sentencecouple_contradictionshare
 echo 'withpast_sentencecouple_contradictionshare achieved'
-srun python withpast_sentencewise_contradictionshare.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
-#echo 'withpast_sentencewise_contradictionshare achieved'
-#srun python withpast_sentencewise_onecontradiction.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION
+srun python compute_threshold.py $CONSULTATION_NAME waboucay/${MODEL_TO_USE[$SLURM_ARRAY_TASK_ID]} $MODEL_REVISION withpast_sentencewise_contradictionshare
 echo 'All strategies achieved!'

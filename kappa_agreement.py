@@ -26,5 +26,6 @@ if __name__ == '__main__':
     for i in range(0, len(oana)):
         print(str(oana[i]) + str(william[i]))
         if oana[i] != william[i]:
+            annotations[i]["line"] = i
             pprint(annotations[i])
             print("\n")
