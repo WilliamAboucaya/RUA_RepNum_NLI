@@ -27,46 +27,78 @@ def predict_nli(premise, hypothesis, nli_tokenizer, nli_model) -> int:
     x = nli_tokenizer.encode(premise, hypothesis, return_tensors='pt', max_length=512, truncation=True)
     logits = nli_model(x)[0]
     probs = logits[:, ::].softmax(dim=1)
-    return int(probs.detach().argmax() == 1)
+    return probs.detach().argmax()
 
 
 def apply_model_sentencewise(row, sentences_tokenizer, nli_tokenizer, nli_model):
     premise_sentences = sentences_tokenizer.tokenize(row["premise"])
     hypothesis_sentences = sentences_tokenizer.tokenize(row["hypothesis"])
 
+    nb_entailed_pairs = 0
     nb_contradictory_pairs = 0
+    nb_neutral_pairs = 0
 
     for i in range(len(premise_sentences)):
         for j in range(len(hypothesis_sentences)):
             predicted_label = predict_nli(premise_sentences[i], hypothesis_sentences[j], nli_tokenizer, nli_model)
-            nb_contradictory_pairs += predicted_label
 
+            if predicted_label == 0:
+                nb_entailed_pairs +=1
+            elif predicted_label == 1:
+                nb_contradictory_pairs += 1
+            else:
+                nb_neutral_pairs += 1
+
+    try:
+        share_entailed_pairs = nb_entailed_pairs / (len(premise_sentences) * len(hypothesis_sentences))
+    except ZeroDivisionError:
+        share_entailed_pairs = 0
     try:
         share_contradictory_pairs = nb_contradictory_pairs / (len(premise_sentences) * len(hypothesis_sentences))
     except ZeroDivisionError:
         share_contradictory_pairs = 0
+    try:
+        share_neutral_pairs = nb_neutral_pairs / (len(premise_sentences) * len(hypothesis_sentences))
+    except ZeroDivisionError:
+        share_neutral_pairs = 0
 
-    return nb_contradictory_pairs, share_contradictory_pairs
+    return nb_entailed_pairs, share_entailed_pairs, nb_contradictory_pairs, share_contradictory_pairs, nb_neutral_pairs, share_neutral_pairs
 
 
 def apply_model_sentencecouple(row, sentences_tokenizer, nli_tokenizer, nli_model):
     premise_sentences = sentences_tokenizer.tokenize(row["premise"])
     hypothesis_sentences = sentences_tokenizer.tokenize(row["hypothesis"])
 
+    nb_entailed_pairs = 0
     nb_contradictory_pairs = 0
+    nb_neutral_pairs = 0
 
     for i in range(1, len(premise_sentences)):
         for j in range(1, len(hypothesis_sentences)):
             predicted_label = predict_nli(" ".join(premise_sentences[i - 1:i + 1]),
                                           " ".join(hypothesis_sentences[j - 1:j + 1]), nli_tokenizer, nli_model)
-            nb_contradictory_pairs += predicted_label
 
+            if predicted_label == 0:
+                nb_entailed_pairs +=1
+            elif predicted_label == 1:
+                nb_contradictory_pairs += 1
+            else:
+                nb_neutral_pairs += 1
+
+    try:
+        share_entailed_pairs = nb_entailed_pairs / ((len(premise_sentences) - 1) * (len(hypothesis_sentences) - 1))
+    except ZeroDivisionError:
+        share_entailed_pairs = 0
     try:
         share_contradictory_pairs = nb_contradictory_pairs / ((len(premise_sentences) - 1) * (len(hypothesis_sentences) - 1))
     except ZeroDivisionError:
         share_contradictory_pairs = 0
+    try:
+        share_neutral_pairs = nb_neutral_pairs / ((len(premise_sentences) - 1) * (len(hypothesis_sentences) - 1))
+    except ZeroDivisionError:
+        share_neutral_pairs = 0
 
-    return nb_contradictory_pairs, share_contradictory_pairs
+    return nb_entailed_pairs, share_entailed_pairs, nb_contradictory_pairs, share_contradictory_pairs, nb_neutral_pairs, share_neutral_pairs
 
 
 def get_original_proposal_repnum(reply_contribution: pd.Series, previous_contributions: pd.DataFrame) -> pd.Series:

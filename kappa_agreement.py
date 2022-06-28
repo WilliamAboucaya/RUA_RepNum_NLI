@@ -17,7 +17,7 @@ if __name__ == '__main__':
                 annotations.append(line)
 
     with open(william_file, 'r', encoding='utf-8') as data:
-        for line in csv.DictReader(data, delimiter=','):
+        for line in csv.DictReader(data, delimiter=';'):
             #print(line["label"])
             william.append(line["label"])
 

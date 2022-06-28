@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 
 import nltk
@@ -30,8 +31,12 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
 
     labeled_proposals_couples["model_results"] = labeled_proposals_couples.apply(lambda row: apply_model_sentencecouple(row, sentences_tokenizer, nli_tokenizer, nli_model), axis=1)
 
-    labeled_proposals_couples["share_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][1], axis=1)
-    labeled_proposals_couples["nb_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][0], axis=1)
+    labeled_proposals_couples["nb_entailed_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][0], axis=1)
+    labeled_proposals_couples["share_entailed_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][1], axis=1)
+    labeled_proposals_couples["nb_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][2], axis=1)
+    labeled_proposals_couples["share_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][3], axis=1)
+    labeled_proposals_couples["nb_neutral_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][4], axis=1)
+    labeled_proposals_couples["share_neutral_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][5], axis=1)
 
     return labeled_proposals_couples
 
@@ -58,6 +63,8 @@ if __name__ == "__main__":
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
 
+    consultation_prefix = input_consultation_name.split("_")[0]
+
     if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
         os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")
 
@@ -71,10 +78,13 @@ if __name__ == "__main__":
             if idx % 5 == 4:
                 file.write("===========================================\n\n")
 
+    with open(f"./results/threshold/{consultation_prefix}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencecouple_contradictionshare.log", "r", encoding="utf8") as file:
+        threshold = float(re.findall("\d+\.\d+", file.readline())[0])
+
     with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencecouple_contradictionshare_metrics.log",
               "w", encoding="utf8") as file:
-        threshold, max_f1 = maximize_f1_score(labeled_proposals["share_contradictory_pairs"],
-                                              labeled_proposals["label"])
+        # threshold, max_f1 = maximize_f1_score(labeled_proposals["share_contradictory_pairs"],
+        #                                       labeled_proposals["label"])
         predictions = (labeled_proposals["share_contradictory_pairs"] >= threshold).astype(int).tolist()
         labels = labeled_proposals["label"].tolist()
 
@@ -84,5 +94,5 @@ if __name__ == "__main__":
         file.write("\nF1 micro: ")
         file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
         file.write("\nF1 macro: ")
-        file.write(str(max_f1))
+        file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="macro")["f1"]))
         file.write("\n")
