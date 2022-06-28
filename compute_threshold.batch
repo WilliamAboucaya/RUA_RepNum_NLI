@@ -11,7 +11,7 @@
 #SBATCH --partition=cpu_devel
 #SBATCH --array=0-7
 
-DATASET_NAME='repnum_nli'
+DATASET_NAME='rua_nli'
 MODEL_TO_USE=('camembert-large-finetuned-repnum_wl_3_classes'
               'camembert-large-finetuned-rua_wl_3_classes'
               'camembert-large-finetuned-xnli_fr_3_classes'
