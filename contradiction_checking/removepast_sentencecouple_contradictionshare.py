@@ -57,10 +57,10 @@ if __name__ == "__main__":
     accuracy_metric = load_metric("accuracy")
     f1_metric = load_metric("f1")
 
-    # labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
-    #                                         encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
-    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
                                     encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
+    # labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+    #                                 encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
     labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
 
