@@ -27,6 +27,7 @@ MODEL_TO_USE=('camembert-large-finetuned-repnum_wl_3_classes'
 MODEL_REVISION='main'
 
 
+
 module purge
 module load pytorch-gpu/py3/1.10.0   # load pytorch
 python compute_threshold.py $DATASET_NAME waboucay/${MODEL_TO_USE[$1]}  $MODEL_REVISION removepast_sentencecouple_contradictionshare
