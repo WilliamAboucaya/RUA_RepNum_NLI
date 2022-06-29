@@ -48,10 +48,11 @@ if __name__ == "__main__":
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv", encoding="utf8",
                                                 engine='python', quoting=0, sep=';', dtype={"label": int})
 
-    if "3_classes" not in input_model_name:
-        labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
+    labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
+
+    labeled_proposals["predicted_label"] = labeled_proposals["predicted_label"].apply(lambda label: 0 if label == 2 else label)
 
     if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
         os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")

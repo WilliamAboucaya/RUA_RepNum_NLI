@@ -12,6 +12,8 @@ from utils.functions import remove_past_sentences, predict_nli
 
 
 def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
+    model_name = model_checkpoint.split("/")[-1]
+
     labeled_proposals_couples = proposals_couples.copy()
 
     sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
@@ -23,11 +25,11 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
         nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
         nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
     except OSError:
-        print(f"No such revision '{model_revision}' for model '{model_checkpoint}'")
+        print(f"No such revision '{model_revision}' for model '{model_name}'")
         quit()
 
-    labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
-    labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    # labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    # labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
     labeled_proposals_couples["predicted_label"] = np.nan
 
     for idx, row in labeled_proposals_couples.iterrows():
@@ -43,21 +45,24 @@ if __name__ == "__main__":
         input_model_checkpoint = sys.argv[2]
         input_model_revision = sys.argv[3]
     else:
-        input_consultation_name = "repnum"
-        input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
+        input_consultation_name = "repnum_with_titles"
+        input_model_checkpoint = "waboucay/camembert-large-finetuned-repnum_wl-rua_wl_3_classes"
         input_model_revision = "main"
 
     input_model_name = input_model_checkpoint.split("/")[-1]
     accuracy_metric = load_metric("accuracy")
     f1_metric = load_metric("f1")
 
-    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv", encoding="utf8",
-                                                engine='python', quoting=0, sep=';', dtype={"label": int})
+    # labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv", encoding="utf8",
+    #                                             engine='python', quoting=0, sep=';', dtype={"label": int})
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+                                    encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
-    if "3_classes" not in input_model_name:
-        labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
+    labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
+
+    labeled_proposals["predicted_label"] = labeled_proposals["predicted_label"].apply(lambda label: 0 if label == 2 else label)
 
     if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
         os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")

@@ -27,7 +27,7 @@ def predict_nli(premise, hypothesis, nli_tokenizer, nli_model) -> int:
     x = nli_tokenizer.encode(premise, hypothesis, return_tensors='pt', max_length=512, truncation=True)
     logits = nli_model(x)[0]
     probs = logits[:, ::].softmax(dim=1)
-    return probs.detach().argmax()
+    return int(probs.detach().argmax())
 
 
 def apply_model_sentencewise(row, sentences_tokenizer, nli_tokenizer, nli_model):
