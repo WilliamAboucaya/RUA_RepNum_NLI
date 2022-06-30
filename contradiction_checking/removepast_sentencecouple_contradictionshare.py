@@ -8,6 +8,8 @@ import pandas as pd
 
 from datasets import load_metric
 from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
+import sys
+sys.path.append('../')
 
 from utils.functions import remove_past_sentences, maximize_f1_score, apply_model_sentencecouple
 
@@ -55,8 +57,10 @@ if __name__ == "__main__":
         input_model_revision = "main"
 
     input_model_name = input_model_checkpoint.split("/")[-1]
-    accuracy_metric = load_metric("accuracy")
-    f1_metric = load_metric("f1")
+
+    exp_id = input_model_checkpoint[9:]
+    accuracy_metric = load_metric("accuracy", experiment_id=exp_id)
+    f1_metric = load_metric("f1", experiment_id=exp_id)
 
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
                                     encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})

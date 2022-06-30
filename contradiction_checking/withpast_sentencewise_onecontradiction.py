@@ -8,6 +8,9 @@ import pandas as pd
 from datasets import load_metric
 from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
+import sys
+sys.path.append('../')
+
 from utils.functions import predict_nli
 
 if len(sys.argv) >= 4:
@@ -36,8 +39,11 @@ except OSError as error:
     print(f"No such revision '{model_revision}' for model '{model_name}'")
     quit()
 
-accuracy_metric = load_metric("accuracy")
-f1_metric = load_metric("f1")
+
+exp_id = input_model_checkpoint[9:]
+accuracy_metric = load_metric("accuracy", experiment_id=exp_id)
+f1_metric = load_metric("f1", experiment_id=exp_id)
+
 
 if not os.path.exists(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}"):
     os.mkdir(f"../results/contradiction_checking/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}")

@@ -10,7 +10,11 @@ import os
 from datasets import load_metric
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
+import sys
+sys.path.append('../')
+
 from utils.functions import maximize_f1_score, apply_model_sentencecouple
+
 
 
 def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
@@ -51,8 +55,10 @@ if __name__ == "__main__":
 
     input_model_name = input_model_checkpoint.split("/")[-1]
     input_consultation_prefix = input_consultation_name.split("_")[0]
-    accuracy_metric = load_metric("accuracy")
-    f1_metric = load_metric("f1")
+
+    exp_id = input_model_checkpoint[9:]
+    accuracy_metric = load_metric("accuracy", experiment_id=exp_id)
+    f1_metric = load_metric("f1", experiment_id=exp_id)
 
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
                                             encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
