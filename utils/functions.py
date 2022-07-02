@@ -1,7 +1,7 @@
 import re
 from typing import Tuple
 
-from datasets import load_metric
+from datasets import Metric
 import pandas as pd
 from datasets import DatasetDict, concatenate_datasets
 from scipy.optimize import dual_annealing
@@ -135,10 +135,9 @@ def remove_outliers_from_datasets(dataset_dict: DatasetDict) -> DatasetDict:
     return result_datasets
 
 
-def maximize_f1_score(contradiction_shares: pd.Series, entailment_shares: pd.Series, labels: list) -> Tuple[float, float, float]:
+def maximize_f1_score(contradiction_shares: pd.Series, entailment_shares: pd.Series, labels: list, metric: Metric) -> Tuple[float, float, float]:
     shares_df = pd.concat([contradiction_shares.to_frame(name="share_contradictory_pairs"), entailment_shares.to_frame(name="share_entailed_pairs")], axis=1)
 
-    metric = load_metric("f1")
     result = dual_annealing(lambda threshold: -metric.compute(predictions=shares_df.apply(lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"], threshold[0], threshold[1]), axis=1).tolist(),
                                                               references=labels, average="macro")["f1"], bounds=[[0, 1], [0, 1]])
 
