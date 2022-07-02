@@ -6,7 +6,7 @@ import joblib
 from datasets import load_dataset, load_metric
 from sklearn.linear_model import LogisticRegression
 
-from utils.functions import maximize_f1_score
+from utils.functions import maximize_f1_score, define_label
 
 if len(sys.argv) >= 5:
     dataset_name = sys.argv[1]
@@ -65,17 +65,19 @@ test_df = apply_strategy(dataset["test"].to_pandas(), model_checkpoint, model_re
 
 f1_metric = load_metric("f1")
 
-test_df["label"] = test_df["label"].apply(lambda label: 0 if label == 2 else label)
+# test_df["label"] = test_df["label"].apply(lambda label: 0 if label == 2 else label)
 
 if not os.path.exists(f"./results/threshold/{dataset_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}"):
     os.makedirs(f"./results/threshold/{dataset_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}", exist_ok=True)
 
 with open(f"./results/threshold/{dataset_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/{strategy_to_apply}.log", "w", encoding="utf8") as file:
-    threshold, max_f1 = maximize_f1_score(test_df["share_contradictory_pairs"], test_df["label"])
-    predictions = (test_df["share_contradictory_pairs"] >= threshold).astype(int).tolist()
+    contradiction_threshold, entailment_threshold, max_f1 = maximize_f1_score(test_df["share_contradictory_pairs"], test_df["share_entailed_pairs"], test_df["label"])
+
+    predictions = test_df.apply(lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"], contradiction_threshold, entailment_threshold), axis=1).tolist()
     labels = test_df["label"].tolist()
 
-    file.write(f"With threshold = {threshold}")
+    file.write(f"With contradiction_threshold = {contradiction_threshold}")
+    file.write(f"With entailment_threshold = {entailment_threshold}")
     file.write("\nF1 micro: ")
     file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
     file.write("\nF1 macro: ")

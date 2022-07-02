@@ -12,11 +12,11 @@
 #SBATCH --array=0-2
 
 DATASET_NAME='repnum_nli'
-#MODEL_TO_USE=('camembert-large-finetuned-repnum_wl_3_classes'
-#              'camembert-large-finetuned-rua_wl_3_classes'
-#              'camembert-large-finetuned-xnli_fr_3_classes'
-#              'camembert-large-finetuned-repnum_wl-rua_wl_3_classes'
-MODEL_TO_USE=('camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl_3_classes'
+MODEL_TO_USE=('camembert-large-finetuned-repnum_wl_3_classes'
+              'camembert-large-finetuned-rua_wl_3_classes'
+              'camembert-large-finetuned-xnli_fr_3_classes'
+              'camembert-large-finetuned-repnum_wl-rua_wl_3_classes'
+              'camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl_3_classes'
               'camembert-large-finetuned-xnli_fr_3_classes-finetuned-rua_wl_3_classes'
               'camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes')
 MODEL_REVISION='main'

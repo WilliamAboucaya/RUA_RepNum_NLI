@@ -13,8 +13,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import sys
 sys.path.append('../')
 
-from utils.functions import maximize_f1_score, apply_model_sentencecouple
-
+from utils.functions import maximize_f1_score, apply_model_sentencecouple, define_label
 
 
 def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
@@ -81,16 +80,34 @@ if __name__ == "__main__":
                 file.write("===========================================\n\n")
 
     with open(f"../results/threshold/{consultation_prefix}_nli/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencecouple_contradictionshare.log", "r", encoding="utf8") as file:
-        test_threshold = float(re.findall("\d+\.\d+", file.readline())[0])
+        computed_contradiction_threshold = float(re.findall("\d+\.\d+", file.readline())[0])
+        computed_entailment_threshold = float(re.findall("\d+\.\d+", file.readline())[0])
 
     with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencecouple_contradictionshare_metrics.log", "w", encoding="utf8") as file:
         # threshold, max_f1 = maximize_f1_score(labeled_proposals["share_contradictory_pairs"],
         #                                       labeled_proposals["label"])
-        for threshold in np.sort(np.append(np.arange(0.1, 1, 0.1), test_threshold)):
-            predictions = (labeled_proposals["share_contradictory_pairs"] >= threshold).astype(int).tolist()
+        for contradiction_threshold in np.append(computed_contradiction_threshold, np.arange(0.1, 1, 0.1)):
+            predictions = labeled_proposals.apply(
+                lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"],
+                                         contradiction_threshold, computed_entailment_threshold), axis=1).tolist()
             labels = labeled_proposals["label"].tolist()
 
-            file.write(f"With threshold = {threshold}{' * TEST THRESHOLD' if threshold == test_threshold else ''}\n")
+            file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")
+            file.write("Accuracy: ")
+            file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
+            file.write("\nF1 micro: ")
+            file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
+            file.write("\nF1 macro: ")
+            file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="macro")["f1"]))
+            file.write("\n")
+        for entailment_threshold in np.arange(0.1, 1, 0.1):
+            predictions = labeled_proposals.apply(
+                lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"],
+                                         computed_contradiction_threshold, entailment_threshold), axis=1).tolist()
+            labels = labeled_proposals["label"].tolist()
+
+            file.write(
+                f"With contradiction_threshold = {computed_contradiction_threshold} and entailment_threshold = {entailment_threshold}\n")
             file.write("Accuracy: ")
             file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
             file.write("\nF1 micro: ")

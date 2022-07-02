@@ -135,9 +135,21 @@ def remove_outliers_from_datasets(dataset_dict: DatasetDict) -> DatasetDict:
     return result_datasets
 
 
-def maximize_f1_score(contradiction_shares: pd.Series, labels: list) -> Tuple[float, float]:
-    metric = load_metric("f1")
-    result = dual_annealing(lambda threshold: -metric.compute(predictions=(contradiction_shares >= threshold[0]).astype(int).tolist(),
-                                                              references=labels, average="macro")["f1"], bounds=[[0, 1]])
+def maximize_f1_score(contradiction_shares: pd.Series, entailment_shares: pd.Series, labels: list) -> Tuple[float, float, float]:
+    shares_df = pd.concat([contradiction_shares.to_frame(name="share_contradictory_pairs"), entailment_shares.to_frame(name="share_entailed_pairs")], axis=1)
 
-    return result['x'][0], -result['fun']
+    metric = load_metric("f1")
+    result = dual_annealing(lambda threshold: -metric.compute(predictions=shares_df.apply(lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"], threshold[0], threshold[1]), axis=1).tolist(),
+                                                              references=labels, average="macro")["f1"], bounds=[[0, 1], [0, 1]])
+
+    return result['x'][0], result['x'][1], -result['fun']
+
+
+def define_label(contradiction_share: float, entailment_share: float, contradiction_threshold: float, entailment_threshold: float) -> int:
+    if (contradiction_share >= contradiction_threshold) and (entailment_share >= entailment_threshold):
+        return int(contradiction_share > entailment_share)
+    elif contradiction_share >= contradiction_threshold:
+        return 1
+    elif entailment_share >= entailment_threshold:
+        return 0
+    return 2
