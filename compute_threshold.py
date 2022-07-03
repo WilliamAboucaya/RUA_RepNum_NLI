@@ -78,7 +78,7 @@ with open(f"./results/threshold/{dataset_name}/{model_name}{('_' + model_revisio
     labels = test_df["label"].tolist()
 
     file.write(f"With contradiction_threshold = {contradiction_threshold}")
-    file.write(f"With entailment_threshold = {entailment_threshold}")
+    file.write(f"\nWith entailment_threshold = {entailment_threshold}")
     file.write("\nF1 micro: ")
     file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
     file.write("\nF1 macro: ")
