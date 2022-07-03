@@ -1,0 +1,3 @@
+With contradiction_threshold = 0.20578098776184106With entailment_threshold = 0.5638743107087318
+F1 micro: 0.5879732739420935
+F1 macro: 0.5752765807029023
