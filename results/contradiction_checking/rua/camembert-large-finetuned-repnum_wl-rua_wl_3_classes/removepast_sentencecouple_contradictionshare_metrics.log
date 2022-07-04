@@ -1,4 +1,76 @@
-With threshold = 0.13865665464250299
-Accuracy: 0.7405857740585774
-F1 micro: 0.7405857740585774
-F1 macro: 0.5149908352971982
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.06088132178410888 * COMPUTED THRESHOLDS
+Accuracy: 0.26359832635983266
+F1 micro: 0.26359832635983266
+F1 macro: 0.17672816728167282
+With contradiction_threshold = 0.1 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.2594142259414226
+F1 micro: 0.2594142259414226
+F1 macro: 0.17955390334572488
+With contradiction_threshold = 0.2 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.25523012552301255
+F1 micro: 0.25523012552301255
+F1 macro: 0.17003009382191536
+With contradiction_threshold = 0.30000000000000004 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.2594142259414226
+F1 micro: 0.2594142259414226
+F1 macro: 0.17330538085255065
+With contradiction_threshold = 0.4 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.26359832635983266
+F1 micro: 0.26359832635983266
+F1 macro: 0.17620529146467936
+With contradiction_threshold = 0.5 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.26359832635983266
+F1 micro: 0.26359832635983266
+F1 macro: 0.17672816728167282
+With contradiction_threshold = 0.6 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.2719665271966527
+F1 micro: 0.2719665271966527
+F1 macro: 0.18283166109253068
+With contradiction_threshold = 0.7000000000000001 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.2719665271966527
+F1 micro: 0.2719665271966527
+F1 macro: 0.18414918414918416
+With contradiction_threshold = 0.8 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.26778242677824265
+F1 micro: 0.26778242677824265
+F1 macro: 0.16878854750183894
+With contradiction_threshold = 0.9 and entailment_threshold = 0.06088132178410888
+Accuracy: 0.26778242677824265
+F1 micro: 0.26778242677824265
+F1 macro: 0.16878854750183894
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.1
+Accuracy: 0.2594142259414226
+F1 micro: 0.2594142259414226
+F1 macro: 0.17481481481481478
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.2
+Accuracy: 0.21338912133891214
+F1 micro: 0.21338912133891214
+F1 macro: 0.15328165374677002
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.30000000000000004
+Accuracy: 0.17573221757322174
+F1 micro: 0.17573221757322174
+F1 macro: 0.13419354838709677
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.4
+Accuracy: 0.16317991631799164
+F1 micro: 0.16317991631799164
+F1 macro: 0.1273469387755102
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.5
+Accuracy: 0.16317991631799164
+F1 micro: 0.16317991631799164
+F1 macro: 0.1273469387755102
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.6
+Accuracy: 0.11715481171548117
+F1 micro: 0.11715481171548117
+F1 macro: 0.1101996171725458
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.7000000000000001
+Accuracy: 0.09205020920502092
+F1 micro: 0.09205020920502091
+F1 macro: 0.09428346810422283
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.8
+Accuracy: 0.07531380753138076
+F1 micro: 0.07531380753138076
+F1 macro: 0.08360740868963129
+With contradiction_threshold = 0.47773515968224434 and entailment_threshold = 0.9
+Accuracy: 0.07531380753138076
+F1 micro: 0.07531380753138076
+F1 macro: 0.08360740868963129
