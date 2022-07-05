@@ -8,6 +8,8 @@ import pandas as pd
 import os
 
 from datasets import load_metric
+from matplotlib import pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 import sys
@@ -56,13 +58,12 @@ if __name__ == "__main__":
     input_consultation_prefix = input_consultation_name.split("_")[0]
 
     exp_id = input_model_checkpoint[9:]
-    accuracy_metric = load_metric("accuracy", experiment_id=exp_id)
+    precision_metric = load_metric("precision", experiment_id=exp_id)
+    recall_metric = load_metric("recall", experiment_id=exp_id)
     f1_metric = load_metric("f1", experiment_id=exp_id)
 
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
                                             encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
-
-    labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
 
@@ -92,9 +93,17 @@ if __name__ == "__main__":
                                          contradiction_threshold, computed_entailment_threshold), axis=1).tolist()
             labels = labeled_proposals["label"].tolist()
 
+            if contradiction_threshold == computed_contradiction_threshold:
+                ConfusionMatrixDisplay.from_predictions(np.ndarray(labels), np.ndarray(predictions))
+
+                plt.savefig(f"../results/threshold/{consultation_prefix}_nli/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencecouple_contradictionshare_matrix.eps", format="eps")
+                plt.plot()
+
             file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")
-            file.write("Accuracy: ")
-            file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
+            file.write("Precision: ")
+            file.write(str(precision_metric.compute(predictions=predictions, references=labels)["precision"]))
+            file.write("Recall: ")
+            file.write(str(recall_metric.compute(predictions=predictions, references=labels)["recall"]))
             file.write("\nF1 micro: ")
             file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
             file.write("\nF1 macro: ")
@@ -108,8 +117,10 @@ if __name__ == "__main__":
 
             file.write(
                 f"With contradiction_threshold = {computed_contradiction_threshold} and entailment_threshold = {entailment_threshold}\n")
-            file.write("Accuracy: ")
-            file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
+            file.write("Precision: ")
+            file.write(str(precision_metric.compute(predictions=predictions, references=labels)["precision"]))
+            file.write("Recall: ")
+            file.write(str(recall_metric.compute(predictions=predictions, references=labels)["recall"]))
             file.write("\nF1 micro: ")
             file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
             file.write("\nF1 macro: ")

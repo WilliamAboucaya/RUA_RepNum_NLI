@@ -46,17 +46,14 @@ if __name__ == "__main__":
     input_model_name = input_model_checkpoint.split("/")[-1]
 
     exp_id = input_model_checkpoint[9:]
-    accuracy_metric = load_metric("accuracy", experiment_id=exp_id)
+    precision_metric = load_metric("precision", experiment_id=exp_id)
+    recall_metric = load_metric("recall", experiment_id=exp_id)
     f1_metric = load_metric("f1", experiment_id=exp_id)
 
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv", encoding="utf8",
                                                 engine='python', quoting=0, sep=';', dtype={"label": int})
 
-    labeled_proposals["label"] = labeled_proposals["label"].apply(lambda label: 0 if label == 2 else label)
-
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
-
-    labeled_proposals["predicted_label"] = labeled_proposals["predicted_label"].apply(lambda label: 0 if label == 2 else label)
 
     if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
         os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")
@@ -73,8 +70,10 @@ if __name__ == "__main__":
     with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise_metrics.log", "w", encoding="utf8") as file:
         predictions = labeled_proposals["predicted_label"].tolist()
         labels = labeled_proposals["label"].tolist()
-        file.write("Accuracy: ")
-        file.write(str(accuracy_metric.compute(predictions=predictions, references=labels)["accuracy"]))
+        file.write("Precision: ")
+        file.write(str(precision_metric.compute(predictions=predictions, references=labels)["precision"]))
+        file.write("Recall: ")
+        file.write(str(recall_metric.compute(predictions=predictions, references=labels)["recall"]))
         file.write("\nF1 micro: ")
         file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
         file.write("\nF1 macro: ")

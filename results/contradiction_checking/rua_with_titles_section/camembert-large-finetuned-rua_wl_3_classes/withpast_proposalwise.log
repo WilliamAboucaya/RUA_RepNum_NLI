@@ -9,7 +9,7 @@ Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
 Permettre aux indépendants fragiles (autoentrepreneurs...) d'avoir un filet de sécurité.
 
 Le Revenu Universel d'Activité doit inciter les personnes à avoir une activité salariée ou non salariée. Pour l'avoir vécue, il est difficile d'avoir une activité non-salariée et de recevoir des aides pour les mois difficiles. Ce n'est pas normal de décourager ainsi les personnes qui veulent se lancer
-Label: 0;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
 
 Une évaluation par un travailleur social (mi sur grille mi humaine) et un accompagnement pluri-disciplinaire.
 
@@ -19,12 +19,12 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 Période de transition.
 
 Mettre en place un revenu universel d'activité temporaire afin de permettre aux hlm de fournir un logement social.Offrir un accompagnement dans la recherche d'emploi sur tout les plans.( compétences, parcours professionnel, formation et/ou reconversion).Ce Revenu Universel d'Activité doit permettre aux allocataires de vivre correctement (logement, emploi, pouvoir d'achat...) durant une période temporaire jusqu'à la régularisation complète du bénéficiaire.Pour les beneficiaires ayant une activité professionnelle ne permettant pas de vivre décemment  alors complément temporaire afin de régulariser la problématique du logement avec soit hlm prioritaire soit réquisition logement vide non loué. Étudier sur le plan professionnel les solutions en vue d'assurer un pouvoir d'achat décent. 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Réinsertion.
 
 Cela est intéressant pour ceux qui ont des difficultés à trouver un travail, à s'intégrer. En contre parti du Revenu Universel d'Activité, les bénéficiaires devront soit travailler pour la commune (nettoyage des rues, etc...), soit participer activement en tant que bénévole dans des associations, afin de leurs permettre de sortir de chez eux pour ne pas se renfermer (35h/mois). Il devra également trouver des formations (financées par ANPE) dans les domaines qui embauchent et qui manque de main d'oeuvre.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Faciliter le retour à l'emploi.
 
@@ -47,17 +47,17 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 la transparence honnête.
 
 Puisque nous somme à l'aire du numérique je pense qu'il serait tout à fait possible de regrouper toutes les aides en un service automatisé, et que le Revenu Universel d'Activité devienne une garantie de ne plus jamais atteindre un certain seuil de pauvreté, que l'on pourrais choisir en échange de sa transparence :Si vous décidiez de signer pour avoir une garantie Revenu Universel d'Activité, vous vous engagez à être transparents sur vos revenus via votre compte en banque, en échange de quoi l'état vous verserait la différence qu'il vous reste a atteindre pour être au dessus du seuil fixé. ( calculé en fonction de votre situation, le loyer minimum de votre ville, votre âge, etc )Si vous décidiez de ne pas être transparent sur votre compte en banque avec l'état, alors vous ne pourrez pas demander de garantie Revenu Universel d'Activité. L'on éviterai ainsi pas mal de fraudes .De son côté l'état pourrait prélever l’impôt à la source ( juste et équitable) en fonction des revenus de la personne sur le mois, beaucoup de paperasse serait ainsi éviter :pour les micro entrepreneurs par exemple, l'état pourrait voir les réels revenus, charges et bénéfices d'une personnes, il ne serait pas nécessaire de faire la traque aux gens qui ne déclarent pas les revenus de ventes de créations artisanales puisque tout apparaîtrait sur leur compte en banque.La vente d'objets d'occasion par exemple pourrait ne pas être imposable au dessous d'un certains seuil de bénéfices pour ne pas enfoncer encore plus les personnes sans ressources qui se débrouillent comme elles peuvent pour survire, et ce peu importe que les objets ai été achetés par cette même personne ou non, car ainsi le marché de l'occasion grandirait et permettrait un recyclage permanent des tonnes de choses que les français plus riches jettent chaque année. Ainsi, si par exemple en revendant vos vieux objets, ou des objets que vos proches vous auraient donné pour vous aider, si vous réalisez l'équivalent d'un Salaire Minimum de Croissance sur le mois vous serez imposé comme une personne salariée au Salaire Minimum de Croissance. cela me parait complètement équitable.l'état pourrait prendre en compte les charges de chacun en fonction du coût de la vie moyen dans la région, et prendre en charges le minimum vital pour payer l'eau, un loyer modeste et la nourriture si la personne vit en dessous du fameux seuil fixé.l'Etat pourrait récupérer cette somme en taxant davantage les pollueurs, les gens ou les entreprises qui consomment trop d'eau ou de ressources naturelles ( exemple : les agriculteurs qui réalisent des cultures pas adaptées à leurs régions et qui réclament davantage d'arrosage, ou encore les particuliers qui dépensent beaucoup trop d'eau ou d'électricité par rapport à leur réels besoins )je pense qu'il est important que chacun apporte sa part à la société et que à partir du moment ou l'on vous garantie un Revenu Universel d'Activité vous devez contribuer à l’impôt ( aussi symbolique soit il. pourquoi pas 1€ au lieu de 0€ pour les plus basses tranches ? ), et que l'Etat doit pouvoir nous faire savoir où part cet argent, et ne pas dépenser plus que necessaire dans le "protocole", les repas, les déplacement des élus ( comme les préfets qui abusent souvent de leurs droits ) etc.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Calculer le Revenu universel d'activité selon les revenus les plus récents.
 
 Aujourd’hui, les différentes aides peuvent être calculées en fonction des ressources de l’année précédente ou des mois précédents. L’objectif du Revenu universel d’activité est de s’assurer que le soutien offert aux personnes en situation de pauvreté soit réactif et ajusté à la situation de la personne
-Label: 0;Prediction: 1.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 1.0;1. Offrir un système plus lisible.
 
 offrir un système plus lisible.
 
 Le revenu universel d'activité ne sera pas plus visible que l'ensemble des aides actuellement en cours. Les aides existantes répondent à tellement de cas différents ( famille, pauvreté, salaire insuffisant, logement étudiant etc...) que de vouloir les concentrer dans un seul système ressemble à un écrêtage des différentes aides dans un but d'économie. En fait la lisibilité des aides n'est pas un problème intrinsèque aux aides mais un problème d'accès aux outils permettant de simuler ses droits et d'en faire éventuellement la demande. A titre personnel j'ai eu à traiter différents cas de personnes et j'ai pu tout à fait les aider dans leurs démarches. Le site internet de la Caisse d'Allocation Familiale est très pratique mais tout le monde n'est pas nécessairement apte à utiliser cet outil informatique (personnes agées, manque d'ordinateur, manque de formation pour naviguer sur un site internet etc...). Ma proposition est plutôt de faciliter l'accès à l'outil internet pour toutes les personnes qui n'en n'ont pas ou qui ne savent pas comment s'en servir. Le service de support qui existe dans les accueils des bureaux Caisse d'Allocation Familiale pour aider les personnes visitant ces centres, devrait être également proposé au sein d'équipes mobiles qui iraient dans les lieux où se trouvent les populations les plus concernées par ces aides mais aussi les moins informées de leur droits.
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Un versement automatisé.
 
@@ -75,22 +75,22 @@ Label: 1;Prediction: 1.0;4. Répondre à un principe d'équité.
 Nombre d enfants et aide.
 
 Je vais sûrement faire bondir mais qui importe. Avoir une famille nombreuse est un choix personnel. Et l etat n a pas au-delà d un certain nombre d enfant a devoir apporter des aides hormis celle de la rentrée scolaire. Au-delà de 3 enfants par exemple et bien les aides devraient s arreter. Ce n est pas tout de faire 5,7, parfois plus d enfants il faut aussi pouvoir financement les assumer. La collectivité n a pas a assumer ces coûts. De même quand bien même l education des enfants n est pas  chose facile, est il normal qu a la retraite une femme qui a élevé ses enfants gagne plus que une qui a fait le choix par responsabilité de n en avoir que 2 ?
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Prendre en compte les revenus de tout le foyer.
 
 Le fait de vivre en couple ou à plusieurs permet à une famille de faire des économies d’échelle sur certaines dépenses, par exemple en matière de loyer. C’est pourquoi aujourd’hui, notre modèle de prestations sociales, comme notre modèle fiscal, reposent sur une logique de foyers et tous les revenus du foyer sont pris en compte, même si c’est parfois à des degrés divers, comme pour l’AAH par exemple. Le Revenu universel d’activité pourrait reprendre cette logique. Il pourrait à l’inverse être versé individuellement à chaque personne sans tenir compte d’économies d’échelles dans les dépenses afin de favoriser son autonomie voire même sans prendre en compte les revenus du conjoint par exemple. Cela pourrait être moins intrusif dans la vie privée mais conduirait à aider davantage un couple qu’une personne seule.  
-Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 
 enlever les allocations aux familles dont les enfants sont placés en famille d'accueil.
 
 Trop de famille a l'heure actuelle continue a touché les allocations alors que leurs enfants ont été placés en famille d'accueil, mais cela ne les empêche pas de concevoir d'autres enfants qui malheureusement se retrouvent placés eux aussi car ces familles ne changent pas, leurs problèmes ne sont pas réglés malgré le placement de leurs enfants donc cela ferai une grosse économie si ces familles ne percevraient plus d'allocation le temps qu'il n'ont plus la garde effective de leurs enfants et qu'ils ne font pas d'efforts pour que cela change.
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 De nombreux avantages s'il est ouvert à tous à partir de 18 ans.
 
 Un jeune pourrait financer ses études ou son indépendance. Un couple décider de travailler à tour de rôle. Un retraité pourrait améliorer sa situation ou celle de ses enfants ou petits enfants. Une personne qui n'est pas dans le besoin pourrait en faire don à une association listée par l'Etat. Les avantages du Revenu Universel d'Activité sont innombrables, c'est l'avenir, c'est aujourd'hui.
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 De nombreux avantages s'il est ouvert à tous à partir de 18 ans.
 
@@ -103,7 +103,7 @@ En mesure d'accompagnement, permettre à chacun de convertir en en € son compt
 
 Y compris pour les retraités qui n'ont pas pu / été autorisés à l'employer avant leur retraite.Permettre en alternative de le transférer sans frais à un compagnon même non cohabitant ou pacsé, conjoint ou enfant(s)
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 Individualiser le Revenu Universel d'Activité et plutôt que de  l'accorder à un foyer.
 
@@ -118,12 +118,12 @@ Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 De nombreux avantages s'il est ouvert à tous à partir de 18 ans.
 
 Un jeune pourrait financer ses études ou son indépendance. Un couple décider de travailler à tour de rôle. Un retraité pourrait améliorer sa situation ou celle de ses enfants ou petits enfants. Une personne qui n'est pas dans le besoin pourrait en faire don à une association listée par l'Etat. Les avantages du Revenu Universel d'Activité sont innombrables, c'est l'avenir, c'est aujourd'hui.
-Label: 0;Prediction: 1.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 1.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Individualiser le Revenu Universel d'Activité plutôt que de l'accorder à un foyer.
 
 Les personnes , même en couple, même mariées devraient pouvoir bénéficier d'un revenu individuel, permettant ainsi à chacun ou chacune de fonctionner indépendamment, (je pense par exemple aux personnes au foyer assujetties à un conjoint violent et qui ne peuvent pas partir, faute de revenu, ou encore aux personnes qui souhaitent faire une formation, mais rencontrent des difficultés financières, la CAF actuellement demande à vérifier le moindre centime mis de coté, et en tient compte pour diminuer les aides). Individualiser le Revenu Universel d'Activité en en donnant l'accès aux jeunes en formation, dès 18 ans sans condition de travail, permettrait aussi de diminuer la difficulté pour les familles pauvres d'accompagner les jeunes en formation, facilitant ainsi la mobilité sociale.
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 vrai statut de l'aidant, hors allocations.
 
@@ -146,7 +146,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 Prendre en compte les montants du loyer ou crédit immobilier.
 
 Si les Aide Personnalisée au Logement sont inclus dans le Revenu Universel d'Activité, prendre en compte les dépenses liés aux logements qui peuvent être une dépense importante pour un foyer.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 DUREE LIMITEE DANS LE TEMPS.
 
@@ -156,7 +156,7 @@ Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
 Pour les alternants.
 
 Permettre aux alternants à très faible revenus d étudier et de travailler avec un revenu correct permettant d assurer le loyer, les transports et la nourriture
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Pourquoi en argent?
 
@@ -169,7 +169,7 @@ Permettre à chacun de choisir son projet professionnel sur plusieurs annéess.
 
 Ce projet peut inclure de longues périodes de formation, année(s) sabbatique(s), période à l'étranger pour se former dont langues, père ou mère au foyer
 
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 0.0;3. Encourager la reprise d'activité.
 
 Donner 1 enveloppe à Pôle Emploi pour financer les suivis de formation et recherches.
 
@@ -184,12 +184,12 @@ Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-i
 Étudiant et jeunes après leurs études.
 
 Aux étudiants français faisant des études reconnus sérieuses, et pendant 6 mois après leurs  études ou leur sortie du système scolaire afin de les aider à trouve un nouveau job 
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 0.0;4. Répondre à un principe d'équité.
 
 ne pas assujetir l'acces au droit aux seules ressources des parents et ou des conjoints.
 
 ne pas assujetir l'acces au droit au seul ressources des parents et ou des conjoints mais bien considérer l'individu de 18 ans et plus ou 16 si en apprentissage hors du foyer familiale comme un citoyen à part entière et qui dépend de la société et non plus de ses parents à partir de sa majorité .
-Label: 0;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
 
 INFORMER LES PERSONNES.
 
@@ -202,22 +202,22 @@ Expérimenter sur 3 régions et diffuser les résultats.
 
 Expérimenter sur 3 régions dont Rhône-Alpes-Auv(conditions, modalités, financement) et diffuser les résultats
 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 carte bleue crédité de l'aide gérée par la poste ...
 
 La somme allouée par mois devra être dépensée entièrement sur le territoire Français ... pour des biens de nécessité (ex: nourriture vêtement facture eau edf gdf ... exception  produits de luxe (TVA)... c'est l'exemple Italien qui se met en place et permet aux plus grand nombre d'en bénéficier entièrement ou en complément d'autres ressources ... la dépense de cette aide sera un réel bénéfice pour nos commerçants de l'hexagone et le financement sera + facile à gérer et sans doute moins coûteux ...
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 Stop à la démagogie.
 
 En plus cela va faire un appel d'air pour les étrangers qui viennent en France pour les allocations
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 PRISE EN COMPTE DES ALLOCATIONS SPECIFIQUES DE LA VILLE DE PARIS.
 
 ALLOCATIONS PARTICULIERES DE LA VILLE DE PARIS A PRENDRE EN COMPTE DANS LE CALCUL DES REVENUS du R U A .Il y deux points qui devrait  entrer DANS LE CALCUL DES REVENUS du R U A  et étre pris en compte -particulierement-les allocations particulieres de la ville de PARIS - qui sont uniques en france  et spécifique a la ville de Paris .je m exprime :point 1)la ville de Paris octroi une aide au logement - suivant les ressources basses - aide de la ville de paris au maxi de 120 euros par mois suivant la compostion de la famille ainsi que diverses aides qui s ajoutent aux autres aides de la CAFCes aides sociales complémentairesn et spécifiques n'etant octroyeées que par la ville de PARIS et n existent nulle part en France ...ces aides complémenataires devraient donc rentrés en ligne de compte dans le calcul des revenus concernant le R U A .Ces aides spécifiques de la ville de Paris sont défiscalisés .Point 2 )le fait de ne pas prendre ces aides complémentaires spécifiques de la ville de Paris dans le calcul du R U A reviendrait a faire de la discrimination de la pauvreté par lieu de résidence .........................Paris offre des aides complementaire pour le logement et autres aides alors que la tout les autres citoyens francais en dehors du periférique n y ont pas droit ( car uniquement pour les parisiens ces aides sociales particulières )Ce point concernant les aides spécifiques de la ville de Paris mérite un approfondissement des législateurs du R U A   car l 'égalité des droits sociaux  pour le  R U A  doit concerner toute le territoire 
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 a qui verser l'aide.
 
@@ -235,7 +235,7 @@ augmentation des cotisations patronales, arrét de la baisse des charges.
 
 augmentation des cotisations patronales, arrét de la baisse des charges
 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Augmenter les salaires.
 
@@ -245,17 +245,17 @@ Label: 1;Prediction: 0.0;1. Offrir un système plus lisible.
 Encourager l’activité.
 
 Le montant doit correspondre à un demi Salaire Minimum de Croissance et on doit cotiser et à la SS et à la retraite et peut-être effectuer un temps de travail pour la collectivité, on devra sans doute augmenter le salaire minimum en baissant charges et impôts 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Une répartition équitable, sans contre-sens décourageants.
 
 Aujourd'hui, un salarié percevant le Salaire Minimum de Croissance.peut, en cumulant prime d'activité et Aide Personnalisée au Logement, dépasser les 1 600 € net. Ceci n'est pas une mauvaise chose en soi car cet argent alimente la consommation nationale. En revanche une injustice frappe le salarié qui, exerçant à un poste plus élevé dans la même entreprise, perçoit quant à lui 1 500 €, car celui-ci n'a pas droit à ces mêmes aides. De ce fait, ce second salarié dispose finalement de moins de revenus que le premier, alors qu'il exerce un emploi mieux rémunéré donc a priori plus qualifié et à plus fortes responsabilités.Cet état de fait semble donc de nature à décourager les efforts dans le travail et les perspectives d'élévation dans la carrière, qui ne s'en trouvent plus rentables financièrement.La fusion des aides sociales dans un seul et même revenu pourrait donc être l'occasion de penser le barème unique de sorte à ce que le salarié qui tire plus de revenus de son travail ne se trouve jamais lésé par rapport à celui qui perçoit moins. Cette mesure d'équité serait également susceptible d'apaiser les tensions entre bénéficiaires et non-bénéficiaires des revenus de transfert...
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 0.0;4. Répondre à un principe d'équité.
 
 Revenue solidarité.
 
 Encourager les travailleurs Salaire Minimum de Croissance en donnant un coup de pousse Supprimé les aides de ceux qui profitent 
-Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 
 Redonner une cohérence à l'ensemble des prélèvements obligatoires.
 
@@ -273,7 +273,7 @@ Label: 1;Prediction: 1.0;À quels publics le revenu universel d'activité doit-i
 Situation de précarité.
 
 Aux familles monoparentales et aux femmes et hommes seul(e)s
-Label: 0;Prediction: 1.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 1.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 mères isolées ayant élevé elurs enfants seules.
 
@@ -283,12 +283,12 @@ Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-i
 a qui le revenu universel doit s adresser.
 
 Aux familles monoparentales
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 0;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Aux parents en congé parental et aux parents au foyer.
 
 Aujourd'hui, la PrePaRe ne permet pas à un couple de rester à flot, et encore moins à un couple monoparental, et pour en avoir expérimenté les conséquences, constitue un non-choix pour les parents.Mon épouse a été en congé parental pour notre second enfant. Le premier n'a pas pu avoir la chance de grandir durant ses premières années de vie aux cotés d'un de ses parents, car la PrePaRe ne couvre que 6 mois, et est réservée aux parents ayant cotisés un minimum de 2 ans sans interruption dans les 2 ans qui ont précédé la demande. La situation précaire de mon épouse avant la naissance de notre premier enfant (intérim) ne lui a pas permis d'en bénéficier.Pour le second, elle a fait ce choix, mais elle n'a pas pu reprendre une activité à l'issue de sa première période d'allocation, les frais de garde pour les deux enfants étaient plus élevés que son salaire ! Elle a donc été contrainte de démissionner en tentant de retrouver une activité aux revenus suffisants avant l'expiration de la PrePaRe.Aujourd'hui, avec deux enfants et un seul salaire en plus de la PrePaRe, nous survivons, tant bien que mal.Le Revenu Universel d'Activité devrait donc permettre aux parents de faire ce choix, s'ils souhaitent privilégier l'éducation de leur enfant plutôt que leur carrière, durant le temps alloué par la PrePaRe, sans pour autant leur passer la corde au cou.Et au-delà de la durée de accordée par la PrePaRe, si un parent souhaite rester au foyer afin de s'occuper de sa famille, le Revenu Universel d'Activité devrait également lui permettre cela jusqu'à ce que le parent décide de reprendre une activité professionnelle.Si en plus de cela, le Revenu Universel d'Activité facilite la réinsertion professionnelle, nous ferons d'une pierre deux coups.
-Label: 0;Prediction: 1.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 1.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Bonification des personnes célibataires.
 
@@ -316,7 +316,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 Prendre en compte les revenus de tout le foyer.
 
 Au travers de cette question transparait tout le risque encouru si l’AAH était dans le périmètre du Revenu Universel d'Activité. Aujourd’hui l’AAH est quasi-individualisée qu’en serait-il demain ? Quelle serait la base ressources qui serait prise en compte pour le versement de l’AAH ? Les associations rappellent qu’un revenu convenable d'existence doit être au moins égal au seuil de pauvreté. Ce revenu d’existence doit par ailleurs respecter l’autonomie des personnes et leurs choix de vie. 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 2.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Un Revenu Universel d'Activité social.
 
@@ -334,27 +334,27 @@ prise en compte pour les personnes qui vivent en couples sans être mariés mais
 
 Bonjour! il me semble normal que les gens qui vivent en couple sans être mariés depuis des années et qui ont 1 ou des enfants puisse bénéficier de la pension de réversion du conjoint! De ne nos jours le mariage ne veux plus rien dire, c'est juste un acte administratif!
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 Individualiser le Revenu Universel d'Activité et plutôt que de  l'accorder à un foyer.
 
 Les personnes , même en couple, même mariées devraient pouvoir bénéficier d'un revenu individuel, permettant ainsi à chacun ou chacune de fonctionner indépendamment, (je pense par exemple aux personnes au foyer assujetties à un conjoint violent et qui ne peuvent pas partir, faute de revenu, ou aux personnes qui souhaitent faire une formation, mais rencontrent des difficultés financières, la Caisse d'Allocation Familiale actuellement demande à vérifier le moindre centime mis de coté, et en tient compte pour diminuer les aides). Individualiser le Revenu Universel d'Activité en en donnant l’accès aux jeunes en formation, dès 18 ans sans condition de travail, permettrait aussi de diminuer la difficulté pour les familles pauvres d'accompagner les jeunes en formation, facilitant ainsi la mobilité sociale.
-Label: 0;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
 
 Non au célibat obligatoire au Revenu de Solidarité Active ! Non aux Sugar Daddies !
 
 Un couple devrait pouvoir cumuler deux "RSA socles". Idem pour l'Allocation aux Adultes Handicapés. Beaucoup d'allocataires choisissent de demeurer célibataires, afin de rester autonomes. De même, le salaire d'un conjoint, dans une relation récente (moins de trois ans), ne devrait en aucun cas être pris en compte. La dignité passe aussi par l'autonomie ! (et non par la dépendance ou la prostitution, comme on peut s'en douter).
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Individualiser le Revenu Universel d'Activité plutôt que de l'accorder à un foyer.
 
 Les personnes , même en couple, même mariées devraient pouvoir bénéficier d'un revenu individuel, permettant ainsi à chacun ou chacune de fonctionner indépendamment, (je pense par exemple aux personnes au foyer assujetties à un conjoint violent et qui ne peuvent pas partir, faute de revenu, ou encore aux personnes qui souhaitent faire une formation, mais rencontrent des difficultés financières, la CAF actuellement demande à vérifier le moindre centime mis de coté, et en tient compte pour diminuer les aides). Individualiser le Revenu Universel d'Activité en en donnant l'accès aux jeunes en formation, dès 18 ans sans condition de travail, permettrait aussi de diminuer la difficulté pour les familles pauvres d'accompagner les jeunes en formation, facilitant ainsi la mobilité sociale.:
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Traitement individuel ou conjoint.
 
 Suite à un échange en consultation citoyenne sur ce thème, la réponse était confuse.Si il y avait autant de pères célibataires avec 2 enfants en garde principale que de mères célibataires, peut-être penserait-on autrement la suppression des minimas sociaux à une femme qui se remet en couple. Elle ne doit pas dépendre du nouveau conjoint, ni pour ses enfants d'une union précédente, ni pour elle même et son autonomie en tant que personne. On risque de la remettre en situation de dépendance financière, et parfois en grand danger d'exclusion ou de violences conjugales. Il n'est pas monnaie courante qu'une mère célibataire sans ressources trouve un mari très riche et fraude avec son ASS ... ceci devrait représenter une somme dérisoire dans le budget du Revenu Universel d'Activité non ?
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 PRENDRE EN COMPTE LE REVENU DE CHACUN ET NON DU COUPLE.
 
@@ -367,7 +367,7 @@ Ne pas prendre la situation personnelle de la personne dans le calcul du revenu 
 
 L’autonomie de la personne devrait être préservée, qu’elle soit en couple ou non. Cette donnée ne devrait pas interférer sur le calcul du revenu. C'est une difficulté qui revient régulièrement dans la mise en place des projets de vie, notamment pour les salariés ESAT (qu’ils soient en établissement ou en appartement).
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 0;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 un niveau de vie suffisant.
 
@@ -377,7 +377,7 @@ Label: 0;Prediction: 1.0;À quels publics le revenu universel d'activité doit-i
 Prise en compte individuelle des ressources financières.
 
 Prendre en compte la situation de ressource individuelle de la personne en dehors de sa situation de couple pour assurer son autonomie financière. Exception pour Aide Personnalisée au Logement si en couple à la même adresse pour éviter un doublon. 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 0;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 Individualiser le Revenu Universel d'Activité et plutôt que de  l'accorder à un foyer.
 
@@ -387,7 +387,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 individualiser les aides.
 
 Chacun devrait percevoir des aides de façon individuelle et avoir un compte bancaire personnel pour les percevoir. Cela favoriserait l'autonomie de chacun. Par exemple, lorsque le mari perçoit toutes les aides et que la femme, pour des raisons de maltraitance quitte le domicile, elle se retrouve sans ressources et donc reste bien souvent au foyer. Après en cas de conflit juridique ou autre, on pourrait déduire et imposer que chacun doit participer aux dépenses communes essentielles (eau, électricité, loyer....) proportionnellement à ses revenus. 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Prendre en compte les revenus de tout le foyer.
 
@@ -415,7 +415,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 les risques.
 
 sipar  malheur l'AAH  était dans le périmètre du Revenu Universel d'Activité ,qu'en serait-il demain de l'AAH individualisé ?,pour le versement de l'AAH qu'elle serait la base ressources prise en compte?Ce revenu d'existence doit par ailleur respecter l'autonomie des personnes et leur coix de vie ....
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 2.0;3. Encourager la reprise d'activité.
 
 La plupart des personnes handicapées ne peuvent pas travailler : Non à l'integration de l'Allocation aux Adultes Handicapés dans le Revenu Universel d'Activité.
 
@@ -433,17 +433,17 @@ financement par création monétaire.
 
 Actuellement, la création monétaire est faite par des banques privées, uniquement sous forme de dettes, et ne sert plus qu'à financer la spéculation. Si l'état reprenait le pouvoir de création monétaire qu'avaient les rois autrefois, il serait possible que cette création serve cette fois l'économie et que l'argent créé soit donné (et non pas prêté) à ceux qui le méritent, ceux qui produisent pour la collectivité.Le revenu universel entre bien dans cette catégorie car il représente un minimum vital forcément complètement dépensé. Il permettrait donc une simplification de toutes les aides sociales sans impôt supplémentaire nécessaire.
 
-Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 
 Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté.
 
 Je pense d'abord que l'argent est mal redistribué entre ceux qui crée la richesse et ceux qui consomme de ce fait les producteurs ne veulent pas payer pour le plus grand nombre, et créer tout ces problémes et mechanisme de pauvreté:Comment financer le revenu universel d'activité ?Hypothése 1: Je pense vraiment que l'inégalité devrait être payé par ceux qui la font alors mettre un impôt au plus riche ISF que l'état à supprimé sans savoir chiffré quantifié sa réforme de remplacement. Je pense que vous devriez remettre l'ISF et payer ce revenu universel d'activité avec cela s'appel l'équité citoyenne, redistribuer est le minimum à faire.Hypothése 2: ou bien créer un fond bancaire demander aux plus riches de payer un plus petit impôt pour générer des intérêts et financer votre projet de "revenu universel d'activité". Faire payer un impôt aux banques en france un minimum car elle prenne beaucoup mais ne participe jamais à l'aide sociale.Hypothése 3: Je pense que la Caisse d'Allocation Familiale devrait se charger du chômage et tout ce qui a attrait aux aides sociales et de tout versement d'argent,et pôle emploi se concentrer uniquement sur le travail et la formation des personnes percevant le revenu universel d'activité, car tout les indus et les trop perçus viennent de la mauvais communication du pôle emploi et la Caisse d'Allocation Familiale entre elle, la plupart du tempscar clairement ces deux organismes sont jamais au courant de rien, ou sont toujours en retard d'un traindonc réellement un manque de communication entre elles qui se renvoye la plus part du temps la balle quand y a un probléme, une refonte complete entre Caisse d'Allocation Familiale et pôle emploi, et de leurs missions.Hypothése 4: arrêter l'aide allocation familiale continu pour les familles qui ont 3 enfants, car ont dirait que vous motivez par votre politique à favoriser les familles à prendre en compte le 3 éme enfants, si une famille a 2 enfants vous coupez les allocations familiales,Hypothése 5: il fonctionne chaque mois versé a terme échoir et non échu, si la personne à travaillé elle le déclare mois aprés mois et non trimestriellement, il est versé pour tout français qui réunis les conditions pour bénéficier du dispositif revenu universel d'activité, et le montant du Revenu de Solidarité Active est trop faible ( le montant est encore à définir mais un revenu universel d'activité devrait tabler vers 950 euros)pour donner de quelconque posibilité à une personne en difficulté a faire face aux dépenses fixes, (loyer, gaz, electricité, eau
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 aller vers un revenu universel.
 
 L'économie, l'écologie et l'équilibre social par le travail a vécu. La création de monnaie par le travail est ce qui domine aujourd'hui, entrainant une production souvent inutile parfois néfaste. La création de monnaie non plus sur le travail mais sur les besoins minimaux n'empeche pas l'économie de fonctionner, mais est il pertinent de déplacer un véhicule pour un smig?
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 0.0;4. Répondre à un principe d'équité.
 
 Revenu universel pour tous.
 
@@ -453,7 +453,7 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 Financer un revenu universel inconditionnel avec les fonds donnés aux banques.
 
 Les fonds des banques centrales prêtés à taux zéro aux banques privées pour relancer la consommation par l'octroi de prêts à la consommation aux particuliers sont principalement utilises par celles-ci pour spéculer., car leur rentabilité est bien plus éleveée.Les fonds des banques centrales servent donc à la prospérité des banques privées, et non aux citoyens!Distribuer directement ces fonds aux consommateurs ne coûterait pas plus cher, et le principe de l'inconditionnalité permettrait à chacun, en particulier aux moins aisés, souvent rebutés par les formalités (30% des ceux qui pourraient bénéficier su Revenu de Solidarité Active ne le demandent pas), d'en bénéficier. L'inconditionnalité est donc indispensable, les plus aisés en reversant de toute façon une grande partie par l’impôt.Je propose donc la création d'un revenu universel inconditionnel.
-Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 
 Equité de la richesse produite et redistribution, problémes et mechanisme de pauvreté.
 
@@ -466,27 +466,27 @@ financement par création monétaire.
 
 Actuellement, la création monétaire est faite par des banques privées, uniquement sous forme de dettes, et ne sert plus qu'à financer la spéculation. Si l'état reprenait le pouvoir de création monétaire qu'avaient les rois autrefois, il serait possible que cette création serve cette fois l'économie et que l'argent créé soit donné (et non pas prêté) à ceux qui le méritent, ceux qui produisent pour la collectivité.Le revenu universel entre bien dans cette catégorie car il représente un minimum vital forcément complètement dépensé. Donc simplification de toutes les aides sociales et pas d'impôt supplémentaire nécessaire.
 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 aller vers un revenu universel.
 
 L'économie, l'écologie et l'équilibre social par le travail a vécu. La création de monnaie par le travail est ce qui domine aujourd'hui, entrainant une production souvent inutile parfois néfaste. La création de monnaie non plus sur le travail mais sur les besoins minimaux n'empeche pas l'économie de fonctionner, mais est il pertinent de déplacer un véhicule pour un smig?
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 Revenu universel pour tous.
 
 Quelques soient les revenus du citoyen, un revenu des fonds publics doit lui revenir 
-Label: 0;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
 
 financement R.U.A.
 
 Le financement du revenu universel d'activité peut être financé et devrait être financé par nos impôts .Pour cela , on pourrait instaurer un impôt minimum afin que tout le monde paye un impôt quelque soit la situation professionnelle dans laquelle on se trouve, tout le monde devrait être imposable.Par exemple : Pour les personnes qui bénéficient d’aide = 1euros x 12 mois = 12 euros 
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 Préférer un système d'impôt négatif pour simplier encore plus le système.
 
 Les expériences de RU, bien que partant d'une initiative très louable, ont montré leurs limites (voir Canada, Finlande, Alaska). Plutôt que d'envisager une aide complémentaire, pourquoi ne pas intégrer ce filet de sécurité avec le calcul de l'impôt ? En-dessous d'un certain seuil de revenus, on se range dans une tranche où l'impôt devient négatif : au lieu de payer, on perçoit de l'argent.
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 Privatiser les entreprises publiques - Équité du Revenu Universel d'Activité doit coexister avec l'équité dans les statuts des travailleurs.
 
@@ -504,7 +504,7 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 Réguler la consommation par le revenu de base: mode de financement.
 
 Une taxation nulle de Taxe sur la Valeur Ajoutée pour les produits alimentaires fabriquer localement qui sera variable en fonction d'un bilan carbone depuis la graine ou l'élevage au consommateur.Une taxation nulle pour les logements à loyer modéré permettant à tout le monde de se loger convenablement,une taxation nulle pour l'éducation que ce soit les cours particuliers, la formation ou l'école, l'art le sport, la culture. Lesavoir, le respect est la base de la société,quand on a à manger, un toit et l'éducation le reste est superflu.concernant le superflu sans être sectaire c'est tous les biens de consommation non nécessiteux. Pourquoi avoir 2 télévisions, 200 chaînes, des nouveaux téléphones tous les ans, 3 services d'assiettes 25 couverts alors qu'on a le taux de natalité qui est inférieur à 3. Je taxerai à 50% tout le reste. Car quelqu'un capable de mettre 1 million d'euros dans une voiture, il en mettra 2 et continuera à le faire car son porte feuille le lui permettra toujours. Et effectivement, le revenu de base permettra la création de la valeur humaine détacher des biens de consommation. Les riches seront toujours riches car les signes de distinction qui marquent leur appartenance ne s'effaceront pas. C'est une base de discussion dont on pourrait alimenter avec des si et des ajustements.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 aides au Logement.
 
@@ -514,12 +514,12 @@ Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 Par l'impot payé par tous.
 
 Impot payé par tous en fonction du revenu total imposable du foyer, les tranches étant réactualisées à la baisse, surtout pour les classes moyennes qui sont quasi seules à assurer la solidarité en France. Actuellement les pauvres ne payent pas d'impots, les riches ont les moyens de contourner quand ce n'est pas tricher. Il faut remettre tout le monde au boulot, réapprendre le sens civique dès le plus jeune âge, respecter la hiérarchie quelle qu'elle soit, et faire en sorte que toute personne qui travaille trouve un intérêt net et sans bavure par rapport à ceux qui se retranchent sur la solidarité. Les élus doivent impérativement montrer l'exemple dans tous les domaines afin d'être crédibles. Par exemple un chef d'état qui dans son programme dit qu'il va supprimer la taxe d'habitation doit le faire clairement et non un tiers cette année, un second tiers l'année suivante etc... et seulement pour ceux et celles bla. bla. bla....J'ai voté Macron en me disant : il va faire autrement, je lui fais confiance. Je me rends compte qu'il a menti par omission trop souvent.Je suis retraité, j'accepte ma perte de pouvoir d'achat, il me l'avais dit, mais il faut que cela s'arrête vite. Cette taxe d'habitation ne passe pas pour moi, pas plus que les mensonges sur ses annonces concernant tout ce qui touche à la mobilité (les voitures électriques 'écologie dans son ensemble', les radars, les taxes sur les carburants, les points de permis, le 80km/h etc.....) Immigration : beaucoup à dire, ce serait trop long, faut juste faire une bonne pause je pense et renvoyer chez eux tous ceux et celles qui n'ont rien à faire chez nous, puisqu'on les connait, on leur a refusé le droit d'asile. Aux prochaines élections il sera trop content que je vote blanc, mais je ne le ferai pas, tant pis pour lui.       
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 A tous ceux qui sont en précarité, pauvreté.
 
 Il faut que ce revenu prenne en charge tout citoyen qui ne peut vivre en dignité. Il ne doit pas constituer un regroupement des aides mais être systématiquement donner aux personnes qui sont en dessous du seuil de pauvreté. En France avec un Salaire Minimum de Croissance ou juste au dessus, on ne vit pas, on survit d'autant plus dans les grandes villes. Ne pas oublier les femmes, jeunes ou à la retraite qui très souvent ont des revenus qui ne leur permet pas de vivre. 
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 0.0;4. Répondre à un principe d'équité.
 
 Un revenu universel qui stoppe le cumul pour certains au détriment de réels besoins d'autres.
 
@@ -532,12 +532,12 @@ Pas d'impots supplementaires.
 
 Les prelevements sont exorbitants en france et on atteint la limite du non consentement a l'impot notamment pour les classes moyennes. Il faut redistribuer ce qui existe et trouver des sources d'economie.  Il ne faut pas confondre aide et assistanat. On ne pourra jamais payer un Salaire Minimum de Croissance.a quelqu'un qui est a la charge de la société.  Regardons nos voisins et arretons de  tout vouloir de l'etat.
 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 2.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Prendre en compte la diversité des réalités et des difficultés sociales des allocataires.
 
 Aujourd’hui les personnes en situation de richesse, bénéficient de mesures économiques sur mesure et adaptées à leurs intérêts et situations. La situation de pauvreté devrait offrir les mêmes privilèges. Il n’est pas équitable d’imposer des choix uniques, binaires et manichéens à des publics qui ont besoin d’options et de diversités de choix pour rebondir dans leur existence. Si le Ministère des Solidarités et de la Santé estime nécessaire que les revenus du foyer et les enfants à charge soient des critères de calcul nécessitant une consultation, il est déjà dans son devoir de concevoir et de développer des modes de calculs qui répondent aux attentes et besoins de tous les publics pauvres et de ne pas se soustraire à l’idée que l’on se fait de la simplification. La simplification des calculs n’est autre qu’un investissement dans la complexité de la vie. Il ne faut pas que les femmes battues soient conditionnées à la seule question de savoir si elles perçoivent plus ou moins que leur bourreau de mari. Ces femmes pour ne citer qu’elles, ont besoin d’un autre calcul pour vivre.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Ne changez rien au système actuel.
 
@@ -565,27 +565,27 @@ Plus de controle.
 
 Pas de droits sans controle. En france, il y a trop de triche aux aides sociales donc le systeme est injuste: il faut tout controler regulierement. Pourquoi les impots nous trouvent pour payer l'impot et pas la Caisse d'Allocation Familiale pour les aides. A l'heure de l'informatique, de qui se moque t on?
 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Cumul autorisé sous réserve de fiscalité.
 
 Le projet pourrait apporter un mieux aux habitants de ce pays si on prenait le problème par le bon bout. Oui, le fatras des aides sociales n'est pas lisible : une multitude d'acteurs, de dénominations et de situations particulières.De plus, elle se conditionnent les unes les autres, ce qui a pour conséquence de bouleverser la situation financière d'un allocataire à l'occasion du moindre changement dans son existence.On aura compris que que le gouvernement cherche à rendre prévisible les dépenses sociales un peu comme une entreprise sa trésorerie...La solution tient plutôt de la logique.Logement, rôle de parent, handicap, autonomie, formation, emploi : un ménage peut faire face à une ou toutes ces situations. Elles sont créatrices de droits dans le modèle social français.On peut cumuler toutes ces aides, chacune ayant sa propre légitimité
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Non un point c tout.
 
 Regrouper tte les aides en une seule c de la pur connerie car les besoins de chacun sont differents et tt regrouper faciliteraient une bel arnaque et deja que ns ns faisons deja bien escroquer donc gardons le modele existant qui je pense, est plus transparent et  s' ils veulent faire quelquechose en plus pour la population ils ont qu' ajouter de nouveaux sigle avec la lettre A pour aide a l' interieure et mettre un point d honneur gratter la classe moyen et pauvre avec ttes ces taxes donc ma propostion c de ne rien changer 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant.
 
 Le Revenu Universel d’Activité doit assurer un revenu vital suffisant à tout individu pour vivredignement et lui permettre de s’insérer.Il ne doit pas être une démarche administrative supplémentaire pour les bénéficiaires du Revenu de Solidarité Activeactuel. Le Revenu Universel d’Activité se doit d’être un dispositif le plus lisible possible, il doit passimplifier les démarches administratives mais pas au détriment du public.Le Revenu Universel d’Activité doit encourager la reprise d’activité pour toutes les personnes qui lepeuvent, mais il ne doit pas avoir d’effets pervers et léser le public qui n’a pas cette capacité. C’esten ce sens que le caractère universel du revenu doit être compris.Ce nouveau dispositif doit permettre au bénéficiaire d’avoir une visibilité globale sur toutes lesaides possibles auquel il peut bénéficier.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant pour permettre au bénéficiaire de vivre dignement.
 
 Le Revenu Universel d’Activité doit assurer un revenu vital suffisant à tout individu pour vivre dignement et lui permettre de s’insérer. Il ne doit pas être une démarche administrative supplémentaire pour les bénéficiaires du Revenu de Solidarité Active actuel. Le Revenu Universel d’Activité se doit  d’être un dispositif le plus lisible possible, il doit simplifier les démarches administratives mais pas au détriment du public. Le Revenu Universel d’Activité doit encourager la reprise d’activité pour toutes les personnes qui le peuvent, mais il ne doit pas avoir d’effets pervers et léser le public qui n’a pas cette capacité. C’est en ce sens que le caractère universel du revenu doit être compris. Ce nouveau dispositif doit permettre au bénéficiaire d’avoir une visibilité globale sur toutes les aides possibles auquel il peut bénéficier. 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant.
 
@@ -598,27 +598,27 @@ Un Revenu Universel d’Activité pour compenser un manque de revenu.
 
 Le Revenu Universel d’Activité doit être là pour compenser un manque de revenu. Si une personnen’atteint pas un revenu suffisant pour vivre dignement ce dispositif devra être là pour compenser.Il devra fonctionner d’une manière à rendre l’activité plus attractive que l’inactivité.Notre structure (Projet Insertion Emploi Revenu de Solidarité Active de Plaine Commune) accompagne le public RSAdepuis des années, notre accompagnement ne doit également pas disparaitre lorsque le RSAdisparaitra. A partir de la création du Revenu Universel d’Activité, des dispositionsd’accompagnement telles que la nôtre doivent en découler pour le public visé.
 
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 2.0;3. Encourager la reprise d'activité.
 
 La plupart des personnes handicapées ne peuvent pas travailler : Non à l'integration de l'Allocation aux Adultes Handicapés dans le Revenu Universel d'Activité.
 
 En appliquant à l’AAH et à ses bénéficiaires un cadre conceptuel imaginé pour les allocataires de revenus de solidarité conditionnés à la recherche active d’emploi, le gouvernement risque de dénaturer la vocation de cette allocation conçue spécifiquement pour assurer une vie digne à nos concitoyens qui du fait de la situation de handicap ne peuvent pas travailler ni tirer d’un travail des revenus d’existence suffisants pour subvenir à leurs besoins de vie quotidienne.La logique à l’œuvre dans la réflexion autour de la création du Revenu Universel d'Activité risque non seulement de remettre en question le principe fondateur de l’AAH basé sur la solidarité nationale, mais elle porte aussi en elle un risque de dégradation des droits des allocataires et de perte de pouvoir d’achat des bénéficiaires de l’AAH.
-Label: 0;Prediction: 1.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 1.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 NON à la fusion de l'AAH avec le Revenu Universel d'Activité.
 
 Les gens bénéficiant de l'AAH ont des situations bien particulières, parfois les empêchant de bosser à vie. L'AAH doit rester en dehors de tout ça, ce n'est pas une aide comme les autres, elle est déjà bien en dessous du seuil de pauvreté et doit continuée à être revalorisée individuellement.
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 0;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Non à la révision intempestive des taux d'incapacité (MDPH) et taux d'invalidité (CPAM) pour faire entrer un maximum de personnes dans le Revenu Universel d'Activité.
 
 Que les CPAM et les MDPH ne révisent pas de manière intempestive les taux d'invalidité et d'incapacité des PH à la baisse sans aucun critère médical fondé juste pour supprimer la Restriction Substantielle et Durable à l'Emploi (RSDAE) ne nombreux bénéficiaires de l'Allocation Adulte Handicapé et de l'ASI (passer les PH entre 50% et 79% à 25% ou passer les PH de la 3ème à la 2ème catégorie de l'invalidité et de la 2ème à la 1ère catégorie d'invalidité) simplement pour faire des économies sur l'Allocation Adulte Handicapé qui doit prochainement être revalorisée Que les CPAM et les MDPH ne révisent pas de manière intempestive les taux d'invalidité et d'incapacité des PH à la baisse sans aucun critère médical fondé juste pour supprimer la Restriction Substantielle et Durable à l'Emploi (RSDAE) ne nombreux bénéficiaires de l'Allocation Adulte Handicapé et de l'ASI (passer les PH entre 50% et 79% à 25% ou passer les PH de la 3ème à la 2ème catégorie de l'invalidité et de la 2ème à la 1ère catégorie d'invalidité) simplement pour faire des économies sur l'Allocation Adulte Handicapé qui doit prochainement être revalorisée.Que le Gouvernement français ne reproduise pas le fiasco de l' « Universel Credit » mis en place en Angleterre en 2012 (réf. « Moi, Daniel Blake », film de Ken Loach, primé au Festival de Cannes 2016). En clair, que les personnes handicapées soient respectées dans toutes les dimensions de leur dignité humaines, que l'on prenne en considération leurs souffrances physiques et/ou psychiques qui nécessitent forcément des soins, parfois très onéreux, dont beaucoup doivent s'en priver faute de moyens financiers : NE PAS AJOUTER DE LA PRECARITE A LA SOUFFRANCE PHYSQIUE ET PSYCHIQUE DES PERSONNES HANDICAPEES. Que les PH ne soient pas abandonnées au bord de la route, sans aucune ressources, sachant que beaucoup de PH vivent seul(e)s et dépendent énormément financièrement de leurs familles lorsqu'ils ne sont pas « en rupture familiale », ce cas étant fréquent lorsqu'un handicap invisible n'est pas reconnu et compris ni par le Ministère de la Santé, ni par les proches par simple méconnaissance de/des pathologies(s) invisible(s) parfois très lourdement invalidantes dans la vie quotidienne ces personnes en situation de handicap.
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 Non à l'integration de l'Allocation aux Adultes Handicapés dans le Revenu Universel d'Activité sous le principe de l'équité !
 
 Faut-il rappeler que 80% des allocataires de l’AAH sont en incapacité de travailler et ne sont donc pas concernés par cet objectif ? Seuls 10% des allocataires travaillent en milieu ordinaire, et la suppression de l’AAH ne pourra en aucune façon leur apporter de progrès en la matière.
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 0;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Pas d' Revenu Universel d'Activité pour remplacer   l 'Allocation Adulte Handicapé du handicap psychique.
 
@@ -631,27 +631,27 @@ Tenir compte des échecs thérapeutiques pour l'AAH.
 
 L'AAH n’est presque jamais octroyée pour les personnes en état d'échec thérapeutique, c’est évident avec les cas de dépression sévère. Il y a un nombre significatif de patients pour les les antidépresseurs et anxiolytiques : troubles cardiaques graves (pouvant entrainer décès, arythmies sévères, aggravation du mal, etc. Mais l'administration a tendance à considérer que si il n'y a pas de médicaments il n'y a pas de maladie ou de handicap. De nombreuses dépressions résistent aux médications et de nombreux patients ont tellement d'effets secondaires qu'il vaut mieux arrêter la chimie. Et ces patients ne sont pas considérés comme handicapés dans le calcul de l'AAH. Même si un psychiatre confirme l'état du patient. Pas de médicaments = pas malade. Même une psychothérapie ne suffit pas à convaincre l'administration? Résultat, de nombreux français se retrouvent au Revenu de Solidarité Active sans réelle possibilité de travailler. Ils sont déboutés de l'AAH.Il faut arrêter ce parallèle entre médicament et maladie. Il faut ouvrir l'AAH aux patients qui sont intolérants (intolérance qui peut aller jusqu'au décès...) aux médications, surtout dans le domaine psy.
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 L'Allocation aux Adultes Handicapés n'est pas un revenu social comme les autres.
 
 L’AAH n’est pas un minimum social comme les autres, c’est un revenu d’existence pour ceux qui sont dans l’incapacité de travailler du fait de leur handicap, ou ne peuvent tirer des revenus d’existence suffisants d’un travail, elle ne doit pas entrer dans le périmètre du Revenu Universel d'Activité”déclarait Roselyne Touroude dans Le Monde, le 8 octobre.Par l’AAH,notre nation doit garantir aux personnes reconnues avec un taux d'incapacité (TI) à 80% ou avec un taux d’incapacité entre 50 et 79% et ayant une restriction substantielle et durable d’accès à l’emploi un revenu convenable d'existence. Cette solidarité nationale vient corriger les inégalités de destin et les pertes de chances des personnes en situation de handicap. C’est la raison d’être de l’AAH. 1Elle ne peut donc être conditionnée à l’activité. Elle ne constitue pas un levier pour favoriser l’insertion professionnelle ou le maintien dans l’emploi de ses allocataires.La question de l’AAH de type 2 accordée aux personnes ayant un taux d’incapacité compris entre 50 et 79% et une Restriction substantielle et durable d’accèsà l’emploi(RDSAE) n’est jamais posée dans cette consultation
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 PAS DE Revenu Universel d'Activité MAIS UN REVENU DE BASE !  - Unissez-vous pour que chacun et tou(te)s en bénéficie !!
 
 La proposition Revenu Universel d'Activité est encore un moyen de diviser le peuple pour mieux régner : qui y aura droit ? sur quelles bases ? actifs, chômeurs, retraités ? A l'inverse, le principe du REVENU DE BASE est qu'il doit être délivré à chacun sans conditions ni contreparties de sa naissance à son décès ! Ce nouveau droit appelle à un changement de paradigme visant à replacer l’économie au service de l’humain.Le revenu de base, encore appelé revenu universel ou allocation universelle, est une somme d'argent versée par une communauté politique à tous ses membres, sur une base individuelle, sans conditions de ressources ni obligation ou absence de travail.Il s’additionne avec tout autre revenu (salaire, certaines allocations...) et est perçu Ad Vitam !A l'heure actuelle, 2000 euros par personne est un minimum pour vivre dignement !https://www.revenudebase.info/
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 Limiter les personnes qui ne rentrent pas dans les cases avec une évalutation d'un travailleur social.
 
 Je me questionne sur le mode de calcul pour ouvrir le droit au Revenu Universel d'Activité (considérant qu'il regrouperait aides au logement, revenus minimaux etc). Les énarques vont forcément faire une grille de calcul essayant de déterminer le droit au Revenu Universel d'Activité, sur des besoins très différents tels le logement, le travail, la santé, le besoin d'aides spécifiques. Aussi, je propose que les travailleurs sociaux formés aient une marge de manœuvre dans la décision d'ouvrir un droit au Revenu Universel d'Activité selon la situation réelle de la personne, après évaluation (entretien). Cela éviterait l'absurdité du non droit pour les personnes qui n'entrent simplement pas dans les cases préconçues.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant pour permettre au bénéficiaire de vivre dignement.
 
 Le Revenu Universel d’Activité doit assurer un revenu vital suffisant à tout individu pour vivre dignement et lui permettre de s’insérer. Il ne doit pas être une démarche administrative supplémentaire pour les bénéficiaires du Revenu de Solidarité Active actuel. Le Revenu Universel d’Activité se doit  d’être un dispositif le plus lisible possible, il doit simplifier les démarches administratives mais pas au détriment du public. Le Revenu Universel d’Activité doit encourager la reprise d’activité pour toutes les personnes qui le peuvent, mais il ne doit pas avoir d’effets pervers et léser le public qui n’a pas cette capacité. C’est en ce sens que le caractère universel du revenu doit être compris. Ce nouveau dispositif doit permettre au bénéficiaire d’avoir une visibilité globale sur toutes les aides possibles auquel il peut bénéficier. 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant.
 
@@ -664,7 +664,7 @@ CAISSE DES REVENUS.
 
 Je propose que le Revenu Universel d'Activité soit géré par une caisse gérée par un conseil d'administration composé de citoyens.Ce sont des citoyens tirés au sort sur les listes électorales comme les jurés d'assises. Il y a une forte demande des citoyens mieux informés aujourd'hui de participer activement à la vie citoyenne.Un des objectif de cette CAISSE DES REVENUS est de libérer Pôle Emploi et les entreprises (Petite, Moyenne, Grande) dela gestion lourde des salaires et des allocations.- L'entrepreneur peut alors se concentrer sur son cœur de métier, qui est d'entreprendre et non de verser des salaires.- Pole emploi peut alors se concentrer sur son cœur de métier, qui est d'associer un citoyen à une activité utile pour la Société Française et non de verser des Allocations.Le fonctionnement de cette caisse est similaire au prélèvement à la source à la différence que le citoyen est crédité au lieu d'être prélevé.Cette caisse doit verser le Revenu Universel d'Activité ou salaire en fonction d'un barème des salaires afin d'éviter la discrimination sexisteque subissent chaque mois nos sœurs, nos mères, nos grands mères, nos épouses, nos filles, nos petites filles.Ainsi, quelque soit la situation du citoyen c'est toujours la CAISSE DES REVENUS qui lui verse son revenu.Le montant du Revenu ou Salaire varie en fonction de l’activité du citoyen. Cette caisse central de tous les revenus est alimenté par les impôts, les entrepreneurs qui utilisent les créateurs de richesse (citoyens) pour réaliser leur activité, par les associations et tous les organismes qui sollicitent un citoyen qui participe à leur activité.En parallèle de cette caisse, la SÉCURITÉ SOCIALE doit assurer ACTIVEMENT un suivi de l'état de santé de chaque citoyen.Un bilan de santé mensuel est mis à jour via le DMP (DOSSIER MEDICAL PARTAGE). Chaque citoyen doit mettre à jour, via un outil de gestion du temps, le temps passé sur une activité afin de veiller à ce que le citoyen ne soit pas en surcharge d'activité.
 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant.
 
@@ -674,7 +674,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 Réinsertion.
 
 Cela est intéressant pour ceux qui ont des difficultés à trouver un travail, à s'intégrer. En contre parti du Revenu Universel d'Activité, les bénéficiaires devront soit travailler pour la commune (nettoyage des rues, etc...), soit participer activement en tant que bénévole dans des associations, afin de leurs permettre de sortir de chez eux pour ne pas se renfermer (35h/mois). Il devra également trouver des formations (financées par ANPE) dans les domaines qui embauchent et qui manque de main d'oeuvre.
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 0;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 Accompagner la mise en place du Revenu universel d'activité par d'autres mesures visant à améliorer les conditions de vie des citoyens.
 
@@ -684,7 +684,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 En cas de non recherche d'emploi pour le cas d'un chômeur, le versement du Revenu Universel d'Activité serai suspendu ou un travail compensatoire de quelques heures serait demandé sauf cas exceptionnels (handicap...).
 
 Il faudrait permettre à tout un chacun de bénéficier de cette allocation. Travailleur comme Chômeur. Cependant, afin de maintenant ce Revenu Universel d'Activité qui viendrait se cumuler à l'allocation chômage, une condition de recherche active d'emploi devrait être imposée. Dans le cas ou le bénéficiaire ne rechercherai pas activement un emploi, l'indemnité serait alors supprimée.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Faciliter le retour à l'emploi.
 
@@ -697,7 +697,7 @@ Universalité Prendre en compte les revenues et les périodes travailler.
 
 -Aider les gens en fin de droits en maintenant une allocation le temps de la recherche d'un emploi-réduire l'indemnisation après une certaines période(6, 12) mois-maintenir un Revenu Universel d'Activité pour les gens sans activité en proposant du bénévolat
 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Période de transition.
 
@@ -712,7 +712,7 @@ Label: 1;Prediction: 1.0;À quels publics le revenu universel d'activité doit-i
 REVENU UNIVERSEL.
 
 A toutes les personnes qui ne peuvent vivre dignement en travaillant et les jeunes sans qualifications
-Label: 0;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
 
 Mettre en corrélation le Revenu Universel d'Activité et le salaire minimum des branches X1.3.
 
@@ -735,12 +735,12 @@ Label: 1;Prediction: 1.0;À quels publics le revenu universel d'activité doit-i
 Universel ? Donc pour tous.
 
 Les personnes ne devraient pas devoir se justifier. Il s agirait derrière de remunerer correctement le travail. Sinon ce n est pas un revenu universel.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 L'Allocation aux Adultes Handicapés c'est sur un avis médical point.
 
 Bonjour, je trouve très regrettable que l'Allocation aux Adultes Handicapés par exemple, soit considérée comme un revenu dans votre proposition. Ce n'est pas un revenu. C'est une aide pour permettre à des adultes handicapés de "survivre". Avec un certain deré d'autonomie. Des adultes reçevant l'Allocation aux Adultes Handicapés, ayant une maladie psychique, peuvent être en incapacité de rechercher / trouver un travail. Cela ne dépend pas que de leur bon vouloir. Que va-t-il en être pour eux lorsque ce revenu leur sera supprimé parce qu'ils ne pourrons pas rechercher un travail ? Ils ne le peuvent pas par exemple dans de nombreux cas de schizophrénie. Je vous alerte sur les bénéficiaires de l'Allocation aux Adultes Handicapés, qui seraient projetés dans des situations de grandes détresses si vous incluez l'Allocation aux Adultes Handicapés dans ce Revenu Universel d'Activité. S'il vous plait, entendez les parents, proches, associations . entendez-nous à ce sujet. Merci.
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 L'Allocation Adulte Handicapé sans prendre en compte le revenu du conjoint.
 
@@ -750,7 +750,7 @@ Label: 0;Prediction: 1.0;À quels publics le revenu universel d'activité doit-i
 Pas aux porteurs d'Allocation Adulte Handicapé.
 
 Les bénéficiaires de l'Allocation Adulte Handicapé sont dans l'incapacite De travailler.l'Allocation Adulte Handicapé est leur seul moyen de vivre.il ne serait pas normal de les inclure dans le Revenu Universel d'Activité.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 les personnes handicapées en situation  de pavreté.
 
@@ -763,7 +763,7 @@ Le financement du Revenu Universel d'Activité.
 
 A propos des bénéficiaires de L' Allocation Adulte Handicapé  atteints de troubles -et souffrances- psychiques,  gardons toujours en mémoire que ce sont des personnes malgré elles incapables de se construire des revenus un peu confortables .Venir  récupérer sur un éventuel patrimoine (sauf exception de niveau très élevé) des aides de solidarité sociale serait bien indécent , stigmatisant et ce serait bien une double peine que de prendre à celui qui a pu percevoir quelque patrimoine ce que la maladie lui a interdit de gagner par lui même .L'  Allocation Adulte Handicapé ne doit pas être assimilée à un revenu  , comme le Revenu Universel d'Activité.
 
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 0;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 AAH ALLOCATION ADULTE HANDICAPÉ EN DEHORS DU REVENU UNIVERSEL.
 
@@ -773,12 +773,12 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 les risques.
 
 sipar  malheur l'AAH  était dans le périmètre du Revenu Universel d'Activité ,qu'en serait-il demain de l'AAH individualisé ?,pour le versement de l'AAH qu'elle serait la base ressources prise en compte?Ce revenu d'existence doit par ailleur respecter l'autonomie des personnes et leur coix de vie ....
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Délinquance.
 
 Ne pas être sous le coup d'une condamnation de droit commun.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Pour des critères d'attributions simples et automatiques.
 
@@ -796,7 +796,7 @@ AAH.
 
 SI BENEFICIAIRE DE L'AAH, MAINTENIR AU MOINS CETTE ALLOCATION, QUI N'EST DEJA PAS TRES ELEVEE, ET NE PAS FAIRE PARTI DES ALLOCATAIRES AU RAU.
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 Oui mais pas sans contrepartie.
 
@@ -806,17 +806,17 @@ Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 RUA une existence digne.
 
 Non à l' intégration de l 'Allocation aux Adultes Handicapés au Revenu Universel d'Activité qui est par définition une allocation  et non pas un revenu et qui est versée parce que précisément les  allocataires ne sont pas  , hélas pour eux , en mesure de se procurer un revenu .Ce distinguo est très important dans l ' approche de l' accompagnement de ces personnes .
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 les personnes handicapées en situation  de pavreté.
 
 pour nos associations les personnes handicapées et leurs familles la  reponse est NON à cette question et ceci sans ambiguité. L' Allocation aux Adultes Handicapés n'est pas un minimum social comme les autres,c'est un revenu d'exisence pour ceux  qui sont dans l'incapacité de travailler du fait    de leur  Handicap
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Aah.
 
  Allocation Adulte Handicapé car certain la touche alors qu'ils n'y ont pas le droit et Revenu de Solidarité Active refuser à des gens car dépasse le plafond de peu. Revoir suivi Revenu de Solidarité Active car trop d'inégalité entre départements. 
-Label: 0;Prediction: 1.0;3. Le financement du Revenu universel d'activité.
+Label: 2;Prediction: 1.0;3. Le financement du Revenu universel d'activité.
 
 Le financement du Revenu Universel d'Activité.
 
@@ -834,7 +834,7 @@ Label: 0;Prediction: 1.0;À quels publics le revenu universel d'activité doit-i
 non à l'intégration de l'Allocation Adulte Handicapé dans le Revenu Universel d'Activité.
 
 ne pas intégréer l'Allocation Adulte Handicapé, elle n'est pas un minimum social comme les autres, c'est un revenu d'existence pour ceux qui sont dans l'incapacité de travailler du fait de leur handicap, ou ne peuvent tirer des revenus d'existence suffisants d'un travail, elle ne doit pas entrer dans le périmètre du Revenu Universel d'Activité
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Modifier l’intitulé de cette mesure.
 
@@ -844,12 +844,12 @@ Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
 Changer le nom du "Revenu Universel d'Activité" en "Revenu Individuel d'Activité".
 
 Le terme "Revenu Universel d'Activité" me semble ne pas convenir, car le terme "universel" évoque un revenu qui s'appliquerait à tout le monde, quelles que soient les conditions de revenus et la situation.Le terme "Revenu Individuel d'Activité" me semblerait plus approprié, car ici nous parlons d'un revenu qui ne s'appliquerait pas à chaque citoyen, et cela est trompeur sur sa nature.
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 0;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Qui peut prétendre au Revenu Universel d'Activité.
 
 Le revenu universel par définition doit être attribué à tout le monde. Le terme Activité ne doit pas sous entendre uniquement une activité rémunérée.D'autre part, le Revenu Universel d'Activité devrait faire office d'allocations familiales (au nom de l'enfant et perçu par les parents), de Revenu de Solidarité Active et prime pour l'emploi et enfin remplacer la retraite de base du régime général.Le montant perçu avant la majorité serait bien entendu inférieur à celui attribué par la suite ce qui permettrait d'augmenter d'autant celui reçu en guise de pension de base pour la retraite.Il serait donc universel, attribué de la naissance au jour du décès, servant ainsi de bouée de sauvetage en cas d'échec ou d'erreur de parcours et de tremplin pour ceux voulant développer un projet ou repartir sur une autre voie que celle sur laquelle ils s'étaient engagés.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 C'est un revenu de remplacement pas un revenu universel.
 
@@ -862,7 +862,7 @@ Rua pour les personnes en desous du seuil de pauvreté.
 
 Dans la définition du Revenu Universel d'Activité : revenu universel d'activité vous incluez les minimas des retraités, c'est très bien. Sauf que le nom est contres-sens. Il n'est pas universel s'il concerne les actifs. Les retraités en général ne font plus partis des demandeurs d'emploi. Or, certains retraités sont obligés de continuer à travailler pour avoir un revenu plus ou moins acceptable. Vous devriez rebaptisé le Revenu Universel d'Activité en : Allocation Unique de Solidarité, La proposition Revenu Universel d'Activité est un pied de nez au Revenu de Base, qui lui est Universel et Inconditionnel.
 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 PAS DE Revenu Universel d'Activité MAIS UN REVENU DE BASE !  - Unissez-vous pour que chacun et tou(te)s en bénéficie !!
 
@@ -872,17 +872,17 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 Retirer la gestion du Revenu de Solidarité Active (RUA) aux départements.
 
 Libérez SVP les allocataires du Revenu de Solidarité Active des départements, tant les abus sont nombreux, et non contrôlés (100 départements, et chacun fait ce qu'il veut ! Les allocataires ne portent presque jamais plainte ! Et les jurisprudences administratives de première instance ne sont pas accessible en ligne, ce qui permet de cacher les magouilles ET leur caractère systématique, dans certains départements radicalisés). Des exemples ? Seuil (illégal) maximal d'épargne dans la Manche, l'Orne, l'Eure, les Pyrénées-Orientales (TA Caen, 1801734). Objectifs chiffrés à atteindre dans le Tarn pour les artistes-auteurs (voir sources), dépenses dictées à St-Martin (avant la condamnation de cette collectivité, CE 399584), taux de succès des recours amiables abyssal (entre 0 et 20 %, selon les départements), suspensions arbitraires, violations de la vie privée, intimidations pour obtenir des informations sur la santé, gruge sur le montant de la prestation (la fameuse taxe illégale de 3 % sur l'épargne sur livret, qui dure depuis 10 ans, ce malgré les condamnations !! CE 401637), etc. : STOP ! BASTA ! Cela doit cesser. Impérativement. Le temps passé auprès des avocats, associations, magistrats est autant de temps qui aurait pu être consacré à la réinsertion, et autres ! Ce système est à bout de souffle et en échec, il faut tourner cette page-ci. Définitivement. Et sans regret. La gestion du Revenu de Solidarité Active ou futur Revenu Universel d'Activité ne doit plus passer par les départements, on en a assez vu, merci.
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 arretez la taxation à 100% des revenus d'épargne en dessous d'un certain seuil pour les bénéficiares...
 
 Alors que le gouvernement a installé une "flat taxe " de 30% pour les plus riches, les pauvres au Revenu de Solidarité Active sont taxés à 100%... diminuer le Revenu de Solidarité Active de 7,5 € pour celui qui a 1000€ sur son livret A est une honte ! Ces petites épargnes ne sont pas des moyens de gagner de l'argent mais de se prémunir contre l'inflation et les accidents de la vie. Chaque citoyen devrait avoir le droit, voir le devoir, de mettre un peu d'argent de côté pour ses vieux jours. En dessous d'un certain seuil, par exemple 30 000€ d'épargne, on devrait rien taxer !
-Label: 0;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
 
 existence digne "faux.
 
 Une existence digne donne la possibilité aux gens d'économiser sur des livrets réglementés pour leurs projets de vie. Or l'état retient 3% sur des livrets réglementés à 0.75% (liv A, ldd, liv épargne populaire par exemple).Le Revenu Universel d'Activité est la porte ouverte à de larges abus administratifs en tous genres, alors que le contexte législatif actuel est solide (ex pour Revenu de Solidarité Active). Voir affaire jurisprudence sur  "taxation illégale de 3 % de l'épargne sur livret, CE 401637, 14 juin 2017".
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 0.0;3. Encourager la reprise d'activité.
 
 Organiser des contrôles sur la gestion du budget Revenu de Solidarité Active Revenu Universel d'Activité et lutter contre les fraudes et escroqueries des payeurs.
 
@@ -895,12 +895,12 @@ Qu'un avis du Conseil d'Etat puisse aussi être demandé par M. le Défenseur de
 
 Comme on le sait, les abus délibérés de certains conseils départementaux sont sidérants dans l'administration du Revenu de Solidarité Active : taxe illégale des livrets d'épargne, voire même parfois le refus pur et simple, mais illégal, de payer la prestation, via l'excuse illégale d'un plafond d'épargne (Manche, Orne, Eure, Pyrénées-Orientales, etc.) : "t'es pas content ? T'as qu'à aller au tribunal", en substance. Aujourd'hui, certains conseils départementaux exigent aussi des relevés bancaires et explications afférentes, alors que seule la Caisse d'Allocation Familiale est explicitement prévue par les lois pour cela. Que font ministères, préféts ? Rien, comme presque toujours. Et c'est donc aux très très rares allocataires motivés de mener des procédures judiciaires jusqu'au Conseil d'Etat. Cela suffit. Il est donc souhaitable, puisque cela aidera beaucoup ici, que M. le Défenseur des Droits puissent saisir le Conseil d'Etat d'une demande d'avis consultatif sur les sujets de droits épineux, ce qui permettrait d'aller vite en la matière, puisque le Conseil d'Etat est la juridiction la plus importante quant au droit public (ce qui concerne l'administration). Seuls les ministres peuvent faire ce genre de demande, et généralement, ils ne le font pas, même quand les associations en font la demande (article 112-2 du Code de justice administrative). Je déplore que si peu de contributeurs puissent formuler sur ce site des propositions très utiles de ce genre. Les services du ministère concerné n'étant visiblement pas plus inspirés, la porte reste grande ouverte pour des abus et exactions en tous genres sur la population de rsastes (futurs ruastes), comme c'est déjà le cas depuis des années.
 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Une actualisation mensuelle.
 
 A l'heure actuelle, le versement de l'allocation du Revenu de Solidarité Active est accordé sur la base de déclarations trimestrielles de ressources. Cette périodicité, beaucoup trop longue  dans les conséquences qu'elle engendre, plonge de nombreux bénéficiaires dans la difficulté dès qu'il y a un changement de situation (reprise d'emploi de courte durée par exemple). Si on veut vraiment motiver les personnes il faut impérativement que ces déclarations soient mensuelles !!! C'est une condition FONDAMENTALE 
-Label: 0;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'activité.
 
 Monoparental (h ou f).
 
@@ -915,7 +915,7 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 Votant.
 
 Une aide automatique relative aux revenus et aux personnes à charge, dont le montant dépend également du prix des logements et de la vie dans la ville d'habitation.
-Label: 0;Prediction: 1.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 1.0;1. Offrir un système plus lisible.
 
 Intégrer les aides au logement dans le Revenu universel d'activité.
 
@@ -928,7 +928,7 @@ Prendre en compte les montants du loyer ou crédit immobilier.
 
 Si les Aide Personnalisée au Logement sont inclus dans le Revenu Universel d'Activité, prendre en compte les dépenses liés aux logements qui peuvent être une dépense importante pour un foyer.
 
-Label: 0;Prediction: 1.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 1.0;1. Offrir un système plus lisible.
 
 Intégrer les aides au logement dans le Revenu universel d'activité.
 
@@ -938,7 +938,7 @@ Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 Pourquoi pas des chèques solidarité ?
 
 Pourquoi ne pas verser l'aide sous forme de chèques (un peu comme les chèques cadeaux ou chèques vacances) qui auraient une période de validité appropriée (année scolaire pour un logement étudiant par exemple) et dont l'on pourrait retreindre l'usage selon la nature de l'aide visée : au logement ou pour la santé ou pour les biens alimentaires ou pour le permis. Les dépenses seraient donc certainement mieux orientées vers leur objet 
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 A tous ou à personne.
 
@@ -961,7 +961,7 @@ A associer aux besoins.
 
 Lorsque des enfants sont concernés, ne pourrait on pas verser les allocations d'aides sous forme de "chèque habillement"," chèque cantine "...comme pour les chèques vacances ou cadeaux en s'associant à des enseignes qui pourrait consentir des prix intéressants. Pas de détournement de prestations, celles-ci allant aux bénéficiaires
 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Avertissement automatique aux personnes potentiellement éligibles à une aide .
 
@@ -971,7 +971,7 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 Réinsertion.
 
 Cela est intéressant pour ceux qui ont des difficultés à trouver un travail, à s'intégrer. En contre parti du Revenu Universel d'Activité, les bénéficiaires devront soit travailler pour la commune (nettoyage des rues, etc...), soit participer activement en tant que bénévole dans des associations, afin de leurs permettre de sortir de chez eux pour ne pas se renfermer (35h/mois). Il devra également trouver des formations (financées par ANPE) dans les domaines qui embauchent et qui manque de main d'oeuvre.
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 0;Prediction: 2.0;3. Encourager la reprise d'activité.
 
 Permettre aux indépendants fragiles (autoentrepreneurs...) d'avoir un filet de sécurité.
 
@@ -994,17 +994,17 @@ DU TRAVAIL EN CONTREPARTIE.
 
 Malgré la levée de boucliers et l'indignation des biens pensant, je reste convaincu qu'en retour, un bénéficiaire du Revenu Universel d'Activité doit quelques heures à la communauté, ne serait-ce que pour le décourager au travail non déclaré qui serait plus difficile à planifier et donc moins rémunérateur (voire plus rémunérateur du tout). Ce travail pourrait bien entendu, dans la mesure du possible être approchant des acquis et des compétences professionnelles de chacun, sinon ramasser quelques papiers dans les rues de sa ville n'a jamais rabaissé qui que ce soit ni tué personne(Je salue au passage tous les employés municipaux qui font un travail remarquable).
 
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 A QUI DOIT S'ADRESSER LE Revenu Universel d'Activité.
 
 A tous ! de cette façon certaines personnes pourront réduire leur temps de travail ( ou arrêter) et  libérer des postes. En effet, tout le monde ne travaille pas par passion. en donnant un Revenu Universel d'Activité à tous on donne le libre choix soit de vivre qu'avec ce Revenu Universel d'Activité soit de travailler en plus afin d'améliorer ses revenus. Je reste certaine que certaines personne souhaiterons réduire le temps de travail grâce au Revenu Universel d'Activité.
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 0.0;3. Encourager la reprise d'activité.
 
 Permettre aux indépendants fragiles (autoentrepreneurs...) d'avoir un filet de sécurité.
 
 Le Revenu Universel d'Activité doit inciter les personnes à avoir une activité salariée ou non salariée. Pour l'avoir vécue, il est difficile d'avoir une activité non-salariée et de recevoir des aides pour les mois difficiles. Ce n'est pas normal de décourager ainsi les personnes qui veulent se lancer
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 0.0;3. Encourager la reprise d'activité.
 
 Créditer les employeurs de personne percevant le Revenu Universel d'Activité depuis une longue période, afin de faciliter leur reprise d'emploi.
 
@@ -1032,17 +1032,17 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 PRENDRE EN COMPTE LA CONSTITUTION DU FOYER ET TOUTES LES RESSOURCES ET LE PATRIMOINE.
 
 Actualiser sa situation chaque mois et prendre en compte les revenus professionnels pour les actifs qui travaillent et verser un complément de Revenu Universel d'Activité si besoin. Quant aux personnes situation en situation de handicap et personnes âgées, revoir la situation chaque année.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant.
 
 Le Revenu Universel d’Activité doit assurer un revenu vital suffisant à tout individu pour vivredignement et lui permettre de s’insérer.Il ne doit pas être une démarche administrative supplémentaire pour les bénéficiaires du Revenu de Solidarité Activeactuel. Le Revenu Universel d’Activité se doit d’être un dispositif le plus lisible possible, il doit passimplifier les démarches administratives mais pas au détriment du public.Le Revenu Universel d’Activité doit encourager la reprise d’activité pour toutes les personnes qui lepeuvent, mais il ne doit pas avoir d’effets pervers et léser le public qui n’a pas cette capacité. C’esten ce sens que le caractère universel du revenu doit être compris.Ce nouveau dispositif doit permettre au bénéficiaire d’avoir une visibilité globale sur toutes lesaides possibles auquel il peut bénéficier.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant.
 
 Le Revenu Universel d’Activité doit assurer un revenu vital suffisant à tout individu pour vivre dignement et lui permettre de s’insérer. Il ne doit pas être une démarche administrative supplémentaire pour les bénéficiaires du Revenu de Solidarité Active actuel. Le Revenu Universel d’Activité se doit  d’être un dispositif le plus lisible possible, il doit pas simplifier les démarches administratives mais pas au détriment du public. Le Revenu Universel d’Activité doit encourager la reprise d’activité pour toutes les personnes qui le peuvent, mais il ne doit pas avoir d’effets pervers et léser le public qui n’a pas cette capacité. C’est en ce sens que le caractère universel du revenu doit être compris. Ce nouveau dispositif doit permettre au bénéficiaire d’avoir une visibilité globale sur toutes les aides possibles auquel il peut bénéficier. 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Un Revenu Universel d’Activité équitable et suffisant pour permettre au bénéficiaire de vivre dignement.
 
@@ -1065,17 +1065,17 @@ Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 économiser en supprimant des avantages exagérés.
 
 Supprimer les avantages des anciens présidents, ministres (ils ne sont plus en poste, pourquoi continuer à payer ?), supprimer les dépenses somptuaires de l'Assemblée nationale et des députés, supprimer les comités Théodule...Toutes ces dépenses sont payées par les contribuables et ne font qu'éloigner ceux qui en profitent de la réalité de la vie des travailleurs.
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 hypocrisie.
 
 pour assurer une dignité aux gens, ils faut surtout supprimer les raisons de l'assistanat : _l'ouverture des frontières qui favorisent les délocalisations et le dumping social et donc le chômage et la précarité _l'accès des droits aux prestations doit être réservés à ceux qui ont cotisés, et le travail réservés aux citoyens _diminuer les aides sociales c'est diminuer le coût du travail et donc favoriser l'emploi et donc réduire le besoin d'aides ..._diminuer les législations qui tuent l'emploi en France et qui favorisent les délocalisations vers des pays non soumis à ces mêmes règles délétères ! _interdire le travail détaché qui encourage les entreprises à prendre à l'étranger des travailleurs qu'ils pourraient prendre en France
-Label: 0;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;3. Le financement du Revenu universel d'activité.
 
 Financement.
 
 Par une taxe sur tout les acteurs de la pauvreté, les employeurs qui ne donnent pas un salaire suffisant, les magasins qui abusent des contrats à mi temps, Les députés et sénateurs pour les responsabiliser sur la pauvreté, les entreprises sur les dividendes versé aux actionnaires , les entreprises qui touchant le CICE, licencient
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 2.0;2. Assurer une existence digne aux allocataires.
 
 Encore et encore.
 
@@ -1108,12 +1108,12 @@ Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
 Un « REvenu de VOcation CItoyens » (« REVOCI » / « Rêve aussi » !...) plutôt que le R.U.A., pour réinventer/(ré)enchanter le Travail, notre Société et nos vies, vers un bien(-)être et bien vivre, individuels et ensemble...
 
 En préambule, une 1ère question majeure sur la finalité de cette réforme du R.U.A. : continuer à « changer le pansement » ou commencer à véritablement « penser (et amorcer) le changement » ?... De mon point de vue, l’enjeu réel, majeur et fondamental, pour nous tout-te-s, Citoyen-ne-s, d’un tel type de réforme comme le R.U.A., et de sa finalité, n’a pas été abordé.En l’occurrence :- cette réforme va-t-elle se réduire à n’être qu’une politique palliative, même apparemment ambitieuse ? Une politique visant seulement à « changer le pansement », réparer, ajuster, moderniser, la « tuyauterie » de nos aides sociales et de notre système de protection sociale, tout en s’adressant exclusivement aux personnes, Citoyen-ne-s, les plus pauvres, sans offrir de véritables perspectives positives globales ? Une réforme, au mieux, réussie mais relativement superficielle 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Pourquoi établir un Revenu Universel.
 
 Dans ces temps perturbés et en pleine recherche d'identité, il me semblait intéressant d'apporter une réflexion et éventuellement des idées pour vivre mieux au quotidien.Il ne suffit pas de répéter sans cesse à qui veut l'entendre que telle ou telle chose va mal nous voudrions entendre de réelles propositions voire même des solutions la concertation du plus grand nombre ne vient que de commencer.Avant on décidait pour nous mais ça, c'était avant...En France quand une idée est bonne elle est pratiquement contestée par "les sceptiques", "les jaloux", "l'autre bord" ou "l’opposition" cela ne fait pas avancer les choses au contraire ainsi nous stagnons au niveau de nos problèmes voire même cela nous en rajoute toutes les idées ne sont pas bonnes mais elles doivent être partagées pour évoluer. Je ne pense pas détenir la vérité mais peut-être des débuts de solutions voire même des finalités. Et surtout des explications avec un langage simple loin de nos technocrates. Une idée pour augmenter en partie le pouvoir d'achat, ce qui est au cœur de l'actualité. "Un revenu Universel" (revu et corrigé).?Aujourd'hui les français en général sentent leur pouvoir d'achat diminuer, un Revenu Universel redonnera le moral, l'envie de dépenser, permettra de croire en l'avenir, valorisera le travail, permettra d’avoir pour les femmes une indépendance naturelle, donnera aux jeunes la possibilité d’apprendre et de se former et ainsi rentrer dans la vie active en toute sécurité et permettra aux plus démunis de vivre avec un minimum vital. La France se situe au 6eme rang des pays les plus riches par son PIB, et pourtant encore près de 15% de la population vie sous le seuil de pauvreté soit moins de 800 € par mois. La solution évoquée par beaucoup est le partage des richesses, mais ceux qui la détiennent ne sont pas d'accord et c'est humain. Cette situation pèse lourd dans la vie économique par la mise à l’écart de personnes de la vie professionnelle ce qui créé souvent des maladies et situations difficiles entraînant par la même occasion d'importantes dépenses publics.  Martin Luther King écrivait en 1967 :  « Je suis aujourd’hui convaincu que l’approche la plus simple sera la plus efficace – la solution au problème de la pauvreté est son abolition directe par une mesure aujourd’hui largement discutée : le revenu garanti. »Dans les années 1970, le Canada et les États-Unis ont mené d’importantes expérimentations sur ce sujet, il y a eu des résultats très satisfaisants. On a vu que les gens ne s’arrêtaient pas de travailler même s’ils touchaient une rémunération sans condition, que les jeunes faisaient des études plus longues, les gens ont pris plus de temps pour chercher une activité qui leur convenait véritablement, les adolescents ont abandonné les petits jobs étudiants les plus ingrats, les jeunes mamans ont gagné un temps suffisant pour profiter de leurs nouveau-nés, les femmes ont tiré leur épingle du jeu en gagnant une autonomie face au mari seul fournisseur du revenu. Mieux, si la pauvreté a disparu, le niveau d’éducation a grimpé tandis que le nombre d’hospitalisations et les frais collectifs qui en découlent chutaient etc. Par ailleurs, les expérimentations ont permis de montrer que le Revenu Universel n’est pas une utopie, elles attestent de résultats concrets et très encourageants. Mais à l’issue de l’expérimentation, rien n’a été mis en place à long terme. Entre l’expérience et la réforme politique globale il y a un fossé que les gouvernements ne franchissent malheureusement pas. Où en est-on après 50 ans....
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 Le terme universel est trompeur, je propose un autre terme.
 
@@ -1136,17 +1136,17 @@ Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Reven
 juste sur les revenus.
 
 il faut que ce soit les revenus du foyer qui soient pris en compte dans le calcul du droit de ce Revenu Universel d'Activité 
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 0;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Travailleurs pauvres et étudiants.
 
 Le revenu universel d'activité doit permettre à une personne sans emploi de cumuler ses anciennes allocations (famille, Revenu de Solidarité Active, Aide Personnalisée au Logement) pour avoir un Revenu Universel d'Activité de 903€ par mois identique au minimum vieillesse et à un travailleur à temps partiel ou au Salaire Minimum de Croissance d'obtenir un revenu total de 1293€ par mois en comptant le nombre d'enfants, les Aide Personnalisée au Logement et la prime d'activité. Un étudiant sans revenu pourrait également obtenir cette aide à la place de ses Aide Personnalisée au Logement et de sa bourse universitaire.
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Qui peut prétendre au Revenu Universel d'Activité.
 
 Le revenu universel par définition doit être attribué à tout le monde. Le terme Activité ne doit pas sous entendre uniquement une activité rémunérée.D'autre part, le Revenu Universel d'Activité devrait faire office d'allocations familiales (au nom de l'enfant et perçu par les parents), de Revenu de Solidarité Active et prime pour l'emploi et enfin remplacer la retraite de base du régime général.Le montant perçu avant la majorité serait bien entendu inférieur à celui attribué par la suite ce qui permettrait d'augmenter d'autant celui reçu en guise de pension de base pour la retraite.Il serait donc universel, attribué de la naissance au jour du décès, servant ainsi de bouée de sauvetage en cas d'échec ou d'erreur de parcours et de tremplin pour ceux voulant développer un projet ou repartir sur une autre voie que celle sur laquelle ils s'étaient engagés.
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 A tous français respectueux des lois.
 
@@ -1159,7 +1159,7 @@ Kalissy06.
 
 Il faudrait prendre en compte la situation familiale d'un foyer: Si il y a des enfants à charge Si il y a des jeunes en études Si il y a un handicap quelconque dans le foyerLes revenues du foyer Le type de famille : Monoparentale, Recomposé, nucléaire, autres... Il faudrait aussi peut-être dans le cas d'un jeune de moins de 25 ans ou plus, prendre en compte sa situation financière et son contexte familial.
 
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 0;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 l'équité c'est aussi ....
 
@@ -1202,17 +1202,17 @@ Label: 0;Prediction: 1.0;1. Les conditions à remplir pour bénéficier du Reven
 Les revenus du foyer.
 
 Aujourd'hui, l'AAH est individualisée: qu'en serait-il demain? Quelle serait la base ressources qui serait prise en compte pour le versement de l'AAH? Un revenu convenable d'existence doit être au moins égal au seuil de pauvreté et par ailleurs respecter l'autonomie des personnes et leur choix de vie
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Prendre en compte la diversité des réalités et des difficultés sociales des allocataires.
 
 Aujourd’hui les personnes en situation de richesse, bénéficient de mesures économiques sur mesure et adaptées à leurs intérêts et situations. La situation de pauvreté devrait offrir les mêmes privilèges. Il n’est pas équitable d’imposer des choix uniques, binaires et manichéens à des publics qui ont besoin d’options et de diversités de choix pour rebondir dans leur existence. Si le Ministère des Solidarités et de la Santé estime nécessaire que les revenus du foyer et les enfants à charge soient des critères de calcul nécessitant une consultation, il est déjà dans son devoir de concevoir et de développer des modes de calculs qui répondent aux attentes et besoins de tous les publics pauvres et de ne pas se soustraire à l’idée que l’on se fait de la simplification. La simplification des calculs n’est autre qu’un investissement dans la complexité de la vie. Il ne faut pas que les femmes battues soient conditionnées à la seule question de savoir si elles perçoivent plus ou moins que leur bourreau de mari. Ces femmes pour ne citer qu’elles, ont besoin d’un autre calcul pour vivre.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Intégrer les aides au logement dans le Revenu universel d'activité.
 
 Au-delà de l’AAH, le gouvernement envisage également l’intégration des Aides aux logements (APL) dans le Revenu Universel d'Activité. Avec d’autres associations du champ social nous sommes opposés à cette mesure. L’APL n’est pas un minimum social. Le versement de l’APL, directement aux personnes et non plus aux bailleurs, risquerait de fragiliser l’utilisation de ce montant pour le loyer du fait des situations permanentes de tension budgétaires, urgences, imprévus auxquelles sont soumises les personnes et familles en situation de grande précarité. Ce sont donc les impayés, les surendettements et les expulsions qui risquent d’augmenter. 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Changer le nom - et ne pas lier le revenu Universel à la question de l'activité.
 
@@ -1225,22 +1225,22 @@ Les prérequis facilitant la mise en oeuvre du revenu universel.
 
 Le revenu universel de solidarité doit intégrer la reprise et l’extension des droits connexes, notamment la PUMA et les droits attachés à l’ASS (exemples : complémentaire santé solidarité, point de retraite dans la réforme en cours de négociation).Doivent s’inscrire résolument dans la dynamique de mise en place du revenu universel de solidarité :·      Le développement de la formule du rendez-vous des droits avec l’ensemble des administrations·      La simplification des critères d’attribution (des prestations et aides en général et du RUS en particulier)·      La suppression ou la modification de certains critères d’âge sont des chantiers à menerL’existence d’un expert référent au sein de chaque organisme délivrant des prestations, services ou formation, qui améliore la compréhension réciproque, l’orientation et l’analyse de situation complexe.Retrouvez la contribution complète  de l’UNSA sur son site à l'adresse suivante :https://www.unsa.org/Revenu-Universel-de-Solidarite-la-contribution-de-l-UNSA.html
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 Vivre dans la dignité.
 
 En cohérence avec la lutte contre la pauvreté et la recherche d’émancipation de chacun et pour contribuer à les concrétiser, ce revenu universel de solidarité, garanti et stable, pendant une période plus ou moins longue de difficulté, doit permettre aux personnes de vivre dans la dignité et aider ceux qui sont en âge et en capacité de travailler à trouver un emploi rémunérateur 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Guichet Unique de Prestations Sociales ( GUPS ).
 
 Il y a pléthore de dispositifs sociaux et d'intervenants en matière sociale. Il est impératif d'aller vers une solution du guichet unique duquel il sera plus aisé pour les bénéficiaires de générer et gérer leurs droits. Il permettra aussi en sus du prélèvement à la source de mieux contrôler des réalités des situations des bénéficiaires. Le revenu minimum ou revenu universel d'activité ne devra pas dépasser 75% du Salaire Minimum de Croissance. Il est nécessaire que cette rémunération solidaire ne soit pas vecteur d'assistanat.De même, les droits sont accompagnés de devoirs dont celui de suivre un processus de retour vers l'emploi gérer par un organisme choisi par l'Etat.La rémunération solidaire doit être temporaire et symbole de la solidarité de la Nation envers nos concitoyens les plus faibles. Celle-ci ne devra pas excéder trois ans. 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Guichet Unique de Prestations Sociales ( GUPS ).
 
 Il y a pléthore de dispositifs sociaux et d'intervenants en matière sociale. Il est impératif d'aller vers une solution du guichet unique duquel il sera plus aisé pour les bénéficiaires de générer et gérer leurs droits. Il permettra aussi en sus du prélèvement à la source de mieux contrôler des réalités des situations des bénéficiaires. Le revenu minimum ou revenu universel d'activité ne devra pas dépasser 75% du Salaire Minimum de Croissance. Il est nécessaire que cette rémunération solidaire ne soit pas vecteur d'assistanat.De même, les droits sont accompagnés de devoirs dont celui de suivre un processus de retour vers l'emploi gérer par un organisme choisi par l'Etat.La rémunération solidaire doit être temporaire et symbole de la solidarité de la Nation envers nos concitoyens les plus faibles. Celle-ci ne devra pas excéder trois ans. 
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Guichet Unique de Prestations Sociales ( GUPS ).
 
@@ -1258,22 +1258,22 @@ Prendre en compte les problématiques spécifiques.
 
 La prise en compte de problématiques spécifiques doit apparaitre tant dans les objectifs que dans la mise en œuvre du dispositif. Il est notamment urgent de traiter la pauvreté des jeunes. Rappelons le constat : 26% des SDF ont entre 18 et 29 ans. De même, l’accès de tous au logement est un véritable défi.Retrouvez la contribution complète de l’UNSA sur son site à l'adresse suivante :https://www.unsa.org/Revenu-Universel-de-Solidarite-la-contribution-de-l-UNSA.html
 
-Label: 0;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 1.0;2. Assurer une existence digne aux allocataires.
 
 Individualiser l'Allocation aux Adultes Handicapés.
 
 Ne pas prendre en compte le revenu de tout le foyer. Aujourd’hui l’AAH est quasi-individualisée qu’en serait-il demain? Quelle serait la base ressources qui serait prise en compte pour le versement de l’AAH ? Les associations rappellent qu’un revenu convenable d'existence doit être au moins égal au seuil de pauvreté. Ce revenu d’existence doit par ailleurs respecter l’autonomie des personnes et leurs choix de vie. 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Intégrer les aides au logement dans le Revenu universel d'activité.
 
 Au-delà de l’AAH, le gouvernement envisage également l’intégration des Aides aux logements (APL) dans le Revenu Universel d'Activité. Avec d’autres associations du champ social nous sommes opposés à cette mesure. L’APL n’est pas un minimum social. Le versement de l’APL, directement aux personnes et non plus aux bailleurs, risquerait de fragiliser l’utilisation de ce montant pour le loyer du fait des situations permanentes de tension budgétaires, urgences, imprévus auxquelles sont soumises les personnes et familles en situation de grande précarité. Ce sont donc les impayés, les surendettements et les expulsions qui risquent d’augmenter. 
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Intégrer les aides au logement dans le Revenu universel d'activité.
 
 Au-delà de l’AAH, le gouvernement envisage également l’intégration des Aides aux logements (APL) dans le Revenu Universel d'Activité. Avec d’autres associations du champ social nous sommes opposés à cette mesure. L’APL n’est pas un minimum social. Le versement de l’APL, directement aux personnes et non plus aux bailleurs, risquerait de fragiliser l’utilisation de ce montant pour le loyer du fait des situations permanentes de tension budgétaires, urgences, imprévus auxquelles sont soumises les personnes et familles en situation de grande précarité. Ce sont donc les impayés, les surendettements et les expulsions qui risquent d’augmenter.
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 Lille Métropole Habitat.
 
@@ -1296,17 +1296,17 @@ Label: 0;Prediction: 0.0;2. Les modalités de demande du Revenu universel d'acti
 Détecter les personnes éligibles au Revenu universel d'activité afin de les informer de leur droit.
 
 Avec le prélèvement à la source et le grand nombre d’informations dont disposent les administrations, on pourrait plus facilement détecter les personnes qui pourraient bénéficier du Revenu universel d’activité voire le proposer ou l’actualiser automatiquement, mais chacun pourrait refuser de bénéficier de cette aide s’il ne le souhaite pas. 
-Label: 0;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 2;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 Ne plus tout dématérialiser / liens avec les professionnels locaux.
 
 Les publics les plus fragiles n'ont pas forcément accès au numérique. Le Revenu Universel d'Activité s'il ne veut pas exclure une partie de la population doit conserver une possible demande "papier". Cela garantira une équité dans la demande. Avoir une adresse mail, pour créer un compte, où des alertes arriveront constitue un réel obstacle pour certaines personnes. De plus l'organisme en charge de la gestion de l'allocation doit être accessible : c'est à dire: ne pas être joignable via un numéro surtaxé, doit pouvoir accueillir les bénéficiaires sans qu'ils aient du au préalable à prendre rendez vous sur internet. Les modalités d'accès en ligne sont évidemment à conserver pour ceux qui maîtrisent l'outil informatique mais reste insuffisant. De plus, il est indispensable que les travailleurs sociaux sur les territoires (ccas, service social départemental) puissent obtenir des informations sur les dossiers de manière fluide pour aider aux mieux les bénéficiaires mais également faciliter le traitement de dossiers par l'organisme gestionnaire ou payeur. Des voies de communication pour les professionnels peuvent être envisagées (référent joignable pour les questions, pour éviter les plate-forme très difficilement joignables, où les personnes doivent obligatoirement être présentes avec le travailleur social, ce qui réduit le temps passé à du réel accompagnement). Cela existe pour quelques organismes aujourd'hui mais reste peu réactif (réponse à un mail, sans aucun délai ni garantie de réponse, avec une limitation : question réponse sans possibilité de réel échange), absence de ce type de liens au niveau de nombreux organismes. Ils restent les 1ers professionnels qui peuvent repérer les personnes en difficulté (en lien avec tous les autres professionnels du secteur et les bénévoles), et les amener vers les droits.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 une seule aide par bénéficiaire.
 
 Comme avec l'impot à la source, cela permettra de mettre au jour les arnaques, ceux qui perçoivent de multiples aides indues sous différentes identités mais avec certains points communs. Le big data va aider en cela.Il faut intensifier les contrôles, arrêter de se contenter du déclaratif, tout le monde peut être suspect.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 0.0;1. Offrir un système plus lisible.
 
 APL.
 
@@ -1329,7 +1329,7 @@ Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
 Lutter contre le non-recours en s’appuyant sur les bases de données de ressources.
 
 De nouveaux outils sont disponibles pour lutter contre le non-recours : base de données des revenus issus du travail et revenus de remplacements, partage des données entre organismes.Ces bases de données doivent permettre de déterminer automatiquement l'éligibilité ou non des individus. Sans aller jusqu’à une automatisation totale du versement du Revenu Universel d'Activité qui comporte des risques d’arbitraire, les données pourraient être utilisées pour calculer un taux de non-recours effectif. Ce taux de non-recours effectif serait intégré aux indicateurs suivis dans le cadre la contractualisation Etat-Départements initiée depuis le lancement du plan pauvreté. L'objectif pour chaque territoire serait d'atteindre un taux de non-recours quasiment nul via la mise en place d’actions ad-hoc : partenariats avec des associations, ciblage de populations identifiées comme particulièrement sensibles au non-recours etc.
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 0;Prediction: 2.0;1. Offrir un système plus lisible.
 
 RUA.
 
@@ -1372,7 +1372,7 @@ Label: 1;Prediction: 0.0;1. Offrir un système plus lisible.
 revenu CITOYEN.
 
 Revenu mensuel de 1000 euros non imposables a toute personne majeures inscrites sur les listes électorales et votantes ayant une activité quelle quelle soit et légale sur le territoire français..Et QUI REMPLACE TOUTES LES AIDES SOCIALES,SAUF L'ALLOCATION LOGEMENT qui serait,elle,augmentée.Serait supprimé toutes les avantages fiscaux pour le financer.
-Label: 0;Prediction: 1.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 1.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Vous avez dit universel!
 
@@ -1390,12 +1390,12 @@ dégradation des aides sociales.
 
 Vue que la baisse chômage va entraîner plus de pauvretée et ne permetra plus de rechercher un travail ( essence, timbre...), faudrait que le Revenu de Solidarité Active puisent etre cumulé  avec le chômage.
 
-Label: 0;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
+Label: 2;Prediction: 0.0;2. Assurer une existence digne aux allocataires.
 
 REDUIRE LA PAUVRETE.
 
 Lissage des aides, avec une augmentation du Revenu de Solidarité Active, mais sous la conditions qu les personnes recherchent en parrallèle du travail
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Accompagner le public c'est pas nouveau et c'est obligatoire pour le Revenu de Solidarité Active même avant pour le RMI!
 
@@ -1405,7 +1405,7 @@ Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-i
 Pour tous.
 
 Un revenu universel pour tous fini le Revenu de Solidarité Active la prime d'activité le chômage tous avec un revenu universel de xxxx€ après tu décides de travailler pour gagner plus et avoir un avenir plus confortable selon tes besoins. Resultat plus de chômeur, plus de précarité et ++ de travail pour ceux qui le souhaitent. Des mamans ou papas au foyer avec une rémunération moins d'enfants a l'abandons donc moins d'échec de troubles du comportement....
-Label: 0;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 2;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Un Revenu Universel d'Activité compensatoire.
 
@@ -1423,27 +1423,27 @@ La banque ADN  une banque qui assure sur la vie de l'humanité.
 
 Bonjour, Pour financer un vrai revenu universel c'est à dire dont tout le monde a droit de façon égale, il faut créer le marché de l'économie sur lequel on ne peut se procurer que des denrées vitales avec de L'ADN  #argentdématérialisénumérique distribué par une banque qui appartient à l'humanité et qui est l'assurance vie de l'humanité.  Lire mon article c'est gratuit : http://enigme-de-patricia.over-blog.com/2019/03/banque-du-climat-vs-banque-adn-argentdematerialisenumerique.html L'ADN de Patricia est le cahier des charges d'un 2 ième système qui résoudrait tous les problèmes sociaux et environnementaux. Le règne de la récompense individuelle est la contre partie du système existant qui est le règne de la punition collective et qui compte sur le civisme et le bénévolat pour régler nos problèmes qui devraient l'être grâce à nos impôts. Pourquoi seraient-ce  les citoyens propres et civiques et bénévoles  qui devraient réparer  les dérives écologiques et sociétales  des gens sales et égoïstes peu soucieux de l'avenir de l'humanité. Je propose un deuxième système qui lui récompenserait le civisme écologique et social. C'est très simple à faire. Lire L'ADN de Patricia c'est gratuit INEDIT  et détaillé   sur mon site http://dubruly.free.fr  fini la pauvreté le réchauffement climatique et les gâchis les problèmes liés au chômage, ceux liés à la santé,  le #revenuvitalactif   RVA  est universel pas le  Revenu Universel d'Activité C'est urgent ! Le Revenu Universel d'Activité ne changera rien il ne fera que déplacer les problèmes et en rajouter d'autres. Tapez  dubruly sur la ligne de recherche de votre  navigateur . Cordialement dubruly@free.fr
 
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 inclure les étudiants.
 
 donc ... un revenu universel
-Label: 0;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 2;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Revenu vraiment universel (et unique).
 
 Pour que ce revenu soit vraiment universel il faut :par définition que tout le monde le perçoive (et non pas que ce soit comme toujours uniquement ceux qui vivent au crochet des autres ...)supprimer toutes les autres aides 
-Label: 0;Prediction: 0.0;3. Encourager la reprise d'activité.
+Label: 2;Prediction: 2.0;3. Encourager la reprise d'activité.
 
 revenu universel d'activité pour tous sans condition.
 
 un revenu universel est comme son nom l'indique pour tous, sans condition. il reste meme si la personne qui veut gagner plus va travailler. et permet de garantir un minimum vital à tout un chacun ainsi pas de comparaison ni de jugement puisque tout le monde a une base identique donc pas de fraude ni de profiteur. on perçoit  tous le meme montant.
-Label: 0;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 2;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Tout le monde : c'est un revenu UNIVERSEL.
 
 Le revenu universel est comme son nom l'indique universel. Tout le monde gagnerait quelque soit son travail, activité, âgé, un revenu pour pouvoir vivre décemment. Fini les calculs pour savoir si on doit reprendre le travail, fini les calculs de savoir si on va manger à la fin du moins, et pas de mauvaises surprises comme certains politiques l'ont proposés : pas de suppression de la cmu ou des allocations.
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 A QUI DOIT S'ADRESSER LE Revenu Universel d'Activité.
 
@@ -1461,17 +1461,17 @@ Label: 1;Prediction: 0.0;1. Offrir un système plus lisible;.
 Changer le nom - et ne pas lier le revenu Universel à la question de l'activité.
 
 Penser le revenu universel comme un revenu minimum d'existance garanti pour toute personne majeure. Cela implique que la société se positionne pour un revenu inconditionnel minimum pour chacun de ces citoyens, en fonction du seuil de pauvreté. Le Revenu de Solidarité Active est présenté comme tel à l'heure actuelle, mais il est également relié à la question de l'activité et il est contractualisé entre la personne qui le perçoit et les pouvoirs publics. Par ailleurs, il est n'est pas ouvert à toutes les personnes majeures où alors avec des conditions difficiles à réunirent, notamment pour les jeunes de moins de 25 ans. Je propose donc d'instaurer un revenu minimum d'existence que l'état s'engage à garantir à toute personne majeure. Ce revenu ne doit pas être conditionné à une activité, un travail... Un plafond de revenus pourrait également être fixé : lorsq'un foyer cumul des revenus supérieurs à ce plafond, il ne pourrait alors plus prétendre à percevoir ce revenu minimum d’existence.Par ailleurs Je ne crois pas à la fusion totale de toute les aides sociales et autres allocations spécifiques. On ne peut pas simplifier à outrance ce qui ne l'est pas, au risque de devenir simpliste.  Les personnes ont parfois des besoins spédifiques, je pense à une situation de handicap par exemple, qui impactent la vie quotidienne et qui demande à être prise en compte de manière spécifique.
-Label: 1;Prediction: 0.0;4. Répondre à un principe d'équité.
+Label: 1;Prediction: 2.0;4. Répondre à un principe d'équité.
 
 REVENU UNIVERSEL POUR TOUS DES LA NAISSANCE.
 
 Revenu universel dès la naissance pour tout citoyen résidant légalement en France. Pour un enfant, le versement sera bloqué et mis à disposition dès sa majorité.
-Label: 1;Prediction: 0.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
+Label: 1;Prediction: 2.0;1. Les conditions à remplir pour bénéficier du Revenu universel d'activité.
 
 Tous égaux alors même aide financière.
 
 800 € verser automatiquement au plus de 16 ans résidant en France au 1er de chaque mois sans aucune condition.Aucune fraude possible aucun papier à fournir.
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Qui peut prétendre au Revenu Universel d'Activité.
 
@@ -1522,7 +1522,7 @@ Une évaluation par un travailleur social (mi sur grille mi humaine) et un accom
 
 Il faut que la personne soit évaluée par un travailleur social bien formé pour activer le droit au Revenu Universel d'Activité et qu'un accompagnement pluri-disciplinaire puisse être proposé selon les besoins : accompagnement vers l'emploi, aide à la gestion du budget, accompagnement vers le soin, vers l'adaptation du logement (si insalubre ou inaccessible). Le travail en intelligence et en partenariat avec les différents partenaires permettrait de suivre l'évolution des bénéficiaires sans faire peser le suivi sur un seul professionnel nommé et serait bien plus bénéfique et adapté.
 
-Label: 1;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 1;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Versement automatique.
 
@@ -1555,22 +1555,22 @@ Les honnêtes gens d'abord.
 
 Stop aux gaspillage. Toute aide DOIT être conditionnée à un casier vierge ET à la maîtrise parfaite de la langue française ET au refus de tout signe ou symbole d'appartenance à une culture, civilisation, identité étrangère. Ces points doivent concerner le bénéficiaire et l'ensemble de son foyer pour que l'investissement soit pertinent. Le cas échéant, le gouvernement ne pourrait alors plus nier sa volonté de fragmenter la société française tout en détruisant ses valeurs.
 
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 A toute personne sans revenus.
 
 Le Revenu Universel d'Activité doit être considéré comme un revenu minimum et être versé à toutes personnes actives sans revenus et sans condition d'insertion, de travail d'intérêt général ou de bénévolat. Pour les jeunes de moins de 25 ans, le système des bourses doit être maintenu et consolider pour aider tous les jeunes dont les parents ont un revenu faible. Le Revenu Universel d'Activité permet à chaque personne vivant en France d'avoir un revenu minimum pour vivre, il a pour objectif de combattre la pauvreté et l'exclusion des personnes sans revenus. Il ne s'agit pas d'un salaire mais d'une aide, il ne permet donc pas de justifier la demande en contre partie de TIG ou bénévolat. Pour l'essentiel des personnes bénéficiaires, elles le subissent plus qu'elles ne le choisissent de vivre avec 450 € / mois. Il s'agit d'une démarche solidaire de la société envers ceux qui en ont besoin (ce qui peut nous arriver à tous un jour), quand on aide on ne demande rien en retour. A aucun moment ces aides sociales sont responsables du déficit financier de l'état.
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Une autre vision du revenu d'activité.
 
 Plutôt qu'un revenu d'activité je préfèrerai un revenu d'autonomie attribué à tous à partir de la majorité sans conditions d'attribution. Plus de fraudes possibles et donc fin des contrôles. Un tel revenu ne dispenserai pas de chercher un emploi ou de créer son entreprise pour participer pleinement à la vie sociale du pays, chacun pouvant participer à son rythme et selon ses projets en fonction de ses capacités.
-Label: 1;Prediction: 0.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
+Label: 1;Prediction: 2.0;À quels publics le revenu universel d'activité doit-il s'adresser ?
 
 Revenu pour toutes personne en dessous du seuil de pauvreté.
 
 Tout citoyen Français en dessous du seul de pauvreté sans condition autre que d'être Français
-Label: 1;Prediction: 0.0;1. Offrir un système plus lisible.
+Label: 1;Prediction: 2.0;1. Offrir un système plus lisible.
 
 Allocation Universelle Citoyenne.
 
