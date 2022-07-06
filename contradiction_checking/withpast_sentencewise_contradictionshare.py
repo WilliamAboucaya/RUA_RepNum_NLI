@@ -104,7 +104,7 @@ if __name__ == "__main__":
             recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]
             file.write("Precision: ")
             file.write(f"{precision_results[0]} for label 0 | {precision_results[1]} for label 1 | {precision_results[2]} for label 2")
-            file.write("Recall: ")
+            file.write("\nRecall: ")
             file.write(f"{recall_results[0]} for label 0 | {recall_results[1]} for label 1 | {recall_results[2]} for label 2")
             file.write("\nF1 micro: ")
             file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
@@ -122,7 +122,7 @@ if __name__ == "__main__":
             recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]
             file.write("Precision: ")
             file.write(f"{precision_results[0]} for label 0 | {precision_results[1]} for label 1 | {precision_results[2]} for label 2")
-            file.write("Recall: ")
+            file.write("\nRecall: ")
             file.write(f"{recall_results[0]} for label 0 | {recall_results[1]} for label 1 | {recall_results[2]} for label 2")
             file.write("\nF1 micro: ")
             file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
