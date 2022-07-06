@@ -101,10 +101,12 @@ if __name__ == "__main__":
                 plt.plot()
 
             file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")
+            precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
+            recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]
             file.write("Precision: ")
-            file.write(str(precision_metric.compute(predictions=predictions, references=labels)["precision"]))
+            file.write(f"{precision_results[0]} for label 0 | {precision_results[1]} for label 1 | {precision_results[2]} for label 2")
             file.write("Recall: ")
-            file.write(str(recall_metric.compute(predictions=predictions, references=labels)["recall"]))
+            file.write(f"{recall_results[0]} for label 0 | {recall_results[1]} for label 1 | {recall_results[2]} for label 2")
             file.write("\nF1 micro: ")
             file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
             file.write("\nF1 macro: ")
@@ -117,10 +119,12 @@ if __name__ == "__main__":
             labels = labeled_proposals["label"].tolist()
 
             file.write(f"With contradiction_threshold = {computed_contradiction_threshold} and entailment_threshold = {entailment_threshold}\n")
+            precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
+            recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]
             file.write("Precision: ")
-            file.write(str(precision_metric.compute(predictions=predictions, references=labels)["precision"]))
+            file.write(f"{precision_results[0]} for label 0 | {precision_results[1]} for label 1 | {precision_results[2]} for label 2")
             file.write("Recall: ")
-            file.write(str(recall_metric.compute(predictions=predictions, references=labels)["recall"]))
+            file.write(f"{recall_results[0]} for label 0 | {recall_results[1]} for label 1 | {recall_results[2]} for label 2")
             file.write("\nF1 micro: ")
             file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
             file.write("\nF1 macro: ")

@@ -81,10 +81,12 @@ if __name__ == "__main__":
     with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_proposalwise_metrics.log", "w", encoding="utf8") as file:
         predictions = labeled_proposals["predicted_label"].tolist()
         labels = labeled_proposals["label"].tolist()
+        precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
+        recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]
         file.write("Precision: ")
-        file.write(str(precision_metric.compute(predictions=predictions, references=labels)["precision"]))
+        file.write(f"{precision_results[0]} for label 0 | {precision_results[1]} for label 1 | {precision_results[2]} for label 2")
         file.write("Recall: ")
-        file.write(str(recall_metric.compute(predictions=predictions, references=labels)["recall"]))
+        file.write(f"{recall_results[0]} for label 0 | {recall_results[1]} for label 1 | {recall_results[2]} for label 2")
         file.write("\nF1 micro: ")
         file.write(str(f1_metric.compute(predictions=predictions, references=labels, average="micro")["f1"]))
         file.write("\nF1 macro: ")
