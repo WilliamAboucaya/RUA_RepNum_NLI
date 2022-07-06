@@ -146,7 +146,7 @@ def maximize_f1_score(contradiction_shares: pd.Series, entailment_shares: pd.Ser
 
 def define_label(contradiction_share: float, entailment_share: float, contradiction_threshold: float, entailment_threshold: float) -> int:
     if (contradiction_share >= contradiction_threshold) and (entailment_share >= entailment_threshold):
-        return int(contradiction_share > entailment_share)
+        return int((contradiction_share - contradiction_threshold) > (entailment_share - entailment_threshold))
     elif contradiction_share >= contradiction_threshold:
         return 1
     elif entailment_share >= entailment_threshold:
