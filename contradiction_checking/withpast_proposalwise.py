@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 
 from datasets import load_metric
+from matplotlib import pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import sys
 sys.path.append('../')
@@ -70,6 +72,10 @@ if __name__ == "__main__":
     with open(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise_metrics.log", "w", encoding="utf8") as file:
         predictions = labeled_proposals["predicted_label"].tolist()
         labels = labeled_proposals["label"].tolist()
+
+        ConfusionMatrixDisplay.from_predictions(labels, predictions)
+        plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise_matrix.eps", format="eps")
+        plt.show()
 
         precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
         recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]

@@ -94,10 +94,9 @@ if __name__ == "__main__":
             labels = labeled_proposals["label"].tolist()
 
             if contradiction_threshold == computed_contradiction_threshold:
-                ConfusionMatrixDisplay.from_predictions(np.ndarray(labels), np.ndarray(predictions))
-
-                plt.savefig(f"../results/threshold/{consultation_prefix}_nli/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencecouple_contradictionshare_matrix.eps", format="eps")
-                plt.plot()
+                ConfusionMatrixDisplay.from_predictions(labels, predictions)
+                plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencecouple_contradictionshare_matrix.eps", format="eps")
+                plt.show()
 
             file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")
             precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
