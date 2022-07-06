@@ -1,12 +1,17 @@
 import re
+import math
 from typing import Tuple
-
+import numpy as np
 from datasets import Metric
 import pandas as pd
 from datasets import DatasetDict, concatenate_datasets
 from scipy.optimize import dual_annealing
 
 from tokens_distribution import get_tokens_distribution
+
+
+import torch
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 
 def remove_past_sentences(proposal_content, sentences_tokenizer, nlp_token_classifier):
@@ -28,6 +33,12 @@ def predict_nli(premise, hypothesis, nli_tokenizer, nli_model) -> int:
     logits = nli_model(x)[0]
     probs = logits[:, ::].softmax(dim=1)
     return int(probs.detach().argmax())
+
+
+def predict_nli_batch(batch, nli_tokenizer, nli_model):
+    x = nli_tokenizer(batch, return_tensors='pt', max_length=512, padding=True, truncation=True).to(device)
+    logits = nli_model(x['input_ids'], attention_mask=x['attention_mask']).logits
+    return logits.argmax(dim=1)
 
 
 def apply_model_sentencewise(row, sentences_tokenizer, nli_tokenizer, nli_model):
@@ -65,6 +76,77 @@ def apply_model_sentencewise(row, sentences_tokenizer, nli_tokenizer, nli_model)
     return nb_entailed_pairs, share_entailed_pairs, nb_contradictory_pairs, share_contradictory_pairs, nb_neutral_pairs, share_neutral_pairs
 
 
+def apply_model_sentencewise_batch(proposals, sentences_tokenizer, nli_tokenizer, nli_model, batch_size):
+    proposals["nb_entailed_pairs"] = np.nan
+    proposals["share_entailed_pairs"] = np.nan
+    proposals["nb_contradictory_pairs"] = np.nan
+    proposals["share_contradictory_pairs"] = np.nan
+    proposals["nb_neutral_pairs"] = np.nan
+    proposals["share_neutral_pairs"] = np.nan
+    positions_tuples = []
+    sentences = []
+    predictions = []
+    for i in range(len(proposals)):
+        positions_tuples.append(len(sentences))
+        premise_sentences = sentences_tokenizer.tokenize(proposals.at[i, "premise"])
+        hypothesis_sentences = sentences_tokenizer.tokenize(proposals.at[i, "hypothesis"])
+        for i in range(len(premise_sentences)):
+            for j in range(len(hypothesis_sentences)):
+                sentences.append((premise_sentences[i], hypothesis_sentences[j]))
+
+    print("Sentences pair number = " + str(len(sentences)))
+    nb_batches = int(math.ceil(len(sentences) / batch_size))
+    for i in range(nb_batches):
+        start_poz = i * batch_size
+        stop_poz = min(start_poz + batch_size, len(sentences))
+        batch = []
+        for j in range(start_poz, stop_poz):
+            batch.append(sentences[j])
+
+        predicted_labels = predict_nli_batch(batch, nli_tokenizer, nli_model)
+        for j in range(start_poz, stop_poz):
+            predictions.append(predicted_labels[j - start_poz].item())
+
+    for i in range(len(positions_tuples)):
+        pos_start = positions_tuples[i]
+        pos_end = len(sentences)
+        if i < len(positions_tuples) - 1:
+            pos_end = positions_tuples[i + 1]
+        nb_entailed_pairs = 0
+        nb_contradictory_pairs = 0
+        nb_neutral_pairs = 0
+        for j in range(pos_start, pos_end):
+            predicted_label = predictions[j]
+            if predicted_label == 0:
+                nb_entailed_pairs += 1
+            elif predicted_label == 1:
+                nb_contradictory_pairs += 1
+            else:
+                nb_neutral_pairs += 1
+
+        try:
+            share_entailed_pairs = nb_entailed_pairs / (pos_end - pos_start)
+        except ZeroDivisionError:
+            share_entailed_pairs = 0
+        try:
+            share_contradictory_pairs = nb_contradictory_pairs / (pos_end - pos_start)
+        except ZeroDivisionError:
+            share_contradictory_pairs = 0
+        try:
+            share_neutral_pairs = nb_neutral_pairs / (pos_end - pos_start)
+        except ZeroDivisionError:
+            share_neutral_pairs = 0
+        # nb_entailed_pairs, share_entailed_pairs, nb_contradictory_pairs, share_contradictory_pairs, nb_neutral_pairs, share_neutral_pairs
+
+        proposals.at[i, "nb_entailed_pairs"] = nb_entailed_pairs
+        proposals.at[i, "share_entailed_pairs"] = share_entailed_pairs
+        proposals.at[i, "nb_contradictory_pairs"] = nb_contradictory_pairs
+        proposals.at[i, "share_contradictory_pairs"] = share_contradictory_pairs
+        proposals.at[i, "nb_neutral_pairs"] = nb_neutral_pairs
+        proposals.at[i, "share_neutral_pairs"] = share_neutral_pairs
+
+
+
 def apply_model_sentencecouple(row, sentences_tokenizer, nli_tokenizer, nli_model):
     premise_sentences = sentences_tokenizer.tokenize(row["premise"])
     hypothesis_sentences = sentences_tokenizer.tokenize(row["hypothesis"])
@@ -99,6 +181,78 @@ def apply_model_sentencecouple(row, sentences_tokenizer, nli_tokenizer, nli_mode
         share_neutral_pairs = 0
 
     return nb_entailed_pairs, share_entailed_pairs, nb_contradictory_pairs, share_contradictory_pairs, nb_neutral_pairs, share_neutral_pairs
+
+
+def apply_model_sentencecouple_batch(proposals, sentences_tokenizer, nli_tokenizer, nli_model, batch_size):
+    proposals["nb_entailed_pairs"] = np.nan
+    proposals["share_entailed_pairs"] = np.nan
+    proposals["nb_contradictory_pairs"] = np.nan
+    proposals["share_contradictory_pairs"] = np.nan
+    proposals["nb_neutral_pairs"] = np.nan
+    proposals["share_neutral_pairs"] = np.nan
+    positions_tuples = []
+    sentences = []
+    predictions = []
+    for i in range(len(proposals)):
+        positions_tuples.append(len(sentences))
+        premise_sentences = sentences_tokenizer.tokenize(proposals.at[i, "premise"])
+        hypothesis_sentences = sentences_tokenizer.tokenize(proposals.at[i, "hypothesis"])
+        for i in range(len(premise_sentences)):
+            for j in range(len(hypothesis_sentences)):
+                sentences.append(
+                    (" ".join(premise_sentences[i - 1:i + 1]), " ".join(hypothesis_sentences[j - 1:j + 1])))
+
+    print("Sentences pair number = " + str(len(sentences)))
+    nb_batches = int(math.ceil(len(sentences) / batch_size))
+    for i in range(nb_batches):
+        start_poz = i * batch_size
+        stop_poz = min(start_poz + batch_size, len(sentences))
+        batch = []
+        for j in range(start_poz, stop_poz):
+            batch.append(sentences[j])
+
+        predicted_labels = predict_nli_batch(batch, nli_tokenizer, nli_model)
+        for j in range(start_poz, stop_poz):
+            predictions.append(predicted_labels[j - start_poz].item())
+
+    for i in range(len(positions_tuples)):
+        pos_start = positions_tuples[i]
+        pos_end = len(sentences)
+        if i < len(positions_tuples) - 1:
+            pos_end = positions_tuples[i + 1]
+        nb_entailed_pairs = 0
+        nb_contradictory_pairs = 0
+        nb_neutral_pairs = 0
+        for j in range(pos_start, pos_end):
+            predicted_label = predictions[j]
+            if predicted_label == 0:
+                nb_entailed_pairs += 1
+            elif predicted_label == 1:
+                nb_contradictory_pairs += 1
+            else:
+                nb_neutral_pairs += 1
+
+        try:
+            share_entailed_pairs = nb_entailed_pairs / (pos_end - pos_start)
+        except ZeroDivisionError:
+            share_entailed_pairs = 0
+        try:
+            share_contradictory_pairs = nb_contradictory_pairs / (pos_end - pos_start)
+        except ZeroDivisionError:
+            share_contradictory_pairs = 0
+        try:
+            share_neutral_pairs = nb_neutral_pairs / (pos_end - pos_start)
+        except ZeroDivisionError:
+            share_neutral_pairs = 0
+        # nb_entailed_pairs, share_entailed_pairs, nb_contradictory_pairs, share_contradictory_pairs, nb_neutral_pairs, share_neutral_pairs
+
+        proposals.at[i, "nb_entailed_pairs"] = nb_entailed_pairs
+        proposals.at[i, "share_entailed_pairs"] = share_entailed_pairs
+        proposals.at[i, "nb_contradictory_pairs"] = nb_contradictory_pairs
+        proposals.at[i, "share_contradictory_pairs"] = share_contradictory_pairs
+        proposals.at[i, "nb_neutral_pairs"] = nb_neutral_pairs
+        proposals.at[i, "share_neutral_pairs"] = share_neutral_pairs
+
 
 
 def get_original_proposal_repnum(reply_contribution: pd.Series, previous_contributions: pd.DataFrame) -> pd.Series:
