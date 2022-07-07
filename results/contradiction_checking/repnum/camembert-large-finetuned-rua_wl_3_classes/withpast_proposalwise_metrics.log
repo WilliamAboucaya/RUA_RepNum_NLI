@@ -1,3 +1,4 @@
-Accuracy: 0.34579439252336447
+Precision: 0.24705882352941178 for label 0 | 0.5 for label 1 | 0.8125 for label 2
+Recall: 0.9545454545454546 for label 0 | 0.15 for label 1 | 0.2 for label 2
 F1 micro: 0.34579439252336447
 F1 macro: 0.31476008319206655

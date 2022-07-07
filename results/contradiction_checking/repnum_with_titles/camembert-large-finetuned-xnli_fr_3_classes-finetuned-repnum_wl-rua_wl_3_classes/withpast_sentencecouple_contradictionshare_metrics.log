@@ -1,76 +1,95 @@
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.2637060552270416 * COMPUTED THRESHOLDS
-Accuracy: 0.7009345794392523
-F1 micro: 0.7009345794392523
-F1 macro: 0.4426807760141093
-With contradiction_threshold = 0.1 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.7009345794392523
-F1 micro: 0.7009345794392523
-F1 macro: 0.420378904249872
-With contradiction_threshold = 0.2 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.7009345794392523
-F1 micro: 0.7009345794392523
-F1 macro: 0.4307608100711549
-With contradiction_threshold = 0.30000000000000004 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.7009345794392523
-F1 micro: 0.7009345794392523
-F1 macro: 0.4365079365079365
-With contradiction_threshold = 0.4 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.7009345794392523
-F1 micro: 0.7009345794392523
-F1 macro: 0.4426807760141093
-With contradiction_threshold = 0.5 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.7102803738317757
-F1 micro: 0.7102803738317757
-F1 macro: 0.45167652859960555
-With contradiction_threshold = 0.6 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.6915887850467289
-F1 micro: 0.6915887850467289
-F1 macro: 0.3909616395165528
-With contradiction_threshold = 0.7000000000000001 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.6728971962616822
-F1 micro: 0.6728971962616822
-F1 macro: 0.3333333333333333
-With contradiction_threshold = 0.8 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.6728971962616822
-F1 micro: 0.6728971962616822
-F1 macro: 0.3333333333333333
-With contradiction_threshold = 0.9 and entailment_threshold = 0.2637060552270416
-Accuracy: 0.6728971962616822
-F1 micro: 0.6728971962616822
-F1 macro: 0.3333333333333333
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.1
-Accuracy: 0.7850467289719626
-F1 micro: 0.7850467289719625
-F1 macro: 0.4628583385645532
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.2
-Accuracy: 0.7289719626168224
-F1 micro: 0.7289719626168223
-F1 macro: 0.44964262508122155
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.30000000000000004
-Accuracy: 0.6635514018691588
-F1 micro: 0.6635514018691588
-F1 macro: 0.43300210779885573
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.4
-Accuracy: 0.6074766355140186
-F1 micro: 0.6074766355140186
-F1 macro: 0.4191240072344106
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.5
-Accuracy: 0.5233644859813084
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.15480576636764454 * COMPUTED THRESHOLDS
+Precision: 0.23529411764705882 for label 0 | 0.75 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.3333333333333333 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.36448598130841114
+F1 macro: 0.3853233742787356
+With contradiction_threshold = 0.1 and entailment_threshold = 0.15480576636764454
+Precision: 0.2564102564102564 for label 0 | 0.5 for label 1 | 1.0 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.5 for label 1 | 0.16176470588235295 for label 2
+F1 micro: 0.37383177570093457
+F1 macro: 0.39417380556621057
+With contradiction_threshold = 0.2 and entailment_threshold = 0.15480576636764454
+Precision: 0.24096385542168675 for label 0 | 0.6363636363636364 for label 1 | 0.9230769230769231 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.3888888888888889 for label 1 | 0.17647058823529413 for label 2
+F1 micro: 0.36448598130841114
+F1 macro: 0.3878901005337787
+With contradiction_threshold = 0.30000000000000004 and entailment_threshold = 0.15480576636764454
+Precision: 0.23529411764705882 for label 0 | 0.6666666666666666 for label 1 | 0.9230769230769231 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.3333333333333333 for label 1 | 0.17647058823529413 for label 2
+F1 micro: 0.35514018691588783
+F1 macro: 0.3726997437689261
+With contradiction_threshold = 0.4 and entailment_threshold = 0.15480576636764454
+Precision: 0.2247191011235955 for label 0 | 1.0 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.2222222222222222 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.34579439252336447
+F1 macro: 0.34811529933481156
+With contradiction_threshold = 0.5 and entailment_threshold = 0.15480576636764454
+Precision: 0.21978021978021978 for label 0 | 1.0 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.1111111111111111 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.32710280373831774
+F1 macro: 0.29140534262485485
+With contradiction_threshold = 0.6 and entailment_threshold = 0.15480576636764454
+Precision: 0.21978021978021978 for label 0 | 1.0 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.1111111111111111 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.32710280373831774
+F1 macro: 0.29140534262485485
+With contradiction_threshold = 0.7000000000000001 and entailment_threshold = 0.15480576636764454
+Precision: 0.21978021978021978 for label 0 | 1.0 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.1111111111111111 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.32710280373831774
+F1 macro: 0.29140534262485485
+With contradiction_threshold = 0.8 and entailment_threshold = 0.15480576636764454
+Precision: 0.21978021978021978 for label 0 | 1.0 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.1111111111111111 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.32710280373831774
+F1 macro: 0.29140534262485485
+With contradiction_threshold = 0.9 and entailment_threshold = 0.15480576636764454
+Precision: 0.21978021978021978 for label 0 | 1.0 for label 1 | 0.9285714285714286 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.1111111111111111 for label 1 | 0.19117647058823528 for label 2
+F1 micro: 0.32710280373831774
+F1 macro: 0.29140534262485485
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.1
+Precision: 0.21505376344086022 for label 0 | 1.0 for label 1 | 0.9 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.2222222222222222 for label 1 | 0.1323529411764706 for label 2
+F1 micro: 0.308411214953271
+F1 macro: 0.31509426246268346
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.2
+Precision: 0.24096385542168675 for label 0 | 0.75 for label 1 | 0.9375 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.3333333333333333 for label 1 | 0.22058823529411764 for label 2
+F1 micro: 0.383177570093458
+F1 macro: 0.40109890109890106
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.30000000000000004
+Precision: 0.26666666666666666 for label 0 | 0.7777777777777778 for label 1 | 0.9565217391304348 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.3888888888888889 for label 1 | 0.3235294117647059 for label 2
+F1 micro: 0.45794392523364486
+F1 macro: 0.47290055623388955
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.4
+Precision: 0.31746031746031744 for label 0 | 0.5714285714285714 for label 1 | 0.9333333333333333 for label 2
+Recall: 0.9523809523809523 for label 0 | 0.4444444444444444 for label 1 | 0.4117647058823529 for label 2
 F1 micro: 0.5233644859813084
-F1 macro: 0.4045977011494252
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.6
-Accuracy: 0.411214953271028
-F1 micro: 0.411214953271028
-F1 macro: 0.33699633699633696
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.7000000000000001
-Accuracy: 0.2897196261682243
-F1 micro: 0.2897196261682243
-F1 macro: 0.28343508343508345
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.8
-Accuracy: 0.24299065420560748
-F1 micro: 0.24299065420560748
-F1 macro: 0.26048906048906045
-With contradiction_threshold = 0.3220185871187309 and entailment_threshold = 0.9
-Accuracy: 0.1588785046728972
-F1 micro: 0.1588785046728972
-F1 macro: 0.21298701298701297
+F1 macro: 0.5158730158730158
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.5
+Precision: 0.37254901960784315 for label 0 | 0.5 for label 1 | 0.9 for label 2
+Recall: 0.9047619047619048 for label 0 | 0.4444444444444444 for label 1 | 0.5294117647058824 for label 2
+F1 micro: 0.5887850467289719
+F1 macro: 0.5550108932461875
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.6
+Precision: 0.43902439024390244 for label 0 | 0.47058823529411764 for label 1 | 0.8367346938775511 for label 2
+Recall: 0.8571428571428571 for label 0 | 0.4444444444444444 for label 1 | 0.6029411764705882 for label 2
+F1 micro: 0.6261682242990654
+F1 macro: 0.5795475730959602
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.7000000000000001
+Precision: 0.42857142857142855 for label 0 | 0.47058823529411764 for label 1 | 0.7741935483870968 for label 2
+Recall: 0.5714285714285714 for label 0 | 0.4444444444444444 for label 1 | 0.7058823529411765 for label 2
+F1 micro: 0.6355140186915887
+F1 macro: 0.5618001046572475
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.8
+Precision: 0.5 for label 0 | 0.47058823529411764 for label 1 | 0.7647058823529411 for label 2
+Recall: 0.5238095238095238 for label 0 | 0.4444444444444444 for label 1 | 0.7647058823529411 for label 2
+F1 micro: 0.6635514018691588
+F1 macro: 0.5778255488241809
+With contradiction_threshold = 0.3165372058549991 and entailment_threshold = 0.9
+Precision: 0.6 for label 0 | 0.47058823529411764 for label 1 | 0.7 for label 2
+Recall: 0.2857142857142857 for label 0 | 0.4444444444444444 for label 1 | 0.8235294117647058 for label 2
+F1 micro: 0.6542056074766355
+F1 macro: 0.5336654626977207
