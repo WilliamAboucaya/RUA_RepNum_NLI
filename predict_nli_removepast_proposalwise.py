@@ -35,8 +35,8 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
         print(f"No such revision '{model_revision}' for model '{model_name}'")
         quit()
 
-    labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
-    labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    # labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    # labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
     labeled_proposals_couples["predicted_label"] = np.nan
 
     nb_batches = int(math.ceil(len(labeled_proposals_couples)/batch_size))
@@ -74,10 +74,10 @@ if __name__ == "__main__":
     recall_metric = load_metric("recall", experiment_id=exp_id)
     f1_metric = load_metric("f1", experiment_id=exp_id)
 
-    labeled_proposals = pd.read_csv(f"consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
-                                    encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
-    # labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+    # labeled_proposals = pd.read_csv(f"consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
     #                                 encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+                                    encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision, batch_size)
 

@@ -24,9 +24,9 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
     labeled_proposals_couples = proposals_couples.copy()
 
     sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-    pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo").to(device)
-    pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-    nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device = 0)
+    # pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo").to(device)
+    # pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+    # nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device = 0)
 
     try:
         nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision).to(device)
@@ -35,8 +35,8 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
         print(f"No such revision '{model_revision}' for model '{model_name}'")
         quit()
 
-    labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
-    labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    # labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    # labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
 
     apply_model_sentencecouple_batch(labeled_proposals_couples, sentences_tokenizer, nli_tokenizer, nli_model, batch_size)
 
@@ -62,10 +62,10 @@ if __name__ == "__main__":
     recall_metric = load_metric("recall", experiment_id=exp_id)
     f1_metric = load_metric("f1", experiment_id=exp_id)
 
-    labeled_proposals = pd.read_csv(f"consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
-                                    encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
-    # labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+    # labeled_proposals = pd.read_csv(f"consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
     #                                 encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+                                    encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision, batch_size)
 
