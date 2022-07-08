@@ -29,9 +29,9 @@ def generate_graph_from_dataframe(df: pd.DataFrame, strategy: str, model_checkpo
 
 if __name__ == "__main__":
     consultation_name = sys.argv[1]
-    strategy_to_apply = sys.argv[2]
-    model_checkpoint = sys.argv[3]
-    model_revision = sys.argv[4]
+    model_checkpoint = sys.argv[2]
+    model_revision = sys.argv[3]
+    strategy_to_apply = sys.argv[4]
     batch_size = int(sys.argv[5])
 
     model_name = model_checkpoint.split("/")[-1]
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     strategy_to_apply_radix = "withpast_" + strategy_to_apply.split("_", 1)[1]
     apply_strategy = importlib.import_module(f"contradiction_checking.{strategy_to_apply_radix}").apply_strategy
 
-    proposals_couples = pd.read_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv")
+    proposals_couples = pd.read_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv", encoding="utf8", sep=';')
 
     proposals_couples_labeled = apply_strategy(proposals_couples, model_checkpoint, model_revision, batch_size)
 
