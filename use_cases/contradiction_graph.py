@@ -7,10 +7,9 @@ import networkx as nx
 
 import importlib
 import sys
+sys.path.append('../')
 
 from utils.functions import define_label
-
-sys.path.append('../')
 
 
 def generate_graph_from_dataframe(df: pd.DataFrame, strategy: str, model_checkpoint: str, model_revision: str = "main") -> nx.Graph:
