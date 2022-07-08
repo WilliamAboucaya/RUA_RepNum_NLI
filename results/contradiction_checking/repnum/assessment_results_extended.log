@@ -1,0 +1,20 @@
+Best F1 macro:
+camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.3165372058549991 0.7000000000000001: 0.559820024936304
+camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.3165372058549991 0.8: 0.5390969275861363
+camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.3167123031446679 0.7000000000000001: 0.5252888318356868
+
+Best precision macro for label 0:
+camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.3165372058549991 0.8: 0.5714285714285714 (Recall = 0.36363636363636365)
+camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.3165372058549991 0.7000000000000001: 0.5238095238095238 (Recall = 0.5)
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.2803800612636351 0.9: 0.5 (Recall = 0.2727272727272727)
+
+Best precision macro for label 1:
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.8 0.34900130921056416: 0.27586206896551724 (Recall = 0.7272727272727273)
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes removepast_sentencecouple_contradictionshare_metrics.log 0.9 0.34900130921056416: 0.27586206896551724 (Recall = 0.7272727272727273)
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencecouple_contradictionshare_metrics.log 0.8 0.39857167750597: 0.3050847457627119 (Recall = 0.8181818181818182)
+
+Best precision macro for label 2:
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes removepast_sentencewise_contradictionshare_metrics.log 0.33766185282076133 0.1: 0.22448979591836735 (Recall = 1.0)
+camembert-large-finetuned-repnum_wl-rua_wl_3_classes withpast_sentencewise_contradictionshare_metrics.log 0.2374765480982841 0.1: 0.23404255319148937 (Recall = 1.0)
+camembert-large-finetuned-rua_wl_3_classes withpast_sentencewise_contradictionshare_metrics.log 0.24418155079881165 0.1: 0.21359223300970873 (Recall = 1.0)
+
