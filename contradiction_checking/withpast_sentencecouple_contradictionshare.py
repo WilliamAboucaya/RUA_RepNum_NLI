@@ -15,10 +15,13 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import sys
 sys.path.append('../')
 
-from utils.functions import maximize_f1_score, apply_model_sentencecouple, define_label
+import torch
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+
+from utils.functions import apply_model_sentencecouple_batch, define_label
 
 
-def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
+def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str, batch_size) -> pd.DataFrame:
     model_name = model_checkpoint.split("/")[-1]
 
     labeled_proposals_couples = proposals_couples.copy()
@@ -26,20 +29,13 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
     sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
 
     try:
-        nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
+        nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision).to(device)
         nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
     except OSError:
         print(f"No such revision '{model_revision}' for model '{model_name}'")
         quit()
 
-    labeled_proposals_couples["model_results"] = labeled_proposals_couples.apply(lambda row: apply_model_sentencecouple(row, sentences_tokenizer, nli_tokenizer, nli_model), axis=1)
-
-    labeled_proposals_couples["nb_entailed_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][0], axis=1)
-    labeled_proposals_couples["share_entailed_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][1], axis=1)
-    labeled_proposals_couples["nb_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][2], axis=1)
-    labeled_proposals_couples["share_contradictory_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][3], axis=1)
-    labeled_proposals_couples["nb_neutral_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][4], axis=1)
-    labeled_proposals_couples["share_neutral_pairs"] = labeled_proposals_couples.apply(lambda row: row["model_results"][5], axis=1)
+    apply_model_sentencecouple_batch(labeled_proposals_couples, sentences_tokenizer, nli_tokenizer, nli_model, batch_size)
 
     return labeled_proposals_couples
 
@@ -49,10 +45,12 @@ if __name__ == "__main__":
         input_consultation_name = sys.argv[1]
         input_model_checkpoint = sys.argv[2]
         input_model_revision = sys.argv[3]
+        batch_size = int(sys.argv[4])
     else:
         input_consultation_name = "repnum_with_titles"
         input_model_checkpoint = "waboucay/camembert-large-finetuned-repnum_wl-rua_wl"
         input_model_revision = "main"
+        batch_size = 8
 
     input_model_name = input_model_checkpoint.split("/")[-1]
     input_consultation_prefix = input_consultation_name.split("_")[0]
@@ -65,7 +63,7 @@ if __name__ == "__main__":
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
                                             encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
-    labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
+    labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision, batch_size)
 
     consultation_prefix = input_consultation_name.split("_")[0]
 
@@ -95,6 +93,7 @@ if __name__ == "__main__":
 
             if contradiction_threshold == computed_contradiction_threshold:
                 ConfusionMatrixDisplay.from_predictions(labels, predictions)
+                plt.tight_layout()
                 plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencecouple_contradictionshare_matrix.eps", format="eps")
                 plt.show()
 

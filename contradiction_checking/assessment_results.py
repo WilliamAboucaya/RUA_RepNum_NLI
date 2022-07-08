@@ -1,8 +1,9 @@
 import os
 import re
 
-consultation_name = "repnum"
-without_alternate_thresholds = False
+consultation_name = "rua"
+without_alternate_thresholds = True
+min_recall = 0.2
 
 f1_results = {}
 precision_results = {}
@@ -30,7 +31,10 @@ for model_name in os.listdir(f"../results/contradiction_checking/{consultation_n
                             precision_results[key] = [float(p) for p in precisions_list]
                         if i % (4 + offset) == (1 + offset):
                             recall_list = re.findall("\d\.\d+", line)
-                            recall_results[key] = [float(r) for r in recall_list]
+                            if float(recall_list[0]) > min_recall:
+                                recall_results[key] = [float(r) for r in recall_list]
+                            else:
+                                del precision_results[key]
                         if i % (4 + offset) == (3 + offset):
                             f1_results[key] = float(re.findall("\d+\.\d+", line)[0])
                             if without_alternate_thresholds:

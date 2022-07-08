@@ -15,7 +15,7 @@ def generate_graph_from_dataframe(df: pd.DataFrame, strategy: str, model_checkpo
 
     df_labeled = apply_strategy(df, model_checkpoint, model_revision)
 
-    graph.add_nodes_from(df_labeled["premise_idx"].unique())
+    graph.add_nodes_from(pd.concat([df_labeled["premise_idx"], df_labeled["hypothesis_idx"]]).unique())
 
     df_labeled.apply(lambda row: graph.add_edge(row["premise_idx"], row["hypothesis_idx"]) if row["predicted_label"] == 0 else None)
 

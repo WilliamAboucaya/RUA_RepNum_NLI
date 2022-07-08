@@ -1,11 +1,14 @@
 import re
 import math
 from typing import Tuple
+
+import nltk
 import numpy as np
 from datasets import Metric
 import pandas as pd
 from datasets import DatasetDict, concatenate_datasets
 from scipy.optimize import dual_annealing
+from transformers import AutoModelForTokenClassification, AutoTokenizer, pipeline
 
 from tokens_distribution import get_tokens_distribution
 
@@ -90,9 +93,9 @@ def apply_model_sentencewise_batch(proposals, sentences_tokenizer, nli_tokenizer
         positions_tuples.append(len(sentences))
         premise_sentences = sentences_tokenizer.tokenize(proposals.at[i, "premise"])
         hypothesis_sentences = sentences_tokenizer.tokenize(proposals.at[i, "hypothesis"])
-        for i in range(len(premise_sentences)):
-            for j in range(len(hypothesis_sentences)):
-                sentences.append((premise_sentences[i], hypothesis_sentences[j]))
+        for j in range(len(premise_sentences)):
+            for k in range(len(hypothesis_sentences)):
+                sentences.append((premise_sentences[j], hypothesis_sentences[k]))
 
     print("Sentences pair number = " + str(len(sentences)))
     nb_batches = int(math.ceil(len(sentences) / batch_size))
@@ -197,10 +200,10 @@ def apply_model_sentencecouple_batch(proposals, sentences_tokenizer, nli_tokeniz
         positions_tuples.append(len(sentences))
         premise_sentences = sentences_tokenizer.tokenize(proposals.at[i, "premise"])
         hypothesis_sentences = sentences_tokenizer.tokenize(proposals.at[i, "hypothesis"])
-        for i in range(len(premise_sentences)):
-            for j in range(len(hypothesis_sentences)):
+        for j in range(1, len(premise_sentences)):
+            for k in range(1, len(hypothesis_sentences)):
                 sentences.append(
-                    (" ".join(premise_sentences[i - 1:i + 1]), " ".join(hypothesis_sentences[j - 1:j + 1])))
+                    (" ".join(premise_sentences[j - 1:j + 1]), " ".join(hypothesis_sentences[k - 1:k + 1])))
 
     print("Sentences pair number = " + str(len(sentences)))
     nb_batches = int(math.ceil(len(sentences) / batch_size))
@@ -306,3 +309,42 @@ def define_label(contradiction_share: float, entailment_share: float, contradict
     elif entailment_share >= entailment_threshold:
         return 0
     return 2
+
+
+def generate_proposals_pairs_repnum(proposals: pd.DataFrame, no_past: bool = False):
+    proposals["part"] = proposals.apply(lambda row: row["Catégorie"].split(" - ")[0], axis=1)
+    proposals["full_proposal"] = proposals.apply(lambda row: row["Titre"] + ". " + row["Contenu"], axis=1)
+    return generate_proposals_pairs(proposals, no_past)
+
+
+def generate_proposals_pairs_rua(proposals: pd.DataFrame, no_past: bool = False):
+    proposals["part"] = proposals.apply(lambda row: row["contributions_section_title"], axis=1)
+    proposals["full_proposal"] = proposals.apply(lambda row: row["contributions_title"] + ". " + row["contributions_bodyText"], axis=1)
+    return generate_proposals_pairs(proposals, no_past)
+
+
+def generate_proposals_pairs(proposals: pd.DataFrame, no_past: bool = False):
+    if no_past:
+        sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
+        pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo").to(device)
+        pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+        nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device=0)
+
+        proposals["full_proposal"] = proposals["full_proposal"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+
+    proposals_by_part = proposals.groupby("part")
+
+    result_df = pd.DataFrame(columns=['premise', 'premise_idx', 'hypothesis', 'hypothesis_idx', 'part'])
+
+    for name, df in proposals_by_part:
+        for idx, premise in df["full_proposal"].iteritems():
+            if premise == "":
+                continue
+            for idx2, hypothesis in df.loc[df.index > idx]["full_proposal"].iteritems():
+                if hypothesis == "":
+                    continue
+                formatted_row = pd.DataFrame({'premise': [premise], 'premise_idx': [idx],
+                                              'hypothesis': [hypothesis], 'hypothesis_idx': [idx2], 'part': [name]})
+                result_df = pd.concat([result_df, formatted_row], ignore_index=True)
+
+    return result_df

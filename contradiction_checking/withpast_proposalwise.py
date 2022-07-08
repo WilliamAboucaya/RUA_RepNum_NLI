@@ -1,5 +1,5 @@
+import math
 import os
-import sys
 
 import numpy as np
 import pandas as pd
@@ -11,16 +11,19 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import sys
 sys.path.append('../')
 
-from utils.functions import predict_nli
+import torch
+device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+
+from utils.functions import predict_nli_batch
 
 
-def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str = "main") -> pd.DataFrame:
+def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model_revision: str, batch_size: int) -> pd.DataFrame:
     model_name = model_checkpoint.split("/")[-1]
 
     labeled_proposals_couples = proposals_couples.copy()
 
     try:
-        nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision)
+        nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision).to(device)
         nli_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, revision=model_revision, model_max_length=512)
     except OSError:
         print(f"No such revision '{model_revision}' for model '{model_name}'")
@@ -28,9 +31,18 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
 
     labeled_proposals_couples["predicted_label"] = np.nan
 
-    for idx, row in labeled_proposals.iterrows():
-        predicted_label = predict_nli(row["premise"], row["hypothesis"], nli_tokenizer, nli_model)
-        labeled_proposals_couples.at[idx, "predicted_label"] = predicted_label
+    nb_batches = int(math.ceil(len(labeled_proposals_couples) / batch_size))
+
+    for i in range(nb_batches):
+        start_poz = i * batch_size
+        stop_poz = min(start_poz + batch_size, len(labeled_proposals_couples))
+        batch = []
+        for j in range(start_poz, stop_poz):
+            batch.append((labeled_proposals_couples.at[j, "premise"], labeled_proposals_couples.at[j, "hypothesis"]))
+
+        predicted_labels = predict_nli_batch(batch, nli_tokenizer, nli_model)
+        for j in range(start_poz, stop_poz):
+            labeled_proposals_couples.at[j, "predicted_label"] = predicted_labels[j - start_poz].item()
 
     return labeled_proposals_couples
 
@@ -40,10 +52,12 @@ if __name__ == "__main__":
         input_consultation_name = sys.argv[1]
         input_model_checkpoint = sys.argv[2]
         input_model_revision = sys.argv[3]
+        batch_size = int(sys.argv[4])
     else:
         input_consultation_name = "repnum"
         input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
         input_model_revision = "main"
+        batch_size = 8
 
     input_model_name = input_model_checkpoint.split("/")[-1]
 
@@ -55,7 +69,7 @@ if __name__ == "__main__":
     labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv", encoding="utf8",
                                                 engine='python', quoting=0, sep=';', dtype={"label": int})
 
-    labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision)
+    labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision, batch_size)
 
     if not os.path.exists(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
         os.mkdir(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")
@@ -74,6 +88,7 @@ if __name__ == "__main__":
         labels = labeled_proposals["label"].tolist()
 
         ConfusionMatrixDisplay.from_predictions(labels, predictions)
+        plt.tight_layout()
         plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise_matrix.eps", format="eps")
         plt.show()
 
