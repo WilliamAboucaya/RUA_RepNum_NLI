@@ -6,6 +6,11 @@ import pandas as pd
 import networkx as nx
 
 import importlib
+import sys
+
+from utils.functions import define_label
+
+sys.path.append('../')
 
 
 def generate_graph_from_dataframe(df: pd.DataFrame, strategy: str, model_checkpoint: str, model_revision: str = "main") -> nx.Graph:
@@ -23,28 +28,42 @@ def generate_graph_from_dataframe(df: pd.DataFrame, strategy: str, model_checkpo
 
 
 if __name__ == "__main__":
-    strategy_to_apply = "withpast_proposalwise"
-    input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
-    input_model_revision = "main"
-    input_model_name = input_model_checkpoint.split("/")[-1]
+    consultation_name = sys.argv[1]
+    strategy_to_apply = sys.argv[2]
+    model_checkpoint = sys.argv[3]
+    model_revision = sys.argv[4]
+    batch_size = int(sys.argv[5])
 
-    if not os.path.exists(f"../results/joblib_dumps/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}"):
-        os.mkdir(f"../results/joblib_dumps/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}")
+    model_name = model_checkpoint.split("/")[-1]
 
-    repnum_consultation = pd.read_csv("../consultation_data/proposals_pairs_repnum.csv")
-    repnum_graph = generate_graph_from_dataframe(repnum_consultation, strategy_to_apply, input_model_checkpoint, input_model_revision)
+    if "contradictionshare" in strategy_to_apply:
+        contradiction_threshold = float(sys.argv[6])
+        entailment_threshold = float(sys.argv[7])
 
-    joblib.dump(repnum_graph, f"../results/joblib_dumps/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/repnum_graph_{strategy_to_apply}.joblib")
+    strategy_to_apply_radix = "withpast_" + strategy_to_apply.split("_", 1)[1]
+    apply_strategy = importlib.import_module(f"contradiction_checking.{strategy_to_apply_radix}").apply_strategy
 
-    nx.draw(repnum_graph)
-    plt.show()
+    proposals_couples = pd.read_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv")
 
-    del(repnum_consultation, repnum_graph)
+    proposals_couples_labeled = apply_strategy(proposals_couples, model_checkpoint, model_revision, batch_size)
 
-    rua_consultation = pd.read_csv("../consultation_data/proposals_pairs_rua.csv")
-    rua_graph = generate_graph_from_dataframe(rua_consultation, strategy_to_apply, input_model_checkpoint, input_model_revision)
+    result_column = f"{model_name}_{strategy_to_apply}_label"
+    if "contradictionshare" in strategy_to_apply:
+        proposals_couples[result_column] = proposals_couples_labeled.apply(
+            lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"], contradiction_threshold, entailment_threshold), axis=1)
+    else:
+        proposals_couples[result_column] = proposals_couples_labeled["predicted_label"]
 
-    joblib.dump(rua_graph, f"../results/joblib_dumps/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/rua_graph_{strategy_to_apply}.joblib")
+    proposals_couples.to_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv")
 
-    nx.draw(rua_graph)
-    plt.show()
+    # if not os.path.exists(f"../results/joblib_dumps/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}"):
+    #     os.makedirs(f"../results/joblib_dumps/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}", exist_ok=True)
+
+    # proposals_pairs_by_part = proposals_pairs.groupby("part")
+    #
+    # for part, df in proposals_pairs_by_part:
+    #     graph = generate_graph_from_dataframe(repnum_consultation, strategy_to_apply_radix, model_checkpoint, model_revision)
+    #     joblib.dump(graph, f"../results/joblib_dumps/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/repnum_graph_{strategy_to_apply}.joblib")
+    #
+    # nx.draw(repnum_graph)
+    # plt.show()

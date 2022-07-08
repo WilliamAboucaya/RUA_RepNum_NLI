@@ -24,9 +24,9 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
     labeled_proposals_couples = proposals_couples.copy()
 
     sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-    # pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-    # pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-    # nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
+    pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+    pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+    nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
 
     try:
         nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision).to(device)
@@ -34,6 +34,9 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
     except OSError:
         print(f"No such revision '{model_revision}' for model '{model_name}'")
         quit()
+
+    labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
 
     apply_model_sentencecouple_batch(labeled_proposals_couples, sentences_tokenizer, nli_tokenizer, nli_model, batch_size)
 

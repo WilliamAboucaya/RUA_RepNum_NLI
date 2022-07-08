@@ -1,6 +1,8 @@
 
 import os
 import math
+
+import nltk
 import numpy as np
 import pandas as pd
 
@@ -23,10 +25,10 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
 
     labeled_proposals_couples = proposals_couples.copy()
 
-    # sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-    # pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo").to(device)
-    # pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-    # nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device = 0)
+    sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
+    pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo").to(device)
+    pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+    nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device = 0)
 
     try:
         nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision).to(device)
@@ -35,8 +37,8 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
         print(f"No such revision '{model_revision}' for model '{model_name}'")
         quit()
 
-    # labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
-    # labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    labeled_proposals_couples["premise"] = labeled_proposals_couples["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
+    labeled_proposals_couples["hypothesis"] = labeled_proposals_couples["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
     labeled_proposals_couples["predicted_label"] = np.nan
 
     nb_batches = int(math.ceil(len(labeled_proposals_couples)/batch_size))
