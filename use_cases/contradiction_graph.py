@@ -62,7 +62,7 @@ if __name__ == "__main__":
         proposals_couples_labeled = pd.concat([proposals_couples_labeled, df], ignore_index=True)
         proposals_couples_labeled.to_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}_flush.csv", sep=";", encoding="utf-8", index=False)
 
-    proposals_couples_labeled.to_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv", sep=";", encoding="utf-8", index=False)
+    # proposals_couples_labeled.to_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv", sep=";", encoding="utf-8", index=False)
 
     # if not os.path.exists(f"../results/joblib_dumps/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}"):
     #     os.makedirs(f"../results/joblib_dumps/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}", exist_ok=True)
