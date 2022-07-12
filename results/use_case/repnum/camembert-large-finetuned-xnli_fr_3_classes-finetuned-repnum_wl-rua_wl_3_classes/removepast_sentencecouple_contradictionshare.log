@@ -1,4 +1,4 @@
-For part TITRE II, clusters are:
+For part TITRE II with modularity 0.73625, clusters are:
 Cluster 0: 6 proposals
 Cluster 1: 4 proposals
 Cluster 2: 3 proposals
@@ -7,7 +7,7 @@ Cluster 4: 3 proposals
 Cluster 5: 3 proposals
 Cluster 6: 2 proposals
 Cluster 7: 2 proposals
-For part TITRE III, clusters are:
+For part TITRE III with modularity 0.7587113740959894, clusters are:
 Cluster 0: 10 proposals
 Cluster 1: 8 proposals
 Cluster 2: 7 proposals
@@ -16,14 +16,14 @@ Cluster 4: 3 proposals
 Cluster 5: 3 proposals
 Cluster 6: 2 proposals
 Cluster 7: 2 proposals
-For part TITRE Ier, clusters are:
-Cluster 0: 17 proposals
+For part TITRE Ier with modularity 0.670431121442042, clusters are:
+Cluster 0: 18 proposals
 Cluster 1: 14 proposals
 Cluster 2: 13 proposals
 Cluster 3: 12 proposals
-Cluster 4: 11 proposals
+Cluster 4: 9 proposals
 Cluster 5: 9 proposals
-Cluster 6: 7 proposals
+Cluster 6: 8 proposals
 Cluster 7: 7 proposals
 Cluster 8: 3 proposals
 Cluster 9: 2 proposals

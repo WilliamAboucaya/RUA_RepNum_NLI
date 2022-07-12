@@ -8,7 +8,7 @@ import pandas as pd
 import importlib
 import sys
 
-from sknetwork.clustering import Louvain
+from sknetwork.clustering import Louvain, modularity
 from sknetwork.data import from_edge_list
 
 sys.path.append('../')
@@ -23,10 +23,11 @@ def generate_graph_from_dataframe(df: pd.DataFrame, label_col: str):
     return graph
 
 
-def get_clusters_louvain(graph, modularity: str = "dugue", resolution: float = 1):
-    cluster_labels = Louvain(modularity=modularity, resolution=resolution, verbose=True).fit_transform(graph.adjacency)
+def get_clusters_louvain(graph, resolution: float = 1):
+    cluster_labels = Louvain(modularity="newman", resolution=resolution).fit_transform(graph.adjacency)
+    cluster_modularity = modularity(graph.adjacency, cluster_labels, resolution=resolution)
 
-    return cluster_labels
+    return cluster_labels, cluster_modularity
 
 
 if __name__ == "__main__":
@@ -51,7 +52,7 @@ if __name__ == "__main__":
 
     result_column = f"{model_name}_{strategy_to_apply}_label"
     if apply_nli:
-        proposals_couples_labeled = pd.DataFrame(columns=['premise', 'premise_idx', 'hypothesis', 'hypothesis_idx', 'part', result_column])
+        proposals_couples_labeled = pd.DataFrame(columns=[*proposals_couples.columns[1:], result_column])
 
         for part, df in proposals_couples.groupby("part"):
             df_labeled = apply_strategy(df, model_checkpoint, model_revision, batch_size)
@@ -77,12 +78,11 @@ if __name__ == "__main__":
     with open(f"../results/use_case/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/{strategy_to_apply}.log", "w", encoding="utf8") as file:
         for part, df in proposals_couples_by_part:
             graph = generate_graph_from_dataframe(df, result_column)
-            clusters_labels = get_clusters_louvain(graph, modularity="newman", resolution=1.5)
+            clusters_labels, clusters_modularity = get_clusters_louvain(graph, resolution=1.5)
 
             unique, counts = np.unique(clusters_labels, return_counts=True)
-
             clusters_sizes = dict(zip(unique, counts))
 
-            file.write(f"For part {part}, clusters are:\n")
+            file.write(f"For part {part} with modularity {clusters_modularity}, clusters are:\n")
             for key, value in clusters_sizes.items():
                 file.write(f"Cluster {key}: {value} proposals\n")
