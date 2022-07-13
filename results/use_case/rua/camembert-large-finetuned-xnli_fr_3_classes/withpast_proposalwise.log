@@ -1,4 +1,4 @@
-For part 1. Les conditions à remplir pour bénéficier du Revenu universel d'activité with modularity 0.13329757306214005, clusters are:
+For part 1. Les conditions à remplir pour bénéficier du Revenu universel d'activité (1 connected components) with modularity 0.13329757306214005, clusters are:
 Cluster 0: 48 proposals
 Cluster 1: 41 proposals
 Cluster 2: 26 proposals
@@ -14,7 +14,7 @@ Cluster 11: 9 proposals
 Cluster 12: 7 proposals
 Cluster 13: 5 proposals
 Cluster 14: 5 proposals
-For part 1. Offrir un système plus lisible with modularity 0.08173724554678524, clusters are:
+For part 1. Offrir un système plus lisible (1 connected components) with modularity 0.08173724554678524, clusters are:
 Cluster 0: 48 proposals
 Cluster 1: 42 proposals
 Cluster 2: 39 proposals
@@ -38,7 +38,7 @@ Cluster 19: 7 proposals
 Cluster 20: 7 proposals
 Cluster 21: 5 proposals
 Cluster 22: 4 proposals
-For part 2. Assurer une existence digne aux allocataires with modularity 0.0781628069846281, clusters are:
+For part 2. Assurer une existence digne aux allocataires (1 connected components) with modularity 0.0781628069846281, clusters are:
 Cluster 0: 15 proposals
 Cluster 1: 12 proposals
 Cluster 2: 12 proposals
@@ -54,7 +54,7 @@ Cluster 11: 6 proposals
 Cluster 12: 4 proposals
 Cluster 13: 4 proposals
 Cluster 14: 3 proposals
-For part 2. Les modalités de demande du Revenu universel d'activité with modularity 0.18391927083333326, clusters are:
+For part 2. Les modalités de demande du Revenu universel d'activité (1 connected components) with modularity 0.18391927083333326, clusters are:
 Cluster 0: 8 proposals
 Cluster 1: 7 proposals
 Cluster 2: 5 proposals
@@ -65,7 +65,7 @@ Cluster 6: 4 proposals
 Cluster 7: 3 proposals
 Cluster 8: 2 proposals
 Cluster 9: 2 proposals
-For part 3. Encourager la reprise d'activité with modularity 0.11843214668767496, clusters are:
+For part 3. Encourager la reprise d'activité (1 connected components) with modularity 0.11843214668767496, clusters are:
 Cluster 0: 19 proposals
 Cluster 1: 19 proposals
 Cluster 2: 18 proposals
@@ -78,7 +78,7 @@ Cluster 8: 9 proposals
 Cluster 9: 8 proposals
 Cluster 10: 7 proposals
 Cluster 11: 4 proposals
-For part 3. Le financement du Revenu universel d'activité with modularity 0.13860119047619046, clusters are:
+For part 3. Le financement du Revenu universel d'activité (1 connected components) with modularity 0.13860119047619046, clusters are:
 Cluster 0: 19 proposals
 Cluster 1: 10 proposals
 Cluster 2: 10 proposals
@@ -91,7 +91,7 @@ Cluster 8: 5 proposals
 Cluster 9: 4 proposals
 Cluster 10: 4 proposals
 Cluster 11: 3 proposals
-For part 4. Répondre à un principe d'équité with modularity 0.14448063271126546, clusters are:
+For part 4. Répondre à un principe d'équité (1 connected components) with modularity 0.14448063271126546, clusters are:
 Cluster 0: 13 proposals
 Cluster 1: 13 proposals
 Cluster 2: 13 proposals
@@ -103,7 +103,7 @@ Cluster 7: 7 proposals
 Cluster 8: 6 proposals
 Cluster 9: 6 proposals
 Cluster 10: 5 proposals
-For part À quels publics le revenu universel d'activité doit-il s'adresser ? with modularity 0.08498884010507213, clusters are:
+For part À quels publics le revenu universel d'activité doit-il s'adresser ? (1 connected components) with modularity 0.08498884010507213, clusters are:
 Cluster 0: 66 proposals
 Cluster 1: 60 proposals
 Cluster 2: 50 proposals

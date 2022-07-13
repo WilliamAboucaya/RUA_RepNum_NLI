@@ -97,8 +97,9 @@ if __name__ == "__main__":
 
             if contradiction_threshold == computed_contradiction_threshold:
                 ConfusionMatrixDisplay.from_predictions(labels, predictions)
-                plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencewise_contradictionshare_matrix.eps", format="eps")
                 plt.tight_layout()
+                plt.gca().invert_yaxis()
+                plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencewise_contradictionshare_matrix.eps", format="eps")
                 plt.show()
 
             file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")

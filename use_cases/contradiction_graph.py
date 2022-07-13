@@ -1,7 +1,5 @@
 import os
 
-import joblib
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -10,6 +8,9 @@ import sys
 
 from sknetwork.clustering import Louvain, modularity
 from sknetwork.data import from_edge_list
+from sknetwork.topology import get_connected_components
+from sknetwork.visualization import svg_graph
+from sknetwork.visualization.colors import STANDARD_COLORS
 
 sys.path.append('../')
 
@@ -79,10 +80,20 @@ if __name__ == "__main__":
         for part, df in proposals_couples_by_part:
             graph = generate_graph_from_dataframe(df, result_column)
             clusters_labels, clusters_modularity = get_clusters_louvain(graph, resolution=1.5)
+            connected_components = get_connected_components(graph.adjacency)
 
             unique, counts = np.unique(clusters_labels, return_counts=True)
             clusters_sizes = dict(zip(unique, counts))
 
-            file.write(f"For part {part} with modularity {clusters_modularity}, clusters are:\n")
+            if part == "À quels publics le revenu universel d'activité doit-il s'adresser ?" or part == "TITRE Ier":
+                clusters = [[graph.names[i], clusters_labels[i]] for i in range(len(graph.names))]
+
+                # clusters_dump = pd.DataFrame(data={"proposal": graph.names, "cluster_label": clusters_labels})
+                # clusters_dump.to_csv(f"../clusters_dump_{consultation_name}.csv", sep=";", encoding="utf-8", index=False)
+
+                colors_scheme = np.array([*STANDARD_COLORS, 'lime', 'gray', 'white', 'black', 'bisque', 'tab:brown', 'tab:pink', 'cornflowerblue', 'mediumspringgreen'])
+                svg_graph(graph.adjacency, labels=clusters_labels, label_colors=colors_scheme, filename=f"../results/use_case/{consultation_name}/{model_name}{('_' + model_revision) if model_revision != 'main' else ''}/{strategy_to_apply}")
+
+            file.write(f"For part {part} ({len(np.unique(connected_components))} connected components) with modularity {clusters_modularity}, clusters are:\n")
             for key, value in clusters_sizes.items():
                 file.write(f"Cluster {key}: {value} proposals\n")

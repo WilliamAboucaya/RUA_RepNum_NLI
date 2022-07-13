@@ -100,6 +100,7 @@ if __name__ == "__main__":
 
         ConfusionMatrixDisplay.from_predictions(labels, predictions)
         plt.tight_layout()
+        plt.gca().invert_yaxis()
         plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_proposalwise_matrix.eps", format="eps")
         plt.show()
 
