@@ -56,15 +56,16 @@ if __name__ == "__main__":
         proposals_couples_labeled = pd.DataFrame(columns=[*proposals_couples.columns[1:], result_column])
 
         for part, df in proposals_couples.groupby("part"):
-            df_labeled = apply_strategy(df, model_checkpoint, model_revision, batch_size)
+            df_safe = df.copy()
+            df_labeled = apply_strategy(df_safe, model_checkpoint, model_revision, batch_size)
             if "contradictionshare" in strategy_to_apply:
-                df[result_column] = df_labeled.apply(
+                df_safe[result_column] = df_labeled.apply(
                     lambda row: define_label(row["share_contradictory_pairs"], row["share_entailed_pairs"],
                                              contradiction_threshold, entailment_threshold), axis=1)
             else:
-                df[result_column] = df_labeled["predicted_label"]
+                df_safe[result_column] = df_labeled["predicted_label"]
 
-            proposals_couples_labeled = pd.concat([proposals_couples_labeled, df], ignore_index=True)
+            proposals_couples_labeled = pd.concat([proposals_couples_labeled, df_safe], ignore_index=True)
             proposals_couples_labeled.to_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}_flush.csv", sep=";", encoding="utf-8", index=False)
 
         proposals_couples_labeled.to_csv(f"../consultation_data/proposals_pairs_{consultation_name}{'_nopast' if 'removepast' in strategy_to_apply else ''}.csv", sep=";", encoding="utf-8", index=False)
