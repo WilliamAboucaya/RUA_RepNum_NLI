@@ -56,7 +56,7 @@ if __name__ == "__main__":
         proposals_couples_labeled = pd.DataFrame(columns=[*proposals_couples.columns[1:], result_column])
 
         for part, df in proposals_couples.groupby("part"):
-            df_safe = df.copy()
+            df_safe = df.copy().reset_index(drop=True)
             df_labeled = apply_strategy(df_safe, model_checkpoint, model_revision, batch_size)
             if "contradictionshare" in strategy_to_apply:
                 df_safe[result_column] = df_labeled.apply(
