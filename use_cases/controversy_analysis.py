@@ -17,6 +17,7 @@ def get_proposal_stats(idx, proposals_pairs_df, consultation_data_df, result_col
         proposal_id = proposals_data_df.loc[(proposals_data_df["Titre"] + ". " + proposals_data_df["Contenu"]) == proposal_text].iloc[0]["Identifiant"]
         proposal = proposals_data_df.loc[proposals_data_df["Identifiant"] == proposal_id].iloc[0]
 
+        proposal_creation_datetime = proposal["Création"]
         nb_votes_for = proposal["Votes.pour"]
         nb_votes_mixed = proposal["Votes.mitigés"]
         nb_votes_against = proposal["Votes.contre"]
@@ -26,16 +27,18 @@ def get_proposal_stats(idx, proposals_pairs_df, consultation_data_df, result_col
     elif "rua" in consultation:
         proposals_data_df = consultation_data_df.loc[consultation_data_df["type"] == "opinion"]
         proposal_id = proposals_data_df.loc[(proposals_data_df["contributions_title"] + ". " + proposals_data_df["contributions_bodyText"]) == proposal_text].iloc[0]["contributions_id"]
+        proposal = proposals_data_df.loc[proposals_data_df["contributions_id"] == proposal_id].iloc[0]
 
+        proposal_creation_datetime = proposal["contributions_createdAt"]
         nb_votes_for = len(consultation_data_df.loc[(consultation_data_df["contributions_votes_related_id"] == proposal_id) & (consultation_data_df["contributions_votes_value"] == "YES")].index)
         nb_votes_mixed = len(consultation_data_df.loc[(consultation_data_df["contributions_votes_related_id"] == proposal_id) & (consultation_data_df["contributions_votes_value"] == "MITIGE")].index)
         nb_votes_against = len(consultation_data_df.loc[(consultation_data_df["contributions_votes_related_id"] == proposal_id) & (consultation_data_df["contributions_votes_value"] == "NO")].index)
         nb_args_for = len(consultation_data_df.loc[(consultation_data_df["contributions_arguments_related_id"] == proposal_id) & (consultation_data_df["contributions_arguments_type"] == "FOR")].index)
         nb_args_against = len(consultation_data_df.loc[(consultation_data_df["contributions_arguments_related_id"] == proposal_id) & (consultation_data_df["contributions_arguments_type"] == "AGAINST")].index)
     else:
-        proposal_id = nb_entailed_proposals = nb_contradictory_proposals = nb_votes_for = nb_votes_mixed = nb_votes_against = nb_args_for = nb_args_against = 0
+        proposal_id = proposal_creation_datetime = nb_entailed_proposals = nb_contradictory_proposals = nb_votes_for = nb_votes_mixed = nb_votes_against = nb_args_for = nb_args_against = 0
 
-    return proposal_id, nb_entailed_proposals, nb_contradictory_proposals, nb_votes_for, nb_votes_mixed, nb_votes_against, nb_args_for, nb_args_against
+    return proposal_id, proposal_text, proposal_creation_datetime, nb_entailed_proposals, nb_contradictory_proposals, nb_votes_for, nb_votes_mixed, nb_votes_against, nb_args_for, nb_args_against
 
 
 def compute_proposal_metrics(nb_entailed_proposals, nb_contradictory_proposals, nb_votes_for, nb_votes_mixed, nb_votes_against, nb_args_for, nb_args_against):
@@ -85,6 +88,7 @@ if __name__ == "__main__":
         consultation_3["contributions_title"] = consultation_3["contributions_title"].fillna("")
         consultation_3["contributions_bodyText"] = consultation_3["contributions_bodyText"].fillna("")
         consultation_data = pd.concat([consultation_1, consultation_2, consultation_3], ignore_index=True)
+        consultation_data["contributions_createdAt"] = pd.to_datetime(consultation_data["contributions_createdAt"])
     else:
         exit()
 
@@ -98,9 +102,9 @@ if __name__ == "__main__":
 
     proposals_idxs = pd.unique(proposals_couples[['premise_idx', 'hypothesis_idx']].values.ravel('K'))
 
-    controversy_data_dict = {"proposal_id": [], "nb_entailed_proposals": [], "nb_contradictory_proposals": [],
-                             "nb_votes_for": [], "nb_votes_mixed": [], "nb_votes_against": [], "nb_args_for": [],
-                             "nb_args_against": []}
+    controversy_data_dict = {"proposal_id": [], "proposal_text": [], "creation_datetime": [],
+                             "nb_entailed_proposals": [], "nb_contradictory_proposals": [], "nb_votes_for": [],
+                             "nb_votes_mixed": [], "nb_votes_against": [], "nb_args_for": [], "nb_args_against": []}
 
     print("Retrieving data for proposals...")
 
@@ -108,13 +112,15 @@ if __name__ == "__main__":
         controversy_data = get_proposal_stats(proposal_idx, proposals_couples, consultation_data, result_column, consultation_name)
 
         controversy_data_dict["proposal_id"].append(controversy_data[0])
-        controversy_data_dict["nb_entailed_proposals"].append(controversy_data[1])
-        controversy_data_dict["nb_contradictory_proposals"].append(controversy_data[2])
-        controversy_data_dict["nb_votes_for"].append(controversy_data[3])
-        controversy_data_dict["nb_votes_mixed"].append(controversy_data[4])
-        controversy_data_dict["nb_votes_against"].append(controversy_data[5])
-        controversy_data_dict["nb_args_for"].append(controversy_data[6])
-        controversy_data_dict["nb_args_against"].append(controversy_data[7])
+        controversy_data_dict["proposal_text"].append(controversy_data[1])
+        controversy_data_dict["creation_datetime"].append(controversy_data[2])
+        controversy_data_dict["nb_entailed_proposals"].append(controversy_data[3])
+        controversy_data_dict["nb_contradictory_proposals"].append(controversy_data[4])
+        controversy_data_dict["nb_votes_for"].append(controversy_data[5])
+        controversy_data_dict["nb_votes_mixed"].append(controversy_data[6])
+        controversy_data_dict["nb_votes_against"].append(controversy_data[7])
+        controversy_data_dict["nb_args_for"].append(controversy_data[8])
+        controversy_data_dict["nb_args_against"].append(controversy_data[9])
 
     controversy_df = pd.DataFrame(data=controversy_data_dict)
 
@@ -137,6 +143,25 @@ if __name__ == "__main__":
     controversy_votes_args = controversy_df.loc[(controversy_df["controversiality_votes"] != -1) & (controversy_df["controversiality_args"] != -1)]
     pearson_votes_args = pearsonr(controversy_votes_args["controversiality_votes"].tolist(), controversy_votes_args["controversiality_args"].tolist())[0]
 
-    print(f"Pearson correlation between controversiality for nli and votes: {pearson_nli_votes}")
-    print(f"Pearson correlation between controversiality for nli and args: {pearson_nli_args}")
+    print(f"Pearson correlation between controversiality for NLI and votes: {pearson_nli_votes}")
+    print(f"Pearson correlation between controversiality for NLI and args: {pearson_nli_args}")
     print(f"Pearson correlation between controversiality for votes and args: {pearson_votes_args}")
+
+    controversy_q3_nli = controversy_df["controversiality_nli"].loc[controversy_df["controversiality_nli"] > -1].quantile(0.75, interpolation="lower")
+    controversy_q3_votes = controversy_df["controversiality_votes"].loc[controversy_df["controversiality_votes"] > -1].quantile(0.75, interpolation="lower")
+    controversy_q3_args = controversy_df["controversiality_args"].loc[controversy_df["controversiality_args"] > -1].quantile(0.75, interpolation="lower")
+
+    controversy_df_q3_nli = controversy_df.loc[(controversy_df["controversiality_nli"] >= controversy_q3_nli) &
+                                               (pd.notna(controversy_df["creation_datetime"]))]
+    controversy_df_q3_votes = controversy_df.loc[(controversy_df["controversiality_votes"] >= controversy_q3_votes) &
+                                                 (pd.notna(controversy_df["creation_datetime"]))]
+    controversy_df_q3_args = controversy_df.loc[(controversy_df["controversiality_args"] >= controversy_q3_args) &
+                                                (pd.notna(controversy_df["creation_datetime"]))]
+
+    med_date_nli = str(controversy_df_q3_nli["creation_datetime"].quantile(0.5, interpolation="lower"))
+    med_date_votes = str(controversy_df_q3_votes["creation_datetime"].quantile(0.5, interpolation="lower"))
+    med_date_args = str(controversy_df_q3_args["creation_datetime"].quantile(0.5, interpolation="lower"))
+
+    print(f"Median date of creation for the proposals among the 25 % highest controversiality for NLI: {med_date_nli}")
+    print(f"Median date of creation for the proposals among the 25 % highest controversiality for votes: {med_date_votes}")
+    print(f"Median date of creation for the proposals among the 25 % highest controversiality for args: {med_date_args}")
