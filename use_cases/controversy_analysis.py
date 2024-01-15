@@ -1,6 +1,7 @@
 import argparse
 
 import pandas as pd
+from matplotlib import pyplot as plt
 from scipy.stats import pearsonr
 from tqdm import tqdm
 
@@ -73,18 +74,18 @@ if __name__ == "__main__":
 
     if "repnum" in consultation_name:
         consultation_data = pd.read_csv("../consultation_data/projet-de-loi-numerique-consultation-anonyme.csv",
-                                        parse_dates=["Création", "Modification"],
-                                        index_col=0, dtype={"Identifiant": str, "Titre": str, "Lié.à..": str, "Contenu": str, "Lien": str})
+                                        parse_dates=["Création", "Modification"], index_col=0,
+                                        dtype={"Identifiant": str, "Titre": str, "Lié.à..": str, "Contenu": str, "Lien": str})
         consultation_data["Lié.à.."] = consultation_data["Lié.à.."].fillna("Unknown")
         consultation_data["Type.de.profil"] = consultation_data["Type.de.profil"].fillna("Unknown")
     elif "rua" in consultation_name:
-        consultation_1 = pd.read_csv("../consultation_data/rua-fonctionnement.csv", encoding="utf8", engine='python', sep=';')
+        consultation_1 = pd.read_csv("../consultation_data/rua-fonctionnement.csv", encoding="utf8", engine='python', sep=';', parse_dates=["contributions_createdAt"], dayfirst=True)
         consultation_1["contributions_title"] = consultation_1["contributions_title"].fillna("")
         consultation_1["contributions_bodyText"] = consultation_1["contributions_bodyText"].fillna("")
-        consultation_2 = pd.read_csv("../consultation_data/rua-principes.csv", encoding="utf8", engine='python', sep=';')
+        consultation_2 = pd.read_csv("../consultation_data/rua-principes.csv", encoding="utf8", engine='python', sep=';', parse_dates=["contributions_createdAt"], dayfirst=True)
         consultation_2["contributions_title"] = consultation_2["contributions_title"].fillna("")
         consultation_2["contributions_bodyText"] = consultation_2["contributions_bodyText"].fillna("")
-        consultation_3 = pd.read_csv("../consultation_data/rua-publics.csv", encoding="utf8", engine='python', sep=';')
+        consultation_3 = pd.read_csv("../consultation_data/rua-publics.csv", encoding="utf8", engine='python', sep=';', parse_dates=["contributions_createdAt"], dayfirst=True)
         consultation_3["contributions_title"] = consultation_3["contributions_title"].fillna("")
         consultation_3["contributions_bodyText"] = consultation_3["contributions_bodyText"].fillna("")
         consultation_data = pd.concat([consultation_1, consultation_2, consultation_3], ignore_index=True)
@@ -132,7 +133,7 @@ if __name__ == "__main__":
                                              row["nb_args_for"], row["nb_args_against"]), axis=1, result_type="expand"
     )
 
-    controversy_df.to_csv(f"../results/controversy_measures_{consultation_name}_{strategy_to_apply}.csv", sep=",", encoding="utf-8", index=False)
+    # controversy_df.to_csv(f"../results/controversy_measures_{consultation_name}_{strategy_to_apply}.csv", sep=",", encoding="utf-8", index=False)
 
     controversy_nli_votes = controversy_df.loc[(controversy_df["controversiality_nli"] != -1) & (controversy_df["controversiality_votes"] != -1)]
     pearson_nli_votes = pearsonr(controversy_nli_votes["controversiality_nli"].tolist(), controversy_nli_votes["controversiality_votes"].tolist())[0]
@@ -146,6 +147,46 @@ if __name__ == "__main__":
     print(f"Pearson correlation between controversiality for NLI and votes: {pearson_nli_votes}")
     print(f"Pearson correlation between controversiality for NLI and args: {pearson_nli_args}")
     print(f"Pearson correlation between controversiality for votes and args: {pearson_votes_args}")
+
+    pearson_nli_votes_list = []
+    pearson_nli_args_list = []
+    pearson_votes_args_list = []
+
+    # last_week_start_date = pd.Timestamp('2015-10-12') if "repnum" in consultation_name else pd.Timestamp('2019-11-12')
+
+    date_range = pd.date_range(controversy_df["creation_datetime"].min(), controversy_df["creation_datetime"].max(), inclusive="right")
+
+    dates_labels = []
+
+    for date in date_range:
+        controversy_df_up_to_date = controversy_df.loc[controversy_df["creation_datetime"] <= date]
+
+        try:
+            controversy_nli_votes_up_to_date = controversy_df_up_to_date.loc[(controversy_df_up_to_date["controversiality_nli"] != -1) & (controversy_df_up_to_date["controversiality_votes"] != -1)]
+            pearson_nli_votes_list.append(pearsonr(controversy_nli_votes_up_to_date["controversiality_nli"].tolist(), controversy_nli_votes_up_to_date["controversiality_votes"].tolist())[0])
+
+            controversy_nli_args_up_to_date = controversy_df_up_to_date.loc[(controversy_df_up_to_date["controversiality_nli"] != -1) & (controversy_df_up_to_date["controversiality_args"] != -1)]
+            pearson_nli_args_list.append(pearsonr(controversy_nli_args_up_to_date["controversiality_nli"].tolist(), controversy_nli_args_up_to_date["controversiality_args"].tolist())[0])
+
+            controversy_votes_args_up_to_date = controversy_df_up_to_date.loc[(controversy_df_up_to_date["controversiality_votes"] != -1) & (controversy_df_up_to_date["controversiality_args"] != -1)]
+            pearson_votes_args_list.append(pearsonr(controversy_votes_args_up_to_date["controversiality_votes"].tolist(), controversy_votes_args_up_to_date["controversiality_args"].tolist())[0])
+
+            dates_labels.append(date.date())
+        except ValueError:
+            pearson_nli_votes_list = []
+            pearson_nli_args_list = []
+            pearson_votes_args_list = []
+
+    fig, ax = plt.subplots()
+    ax.plot(dates_labels, pearson_nli_votes_list, 'r', label="NLI/votes")
+    ax.plot(dates_labels, pearson_nli_args_list, 'g', label="NLI/args")
+    ax.plot(dates_labels, pearson_votes_args_list, 'b', label="votes/args")
+    ax.set_ylim(-0.8, 1)
+    ax.set_xlabel("Date", fontsize='large')
+    ax.set_ylabel("Pearson correlation", fontsize='large')
+    ax.legend()
+    plt.tight_layout()
+    plt.show()
 
     controversy_q3_nli = controversy_df["controversiality_nli"].loc[controversy_df["controversiality_nli"] > -1].quantile(0.75, interpolation="lower")
     controversy_q3_votes = controversy_df["controversiality_votes"].loc[controversy_df["controversiality_votes"] > -1].quantile(0.75, interpolation="lower")
