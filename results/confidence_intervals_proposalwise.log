@@ -1,0 +1,102 @@
+With model = camembert-large-finetuned-repnum_wl-rua_wl_3_classes
+
+For repnum
+{'confidence_interval': (0.2851176637638278, 0.4887154331035344), 'standard_error': 0.051885615413206986, 'score': 0.3760409379453297}
+For repnum_with_titles
+{'confidence_interval': (0.36909550268562136, 0.584617670068155), 'standard_error': 0.054830830465769025, 'score': 0.47205183139590146}
+For rua
+{'confidence_interval': (0.38508329767533167, 0.5191196578003041), 'standard_error': 0.033917877186748734, 'score': 0.44845015844868064}
+For rua_with_titles
+{'confidence_interval': (0.37200467276820004, 0.5041122766912381), 'standard_error': 0.03365101289510441, 'score': 0.4331592088836323}
+For rua_with_titles_section
+{'confidence_interval': (0.37698109301462795, 0.5093562358517655), 'standard_error': 0.03396913429155765, 'score': 0.4407615042346382}
+
+==========================
+
+With model = camembert-large-finetuned-repnum_wl_3_classes
+
+For repnum
+{'confidence_interval': (0.26965135191824124, 0.4486778136477567), 'standard_error': 0.04359176716219741, 'score': 0.3379697390028858}
+For repnum_with_titles
+{'confidence_interval': (0.2881910742710519, 0.4667225777780928), 'standard_error': 0.04346726754688928, 'score': 0.356028152261372}
+For rua
+{'confidence_interval': (0.25588059207377517, 0.3713171917624341), 'standard_error': 0.029343924800211824, 'score': 0.3075730529290901}
+For rua_with_titles
+{'confidence_interval': (0.23367520757349183, 0.34781244014418256), 'standard_error': 0.028709685637648072, 'score': 0.2839087686769806}
+For rua_with_titles_section
+{'confidence_interval': (0.20172991086810874, 0.30557760681938806), 'standard_error': 0.02623811091003259, 'score': 0.24591297199334863}
+
+==========================
+
+With model = camembert-large-finetuned-rua_wl_3_classes
+
+For repnum
+{'confidence_interval': (0.23016395784018936, 0.4324562272246658), 'standard_error': 0.05004756011232617, 'score': 0.31476008319206655}
+For repnum_with_titles
+{'confidence_interval': (0.31969460216358675, 0.5450931755107075), 'standard_error': 0.05720480310315387, 'score': 0.4257862565315982}
+For rua
+{'confidence_interval': (0.3948046348544839, 0.5281288667752507), 'standard_error': 0.034229073273449005, 'score': 0.4571459135643989}
+For rua_with_titles
+{'confidence_interval': (0.38958304622787987, 0.5245857208105544), 'standard_error': 0.034232508644375687, 'score': 0.4509157509157509}
+For rua_with_titles_section
+{'confidence_interval': (0.35678476756291855, 0.49614545315001335), 'standard_error': 0.035408153380843896, 'score': 0.4221983548638775}
+
+==========================
+
+With model = camembert-large-finetuned-xnli_fr_3_classes
+
+For repnum
+{'confidence_interval': (0.24022558431312963, 0.418015161791721), 'standard_error': 0.04271738701191044, 'score': 0.3075835288554228}
+For repnum_with_titles
+{'confidence_interval': (0.2767082667397812, 0.48008050187274953), 'standard_error': 0.04962844434049794, 'score': 0.35785953177257523}
+For rua
+{'confidence_interval': (0.3890052696613982, 0.5318174340299726), 'standard_error': 0.03650203460065442, 'score': 0.45717927326659247}
+For rua_with_titles
+{'confidence_interval': (0.2972036329243011, 0.4251468022515713), 'standard_error': 0.03264612387324831, 'score': 0.3545057107847806}
+For rua_with_titles_section
+{'confidence_interval': (0.3943478620805581, 0.5314133010576934), 'standard_error': 0.03514702941072988, 'score': 0.4611305865027531}
+
+==========================
+
+With model = camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl-rua_wl_3_classes
+
+For repnum
+{'confidence_interval': (0.3251001097637508, 0.5258808253156467), 'standard_error': 0.05122866974589718, 'score': 0.4197151200905895}
+For repnum_with_titles
+{'confidence_interval': (0.3585021771746724, 0.5657478428949498), 'standard_error': 0.05256261527666884, 'score': 0.4569900687547746}
+For rua
+{'confidence_interval': (0.4179856986146468, 0.5536389480321697), 'standard_error': 0.03455962615269596, 'score': 0.4820414196720817}
+For rua_with_titles
+{'confidence_interval': (0.39834652756319183, 0.5338217101030454), 'standard_error': 0.03484649840255761, 'score': 0.4622824474981977}
+For rua_with_titles_section
+{'confidence_interval': (0.328885750540212, 0.452984758338003), 'standard_error': 0.031469042993606346, 'score': 0.3880752606153064}
+
+==========================
+
+With model = camembert-large-finetuned-xnli_fr_3_classes-finetuned-repnum_wl_3_classes
+
+For repnum
+{'confidence_interval': (0.30603132852137555, 0.5000156627911174), 'standard_error': 0.047797999480573124, 'score': 0.3850989175065323}
+For repnum_with_titles
+{'confidence_interval': (0.36008999919829326, 0.5722912291392197), 'standard_error': 0.05364710861734767, 'score': 0.45695970695970695}
+For rua
+{'confidence_interval': (0.254035390046105, 0.3680104673456219), 'standard_error': 0.02901669000729141, 'score': 0.3056587086963903}
+For rua_with_titles
+{'confidence_interval': (0.2703004456920693, 0.38912032789706424), 'standard_error': 0.029798855177077636, 'score': 0.3228658372027548}
+For rua_with_titles_section
+{'confidence_interval': (0.22608459486652366, 0.3247324208149443), 'standard_error': 0.02448476702988683, 'score': 0.2689351530884308}
+
+==========================
+
+With model = camembert-large-finetuned-xnli_fr_3_classes-finetuned-rua_wl_3_classes
+
+For repnum
+{'confidence_interval': (0.2246681496857127, 0.4210685918698988), 'standard_error': 0.04987413029923547, 'score': 0.31417131991590674}
+For repnum_with_titles
+{'confidence_interval': (0.3008120797191436, 0.5021359509529082), 'standard_error': 0.05115614018051358, 'score': 0.39509521958802957}
+For rua
+{'confidence_interval': (0.4580208606576645, 0.594246479471412), 'standard_error': 0.034507863595100836, 'score': 0.5240896909137982}
+For rua_with_titles
+{'confidence_interval': (0.4284223879471118, 0.5637677897392038), 'standard_error': 0.03433969112196044, 'score': 0.49194282001299544}
+For rua_with_titles_section
+{'confidence_interval': (0.3307365447141614, 0.45565213380666847), 'standard_error': 0.03147968918215529, 'score': 0.3894664373020122}

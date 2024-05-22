@@ -38,9 +38,11 @@ def predict_nli(premise, hypothesis, nli_tokenizer, nli_model) -> int:
     return int(probs.detach().argmax())
 
 
-def predict_nli_batch(batch, nli_tokenizer, nli_model):
+def predict_nli_batch(batch, nli_tokenizer, nli_model, with_scores=False):
     x = nli_tokenizer(batch, return_tensors='pt', max_length=512, padding=True, truncation=True).to(device)
     logits = nli_model(x['input_ids'], attention_mask=x['attention_mask']).logits
+    if with_scores:
+        return logits.argmax(dim=1), logits.softmax(dim=1)
     return logits.argmax(dim=1)
 
 
@@ -324,10 +326,12 @@ def generate_proposals_pairs_rua(proposals: pd.DataFrame, no_past: bool = False)
 
 
 def generate_proposals_pairs(proposals: pd.DataFrame, no_past: bool = False):
+    pos_model_path = "waboucay/french-camembert-postag-model-finetuned-perceo"  # TODO: USE pos_model_creation.py to re-create the POS tagger
+
     if no_past:
         sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-        pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo").to(device)
-        pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+        pos_model = AutoModelForTokenClassification.from_pretrained(pos_model_path).to(device)
+        pos_tokenizer = AutoTokenizer.from_pretrained(pos_model_path)
         nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device=0)
 
         proposals["full_proposal"] = proposals["full_proposal"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
