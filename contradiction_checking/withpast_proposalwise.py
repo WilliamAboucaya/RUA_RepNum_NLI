@@ -30,6 +30,9 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
         quit()
 
     labeled_proposals_couples["predicted_label"] = np.nan
+    labeled_proposals_couples["score_entld"] = np.nan
+    labeled_proposals_couples["score_contr"] = np.nan
+    labeled_proposals_couples["score_neutr"] = np.nan
 
     nb_batches = int(math.ceil(len(labeled_proposals_couples) / batch_size))
 
@@ -40,24 +43,21 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
         for j in range(start_poz, stop_poz):
             batch.append((labeled_proposals_couples.at[j, "premise"], labeled_proposals_couples.at[j, "hypothesis"]))
 
-        predicted_labels = predict_nli_batch(batch, nli_tokenizer, nli_model)
+        predicted_labels, scores = predict_nli_batch(batch, nli_tokenizer, nli_model, with_scores=True)
         for j in range(start_poz, stop_poz):
             labeled_proposals_couples.at[j, "predicted_label"] = predicted_labels[j - start_poz].item()
+            labeled_proposals_couples.at[j, "score_entld"] = scores[j - start_poz, 0].item()
+            labeled_proposals_couples.at[j, "score_contr"] = scores[j - start_poz, 1].item()
+            labeled_proposals_couples.at[j, "score_neutr"] = scores[j - start_poz, 2].item()
 
     return labeled_proposals_couples
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 4:
-        input_consultation_name = sys.argv[1]
-        input_model_checkpoint = sys.argv[2]
-        input_model_revision = sys.argv[3]
-        batch_size = int(sys.argv[4])
-    else:
-        input_consultation_name = "repnum"
-        input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
-        input_model_revision = "main"
-        batch_size = 8
+    input_consultation_name = sys.argv[1]
+    input_model_checkpoint = sys.argv[2]
+    input_model_revision = sys.argv[3]
+    batch_size = int(sys.argv[4])
 
     input_model_name = input_model_checkpoint.split("/")[-1]
 
@@ -91,7 +91,6 @@ if __name__ == "__main__":
         plt.tight_layout()
         plt.gca().invert_yaxis()
         plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_proposalwise_matrix.eps", format="eps")
-        plt.show()
 
         precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
         recall_results = recall_metric.compute(predictions=predictions, references=labels, average=None)["recall"]

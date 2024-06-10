@@ -27,7 +27,7 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
     sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
     pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
     pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-    nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
+    nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer, device=0)
 
     try:
         nli_model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, revision=model_revision).to(device)
@@ -45,16 +45,10 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 4:
-        input_consultation_name = sys.argv[1]
-        input_model_checkpoint = sys.argv[2]
-        input_model_revision = sys.argv[3]
-        batch_size = int(sys.argv[4])
-    else:
-        input_consultation_name = "repnum_with_titles"
-        input_model_checkpoint = "waboucay/camembert-large-finetuned-xnli_fr_3_classes-finetuned-rua_wl_3_classes"
-        input_model_revision = "main"
-        batch_size = 8
+    input_consultation_name = sys.argv[1]
+    input_model_checkpoint = sys.argv[2]
+    input_model_revision = sys.argv[3]
+    batch_size = int(sys.argv[4])
 
     input_model_name = input_model_checkpoint.split("/")[-1]
     exp_id = input_model_checkpoint[9:]
@@ -62,7 +56,7 @@ if __name__ == "__main__":
     recall_metric = load_metric("recall", experiment_id=exp_id)
     f1_metric = load_metric("f1", experiment_id=exp_id)
 
-    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}_nopast.csv",
+    labeled_proposals = pd.read_csv(f"../consultation_data/nli_labeled_proposals_{input_consultation_name}.csv",
                                     encoding="utf8", engine='python', quoting=0, sep=';', dtype={"label": int})
 
     labeled_proposals = apply_strategy(labeled_proposals, input_model_checkpoint, input_model_revision, batch_size)
@@ -100,7 +94,6 @@ if __name__ == "__main__":
                 plt.tight_layout()
                 plt.gca().invert_yaxis()
                 plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/removepast_sentencewise_contradictionshare_matrix.eps", format="eps")
-                plt.show()
 
             file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")
             precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]

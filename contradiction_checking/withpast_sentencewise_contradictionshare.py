@@ -41,16 +41,10 @@ def apply_strategy(proposals_couples: pd.DataFrame, model_checkpoint: str, model
     return labeled_proposals_couples
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 4:
-        input_consultation_name = sys.argv[1]
-        input_model_checkpoint = sys.argv[2]
-        input_model_revision = sys.argv[3]
-        batch_size = int(sys.argv[4])
-    else:
-        input_consultation_name = "rua_with_titles_section"
-        input_model_checkpoint = "waboucay/camembert-base-finetuned-nli-repnum_wl-rua_wl"
-        input_model_revision = "main"
-        batch_size = 8
+    input_consultation_name = sys.argv[1]
+    input_model_checkpoint = sys.argv[2]
+    input_model_revision = sys.argv[3]
+    batch_size = int(sys.argv[4])
 
     input_model_name = input_model_checkpoint.split("/")[-1]
 
@@ -97,7 +91,6 @@ if __name__ == "__main__":
                 plt.tight_layout()
                 plt.gca().invert_yaxis()
                 plt.savefig(f"../results/contradiction_checking/{input_consultation_name}/{input_model_name}{('_' + input_model_revision) if input_model_revision != 'main' else ''}/withpast_sentencewise_contradictionshare_matrix.eps", format="eps")
-                plt.show()
 
             file.write(f"With contradiction_threshold = {contradiction_threshold} and entailment_threshold = {computed_entailment_threshold}{' * COMPUTED THRESHOLDS' if contradiction_threshold == computed_contradiction_threshold else ''}\n")
             precision_results = precision_metric.compute(predictions=predictions, references=labels, average=None)["precision"]
