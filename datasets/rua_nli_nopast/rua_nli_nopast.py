@@ -45,13 +45,14 @@ _CITATION = """\
 """
 
 _URLS = {
-    "fonctionnement": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-fonctionnement.csv",
-    "publics": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-publics.csv",
-    "principes": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-principes.csv"
+    "fonctionnement": "https://github.com/ruarepnumanon/rua_opendata_corrected/raw/master/rua-fonctionnement.csv",
+    "publics": "https://github.com/ruarepnumanon/rua_opendata_corrected/raw/master/rua-publics.csv",
+    "principes": "https://github.com/ruarepnumanon/rua_opendata_corrected/raw/master/rua-principes.csv"
 }
 _TRAINING_FILE = "train.csv"
 _DEV_FILE = "valid.csv"
 _TEST_FILE = "test.csv"
+pos_model_path = "waboucay/french-camembert-postag-model-finetuned-perceo"  # TODO: USE pos_model_creation.py to re-create the POS tagger
 
 class RuaNliNoPastConfig(datasets.BuilderConfig):
     """BuilderConfig for RuaNli."""
@@ -174,8 +175,8 @@ class RuaNli(datasets.GeneratorBasedBuilder):
             test_dataset = test_dataset.sample(frac=1).reset_index(drop=True)
 
         sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-        pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-        pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+        pos_model = AutoModelForTokenClassification.from_pretrained(pos_model_path)
+        pos_tokenizer = AutoTokenizer.from_pretrained(pos_model_path)
         nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
         test_dataset["premise"] = test_dataset["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
         test_dataset["hypothesis"] = test_dataset["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))

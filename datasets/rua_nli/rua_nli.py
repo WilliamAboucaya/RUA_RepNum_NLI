@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Lint as: python3
-"""RepNum NLI"""
+"""RUA NLI"""
 
 
 import csv
@@ -43,9 +43,9 @@ _CITATION = """\
 """
 
 _URLS = {
-    "fonctionnement": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-fonctionnement.csv",
-    "publics": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-publics.csv",
-    "principes": "https://github.com/WilliamAboucaya/rua_opendata_corrected/raw/main/rua-principes.csv"
+    "fonctionnement": "https://github.com/ruarepnumanon/rua_opendata_corrected/raw/master/rua-fonctionnement.csv",
+    "publics": "https://github.com/ruarepnumanon/rua_opendata_corrected/raw/master/rua-publics.csv",
+    "principes": "https://github.com/ruarepnumanon/rua_opendata_corrected/raw/master/rua-principes.csv"
 }
 _TRAINING_FILE = "train.csv"
 _DEV_FILE = "valid.csv"

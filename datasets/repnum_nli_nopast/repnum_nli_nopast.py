@@ -19,6 +19,7 @@
 
 import csv
 import os
+import re
 
 import datasets
 import nltk
@@ -49,6 +50,7 @@ _URL = "https://www.data.gouv.fr/fr/datasets/r/891bca8a-d9c1-4250-bfb2-3d13bf595
 _TRAINING_FILE = "train.csv"
 _DEV_FILE = "valid.csv"
 _TEST_FILE = "test.csv"
+pos_model_path = "waboucay/french-camembert-postag-model-finetuned-perceo" #TODO: USE pos_model_creation.py to re-create the POS tagger
 
 class RepNumNliNoPastConfig(datasets.BuilderConfig):
     """BuilderConfig for RepNumNli."""
@@ -118,6 +120,8 @@ class RepNumNliNoPast(datasets.GeneratorBasedBuilder):
                                                "Lien": str})
         consultation_data["Lié.à.."] = consultation_data["Lié.à.."].fillna("Unknown")
         consultation_data["Type.de.profil"] = consultation_data["Type.de.profil"].fillna("Unknown")
+        consultation_data["Contenu"] = consultation_data["Contenu"].apply(lambda proposal: re.sub(
+            "Éléments de contexte\r?\nExplication de l'article :\r?\n", "", re.sub("(\r?\n)+", "\n", proposal)) if pd.notna(proposal) else proposal)
 
         arguments = consultation_data.loc[consultation_data["Type.de.contenu"] == "Argument"]
 
@@ -166,8 +170,8 @@ class RepNumNliNoPast(datasets.GeneratorBasedBuilder):
             test_dataset = test_dataset.sample(frac=1).reset_index(drop=True)
 
         sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-        pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-        pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+        pos_model = AutoModelForTokenClassification.from_pretrained(pos_model_path)
+        pos_tokenizer = AutoTokenizer.from_pretrained(pos_model_path)
         nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
         test_dataset["premise"] = test_dataset["premise"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))
         test_dataset["hypothesis"] = test_dataset["hypothesis"].apply(lambda proposal: remove_past_sentences(proposal, sentences_tokenizer, nlp_token_class))

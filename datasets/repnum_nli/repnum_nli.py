@@ -19,6 +19,7 @@
 
 import csv
 import os
+import re
 
 import datasets
 import pandas as pd
@@ -116,6 +117,8 @@ class RepNumNli(datasets.GeneratorBasedBuilder):
                                                "Lien": str})
         consultation_data["Lié.à.."] = consultation_data["Lié.à.."].fillna("Unknown")
         consultation_data["Type.de.profil"] = consultation_data["Type.de.profil"].fillna("Unknown")
+        consultation_data["Contenu"] = consultation_data["Contenu"].apply(lambda proposal: re.sub(
+            "Éléments de contexte\r?\nExplication de l'article :\r?\n", "", re.sub("(\r?\n)+", "\n", proposal)) if pd.notna(proposal) else proposal)
 
         arguments = consultation_data.loc[consultation_data["Type.de.contenu"] == "Argument"]
 
