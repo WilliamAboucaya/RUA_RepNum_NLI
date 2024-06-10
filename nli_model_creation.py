@@ -4,6 +4,8 @@ import numpy as np
 import torch
 from matplotlib import pyplot as plt
 from transformers import AutoConfig, AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
+from transformers.utils import logging
+
 from datasets import load_dataset, load_metric, DatasetDict, concatenate_datasets
 from pprint import pprint
 
@@ -17,11 +19,11 @@ datasets_arg = sys.argv[2]
 datasets_list = []
 
 if "xnli_fr" in datasets_names:
-    datasets_list.append(load_dataset("./datasets/xnli_fr", datasets_arg))
+    datasets_list.append(load_dataset("./datasets/xnli_fr", datasets_arg, trust_remote_code=True))
 if "repnum_wl" in datasets_names:
-    datasets_list.append(remove_outliers_from_datasets(load_dataset("./datasets/repnum_nli", datasets_arg)))
+    datasets_list.append(remove_outliers_from_datasets(load_dataset("./datasets/repnum_nli", datasets_arg, trust_remote_code=True)))
 if "rua_wl" in datasets_names:
-    datasets_list.append(remove_outliers_from_datasets(load_dataset("./datasets/rua_nli", datasets_arg)))
+    datasets_list.append(remove_outliers_from_datasets(load_dataset("./datasets/rua_nli", datasets_arg, trust_remote_code=True)))
 
 train_dataset = concatenate_datasets([dataset["train"] for dataset in datasets_list])
 eval_dataset = concatenate_datasets([dataset["validation"] for dataset in datasets_list])
@@ -29,7 +31,7 @@ test_dataset = concatenate_datasets([dataset["test"] for dataset in datasets_lis
 
 nli_datasets = DatasetDict({"train": train_dataset, "validation": eval_dataset, "test": test_dataset}).shuffle(seed=1234)
 
-model_checkpoint = "waboucay/camembert-large-finetuned-xnli_fr_3_classes"
+model_checkpoint = sys.argv[3]
 model_name = model_checkpoint.split("/")[-1]
 batch_size = 8
 
@@ -74,7 +76,9 @@ args = TrainingArguments(
     num_train_epochs=5,
     weight_decay=0.01,
     load_best_model_at_end=True,
-    metric_for_best_model="f1_macro"
+    metric_for_best_model="f1_macro",
+    save_safetensors=True,
+    save_total_limit=3
 )
 
 trainer = Trainer(
@@ -85,6 +89,8 @@ trainer = Trainer(
     tokenizer=tokenizer,
     compute_metrics=compute_metrics
 )
+
+logging.set_verbosity_info()
 
 trainer.train()
 print("With validation set:")
@@ -113,4 +119,3 @@ ax.set_ylabel("Loss", fontsize='large')
 ax.legend()
 plt.tight_layout()
 fig.savefig(f"results/figures/{trainer_name}_loss.eps", format="eps")
-plt.show()
