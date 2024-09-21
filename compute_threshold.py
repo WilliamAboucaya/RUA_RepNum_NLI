@@ -1,10 +1,8 @@
 import importlib
 import os
 import sys
-import joblib
 
 from datasets import load_dataset, load_metric
-from sklearn.linear_model import LogisticRegression
 
 from utils.functions import maximize_f1_score, define_label
 
@@ -53,7 +51,7 @@ apply_strategy = importlib.import_module(f"contradiction_checking.{strategy_to_a
 #
 # joblib.dump(classifier, f"./results/joblib_dumps/{dataset_name}/classifier_{model_checkpoint.split('/')[-1]}_{strategy_to_apply}.joblib")
 
-test_df = apply_strategy(dataset["test"].to_pandas(), model_checkpoint, model_revision)
+test_df = apply_strategy(dataset["test"].to_pandas(), model_checkpoint, model_revision, 16)
 
 
 # classifier = LogisticRegression().fit(test_df[["nb_entailed_pairs", "share_entailed_pairs", "nb_contradictory_pairs",

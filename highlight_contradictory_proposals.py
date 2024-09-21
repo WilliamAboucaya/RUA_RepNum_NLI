@@ -4,6 +4,8 @@ import os
 
 from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification, AutoTokenizer, pipeline
 
+pos_model_path = "waboucay/french-camembert-postag-model-finetuned-perceo"
+nli_model_path = "waboucay/camembert-base-finetuned-xnli_fr"
 file_name = "rua-fonctionnement"
 
 consultation_data = pd.read_csv(f"consultation_data/{file_name}.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
@@ -12,8 +14,8 @@ proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
 proposal_contents = proposals["contributions_bodyText"].tolist()
 
 sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-pos_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+pos_model = AutoModelForTokenClassification.from_pretrained(pos_model_path)
+pos_tokenizer = AutoTokenizer.from_pretrained(pos_model_path)
 nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=pos_tokenizer)
 
 past_tense_tags = ["VER:impf", "VER:simp", "VER:subi"]
@@ -36,8 +38,8 @@ proposal_contents = list(filter(lambda proposal_content: proposal_content != "",
 proposal_contents = list(map(remove_past_sentences, proposal_contents))
 proposal_contents = list(filter(lambda proposal_content: proposal_content != "", proposal_contents))
 
-nli_model = AutoModelForSequenceClassification.from_pretrained("waboucay/camembert-base-finetuned-xnli_fr")
-nli_tokenizer = AutoTokenizer.from_pretrained("waboucay/camembert-base-finetuned-xnli_fr", model_max_length=512)
+nli_model = AutoModelForSequenceClassification.from_pretrained(nli_model_path)
+nli_tokenizer = AutoTokenizer.from_pretrained(nli_model_path, model_max_length=512)
 
 if not os.path.exists(f"./results/{file_name}"):
     os.mkdir(f"./results/{file_name}")

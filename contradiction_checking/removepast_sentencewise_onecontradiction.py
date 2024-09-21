@@ -38,7 +38,7 @@ except OSError as error:
     print(f"No such revision '{model_revision}' for model '{model_name}'")
     quit()
 
-exp_id = input_model_checkpoint[9:]
+exp_id = model_checkpoint[9:]
 accuracy_metric = load_metric("accuracy", experiment_id=exp_id)
 f1_metric = load_metric("f1", experiment_id=exp_id)
 

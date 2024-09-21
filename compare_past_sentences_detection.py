@@ -3,6 +3,8 @@ import nltk
 import pandas as pd
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
+pos_model_path = "waboucay/french-camembert-postag-model-finetuned-perceo"
+
 consultation_data = pd.read_csv("consultation_data/rua-fonctionnement.csv", encoding="utf8",  engine='python', quoting=3, sep=';')
 consultation_data["contributions_bodyText"] = consultation_data["contributions_bodyText"].fillna("")
 proposals = consultation_data.loc[consultation_data["type"] == "opinion"]
@@ -10,8 +12,8 @@ proposal_contents = proposals["contributions_bodyText"].tolist()
 
 tt_fr = ttwp.TreeTagger(TAGLANG="fr")
 sentences_tokenizer = nltk.data.load("tokenizers/punkt/french.pickle")
-pos_model = AutoModelForTokenClassification.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
-camembert_tokenizer = AutoTokenizer.from_pretrained("waboucay/french-camembert-postag-model-finetuned-perceo")
+pos_model = AutoModelForTokenClassification.from_pretrained(pos_model_path)
+camembert_tokenizer = AutoTokenizer.from_pretrained(pos_model_path)
 nlp_token_class = pipeline('token-classification', model=pos_model, tokenizer=camembert_tokenizer)
 
 past_tense_tags = ["VER:impf", "VER:simp", "VER:subi"]
